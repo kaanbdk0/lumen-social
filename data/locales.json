@@ -1,0 +1,62 @@
+{
+  "tr": {
+    "dayLabel": "GÜN",
+    "slogan": "Her gün, bir ışık.",
+    "ctaText": "App Store'dan İndir",
+    "teaserText": "sayısız düşünür · binlerce söz"
+  },
+  "en": {
+    "dayLabel": "DAY",
+    "slogan": "Every day, a light.",
+    "ctaText": "Download on the App Store",
+    "teaserText": "countless thinkers · thousands of quotes"
+  },
+  "ar": {
+    "dayLabel": "اليوم",
+    "slogan": "كل يوم، نور.",
+    "ctaText": "حمّل من App Store",
+    "teaserText": "مفكرون لا يُحصون · آلاف الأقوال"
+  },
+  "es": {
+    "dayLabel": "DÍA",
+    "slogan": "Cada día, una luz.",
+    "ctaText": "Descargar en App Store",
+    "teaserText": "innumerables pensadores · miles de citas"
+  },
+  "fr": {
+    "dayLabel": "JOUR",
+    "slogan": "Chaque jour, une lumière.",
+    "ctaText": "Télécharger sur l'App Store",
+    "teaserText": "d'innombrables penseurs · des milliers de citations"
+  },
+  "de": {
+    "dayLabel": "TAG",
+    "slogan": "Jeden Tag ein Licht.",
+    "ctaText": "Im App Store laden",
+    "teaserText": "unzählige Denker · tausende Zitate"
+  },
+  "ru": {
+    "dayLabel": "ДЕНЬ",
+    "slogan": "Каждый день — свет.",
+    "ctaText": "Загрузить из App Store",
+    "teaserText": "бесчисленные мыслители · тысячи цитат"
+  },
+  "pt": {
+    "dayLabel": "DIA",
+    "slogan": "Cada dia, uma luz.",
+    "ctaText": "Baixar na App Store",
+    "teaserText": "inúmeros pensadores · milhares de citações"
+  },
+  "it": {
+    "dayLabel": "GIORNO",
+    "slogan": "Ogni giorno, una luce.",
+    "ctaText": "Scarica dall'App Store",
+    "teaserText": "innumerevoli pensatori · migliaia di citazioni"
+  },
+  "hi": {
+    "dayLabel": "दिन",
+    "slogan": "हर दिन, एक रोशनी।",
+    "ctaText": "App Store से डाउनलोड करें",
+    "teaserText": "अनगिनत विचारक · हज़ारों उद्धरण"
+  }
+}

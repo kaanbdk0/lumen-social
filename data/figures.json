@@ -1,0 +1,572 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "key": "mevlana",
+    "names": {
+      "tr": "Mevlana",
+      "en": "Rumi",
+      "ar": "جلال الدين الرومي",
+      "es": "Rumi",
+      "fr": "Rumi",
+      "de": "Rumi",
+      "ru": "Руми",
+      "pt": "Rumi",
+      "it": "Rumi",
+      "hi": "रूमी"
+    },
+    "bustImage": "bust_mevlana.png",
+    "birthYear": 1207,
+    "deathYear": 1273
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "key": "marcus_aurelius",
+    "names": {
+      "tr": "Marcus Aurelius",
+      "en": "Marcus Aurelius",
+      "ar": "ماركوس أوريليوس",
+      "es": "Marco Aurelio",
+      "fr": "Marc Aurèle",
+      "de": "Mark Aurel",
+      "ru": "Марк Аврелий",
+      "pt": "Marco Aurélio",
+      "it": "Marco Aurelio",
+      "hi": "मार्कस ऑरेलियस"
+    },
+    "bustImage": "bust_marcus_aurelius.png",
+    "birthYear": 121,
+    "deathYear": 180
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000003",
+    "key": "confucius",
+    "names": {
+      "tr": "Konfüçyüs",
+      "en": "Confucius",
+      "ar": "كونفوشيوس",
+      "es": "Confucio",
+      "fr": "Confucius",
+      "de": "Konfuzius",
+      "ru": "Конфуций",
+      "pt": "Confúcio",
+      "it": "Confucio",
+      "hi": "कन्फ्यूशियस"
+    },
+    "bustImage": "bust_confucius.png",
+    "birthYear": -551,
+    "deathYear": -479
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000004",
+    "key": "yunus_emre",
+    "names": {
+      "tr": "Yunus Emre",
+      "en": "Yunus Emre",
+      "ar": "يونس إمره",
+      "es": "Yunus Emre",
+      "fr": "Yunus Emre",
+      "de": "Yunus Emre",
+      "ru": "Юнус Эмре",
+      "pt": "Yunus Emre",
+      "it": "Yunus Emre",
+      "hi": "यूनुस एमरे"
+    },
+    "bustImage": "bust_yunus_emre.png",
+    "birthYear": 1238,
+    "deathYear": 1320
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000005",
+    "key": "seneca",
+    "names": {
+      "tr": "Seneca",
+      "en": "Seneca",
+      "ar": "سينيكا",
+      "es": "Séneca",
+      "fr": "Sénèque",
+      "de": "Seneca",
+      "ru": "Сенека",
+      "pt": "Sêneca",
+      "it": "Seneca",
+      "hi": "सेनेका"
+    },
+    "bustImage": "bust_seneca.png",
+    "birthYear": -4,
+    "deathYear": 65
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000006",
+    "key": "epictetus",
+    "names": {
+      "tr": "Epiktetos",
+      "en": "Epictetus",
+      "ar": "إبكتيتوس",
+      "es": "Epicteto",
+      "fr": "Épictète",
+      "de": "Epiktet",
+      "ru": "Эпиктет",
+      "pt": "Epicteto",
+      "it": "Epitteto",
+      "hi": "एपिक्टेटस"
+    },
+    "bustImage": "bust_epictetus.png",
+    "birthYear": 50,
+    "deathYear": 135
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000007",
+    "key": "plato",
+    "names": {
+      "tr": "Platon",
+      "en": "Plato",
+      "ar": "أفلاطون",
+      "es": "Platón",
+      "fr": "Platon",
+      "de": "Platon",
+      "ru": "Платон",
+      "pt": "Platão",
+      "it": "Platone",
+      "hi": "प्लेटो"
+    },
+    "bustImage": "bust_plato.png",
+    "birthYear": -428,
+    "deathYear": -348
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000008",
+    "key": "aristotle",
+    "names": {
+      "tr": "Aristoteles",
+      "en": "Aristotle",
+      "ar": "أرسطو",
+      "es": "Aristóteles",
+      "fr": "Aristote",
+      "de": "Aristoteles",
+      "ru": "Аристотель",
+      "pt": "Aristóteles",
+      "it": "Aristotele",
+      "hi": "अरस्तू"
+    },
+    "bustImage": "bust_aristotle.png",
+    "birthYear": -384,
+    "deathYear": -322
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000009",
+    "key": "lao_tzu",
+    "names": {
+      "tr": "Lao Tzu",
+      "en": "Lao Tzu",
+      "ar": "لاو تزو",
+      "es": "Lao-Tsé",
+      "fr": "Lao-Tseu",
+      "de": "Laozi",
+      "ru": "Лао-цзы",
+      "pt": "Lao-Tsé",
+      "it": "Laozi",
+      "hi": "लाओ ज़ु"
+    },
+    "bustImage": "bust_lao_tzu.png",
+    "birthYear": -601,
+    "deathYear": -531
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000010",
+    "key": "buddha",
+    "names": {
+      "tr": "Buda",
+      "en": "Buddha",
+      "ar": "بوذا",
+      "es": "Buda",
+      "fr": "Bouddha",
+      "de": "Buddha",
+      "ru": "Будда",
+      "pt": "Buda",
+      "it": "Buddha",
+      "hi": "बुद्ध"
+    },
+    "bustImage": "bust_buddha.png",
+    "birthYear": -563,
+    "deathYear": -483
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000011",
+    "key": "hafiz",
+    "names": {
+      "tr": "Hafız-ı Şirazi",
+      "en": "Hafiz",
+      "ar": "حافظ الشيرازي",
+      "es": "Hafiz",
+      "fr": "Hafez",
+      "de": "Hafis",
+      "ru": "Хафиз",
+      "pt": "Hafiz",
+      "it": "Hafez",
+      "hi": "हाफिज़"
+    },
+    "bustImage": "bust_hafiz.png",
+    "birthYear": 1315,
+    "deathYear": 1390
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000012",
+    "key": "gibran",
+    "names": {
+      "tr": "Halil Cibran",
+      "en": "Kahlil Gibran",
+      "ar": "جبران خليل جبران",
+      "es": "Gibrán Jalil Gibrán",
+      "fr": "Khalil Gibran",
+      "de": "Khalil Gibran",
+      "ru": "Джебран",
+      "pt": "Khalil Gibran",
+      "it": "Khalil Gibran",
+      "hi": "खलील जिब्रान"
+    },
+    "bustImage": "bust_gibran.png",
+    "birthYear": 1883,
+    "deathYear": 1931
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000013",
+    "key": "khayyam",
+    "names": {
+      "tr": "Ömer Hayyam",
+      "en": "Omar Khayyam",
+      "ar": "عمر الخيام",
+      "es": "Omar Jayam",
+      "fr": "Omar Khayyam",
+      "de": "Omar Chajjam",
+      "ru": "Омар Хайям",
+      "pt": "Omar Khayyam",
+      "it": "Omar Khayyàm",
+      "hi": "उमर ख़य्याम"
+    },
+    "bustImage": "bust_khayyam.png",
+    "birthYear": 1048,
+    "deathYear": 1131
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000014",
+    "key": "da_vinci",
+    "names": {
+      "tr": "Leonardo da Vinci",
+      "en": "Leonardo da Vinci",
+      "ar": "ليوناردو دافنشي",
+      "es": "Leonardo da Vinci",
+      "fr": "Léonard de Vinci",
+      "de": "Leonardo da Vinci",
+      "ru": "Леонардо да Винчи",
+      "pt": "Leonardo da Vinci",
+      "it": "Leonardo da Vinci",
+      "hi": "लियोनार्दो दा विंची"
+    },
+    "bustImage": "bust_da_vinci.png",
+    "birthYear": 1452,
+    "deathYear": 1519
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000015",
+    "key": "hz_ali",
+    "names": {
+      "tr": "Hz. Ali",
+      "en": "Ali ibn Abi Talib",
+      "ar": "علي بن أبي طالب",
+      "es": "Ali ibn Abi Talib",
+      "fr": "Ali ibn Abi Talib",
+      "de": "Ali ibn Abi Talib",
+      "ru": "Али ибн Абу Талиб",
+      "pt": "Ali ibn Abi Talib",
+      "it": "Ali ibn Abi Talib",
+      "hi": "अली इब्न अबी तालिब"
+    },
+    "bustImage": "bust_hz_ali.png",
+    "birthYear": 601,
+    "deathYear": 661
+  },
+  {
+    "id": "20000000-0000-0000-0000-000000000001",
+    "key": "ancient_wisdom",
+    "names": {
+      "tr": "Kadim Bilgelik",
+      "en": "Ancient Wisdom",
+      "ar": "الحكمة القديمة",
+      "es": "Sabiduría Antigua",
+      "fr": "Sagesse Antique",
+      "de": "Antike Weisheit",
+      "ru": "Древняя Мудрость",
+      "pt": "Sabedoria Antiga",
+      "it": "Saggezza Antica",
+      "hi": "प्राचीन ज्ञान"
+    },
+    "bustImage": "bust_ancient_wisdom.png",
+    "birthYear": 0,
+    "deathYear": 0
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000017",
+    "key": "einstein",
+    "names": {
+      "tr": "Albert Einstein",
+      "en": "Albert Einstein",
+      "ar": "ألبرت أينشتاين",
+      "es": "Albert Einstein",
+      "fr": "Albert Einstein",
+      "de": "Albert Einstein",
+      "ru": "Альберт Эйнштейн",
+      "pt": "Albert Einstein",
+      "it": "Albert Einstein",
+      "hi": "अल्बर्ट आइंस्टीन"
+    },
+    "bustImage": "bust_einstein.png",
+    "birthYear": 1879,
+    "deathYear": 1955
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000018",
+    "key": "mark_twain",
+    "names": {
+      "tr": "Mark Twain",
+      "en": "Mark Twain",
+      "ar": "مارك توين",
+      "es": "Mark Twain",
+      "fr": "Mark Twain",
+      "de": "Mark Twain",
+      "ru": "Марк Твен",
+      "pt": "Mark Twain",
+      "it": "Mark Twain",
+      "hi": "मार्क ट्वेन"
+    },
+    "bustImage": "bust_mark_twain.png",
+    "birthYear": 1835,
+    "deathYear": 1910
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000019",
+    "key": "tolstoy",
+    "names": {
+      "tr": "Lev Tolstoy",
+      "en": "Leo Tolstoy",
+      "ar": "ليو تولستوي",
+      "es": "León Tolstói",
+      "fr": "Léon Tolstoï",
+      "de": "Leo Tolstoi",
+      "ru": "Лев Толстой",
+      "pt": "Leão Tolstói",
+      "it": "Lev Tolstoj",
+      "hi": "लियो टॉल्स्टॉय"
+    },
+    "bustImage": "bust_tolstoy.png",
+    "birthYear": 1828,
+    "deathYear": 1910
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000020",
+    "key": "oscar_wilde",
+    "names": {
+      "tr": "Oscar Wilde",
+      "en": "Oscar Wilde",
+      "ar": "أوسكار وايلد",
+      "es": "Oscar Wilde",
+      "fr": "Oscar Wilde",
+      "de": "Oscar Wilde",
+      "ru": "Оскар Уайльд",
+      "pt": "Oscar Wilde",
+      "it": "Oscar Wilde",
+      "hi": "ऑस्कर वाइल्ड"
+    },
+    "bustImage": "bust_oscar_wilde.png",
+    "birthYear": 1854,
+    "deathYear": 1900
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000021",
+    "key": "victor_hugo",
+    "names": {
+      "tr": "Victor Hugo",
+      "en": "Victor Hugo",
+      "ar": "فيكتور هوغو",
+      "es": "Víctor Hugo",
+      "fr": "Victor Hugo",
+      "de": "Victor Hugo",
+      "ru": "Виктор Гюго",
+      "pt": "Victor Hugo",
+      "it": "Victor Hugo",
+      "hi": "विक्टर ह्यूगो"
+    },
+    "bustImage": "bust_victor_hugo.png",
+    "birthYear": 1802,
+    "deathYear": 1885
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000022",
+    "key": "dostoyevski",
+    "names": {
+      "tr": "Dostoyevski",
+      "en": "Dostoevsky",
+      "ar": "دوستويفسكي",
+      "es": "Dostoievski",
+      "fr": "Dostoïevski",
+      "de": "Dostojewski",
+      "ru": "Достоевский",
+      "pt": "Dostoievski",
+      "it": "Dostoevskij",
+      "hi": "दोस्तोयेव्स्की"
+    },
+    "bustImage": "bust_dostoyevski.png",
+    "birthYear": 1821,
+    "deathYear": 1881
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000023",
+    "key": "ataturk",
+    "names": {
+      "tr": "Mustafa Kemal Atatürk",
+      "en": "Mustafa Kemal Atatürk",
+      "ar": "مصطفى كمال أتاتورك",
+      "es": "Mustafa Kemal Atatürk",
+      "fr": "Mustafa Kemal Atatürk",
+      "de": "Mustafa Kemal Atatürk",
+      "ru": "Мустафа Кемаль Ататюрк",
+      "pt": "Mustafa Kemal Atatürk",
+      "it": "Mustafa Kemal Atatürk",
+      "hi": "मुस्तफा कमाल अतातुर्क"
+    },
+    "bustImage": "bust_ataturk.png",
+    "birthYear": 1881,
+    "deathYear": 1938
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000024",
+    "key": "roosevelt",
+    "names": {
+      "tr": "Theodore Roosevelt",
+      "en": "Theodore Roosevelt",
+      "ar": "ثيودور روزفلت",
+      "es": "Theodore Roosevelt",
+      "fr": "Theodore Roosevelt",
+      "de": "Theodore Roosevelt",
+      "ru": "Теодор Рузвельт",
+      "pt": "Theodore Roosevelt",
+      "it": "Theodore Roosevelt",
+      "hi": "थियोडोर रूज़वेल्ट"
+    },
+    "bustImage": "bust_roosevelt.png",
+    "birthYear": 1858,
+    "deathYear": 1919
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000025",
+    "key": "edison",
+    "names": {
+      "tr": "Thomas Edison",
+      "en": "Thomas Edison",
+      "ar": "توماس إديسون",
+      "es": "Thomas Edison",
+      "fr": "Thomas Edison",
+      "de": "Thomas Edison",
+      "ru": "Томас Эдисон",
+      "pt": "Thomas Edison",
+      "it": "Thomas Edison",
+      "hi": "थॉमस एडिसन"
+    },
+    "bustImage": "bust_edison.png",
+    "birthYear": 1847,
+    "deathYear": 1931
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000026",
+    "key": "tesla",
+    "names": {
+      "tr": "Nikola Tesla",
+      "en": "Nikola Tesla",
+      "ar": "نيكولا تسلا",
+      "es": "Nikola Tesla",
+      "fr": "Nikola Tesla",
+      "de": "Nikola Tesla",
+      "ru": "Никола Тесла",
+      "pt": "Nikola Tesla",
+      "it": "Nikola Tesla",
+      "hi": "निकोला टेस्ला"
+    },
+    "bustImage": "bust_tesla.png",
+    "birthYear": 1856,
+    "deathYear": 1943
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000027",
+    "key": "henry_ford",
+    "names": {
+      "tr": "Henry Ford",
+      "en": "Henry Ford",
+      "ar": "هنري فورد",
+      "es": "Henry Ford",
+      "fr": "Henry Ford",
+      "de": "Henry Ford",
+      "ru": "Генри Форд",
+      "pt": "Henry Ford",
+      "it": "Henry Ford",
+      "hi": "हेनरी फोर्ड"
+    },
+    "bustImage": "bust_henry_ford.png",
+    "birthYear": 1863,
+    "deathYear": 1947
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000028",
+    "key": "socrates",
+    "names": {
+      "tr": "Sokrates",
+      "en": "Socrates",
+      "ar": "سقراط",
+      "es": "Sócrates",
+      "fr": "Socrate",
+      "de": "Sokrates",
+      "ru": "Сократ",
+      "pt": "Sócrates",
+      "it": "Socrate",
+      "hi": "सुकरात"
+    },
+    "bustImage": "bust_socrates.png",
+    "birthYear": -470,
+    "deathYear": -399
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000029",
+    "key": "george_orwell",
+    "names": {
+      "tr": "George Orwell",
+      "en": "George Orwell",
+      "ar": "جورج أورويل",
+      "es": "George Orwell",
+      "fr": "George Orwell",
+      "de": "George Orwell",
+      "ru": "Джордж Оруэлл",
+      "pt": "George Orwell",
+      "it": "George Orwell",
+      "hi": "जॉर्ज ऑरवेल"
+    },
+    "bustImage": "bust_george_orwell.png",
+    "birthYear": 1903,
+    "deathYear": 1950
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000030",
+    "key": "machiavelli",
+    "names": {
+      "tr": "Niccolò Machiavelli",
+      "en": "Niccolò Machiavelli",
+      "ar": "نيكولو ماكيافيلي",
+      "es": "Nicolás Maquiavelo",
+      "fr": "Nicolas Machiavel",
+      "de": "Niccolò Machiavelli",
+      "ru": "Никколо Макиавелли",
+      "pt": "Nicolau Maquiavel",
+      "it": "Niccolò Machiavelli",
+      "hi": "निकोलो मैकियावेली"
+    },
+    "bustImage": "bust_machiavelli.png",
+    "birthYear": 1469,
+    "deathYear": 1527
+  }
+]
