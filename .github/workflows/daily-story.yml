@@ -1,4 +1,4 @@
-name: Daily Story Render
+name: Daily Story Render & Post
 
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
 jobs:
   render-and-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
@@ -30,6 +30,10 @@ jobs:
       - name: Install Chromium for Remotion
         run: npx remotion browser ensure
 
+      - name: Set date
+        id: date
+        run: echo "DATE=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
       - name: Render daily videos (all languages)
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
@@ -40,26 +44,53 @@ jobs:
       - name: Upload videos as artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: daily-videos-${{ github.run_id }}
+          name: daily-videos-${{ steps.date.outputs.DATE }}
           path: out/
           retention-days: 7
 
-      - name: Post to Instagram
+      # Host videos temporarily via GitHub release (needed for Instagram API)
+      - name: Create temp release for video hosting
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE="${{ steps.date.outputs.DATE }}"
+          gh release create "daily-${DATE}" \
+            --title "Daily ${DATE}" \
+            --notes "Auto-generated for daily posting. Will be cleaned up." \
+            || true
+          for f in out/${DATE}/*.mp4; do
+            [ -f "$f" ] && gh release upload "daily-${DATE}" "$f" --clobber
+          done
+
+      - name: Post to YouTube Shorts
+        if: success()
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/post-youtube.js ${{ steps.date.outputs.DATE }}
+
+      - name: Post to Instagram Stories
         if: success()
         env:
           INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
-        run: node scripts/post-instagram.js
+          VIDEO_BASE_URL: "https://github.com/${{ github.repository }}/releases/download/daily-${{ steps.date.outputs.DATE }}"
+        run: node scripts/post-instagram.js ${{ steps.date.outputs.DATE }}
 
       - name: Post to TikTok
         if: success()
         env:
-          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
-        run: node scripts/post-tiktok.js
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+        run: node scripts/post-tiktok.js ${{ steps.date.outputs.DATE }}
 
-      - name: Post to YouTube
-        if: success()
+      # Clean up temp release after posting
+      - name: Cleanup temp release
+        if: always()
         env:
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-        run: node scripts/post-youtube.js
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE="${{ steps.date.outputs.DATE }}"
+          gh release delete "daily-${DATE}" -y --cleanup-tag 2>/dev/null || true
