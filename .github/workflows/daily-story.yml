@@ -6,6 +6,9 @@ on:
     - cron: '0 7 * * *'
   workflow_dispatch: # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   render-and-post:
     runs-on: ubuntu-latest
@@ -48,6 +51,14 @@ jobs:
           path: out/
           retention-days: 7
 
+      - name: Post to YouTube Shorts
+        if: success()
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: node scripts/post-youtube.js ${{ steps.date.outputs.DATE }}
+
       # Host videos temporarily via GitHub release (needed for Instagram API)
       - name: Create temp release for video hosting
         if: success()
@@ -62,14 +73,6 @@ jobs:
           for f in out/${DATE}/*.mp4; do
             [ -f "$f" ] && gh release upload "daily-${DATE}" "$f" --clobber
           done
-
-      - name: Post to YouTube Shorts
-        if: success()
-        env:
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-        run: node scripts/post-youtube.js ${{ steps.date.outputs.DATE }}
 
       - name: Post to Instagram Stories
         if: success()
