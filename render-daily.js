@@ -25,13 +25,13 @@ const quotes = JSON.parse(readFileSync(join(__dirname, "data/quotes.json"), "utf
 const locales = JSON.parse(readFileSync(join(__dirname, "data/locales.json"), "utf8"));
 
 // ── djb2 stable hash (same as iOS app) ──
-function stableHash(str) {
+function stableHashBig(str) {
   let hash = BigInt(5381);
   for (const ch of Buffer.from(str, "utf8")) {
     hash = ((hash << BigInt(5)) + hash) + BigInt(ch);
     hash = hash & BigInt("0xFFFFFFFFFFFFFFFF");
   }
-  return Number(hash & BigInt("0x7FFFFFFFFFFFFFFF"));
+  return hash & BigInt("0x7FFFFFFFFFFFFFFF");
 }
 
 function dayNumber(dateStr) {
@@ -61,8 +61,9 @@ function lifeSpan(figure, lang) {
 }
 
 function getDailyQuote(dateStr) {
-  const seed = stableHash(dateStr);
-  const index = seed % quotes.length;
+  let hash = stableHashBig(dateStr);
+  hash = (hash * BigInt(2654435761)) & BigInt("0x7FFFFFFFFFFFFFFF");
+  const index = Number(hash % BigInt(quotes.length));
   const quote = quotes[index];
   const figure = figures.find((f) => f.id === quote.figure_id);
   return { quote, figure };

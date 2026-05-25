@@ -13,18 +13,19 @@ const dateStr = process.argv[2] || new Date().toISOString().split("T")[0];
 const outDir = join(ROOT, "out", dateStr);
 const videoFile = join(outDir, `lumen_${dateStr}_en.mp4`);
 
-function stableHash(str) {
+function stableHashBig(str) {
   let hash = BigInt(5381);
   for (const ch of Buffer.from(str, "utf8")) {
     hash = ((hash << BigInt(5)) + hash) + BigInt(ch);
     hash = hash & BigInt("0xFFFFFFFFFFFFFFFF");
   }
-  return Number(hash & BigInt("0x7FFFFFFFFFFFFFFF"));
+  return hash & BigInt("0x7FFFFFFFFFFFFFFF");
 }
 
 function getDailyQuote(date) {
-  const seed = stableHash(date);
-  const index = seed % quotes.length;
+  let hash = stableHashBig(date);
+  hash = (hash * BigInt(2654435761)) & BigInt("0x7FFFFFFFFFFFFFFF");
+  const index = Number(hash % BigInt(quotes.length));
   const quote = quotes[index];
   const figure = figures.find((f) => f.id === quote.figure_id);
   return { quote, figure };
