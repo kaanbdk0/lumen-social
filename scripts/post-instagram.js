@@ -45,7 +45,7 @@ function graphAPI(method, path, params) {
   return new Promise((resolve, reject) => {
     const req = https.request(
       {
-        hostname: "graph.facebook.com",
+        hostname: "graph.instagram.com",
         path: fullPath,
         method,
         headers:
@@ -74,12 +74,21 @@ function graphAPI(method, path, params) {
   });
 }
 
+async function resolveUserId(accessToken) {
+  const res = await graphAPI("GET", "/me", {
+    fields: "id,username",
+    access_token: accessToken,
+  });
+  if (res.data?.id) return res.data.id;
+  throw new Error(`Could not resolve IG user ID: ${JSON.stringify(res.data)}`);
+}
+
 async function postStory(account, videoUrl) {
   const { lang, igUserId, accessToken, pageName } = account;
 
   console.log(`  [${lang}] Creating story container for @${pageName}...`);
 
-  const createRes = await graphAPI("POST", `/v19.0/${igUserId}/media`, {
+  const createRes = await graphAPI("POST", `/v21.0/${igUserId}/media`, {
     media_type: "STORIES",
     video_url: videoUrl,
     access_token: accessToken,
@@ -98,7 +107,7 @@ async function postStory(account, videoUrl) {
 
   for (let i = 0; i < 30; i++) {
     await sleep(5000);
-    const statusRes = await graphAPI("GET", `/v19.0/${containerId}`, {
+    const statusRes = await graphAPI("GET", `/v21.0/${containerId}`, {
       fields: "status_code",
       access_token: accessToken,
     });
@@ -111,7 +120,7 @@ async function postStory(account, videoUrl) {
   }
 
   console.log(`  [${lang}] Publishing story...`);
-  const publishRes = await graphAPI("POST", `/v19.0/${igUserId}/media_publish`, {
+  const publishRes = await graphAPI("POST", `/v21.0/${igUserId}/media_publish`, {
     creation_id: containerId,
     access_token: accessToken,
   });
@@ -126,7 +135,7 @@ async function postStory(account, videoUrl) {
 async function main() {
   if (accounts.length === 0) {
     console.log("⚠ No Instagram accounts configured. Set INSTAGRAM_ACCOUNTS secret.");
-    console.log('Format: [{"lang":"en","igUserId":"...","accessToken":"...","pageName":"lumen.en"},...]');
+    console.log('Format: [{"lang":"en","accessToken":"...","pageName":"lumen.wisdom"},...]');
     return;
   }
 
@@ -140,6 +149,19 @@ async function main() {
   console.log(`\n📸 Instagram Story Posting — ${dateStr}`);
   console.log(`Figure: ${figure?.names?.en || "Unknown"}`);
   console.log(`Accounts: ${accounts.length}\n`);
+
+  console.log("🔑 Resolving Instagram user IDs...");
+  for (const account of accounts) {
+    if (!account.igUserId) {
+      try {
+        account.igUserId = await resolveUserId(account.accessToken);
+        console.log(`  [${account.lang}] @${account.pageName} → ${account.igUserId}`);
+      } catch (err) {
+        console.error(`  [${account.lang}] ❌ Could not resolve ID: ${err.message}`);
+      }
+    }
+  }
+  console.log("");
 
   let posted = 0;
   for (const account of accounts) {
