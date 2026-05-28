@@ -13,6 +13,9 @@ const GOLD_DARK = "#8B7355";
 const BG_DARK = "#0A0E1A";
 const BG_MID = "#111628";
 
+const SERIF_FONT = "'Noto Serif', 'Noto Serif Devanagari', 'Noto Naskh Arabic', Georgia, serif";
+const SANS_FONT = "'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', sans-serif";
+
 export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, dayNumber = 1, dayLabel = "GÜN", slogan = "Her gün, bir ışık.", ctaText = "App Store'dan İndir", teaserText = "sayısız düşünür · binlerce söz" }) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
@@ -154,13 +157,13 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
               background: `${GOLD}08`,
             }}
           >
-            <span style={{ fontFamily: "sans-serif", fontSize: 16, color: `${GOLD}90`, letterSpacing: 2 }}>
+            <span style={{ fontFamily: SANS_FONT, fontSize: 16, color: `${GOLD}90`, letterSpacing: 2 }}>
               ✦
             </span>
-            <span style={{ fontFamily: "Georgia, serif", fontSize: 18, color: GOLD, letterSpacing: 1 }}>
+            <span style={{ fontFamily: SERIF_FONT, fontSize: 18, color: GOLD, letterSpacing: 1 }}>
               {dayLabel} #{dayNumber}
             </span>
-            <span style={{ fontFamily: "sans-serif", fontSize: 16, color: `${GOLD}90`, letterSpacing: 2 }}>
+            <span style={{ fontFamily: SANS_FONT, fontSize: 16, color: `${GOLD}90`, letterSpacing: 2 }}>
               ✦
             </span>
           </div>
@@ -227,7 +230,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
         >
           <div
             style={{
-              fontFamily: "Georgia, serif",
+              fontFamily: SERIF_FONT,
               fontSize: 52,
               fontWeight: "600",
               color: GOLD,
@@ -238,7 +241,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
           </div>
           <div
             style={{
-              fontFamily: "Georgia, serif",
+              fontFamily: SERIF_FONT,
               fontSize: 24,
               color: "rgba(255,255,255,0.35)",
               marginTop: 8,
@@ -273,7 +276,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
         >
           <div
             style={{
-              fontFamily: "Georgia, serif",
+              fontFamily: SERIF_FONT,
               fontSize: 80,
               color: `${GOLD}40`,
               lineHeight: "0.5",
@@ -299,7 +302,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
                 <span
                   key={i}
                   style={{
-                    fontFamily: "Georgia, serif",
+                    fontFamily: SERIF_FONT,
                     fontSize: 44,
                     color: "white",
                     lineHeight: 1.5,
@@ -328,10 +331,10 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
             }),
           }}
         >
-          <div style={{ fontFamily: "Georgia, serif", fontSize: 22, color: GOLD, letterSpacing: 3 }}>
+          <div style={{ fontFamily: SERIF_FONT, fontSize: 22, color: GOLD, letterSpacing: 3 }}>
             ✦ Lumen ✦
           </div>
-          <div style={{ fontFamily: "sans-serif", fontSize: 14, color: "rgba(255,255,255,0.3)", marginTop: 6 }}>
+          <div style={{ fontFamily: SANS_FONT, fontSize: 14, color: "rgba(255,255,255,0.3)", marginTop: 6 }}>
             {slogan}
           </div>
         </div>
@@ -457,7 +460,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
             {/* Lumen Logo */}
             <div
               style={{
-                fontFamily: "Georgia, serif",
+                fontFamily: SERIF_FONT,
                 fontSize: 56,
                 color: GOLD,
                 letterSpacing: 6,
@@ -471,7 +474,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
             {/* Slogan */}
             <div
               style={{
-                fontFamily: "Georgia, serif",
+                fontFamily: SERIF_FONT,
                 fontSize: 26,
                 color: "rgba(255,255,255,0.55)",
                 marginTop: 12,
@@ -506,7 +509,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
                   padding: "18px 52px",
                   background: `linear-gradient(135deg, ${GOLD}, ${GOLD_DARK})`,
                   borderRadius: 35,
-                  fontFamily: "sans-serif",
+                  fontFamily: SANS_FONT,
                   fontSize: 24,
                   fontWeight: "700",
                   color: BG_DARK,
@@ -522,7 +525,7 @@ export const LumenQuoteVideo = ({ figureName, quoteText, bustImage, lifeSpan, da
             <div
               style={{
                 marginTop: 22,
-                fontFamily: "sans-serif",
+                fontFamily: SANS_FONT,
                 fontSize: 19,
                 color: "rgba(255,255,255,0.4)",
                 letterSpacing: 0.5,
