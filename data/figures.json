@@ -16,7 +16,8 @@
     },
     "bustImage": "bust_mevlana.png",
     "birthYear": 1207,
-    "deathYear": 1273
+    "deathYear": 1273,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000002",
@@ -35,7 +36,8 @@
     },
     "bustImage": "bust_marcus_aurelius.png",
     "birthYear": 121,
-    "deathYear": 180
+    "deathYear": 180,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000003",
@@ -54,7 +56,8 @@
     },
     "bustImage": "bust_confucius.png",
     "birthYear": -551,
-    "deathYear": -479
+    "deathYear": -479,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000004",
@@ -73,7 +76,8 @@
     },
     "bustImage": "bust_yunus_emre.png",
     "birthYear": 1238,
-    "deathYear": 1320
+    "deathYear": 1320,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000005",
@@ -92,7 +96,8 @@
     },
     "bustImage": "bust_seneca.png",
     "birthYear": -4,
-    "deathYear": 65
+    "deathYear": 65,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000006",
@@ -111,7 +116,8 @@
     },
     "bustImage": "bust_epictetus.png",
     "birthYear": 50,
-    "deathYear": 135
+    "deathYear": 135,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000007",
@@ -130,7 +136,8 @@
     },
     "bustImage": "bust_plato.png",
     "birthYear": -428,
-    "deathYear": -348
+    "deathYear": -348,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000008",
@@ -149,7 +156,8 @@
     },
     "bustImage": "bust_aristotle.png",
     "birthYear": -384,
-    "deathYear": -322
+    "deathYear": -322,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000009",
@@ -168,7 +176,8 @@
     },
     "bustImage": "bust_lao_tzu.png",
     "birthYear": -601,
-    "deathYear": -531
+    "deathYear": -531,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000010",
@@ -187,7 +196,8 @@
     },
     "bustImage": "bust_buddha.png",
     "birthYear": -563,
-    "deathYear": -483
+    "deathYear": -483,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000011",
@@ -206,7 +216,8 @@
     },
     "bustImage": "bust_hafiz.png",
     "birthYear": 1315,
-    "deathYear": 1390
+    "deathYear": 1390,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000012",
@@ -225,7 +236,8 @@
     },
     "bustImage": "bust_gibran.png",
     "birthYear": 1883,
-    "deathYear": 1931
+    "deathYear": 1931,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000013",
@@ -244,7 +256,8 @@
     },
     "bustImage": "bust_khayyam.png",
     "birthYear": 1048,
-    "deathYear": 1131
+    "deathYear": 1131,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000014",
@@ -263,7 +276,8 @@
     },
     "bustImage": "bust_da_vinci.png",
     "birthYear": 1452,
-    "deathYear": 1519
+    "deathYear": 1519,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000015",
@@ -282,7 +296,8 @@
     },
     "bustImage": "bust_hz_ali.png",
     "birthYear": 601,
-    "deathYear": 661
+    "deathYear": 661,
+    "gender": "male"
   },
   {
     "id": "20000000-0000-0000-0000-000000000001",
@@ -301,7 +316,8 @@
     },
     "bustImage": "bust_ancient_wisdom.png",
     "birthYear": 0,
-    "deathYear": 0
+    "deathYear": 0,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000017",
@@ -320,7 +336,8 @@
     },
     "bustImage": "bust_einstein.png",
     "birthYear": 1879,
-    "deathYear": 1955
+    "deathYear": 1955,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000018",
@@ -339,7 +356,8 @@
     },
     "bustImage": "bust_mark_twain.png",
     "birthYear": 1835,
-    "deathYear": 1910
+    "deathYear": 1910,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000019",
@@ -358,7 +376,8 @@
     },
     "bustImage": "bust_tolstoy.png",
     "birthYear": 1828,
-    "deathYear": 1910
+    "deathYear": 1910,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000020",
@@ -377,7 +396,8 @@
     },
     "bustImage": "bust_oscar_wilde.png",
     "birthYear": 1854,
-    "deathYear": 1900
+    "deathYear": 1900,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000021",
@@ -396,7 +416,8 @@
     },
     "bustImage": "bust_victor_hugo.png",
     "birthYear": 1802,
-    "deathYear": 1885
+    "deathYear": 1885,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000022",
@@ -415,7 +436,8 @@
     },
     "bustImage": "bust_dostoyevski.png",
     "birthYear": 1821,
-    "deathYear": 1881
+    "deathYear": 1881,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000023",
@@ -434,7 +456,8 @@
     },
     "bustImage": "bust_ataturk.png",
     "birthYear": 1881,
-    "deathYear": 1938
+    "deathYear": 1938,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000024",
@@ -453,7 +476,8 @@
     },
     "bustImage": "bust_roosevelt.png",
     "birthYear": 1858,
-    "deathYear": 1919
+    "deathYear": 1919,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000025",
@@ -472,7 +496,8 @@
     },
     "bustImage": "bust_edison.png",
     "birthYear": 1847,
-    "deathYear": 1931
+    "deathYear": 1931,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000026",
@@ -491,7 +516,8 @@
     },
     "bustImage": "bust_tesla.png",
     "birthYear": 1856,
-    "deathYear": 1943
+    "deathYear": 1943,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000027",
@@ -510,7 +536,8 @@
     },
     "bustImage": "bust_henry_ford.png",
     "birthYear": 1863,
-    "deathYear": 1947
+    "deathYear": 1947,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000028",
@@ -529,7 +556,8 @@
     },
     "bustImage": "bust_socrates.png",
     "birthYear": -470,
-    "deathYear": -399
+    "deathYear": -399,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000029",
@@ -548,7 +576,8 @@
     },
     "bustImage": "bust_george_orwell.png",
     "birthYear": 1903,
-    "deathYear": 1950
+    "deathYear": 1950,
+    "gender": "male"
   },
   {
     "id": "00000000-0000-0000-0000-000000000030",
@@ -567,6 +596,67 @@
     },
     "bustImage": "bust_machiavelli.png",
     "birthYear": 1469,
-    "deathYear": 1527
+    "deathYear": 1527,
+    "gender": "male"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000031",
+    "key": "hypatia",
+    "names": {
+      "tr": "Hypatia",
+      "en": "Hypatia",
+      "ar": "هيباتيا",
+      "es": "Hipatia",
+      "fr": "Hypatie",
+      "de": "Hypatia",
+      "ru": "Гипатия",
+      "pt": "Hipátia",
+      "it": "Ipazia",
+      "hi": "हायपेशिया"
+    },
+    "bustImage": "bust_hypatia.png",
+    "birthYear": 370,
+    "deathYear": 415,
+    "gender": "female"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000032",
+    "key": "marie_curie",
+    "names": {
+      "tr": "Marie Curie",
+      "en": "Marie Curie",
+      "ar": "ماري كوري",
+      "es": "Marie Curie",
+      "fr": "Marie Curie",
+      "de": "Marie Curie",
+      "ru": "Мария Кюри",
+      "pt": "Marie Curie",
+      "it": "Marie Curie",
+      "hi": "मैरी क्यूरी"
+    },
+    "bustImage": "bust_marie_curie.png",
+    "birthYear": 1867,
+    "deathYear": 1934,
+    "gender": "female"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000033",
+    "key": "cleopatra",
+    "names": {
+      "tr": "Kleopatra",
+      "en": "Cleopatra",
+      "ar": "كليوباترا",
+      "es": "Cleopatra",
+      "fr": "Cléopâtre",
+      "de": "Kleopatra",
+      "ru": "Клеопатра",
+      "pt": "Cleópatra",
+      "it": "Cleopatra",
+      "hi": "क्लियोपेट्रा"
+    },
+    "bustImage": "bust_cleopatra.png",
+    "birthYear": -69,
+    "deathYear": -30,
+    "gender": "female"
   }
 ]

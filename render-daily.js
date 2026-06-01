@@ -18,6 +18,7 @@ const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY ||
   readFileSync(join(__dirname, ".env"), "utf8").match(/ELEVENLABS_API_KEY=(.+)/)?.[1]?.trim();
 const ELEVENLABS_VOICE_ID = process.env.ELEVENLABS_VOICE_ID ||
   readFileSync(join(__dirname, ".env"), "utf8").match(/ELEVENLABS_VOICE_ID=(.+)/)?.[1]?.trim();
+const ELEVENLABS_FEMALE_VOICE_ID = process.env.ELEVENLABS_FEMALE_VOICE_ID || "4RZ84U1b4WCqpu57LvIq";
 
 // ── Load data ──
 const figures = JSON.parse(readFileSync(join(__dirname, "data/figures.json"), "utf8"));
@@ -69,8 +70,12 @@ function getDailyQuote(dateStr) {
   return { quote, figure };
 }
 
+function getVoiceId(figure) {
+  return figure.gender === "female" ? ELEVENLABS_FEMALE_VOICE_ID : ELEVENLABS_VOICE_ID;
+}
+
 // ── ElevenLabs TTS ──
-function generateSpeech(text, outputPath) {
+function generateSpeech(text, outputPath, voiceId) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       text,
@@ -80,7 +85,7 @@ function generateSpeech(text, outputPath) {
 
     const req = https.request({
       hostname: "api.elevenlabs.io",
-      path: `/v1/text-to-speech/${ELEVENLABS_VOICE_ID}`,
+      path: `/v1/text-to-speech/${voiceId}`,
       method: "POST",
       headers: {
         "xi-api-key": ELEVENLABS_API_KEY,
@@ -158,6 +163,7 @@ async function main() {
   console.log(`\n✦ Lumen Daily Render ✦`);
   console.log(`Date: ${dateStr} | Day #${day}`);
   console.log(`Figure: ${figure.key} (${figure.names.en || figure.names.tr})`);
+  console.log(`Voice: ${figure.gender === "female" ? "female" : "male"}`);
   console.log(`Quote (TR): ${quote.texts.tr || "—"}`);
   console.log(`Quote (EN): ${quote.texts.en || "—"}`);
   console.log(`Languages: ${targetLangs.join(", ")}\n`);
@@ -205,7 +211,8 @@ async function main() {
 
       // Step 2: Generate voice
       console.log(`🎤 [${lang}] Generating voice...`);
-      await generateSpeech(quoteText, voiceFile);
+      const voiceId = getVoiceId(figure);
+      await generateSpeech(quoteText, voiceFile, voiceId);
 
       // Step 3: Merge video + voice + SFX
       console.log(`🔀 [${lang}] Merging audio...`);

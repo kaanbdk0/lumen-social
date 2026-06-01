@@ -45,6 +45,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_FEMALE_VOICE_ID: ${{ secrets.ELEVENLABS_FEMALE_VOICE_ID }}
           FFMPEG_PATH: /usr/bin/ffmpeg
         run: node render-daily.js
 

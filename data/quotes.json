@@ -1332,7 +1332,8 @@
     "tags": [
       "love",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000065",
@@ -1373,7 +1374,8 @@
     "tags": [
       "lifeWisdom",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000067",
@@ -1393,7 +1395,8 @@
     "tags": [
       "literary",
       "nature"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000068",
@@ -1494,7 +1497,8 @@
     "tags": [
       "success",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000073",
@@ -1555,7 +1559,8 @@
     "tags": [
       "courage",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000076",
@@ -1615,7 +1620,8 @@
     "tags": [
       "lifeWisdom",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000079",
@@ -1656,7 +1662,8 @@
     "tags": [
       "motivation",
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000081",
@@ -1925,7 +1932,8 @@
     "tags": [
       "innerPeace",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000094",
@@ -1966,7 +1974,8 @@
     "tags": [
       "motivation",
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000096",
@@ -1986,7 +1995,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000097",
@@ -2005,7 +2015,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000098",
@@ -2045,7 +2056,8 @@
     },
     "tags": [
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000100",
@@ -2858,7 +2870,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000139",
@@ -3129,8 +3142,7 @@
       "lifeWisdom",
       "courage"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Memento Mori"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000002",
@@ -3151,8 +3163,7 @@
       "motivation",
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Carpe Diem"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000003",
@@ -3173,8 +3184,7 @@
       "innerPeace",
       "courage"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Amor Fati"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000004",
@@ -3194,8 +3204,7 @@
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Tempus Fugit"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000005",
@@ -3216,8 +3225,7 @@
       "motivation",
       "courage"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Per Aspera Ad Astra"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000006",
@@ -3238,8 +3246,7 @@
       "motivation",
       "innerPeace"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Dum Spiro Spero"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000007",
@@ -3260,8 +3267,7 @@
       "lifeWisdom",
       "innerPeace"
     ],
-    "source": "Delfi Tapınağı, Antik Yunan",
-    "original_text": "Γνῶθι σεαυτόν"
+    "source": "Delfi Tapınağı, Antik Yunan"
   },
   {
     "id": "20000000-0000-0000-0000-000000000008",
@@ -3282,8 +3288,7 @@
       "motivation",
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Memento Vivere"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000009",
@@ -3304,8 +3309,7 @@
       "lifeWisdom",
       "literary"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Ars Longa, Vita Brevis"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "20000000-0000-0000-0000-000000000010",
@@ -3325,8 +3329,7 @@
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş",
-    "original_text": "Cogito Ergo Sum"
+    "source": "Latince özdeyiş"
   },
   {
     "id": "30000000-0000-0000-0000-000000000001",
@@ -3346,7 +3349,8 @@
     "tags": [
       "lifeWisdom",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000002",
@@ -3366,7 +3370,8 @@
     "tags": [
       "motivation",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000003",
@@ -3386,7 +3391,8 @@
     "tags": [
       "courage",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000004",
@@ -3405,7 +3411,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000005",
@@ -3425,7 +3432,8 @@
     "tags": [
       "motivation",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000006",
@@ -3445,7 +3453,8 @@
     "tags": [
       "motivation",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000007",
@@ -3465,7 +3474,8 @@
     "tags": [
       "lifeWisdom",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000008",
@@ -3485,7 +3495,8 @@
     "tags": [
       "innerPeace",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000009",
@@ -3505,7 +3516,8 @@
     "tags": [
       "courage",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000010",
@@ -3524,7 +3536,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000011",
@@ -3544,7 +3557,8 @@
     "tags": [
       "lifeWisdom",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000012",
@@ -3564,7 +3578,8 @@
     "tags": [
       "innerPeace",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000013",
@@ -3584,7 +3599,8 @@
     "tags": [
       "love",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000014",
@@ -3604,7 +3620,8 @@
     "tags": [
       "lifeWisdom",
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000015",
@@ -3624,7 +3641,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000016",
@@ -3644,7 +3662,8 @@
     "tags": [
       "lifeWisdom",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000017",
@@ -3663,7 +3682,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000018",
@@ -3683,7 +3703,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000019",
@@ -3703,7 +3724,8 @@
     "tags": [
       "love",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000020",
@@ -3723,7 +3745,8 @@
     "tags": [
       "innerPeace",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000021",
@@ -3743,7 +3766,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000022",
@@ -3763,7 +3787,8 @@
     "tags": [
       "motivation",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000023",
@@ -3782,7 +3807,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000024",
@@ -3802,7 +3828,8 @@
     "tags": [
       "love",
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000025",
@@ -3821,7 +3848,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000026",
@@ -3840,7 +3868,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000027",
@@ -3860,7 +3889,8 @@
     "tags": [
       "lifeWisdom",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000028",
@@ -3880,7 +3910,8 @@
     "tags": [
       "innerPeace",
       "love"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000029",
@@ -3900,7 +3931,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000030",
@@ -3919,7 +3951,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000031",
@@ -3939,7 +3972,8 @@
     "tags": [
       "lifeWisdom",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000032",
@@ -3958,7 +3992,8 @@
     },
     "tags": [
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000033",
@@ -3978,7 +4013,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000034",
@@ -3998,7 +4034,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000035",
@@ -4018,7 +4055,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000036",
@@ -4038,7 +4076,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000037",
@@ -4058,7 +4097,8 @@
     "tags": [
       "success",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000038",
@@ -4078,7 +4118,8 @@
     "tags": [
       "courage",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000039",
@@ -4098,7 +4139,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000040",
@@ -4118,7 +4160,8 @@
     "tags": [
       "courage",
       "leadership"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000041",
@@ -4138,7 +4181,8 @@
     "tags": [
       "success",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000042",
@@ -4158,7 +4202,8 @@
     "tags": [
       "courage",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000043",
@@ -4178,7 +4223,8 @@
     "tags": [
       "success",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000044",
@@ -4198,7 +4244,8 @@
     "tags": [
       "success",
       "motivation"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000045",
@@ -4218,7 +4265,8 @@
     "tags": [
       "solitude",
       "creativity"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000046",
@@ -4238,7 +4286,8 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000047",
@@ -4258,7 +4307,8 @@
     "tags": [
       "solitude",
       "creativity"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000048",
@@ -4278,7 +4328,8 @@
     "tags": [
       "motivation",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000049",
@@ -4298,7 +4349,8 @@
     "tags": [
       "philosophy",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000050",
@@ -4318,7 +4370,8 @@
     "tags": [
       "lifeWisdom",
       "philosophy"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000051",
@@ -4338,7 +4391,8 @@
     "tags": [
       "motivation",
       "courage"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000052",
@@ -4358,7 +4412,8 @@
     "tags": [
       "courage",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000053",
@@ -4378,7 +4433,8 @@
     "tags": [
       "leadership",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000054",
@@ -4398,7 +4454,8 @@
     "tags": [
       "lifeWisdom",
       "success"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "30000000-0000-0000-0000-000000000055",
@@ -4418,7 +4475,8 @@
     "tags": [
       "philosophy",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "28000000-0000-0000-0000-000000000001",
@@ -4480,7 +4538,8 @@
     "tags": [
       "philosophy",
       "innerPeace"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "28000000-0000-0000-0000-000000000004",
@@ -4500,7 +4559,8 @@
     "tags": [
       "philosophy",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "28000000-0000-0000-0000-000000000005",
@@ -4520,7 +4580,8 @@
     "tags": [
       "innerPeace",
       "lifeWisdom"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "29000000-0000-0000-0000-000000000001",
@@ -4582,7 +4643,8 @@
     "tags": [
       "courage",
       "philosophy"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "29000000-0000-0000-0000-000000000004",
@@ -4602,7 +4664,8 @@
     "tags": [
       "courage",
       "philosophy"
-    ]
+    ],
+    "source": null
   },
   {
     "id": "29000000-0000-0000-0000-000000000005",
@@ -4834,5 +4897,1791 @@
       "lifeWisdom"
     ],
     "source": "The Prince"
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000017",
+    "texts": {
+      "tr": "Mantık seni A'dan B'ye götürür; hayal gücü her yere.",
+      "en": "Logic will get you from A to B. Imagination will take you everywhere.",
+      "ar": "المنطق سيأخذك من أ إلى ب. الخيال سيأخذك إلى كل مكان.",
+      "es": "La lógica te llevará de A a B. La imaginación te llevará a todas partes.",
+      "fr": "La logique vous mènera de A à B. L'imagination vous mènera partout.",
+      "de": "Logik bringt dich von A nach B. Fantasie bringt dich überallhin.",
+      "ru": "Логика приведёт тебя из А в Б. Воображение приведёт куда угодно.",
+      "pt": "A lógica te levará de A a B. A imaginação te levará a qualquer lugar.",
+      "it": "La logica ti porterà da A a B. L'immaginazione ti porterà ovunque.",
+      "hi": "तर्क तुम्हें A से B तक ले जाएगा। कल्पना तुम्हें हर जगह ले जाएगी।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000017",
+    "texts": {
+      "tr": "Bir şeyi basitçe açıklayamıyorsan, yeterince iyi anlamamışsındır.",
+      "en": "If you can't explain it simply, you don't understand it well enough.",
+      "ar": "إذا لم تستطع شرحه ببساطة، فأنت لا تفهمه جيدًا.",
+      "es": "Si no puedes explicarlo de forma sencilla, no lo entiendes lo suficiente.",
+      "fr": "Si vous ne pouvez pas l'expliquer simplement, c'est que vous ne le comprenez pas assez bien.",
+      "de": "Wenn du es nicht einfach erklären kannst, hast du es nicht gut genug verstanden.",
+      "ru": "Если вы не можете объяснить просто, значит вы недостаточно хорошо понимаете.",
+      "pt": "Se você não consegue explicar de forma simples, não entende bem o suficiente.",
+      "it": "Se non riesci a spiegarlo in modo semplice, non lo capisci abbastanza bene.",
+      "hi": "अगर आप इसे सरल शब्दों में नहीं समझा सकते, तो आप इसे अच्छी तरह नहीं समझते।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000017",
+    "texts": {
+      "tr": "Herkes dahi bir yeteneğe sahiptir. Ama bir balığı ağaca tırmanma yeteneğiyle yargılarsan, ömrünü aptal olduğuna inanarak geçirir.",
+      "en": "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing it is stupid.",
+      "ar": "الجميع عباقرة. لكن إن حكمت على سمكة بقدرتها على تسلق شجرة، فستعيش حياتها معتقدة أنها غبية.",
+      "es": "Todos son genios. Pero si juzgas a un pez por su capacidad de trepar árboles, vivirá creyendo que es estúpido.",
+      "fr": "Tout le monde est un génie. Mais si vous jugez un poisson sur sa capacité à grimper aux arbres, il passera sa vie à croire qu'il est stupide.",
+      "de": "Jeder ist ein Genie. Aber wenn du einen Fisch danach beurteilst, ob er auf einen Baum klettern kann, wird er sein ganzes Leben glauben, er sei dumm.",
+      "ru": "Все — гении. Но если судить рыбу по её способности лазать по деревьям, она проживёт жизнь, считая себя глупой.",
+      "pt": "Todos são gênios. Mas se você julgar um peixe pela sua capacidade de subir em árvores, ele viverá acreditando que é estúpido.",
+      "it": "Tutti sono dei geni. Ma se giudichi un pesce dalla sua capacità di arrampicarsi sugli alberi, passerà la vita a credersi stupido.",
+      "hi": "हर कोई प्रतिभाशाली है। लेकिन अगर आप मछली को पेड़ चढ़ने की क्षमता से आँकेंगे, तो वह जीवन भर अपने आप को मूर्ख समझेगी।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000017",
+    "texts": {
+      "tr": "Önemli olan sorgulamayı bırakmamaktır.",
+      "en": "The important thing is not to stop questioning.",
+      "ar": "المهم ألا تتوقف عن التساؤل.",
+      "es": "Lo importante es no dejar de cuestionar.",
+      "fr": "L'important est de ne jamais cesser de questionner.",
+      "de": "Das Wichtige ist, niemals aufzuhören zu fragen.",
+      "ru": "Важно не прекращать задавать вопросы.",
+      "pt": "O importante é não parar de questionar.",
+      "it": "L'importante è non smettere mai di interrogarsi.",
+      "hi": "महत्वपूर्ण बात यह है कि सवाल करना बंद न करो।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "18000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000017",
+    "texts": {
+      "tr": "Büyük ruhlar her zaman vasat zihinlerin şiddetli muhalefetiyle karşılaşmıştır.",
+      "en": "Great spirits have always encountered violent opposition from mediocre minds.",
+      "ar": "الأرواح العظيمة واجهت دائمًا معارضة عنيفة من العقول المتوسطة.",
+      "es": "Los grandes espíritus siempre han encontrado una oposición violenta de las mentes mediocres.",
+      "fr": "Les grands esprits ont toujours rencontré une opposition violente des esprits médiocres.",
+      "de": "Große Geister sind immer auf heftigen Widerstand mittelmäßiger Köpfe gestoßen.",
+      "ru": "Великие духи всегда встречали яростное сопротивление посредственных умов.",
+      "pt": "Grandes espíritos sempre encontraram oposição violenta de mentes medíocres.",
+      "it": "I grandi spiriti hanno sempre incontrato un'opposizione violenta da parte delle menti mediocri.",
+      "hi": "महान आत्माओं को हमेशा सामान्य बुद्धि के कड़े विरोध का सामना करना पड़ा है।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000028",
+    "texts": {
+      "tr": "Güçlü olan, kendini yenendir.",
+      "en": "He who is not contented with what he has, would not be contented with what he would like to have.",
+      "ar": "القوي هو من يهزم نفسه.",
+      "es": "El fuerte es aquel que se vence a sí mismo.",
+      "fr": "Le fort est celui qui se vainc lui-même.",
+      "de": "Stark ist, wer sich selbst besiegt.",
+      "ru": "Силён тот, кто побеждает себя.",
+      "pt": "Forte é aquele que vence a si mesmo.",
+      "it": "Forte è chi vince se stesso.",
+      "hi": "शक्तिशाली वह है जो खुद पर विजय पाता है।"
+    },
+    "tags": [
+      "courage",
+      "innerPeace"
+    ],
+    "source": null
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000028",
+    "texts": {
+      "tr": "Eğitim bir alev yakmaktır, bir kap doldurmak değil.",
+      "en": "Education is the kindling of a flame, not the filling of a vessel.",
+      "ar": "التعليم إشعال شعلة، لا ملء وعاء.",
+      "es": "La educación es encender una llama, no llenar un recipiente.",
+      "fr": "L'éducation est l'allumage d'une flamme, pas le remplissage d'un vase.",
+      "de": "Bildung ist das Entfachen einer Flamme, nicht das Füllen eines Gefäßes.",
+      "ru": "Образование — это разжигание пламени, а не наполнение сосуда.",
+      "pt": "Educação é acender uma chama, não encher um recipiente.",
+      "it": "L'educazione è accendere una fiamma, non riempire un vaso.",
+      "hi": "शिक्षा एक लौ जलाना है, एक बर्तन भरना नहीं।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000028",
+    "texts": {
+      "tr": "İyi bir hayat yaşamanın sırrı, doğruyu bilmek ve ona göre yaşamaktır.",
+      "en": "The secret to a good life is knowing the truth and living accordingly.",
+      "ar": "سر الحياة الجيدة هو معرفة الحقيقة والعيش وفقًا لها.",
+      "es": "El secreto de una buena vida es conocer la verdad y vivir conforme a ella.",
+      "fr": "Le secret d'une bonne vie est de connaître la vérité et de vivre en conséquence.",
+      "de": "Das Geheimnis eines guten Lebens ist, die Wahrheit zu kennen und danach zu leben.",
+      "ru": "Секрет хорошей жизни — знать правду и жить соответственно.",
+      "pt": "O segredo de uma boa vida é conhecer a verdade e viver de acordo com ela.",
+      "it": "Il segreto di una buona vita è conoscere la verità e vivere di conseguenza.",
+      "hi": "अच्छे जीवन का रहस्य सच को जानना और उसके अनुसार जीना है।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000028",
+    "texts": {
+      "tr": "Arkadaşların yavaş değişir, düşmanların hızla çoğalır; iyi olanı seçin.",
+      "en": "Be slow to fall into friendship, but when you are in, continue firm and constant.",
+      "ar": "كن بطيئًا في الصداقة، ولكن إذا صادقت فكن ثابتًا ومخلصًا.",
+      "es": "Sé lento en hacer amistades, pero una vez hecha, mantén firme y constante.",
+      "fr": "Sois lent à te lier d'amitié, mais une fois engagé, reste ferme et constant.",
+      "de": "Sei langsam beim Freundschließen, aber wenn du es bist, bleibe fest und beständig.",
+      "ru": "Не спеши заводить дружбу, но если завёл — будь твёрд и постоянен.",
+      "pt": "Seja lento em fazer amizades, mas uma vez feita, mantenha-se firme e constante.",
+      "it": "Sii lento a stringere amicizia, ma una volta fatto, resta saldo e costante.",
+      "hi": "दोस्ती बनाने में धीरे रहो, लेकिन एक बार बन जाए तो दृढ़ और स्थिर रहो।"
+    },
+    "tags": [
+      "love",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "29000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000028",
+    "texts": {
+      "tr": "Konuş ki seni görebileyim.",
+      "en": "Speak so that I may see you.",
+      "ar": "تكلم حتى أراك.",
+      "es": "Habla para que pueda verte.",
+      "fr": "Parle afin que je puisse te voir.",
+      "de": "Sprich, damit ich dich sehen kann.",
+      "ru": "Говори, чтобы я тебя увидел.",
+      "pt": "Fala para que eu possa te ver.",
+      "it": "Parla affinché io possa vederti.",
+      "hi": "बोलो ताकि मैं तुम्हें देख सकूँ।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "21000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000020",
+    "texts": {
+      "tr": "Beklenen her şey olur; beklenmeyen olan ise hayattır.",
+      "en": "To expect the unexpected shows a thoroughly modern intellect.",
+      "ar": "توقع غير المتوقع يدل على عقل حديث تمامًا.",
+      "es": "Esperar lo inesperado muestra un intelecto completamente moderno.",
+      "fr": "S'attendre à l'inattendu révèle un esprit parfaitement moderne.",
+      "de": "Das Unerwartete zu erwarten zeigt einen zutiefst modernen Verstand.",
+      "ru": "Ожидать неожиданного — признак по-настоящему современного ума.",
+      "pt": "Esperar o inesperado mostra um intelecto verdadeiramente moderno.",
+      "it": "Aspettarsi l'inaspettato dimostra un intelletto pienamente moderno.",
+      "hi": "अप्रत्याशित की उम्मीद करना सचमुच आधुनिक बुद्धि का प्रतीक है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "21000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000020",
+    "texts": {
+      "tr": "Gerçek dostlar seni önden bıçaklar.",
+      "en": "A true friend stabs you in the front.",
+      "ar": "الصديق الحقيقي يطعنك من الأمام.",
+      "es": "Un verdadero amigo te apuñala de frente.",
+      "fr": "Un vrai ami te poignarde de face.",
+      "de": "Ein wahrer Freund sticht dir von vorne ins Herz.",
+      "ru": "Настоящий друг наносит удар спереди.",
+      "pt": "Um verdadeiro amigo te apunhala pela frente.",
+      "it": "Un vero amico ti pugnala di fronte.",
+      "hi": "सच्चा दोस्त तुम्हें सामने से वार करता है।"
+    },
+    "tags": [
+      "love",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "21000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000020",
+    "texts": {
+      "tr": "Çoğu insan başka insanlardır; düşünceleri başkasının fikirleri, hayatları birer taklit.",
+      "en": "Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry.",
+      "ar": "معظم الناس هم أشخاص آخرون. أفكارهم آراء غيرهم، حياتهم تقليد.",
+      "es": "La mayoría de las personas son otras personas. Sus pensamientos son opiniones ajenas, sus vidas una imitación.",
+      "fr": "La plupart des gens sont d'autres personnes. Leurs pensées sont les opinions d'autrui, leur vie une imitation.",
+      "de": "Die meisten Menschen sind andere Menschen. Ihre Gedanken sind die Meinungen anderer, ihr Leben eine Nachahmung.",
+      "ru": "Большинство людей — это другие люди. Их мысли — чужие мнения, их жизнь — подражание.",
+      "pt": "A maioria das pessoas são outras pessoas. Seus pensamentos são opiniões alheias, suas vidas uma imitação.",
+      "it": "La maggior parte delle persone sono altre persone. I loro pensieri sono opinioni altrui, le loro vite un'imitazione.",
+      "hi": "अधिकतर लोग दूसरे लोग हैं। उनके विचार दूसरों की राय हैं, उनका जीवन नकल।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "21000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000020",
+    "texts": {
+      "tr": "İyi niyetle döşenmiş yol, tembelin en sevdiği yoldur.",
+      "en": "The road to hell is paved with good intentions.",
+      "ar": "الطريق إلى الجحيم مفروش بالنوايا الحسنة.",
+      "es": "El camino al infierno está pavimentado con buenas intenciones.",
+      "fr": "L'enfer est pavé de bonnes intentions.",
+      "de": "Der Weg zur Hölle ist mit guten Vorsätzen gepflastert.",
+      "ru": "Дорога в ад вымощена благими намерениями.",
+      "pt": "O caminho para o inferno é pavimentado com boas intenções.",
+      "it": "La strada per l'inferno è lastricata di buone intenzioni.",
+      "hi": "नरक का रास्ता अच्छे इरादों से बना है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "21000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000020",
+    "texts": {
+      "tr": "Tek lüks insan ilişkileridir.",
+      "en": "The only luxury is human relations.",
+      "ar": "الرفاهية الوحيدة هي العلاقات الإنسانية.",
+      "es": "El único lujo son las relaciones humanas.",
+      "fr": "Le seul luxe, ce sont les relations humaines.",
+      "de": "Der einzige Luxus sind menschliche Beziehungen.",
+      "ru": "Единственная роскошь — это человеческие отношения.",
+      "pt": "O único luxo são as relações humanas.",
+      "it": "L'unico lusso sono le relazioni umane.",
+      "hi": "एकमात्र विलासिता मानवीय संबंध है।"
+    },
+    "tags": [
+      "love",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "20190000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000019",
+    "texts": {
+      "tr": "İnsanın en büyük gücü, affedebilme gücüdür.",
+      "en": "The strongest of all warriors are these two: Time and Patience.",
+      "ar": "أقوى المحاربين هما: الوقت والصبر.",
+      "es": "Los guerreros más fuertes son estos dos: el Tiempo y la Paciencia.",
+      "fr": "Les plus forts de tous les guerriers sont ces deux-là : le Temps et la Patience.",
+      "de": "Die stärksten aller Krieger sind diese beiden: Zeit und Geduld.",
+      "ru": "Сильнее всех воинов два: Время и Терпение.",
+      "pt": "Os guerreiros mais fortes são estes dois: o Tempo e a Paciência.",
+      "it": "I guerrieri più forti sono questi due: il Tempo e la Pazienza.",
+      "hi": "सबसे शक्तिशाली योद्धा ये दो हैं: समय और धैर्य।"
+    },
+    "tags": [
+      "courage",
+      "innerPeace"
+    ],
+    "source": "War and Peace"
+  },
+  {
+    "id": "20190000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000019",
+    "texts": {
+      "tr": "Herkes dünyayı iyileştirmeyi düşünür ama hiç kimse bu işe kendinden başlamaz.",
+      "en": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+      "ar": "الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه.",
+      "es": "Todos piensan en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo.",
+      "fr": "Chacun pense à changer le monde, mais personne ne pense à se changer soi-même.",
+      "de": "Jeder denkt daran, die Welt zu verändern, aber niemand denkt daran, sich selbst zu verändern.",
+      "ru": "Каждый думает об изменении мира, но никто не думает об изменении себя.",
+      "pt": "Todos pensam em mudar o mundo, mas ninguém pensa em mudar a si mesmo.",
+      "it": "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiare se stesso.",
+      "hi": "हर कोई दुनिया बदलने की सोचता है, लेकिन कोई खुद को बदलने की नहीं।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "20190000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000019",
+    "texts": {
+      "tr": "Mutluluk peşinde koşmak, onu kaybetmenin en kesin yoludur.",
+      "en": "If you want to be happy, be.",
+      "ar": "إذا أردت أن تكون سعيدًا، كن.",
+      "es": "Si quieres ser feliz, sélo.",
+      "fr": "Si tu veux être heureux, sois-le.",
+      "de": "Wenn du glücklich sein willst, sei es.",
+      "ru": "Если хочешь быть счастливым — будь.",
+      "pt": "Se quer ser feliz, seja.",
+      "it": "Se vuoi essere felice, sii felice.",
+      "hi": "अगर खुश रहना चाहते हो, तो रहो।"
+    },
+    "tags": [
+      "innerPeace",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "20190000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000019",
+    "texts": {
+      "tr": "Bir insanın büyüklüğü, başkalarına nasıl davrandığıyla ölçülür.",
+      "en": "The greatness of a person is measured by how they treat others.",
+      "ar": "عظمة الإنسان تُقاس بمعاملته للآخرين.",
+      "es": "La grandeza de una persona se mide por cómo trata a los demás.",
+      "fr": "La grandeur d'une personne se mesure à la façon dont elle traite les autres.",
+      "de": "Die Größe eines Menschen misst sich daran, wie er andere behandelt.",
+      "ru": "Величие человека измеряется тем, как он обращается с другими.",
+      "pt": "A grandeza de uma pessoa se mede pela forma como trata os outros.",
+      "it": "La grandezza di una persona si misura dal modo in cui tratta gli altri.",
+      "hi": "किसी व्यक्ति की महानता इस बात से मापी जाती है कि वह दूसरों के साथ कैसा व्यवहार करती है।"
+    },
+    "tags": [
+      "love",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "20190000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000019",
+    "texts": {
+      "tr": "Hayatın anlamını ararken unutma: anlam aramaktadır, bulmakta değil.",
+      "en": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+      "ar": "معنى الحياة أن تجد موهبتك. والغاية أن تمنحها.",
+      "es": "El sentido de la vida es encontrar tu don. El propósito es compartirlo.",
+      "fr": "Le sens de la vie est de trouver ton don. Le but est de le donner.",
+      "de": "Der Sinn des Lebens ist es, deine Gabe zu finden. Der Zweck ist es, sie weiterzugeben.",
+      "ru": "Смысл жизни — найти свой дар. Цель жизни — отдать его.",
+      "pt": "O sentido da vida é encontrar seu dom. O propósito é entregá-lo.",
+      "it": "Il senso della vita è trovare il tuo dono. Lo scopo è donarlo.",
+      "hi": "जीवन का अर्थ है अपनी प्रतिभा खोजना। उद्देश्य है उसे बाँटना।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000022",
+    "texts": {
+      "tr": "İnsanın en büyük korkusu, yeni bir adım atmak, yeni bir söz söylemektir.",
+      "en": "Taking a new step, uttering a new word, is what people fear most.",
+      "ar": "أكبر مخاوف الناس هي اتخاذ خطوة جديدة أو نطق كلمة جديدة.",
+      "es": "Dar un nuevo paso, pronunciar una nueva palabra, es lo que la gente más teme.",
+      "fr": "Faire un nouveau pas, prononcer un nouveau mot, c'est ce que les gens craignent le plus.",
+      "de": "Einen neuen Schritt zu wagen, ein neues Wort zu sagen — das fürchten die Menschen am meisten.",
+      "ru": "Сделать новый шаг, произнести новое слово — вот чего больше всего боятся люди.",
+      "pt": "Dar um novo passo, pronunciar uma nova palavra, é o que as pessoas mais temem.",
+      "it": "Fare un nuovo passo, pronunciare una nuova parola, è ciò che la gente teme di più.",
+      "hi": "एक नया कदम उठाना, एक नया शब्द कहना — यही है जिससे लोग सबसे ज्यादा डरते हैं।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": "Crime and Punishment"
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000022",
+    "texts": {
+      "tr": "Bir insanı anlamak istiyorsan, sözlerine değil, sessizliğine bak.",
+      "en": "If you want to understand a person, listen not to their words but to their silence.",
+      "ar": "إذا أردت فهم شخص، لا تستمع إلى كلامه بل إلى صمته.",
+      "es": "Si quieres entender a una persona, no escuches sus palabras sino su silencio.",
+      "fr": "Si tu veux comprendre une personne, n'écoute pas ses mots mais son silence.",
+      "de": "Wenn du einen Menschen verstehen willst, höre nicht auf seine Worte, sondern auf sein Schweigen.",
+      "ru": "Если хочешь понять человека, слушай не его слова, а его молчание.",
+      "pt": "Se quer entender uma pessoa, ouça não suas palavras, mas seu silêncio.",
+      "it": "Se vuoi capire una persona, ascolta non le sue parole ma il suo silenzio.",
+      "hi": "अगर किसी को समझना चाहते हो, तो उसके शब्द नहीं, उसकी चुप्पी सुनो।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000022",
+    "texts": {
+      "tr": "Özgürlük, ekmek almak için değil, ruh için gereklidir.",
+      "en": "The soul is healed by being with children.",
+      "ar": "الروح تُشفى بصحبة الأطفال.",
+      "es": "El alma se cura estando con niños.",
+      "fr": "L'âme guérit au contact des enfants.",
+      "de": "Die Seele heilt, wenn man mit Kindern zusammen ist.",
+      "ru": "Душа исцеляется рядом с детьми.",
+      "pt": "A alma se cura na companhia das crianças.",
+      "it": "L'anima guarisce stando con i bambini.",
+      "hi": "आत्मा बच्चों के साथ रहकर ठीक होती है।"
+    },
+    "tags": [
+      "innerPeace",
+      "love"
+    ],
+    "source": null
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000022",
+    "texts": {
+      "tr": "Yeryüzündeki her şey kutsaldır; acı da dahil.",
+      "en": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+      "ar": "الألم والمعاناة حتميان دائمًا للذكاء العظيم والقلب العميق.",
+      "es": "El dolor y el sufrimiento son siempre inevitables para una gran inteligencia y un corazón profundo.",
+      "fr": "La douleur et la souffrance sont toujours inévitables pour une grande intelligence et un cœur profond.",
+      "de": "Schmerz und Leid sind immer unvermeidlich für eine große Intelligenz und ein tiefes Herz.",
+      "ru": "Страдание и боль всегда неизбежны для большого ума и глубокого сердца.",
+      "pt": "A dor e o sofrimento são sempre inevitáveis para uma grande inteligência e um coração profundo.",
+      "it": "Il dolore e la sofferenza sono sempre inevitabili per una grande intelligenza e un cuore profondo.",
+      "hi": "दर्द और पीड़ा बड़ी बुद्धि और गहरे दिल के लिए हमेशा अपरिहार्य हैं।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": "Crime and Punishment"
+  },
+  {
+    "id": "23000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000022",
+    "texts": {
+      "tr": "İnsanlara sevgiyle yaklaş, zira herkes büyük bir savaşın içindedir.",
+      "en": "Love every person because everyone is fighting a great battle.",
+      "ar": "أحبّ كل إنسان لأن الجميع يخوض معركة عظيمة.",
+      "es": "Ama a cada persona porque todos están luchando una gran batalla.",
+      "fr": "Aime chaque personne car chacun mène une grande bataille.",
+      "de": "Liebe jeden Menschen, denn jeder kämpft einen großen Kampf.",
+      "ru": "Люби каждого, ведь каждый ведёт свою великую битву.",
+      "pt": "Ame cada pessoa porque todos estão lutando uma grande batalha.",
+      "it": "Ama ogni persona perché ognuno sta combattendo una grande battaglia.",
+      "hi": "हर व्यक्ति से प्रेम करो क्योंकि हर कोई एक बड़ी लड़ाई लड़ रहा है।"
+    },
+    "tags": [
+      "love",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000023",
+    "texts": {
+      "tr": "Benim manevi mirasım ilim ve akıldır.",
+      "en": "My spiritual heritage is science and reason.",
+      "ar": "إرثي الروحي هو العلم والعقل.",
+      "es": "Mi herencia espiritual es la ciencia y la razón.",
+      "fr": "Mon héritage spirituel est la science et la raison.",
+      "de": "Mein geistiges Erbe ist Wissenschaft und Vernunft.",
+      "ru": "Моё духовное наследие — наука и разум.",
+      "pt": "Minha herança espiritual é a ciência e a razão.",
+      "it": "La mia eredità spirituale è la scienza e la ragione.",
+      "hi": "मेरी आध्यात्मिक विरासत विज्ञान और तर्क है।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000023",
+    "texts": {
+      "tr": "Bir millet, irfan ordusuna sahip olmadıkça, savaş meydanlarında ne kadar zafer kazanırsa kazansın, o zaferlerin kalıcı neticeleri olmaz.",
+      "en": "Unless a nation possesses an army of knowledge, its victories on the battlefield will not yield lasting results.",
+      "ar": "ما لم تمتلك الأمة جيشًا من المعرفة، فلن تدوم انتصاراتها.",
+      "es": "Si una nación no posee un ejército de conocimiento, sus victorias en el campo de batalla no tendrán resultados duraderos.",
+      "fr": "Tant qu'une nation ne possède pas une armée du savoir, ses victoires sur le champ de bataille n'auront pas de résultats durables.",
+      "de": "Solange eine Nation keine Armee des Wissens besitzt, werden ihre Siege auf dem Schlachtfeld keine dauerhaften Ergebnisse bringen.",
+      "ru": "Пока нация не обладает армией знаний, победы на поле боя не дадут долгосрочных результатов.",
+      "pt": "Enquanto uma nação não possuir um exército de conhecimento, suas vitórias no campo de batalha não terão resultados duradouros.",
+      "it": "Finché una nazione non possiede un esercito di conoscenza, le sue vittorie sui campi di battaglia non avranno risultati duraturi.",
+      "hi": "जब तक किसी राष्ट्र के पास ज्ञान की सेना नहीं, युद्ध के मैदान में जीती जीत स्थायी नहीं होगी।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000023",
+    "texts": {
+      "tr": "Medeniyetin eşiğinde durup da medeniyete girmeyen milletler, mahvolmaya mahkumdur.",
+      "en": "Nations that stand at the threshold of civilization but do not enter are doomed to perish.",
+      "ar": "الأمم التي تقف على عتبة الحضارة ولا تدخلها محكوم عليها بالفناء.",
+      "es": "Las naciones que se detienen en el umbral de la civilización sin entrar están condenadas a perecer.",
+      "fr": "Les nations qui se tiennent au seuil de la civilisation sans y entrer sont condamnées à périr.",
+      "de": "Völker, die an der Schwelle der Zivilisation stehen, ohne sie zu betreten, sind zum Untergang verurteilt.",
+      "ru": "Народы, стоящие на пороге цивилизации, но не вступающие в неё, обречены на гибель.",
+      "pt": "Nações que ficam no limiar da civilização sem entrar estão condenadas a perecer.",
+      "it": "Le nazioni che stanno sulla soglia della civiltà senza entrarvi sono condannate a perire.",
+      "hi": "जो राष्ट्र सभ्यता की दहलीज़ पर खड़े रहते हैं पर प्रवेश नहीं करते, वे नष्ट होने को अभिशप्त हैं।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000023",
+    "texts": {
+      "tr": "Sanatsız kalan bir milletin hayat damarlarından biri kopmuş demektir.",
+      "en": "A nation without art has lost one of its vital arteries.",
+      "ar": "أمة بلا فن فقدت أحد شرايينها الحيوية.",
+      "es": "Una nación sin arte ha perdido una de sus arterias vitales.",
+      "fr": "Une nation sans art a perdu l'une de ses artères vitales.",
+      "de": "Eine Nation ohne Kunst hat eine ihrer Lebensadern verloren.",
+      "ru": "Нация без искусства потеряла одну из жизненных артерий.",
+      "pt": "Uma nação sem arte perdeu uma de suas artérias vitais.",
+      "it": "Una nazione senza arte ha perso una delle sue arterie vitali.",
+      "hi": "कला के बिना राष्ट्र ने अपनी एक जीवन धमनी खो दी है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "24000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000023",
+    "texts": {
+      "tr": "Başarılamaz denilen şeyleri başarmaktır asıl büyüklük.",
+      "en": "True greatness is to accomplish what is considered impossible.",
+      "ar": "العظمة الحقيقية هي تحقيق ما يُعتبر مستحيلًا.",
+      "es": "La verdadera grandeza es lograr lo que se considera imposible.",
+      "fr": "La vraie grandeur est d'accomplir ce qui est considéré comme impossible.",
+      "de": "Wahre Größe ist es, das Unmögliche zu erreichen.",
+      "ru": "Истинное величие — совершить то, что считается невозможным.",
+      "pt": "A verdadeira grandeza é realizar o que é considerado impossível.",
+      "it": "La vera grandezza è compiere ciò che è considerato impossibile.",
+      "hi": "सच्ची महानता वह हासिल करना है जिसे असंभव माना जाता है।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "19000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000018",
+    "texts": {
+      "tr": "İki önemli gün vardır hayatında: doğduğun gün ve nedenini anladığın gün.",
+      "en": "The two most important days in your life are the day you are born and the day you find out why.",
+      "ar": "أهم يومين في حياتك هما: يوم ولادتك ويوم تكتشف لماذا.",
+      "es": "Los dos días más importantes de tu vida son el día en que naces y el día en que descubres por qué.",
+      "fr": "Les deux jours les plus importants de ta vie sont le jour où tu es né et le jour où tu découvres pourquoi.",
+      "de": "Die zwei wichtigsten Tage deines Lebens sind der Tag, an dem du geboren wirst, und der Tag, an dem du herausfindest, warum.",
+      "ru": "Два самых важных дня в твоей жизни — день, когда ты родился, и день, когда понял зачем.",
+      "pt": "Os dois dias mais importantes da sua vida são o dia em que você nasce e o dia em que descobre por quê.",
+      "it": "I due giorni più importanti della tua vita sono il giorno in cui nasci e il giorno in cui scopri perché.",
+      "hi": "आपके जीवन के दो सबसे महत्वपूर्ण दिन हैं: जिस दिन आप पैदा हुए और जिस दिन आपने जाना क्यों।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "19000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000018",
+    "texts": {
+      "tr": "Gerçeği yüz yılda dünyanın yarısı öğrenir, bir yalanı ise bir günde herkes.",
+      "en": "A lie can travel halfway around the world while the truth is still putting on its shoes.",
+      "ar": "يمكن للكذب أن يقطع نصف العالم بينما الحقيقة لا تزال ترتدي حذاءها.",
+      "es": "Una mentira puede viajar por medio mundo mientras la verdad aún se está poniendo los zapatos.",
+      "fr": "Un mensonge peut faire le tour du monde pendant que la vérité met encore ses chaussures.",
+      "de": "Eine Lüge kann um die halbe Welt reisen, während die Wahrheit noch ihre Schuhe anzieht.",
+      "ru": "Ложь может обойти полмира, пока правда ещё надевает ботинки.",
+      "pt": "Uma mentira pode viajar pelo meio mundo enquanto a verdade ainda está calçando os sapatos.",
+      "it": "Una bugia può fare il giro del mondo mentre la verità sta ancora mettendo le scarpe.",
+      "hi": "झूठ आधी दुनिया का चक्कर लगा सकता है जबकि सच अभी जूते पहन रहा होता है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "19000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000018",
+    "texts": {
+      "tr": "Öfke asit gibidir; döküldüğü kabı, içindekilerden çok yer.",
+      "en": "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured.",
+      "ar": "الغضب حمض يضر الوعاء الذي يُحفظ فيه أكثر مما يضر ما يُسكب عليه.",
+      "es": "La ira es un ácido que puede dañar más al recipiente en que se almacena que a cualquier cosa sobre la que se vierte.",
+      "fr": "La colère est un acide qui fait plus de mal au récipient dans lequel il est stocké qu'à quoi que ce soit sur lequel il est versé.",
+      "de": "Wut ist eine Säure, die dem Gefäß, in dem sie aufbewahrt wird, mehr schadet als allem, worauf sie gegossen wird.",
+      "ru": "Гнев — это кислота, которая причиняет больше вреда сосуду, в котором хранится, чем тому, на что её выливают.",
+      "pt": "A raiva é um ácido que faz mais mal ao recipiente em que é armazenada do que a qualquer coisa sobre a qual é derramada.",
+      "it": "La rabbia è un acido che fa più danno al recipiente in cui è conservata che a qualsiasi cosa su cui viene versata.",
+      "hi": "क्रोध एक ऐसा तेज़ाब है जो उस बर्तन को अधिक नुकसान पहुँचाता है जिसमें इसे रखा जाता है।"
+    },
+    "tags": [
+      "innerPeace",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "19000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000018",
+    "texts": {
+      "tr": "Endişelerimin çoğu asla gerçekleşmedi.",
+      "en": "I've had a lot of worries in my life, most of which never happened.",
+      "ar": "عانيت من كثير من القلق في حياتي، معظمه لم يحدث أبدًا.",
+      "es": "He tenido muchas preocupaciones en mi vida, la mayoría de las cuales nunca sucedieron.",
+      "fr": "J'ai eu beaucoup de soucis dans ma vie, dont la plupart ne se sont jamais produits.",
+      "de": "Ich hatte viele Sorgen in meinem Leben, von denen die meisten nie eingetreten sind.",
+      "ru": "В моей жизни было много тревог, большинство из которых так и не случилось.",
+      "pt": "Tive muitas preocupações na minha vida, a maioria das quais nunca aconteceu.",
+      "it": "Ho avuto molte preoccupazioni nella mia vita, la maggior parte delle quali non si è mai avverata.",
+      "hi": "मेरे जीवन में बहुत चिंताएँ रहीं, जिनमें से अधिकांश कभी घटित नहीं हुईं।"
+    },
+    "tags": [
+      "innerPeace",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "19000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000018",
+    "texts": {
+      "tr": "İnsanlık iyi bir kitaptır, ama insan kötü bir okurdur.",
+      "en": "Humanity is a fine book, but man is a poor reader.",
+      "ar": "الإنسانية كتاب رائع، لكن الإنسان قارئ سيئ.",
+      "es": "La humanidad es un buen libro, pero el hombre es un mal lector.",
+      "fr": "L'humanité est un beau livre, mais l'homme est un piètre lecteur.",
+      "de": "Die Menschheit ist ein gutes Buch, aber der Mensch ist ein schlechter Leser.",
+      "ru": "Человечество — прекрасная книга, но человек — плохой читатель.",
+      "pt": "A humanidade é um bom livro, mas o homem é um mau leitor.",
+      "it": "L'umanità è un buon libro, ma l'uomo è un cattivo lettore.",
+      "hi": "मानवता एक अच्छी किताब है, लेकिन इंसान एक बुरा पाठक है।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000021",
+    "texts": {
+      "tr": "Düşüncenin gücünden daha güçlü bir ordu yoktur.",
+      "en": "Nothing is more powerful than an idea whose time has come.",
+      "ar": "لا شيء أقوى من فكرة حان وقتها.",
+      "es": "Nada es más poderoso que una idea cuyo momento ha llegado.",
+      "fr": "Rien n'est plus puissant qu'une idée dont l'heure est venue.",
+      "de": "Nichts ist mächtiger als eine Idee, deren Zeit gekommen ist.",
+      "ru": "Нет ничего сильнее идеи, время которой пришло.",
+      "pt": "Nada é mais poderoso do que uma ideia cujo momento chegou.",
+      "it": "Nulla è più potente di un'idea il cui tempo è giunto.",
+      "hi": "उस विचार से शक्तिशाली कुछ नहीं जिसका समय आ गया हो।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000021",
+    "texts": {
+      "tr": "Kim severse, o inandığının yarısını bilir.",
+      "en": "To love is to act.",
+      "ar": "أن تُحب هو أن تفعل.",
+      "es": "Amar es actuar.",
+      "fr": "Aimer, c'est agir.",
+      "de": "Lieben heißt handeln.",
+      "ru": "Любить — значит действовать.",
+      "pt": "Amar é agir.",
+      "it": "Amare è agire.",
+      "hi": "प्रेम करना ही कर्म करना है।"
+    },
+    "tags": [
+      "love",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000021",
+    "texts": {
+      "tr": "Umut mutlu olanların değil, cesaret edenlerin payıdır.",
+      "en": "Hope is the word which God has written on the brow of every man.",
+      "ar": "الأمل هو الكلمة التي كتبها الله على جبين كل إنسان.",
+      "es": "La esperanza es la palabra que Dios ha escrito en la frente de cada hombre.",
+      "fr": "L'espérance est le mot que Dieu a écrit sur le front de tout homme.",
+      "de": "Hoffnung ist das Wort, das Gott auf die Stirn jedes Menschen geschrieben hat.",
+      "ru": "Надежда — это слово, которое Бог написал на челе каждого человека.",
+      "pt": "A esperança é a palavra que Deus escreveu na testa de cada homem.",
+      "it": "La speranza è la parola che Dio ha scritto sulla fronte di ogni uomo.",
+      "hi": "आशा वह शब्द है जो ईश्वर ने हर मनुष्य के माथे पर लिखा है।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000021",
+    "texts": {
+      "tr": "Adaletsizliğe boyun eğmek, adaletsizliğin ortağı olmaktır.",
+      "en": "To give oneself to injustice is to become its accomplice.",
+      "ar": "الرضوخ بالظلم يعني أن تصبح شريكًا فيه.",
+      "es": "Someterse a la injusticia es convertirse en su cómplice.",
+      "fr": "Se soumettre à l'injustice, c'est en devenir complice.",
+      "de": "Sich der Ungerechtigkeit zu beugen, bedeutet, ihr Komplize zu werden.",
+      "ru": "Покоряться несправедливости — значит стать её соучастником.",
+      "pt": "Submeter-se à injustiça é tornar-se seu cúmplice.",
+      "it": "Sottomettersi all'ingiustizia significa diventarne complice.",
+      "hi": "अन्याय के सामने झुकना उसका साथी बनना है।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "22000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000021",
+    "texts": {
+      "tr": "İnsan bazen bir saatte bir ömür yaşar.",
+      "en": "There are moments when, whatever the attitude of the body, the soul is on its knees.",
+      "ar": "هناك لحظات تركع فيها الروح مهما كان وضع الجسد.",
+      "es": "Hay momentos en que, sea cual sea la actitud del cuerpo, el alma está de rodillas.",
+      "fr": "Il y a des moments où, quelle que soit l'attitude du corps, l'âme est à genoux.",
+      "de": "Es gibt Momente, in denen die Seele auf den Knien liegt, egal wie der Körper steht.",
+      "ru": "Бывают мгновения, когда душа стоит на коленях, какой бы ни была поза тела.",
+      "pt": "Há momentos em que, qualquer que seja a atitude do corpo, a alma está de joelhos.",
+      "it": "Ci sono momenti in cui, qualunque sia l'atteggiamento del corpo, l'anima è in ginocchio.",
+      "hi": "कुछ पल ऐसे होते हैं जब शरीर चाहे जैसा भी हो, आत्मा घुटनों पर होती है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "innerPeace"
+    ],
+    "source": null
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000024",
+    "texts": {
+      "tr": "Karanlığa lanet okumaktansa bir mum yak.",
+      "en": "It is better to light a candle than curse the darkness.",
+      "ar": "من الأفضل أن تُشعل شمعة على أن تلعن الظلام.",
+      "es": "Es mejor encender una vela que maldecir la oscuridad.",
+      "fr": "Il vaut mieux allumer une bougie que maudire l'obscurité.",
+      "de": "Es ist besser, eine Kerze anzuzünden, als die Dunkelheit zu verfluchen.",
+      "ru": "Лучше зажечь свечу, чем проклинать тьму.",
+      "pt": "É melhor acender uma vela do que amaldiçoar a escuridão.",
+      "it": "È meglio accendere una candela che maledire l'oscurità.",
+      "hi": "अंधेरे को कोसने से अच्छा है एक मोमबत्ती जलाना।"
+    },
+    "tags": [
+      "courage",
+      "motivation"
+    ],
+    "source": null
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000024",
+    "texts": {
+      "tr": "Sert konuş ama büyük bir sopa taşı.",
+      "en": "Speak softly and carry a big stick.",
+      "ar": "تحدث بلطف واحمل عصا كبيرة.",
+      "es": "Habla suavemente y lleva un gran garrote.",
+      "fr": "Parle doucement et porte un gros bâton.",
+      "de": "Sprich leise und trage einen großen Stock.",
+      "ru": "Говори мягко и носи большую дубинку.",
+      "pt": "Fale suavemente e carregue um grande porrete.",
+      "it": "Parla dolcemente e porta un grosso bastone.",
+      "hi": "धीरे बोलो और बड़ी लाठी रखो।"
+    },
+    "tags": [
+      "leadership",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000024",
+    "texts": {
+      "tr": "Bizden bekleneni yapmak görev, beklenenden fazlasını yapmak erdemdir.",
+      "en": "Do what you can, with what you have, where you are.",
+      "ar": "افعل ما تستطيع، بما لديك، في المكان الذي أنت فيه.",
+      "es": "Haz lo que puedas, con lo que tengas, donde estés.",
+      "fr": "Fais ce que tu peux, avec ce que tu as, là où tu es.",
+      "de": "Tu, was du kannst, mit dem, was du hast, dort, wo du bist.",
+      "ru": "Делай что можешь, с тем, что есть, там, где ты.",
+      "pt": "Faça o que puder, com o que tiver, onde estiver.",
+      "it": "Fai quello che puoi, con quello che hai, dove sei.",
+      "hi": "जो कर सकते हो करो, जो है उससे, जहाँ हो।"
+    },
+    "tags": [
+      "motivation",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000024",
+    "texts": {
+      "tr": "Hiçbir şey yanlış bir şey yapmaktan daha korkakça değildir; doğru olduğunu bildiğin şeyi yapmamak.",
+      "en": "In any moment of decision, the best thing you can do is the right thing.",
+      "ar": "في أي لحظة قرار، أفضل شيء يمكنك فعله هو الشيء الصحيح.",
+      "es": "En cualquier momento de decisión, lo mejor que puedes hacer es lo correcto.",
+      "fr": "Dans tout moment de décision, la meilleure chose à faire est la bonne.",
+      "de": "In jedem Moment der Entscheidung ist das Beste, was du tun kannst, das Richtige.",
+      "ru": "В любой момент принятия решения лучшее, что ты можешь сделать — правильное.",
+      "pt": "Em qualquer momento de decisão, a melhor coisa que você pode fazer é a coisa certa.",
+      "it": "In qualsiasi momento di decisione, la cosa migliore che puoi fare è quella giusta.",
+      "hi": "निर्णय के किसी भी क्षण में, सबसे अच्छी चीज़ जो आप कर सकते हैं वह सही काम है।"
+    },
+    "tags": [
+      "courage",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "25000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000024",
+    "texts": {
+      "tr": "Eleştirmen önemli değildir; önemli olan arenada yüzü toz ve ter içinde savaşan insandır.",
+      "en": "It is not the critic who counts; the credit belongs to the man who is actually in the arena.",
+      "ar": "ليس الناقد هو المهم؛ الفضل يعود للرجل الذي يقف فعلًا في الحلبة.",
+      "es": "No es el crítico quien cuenta; el mérito pertenece al hombre que está realmente en la arena.",
+      "fr": "Ce n'est pas le critique qui compte ; le mérite revient à l'homme qui est réellement dans l'arène.",
+      "de": "Nicht der Kritiker zählt; die Anerkennung gebührt dem Mann, der tatsächlich in der Arena steht.",
+      "ru": "Не критик важен; заслуга принадлежит тому, кто действительно стоит на арене.",
+      "pt": "Não é o crítico que importa; o crédito pertence ao homem que está realmente na arena.",
+      "it": "Non è il critico che conta; il merito appartiene all'uomo che è effettivamente nell'arena.",
+      "hi": "आलोचक महत्वपूर्ण नहीं; श्रेय उस व्यक्ति का है जो वास्तव में अखाड़े में है।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000025",
+    "texts": {
+      "tr": "Hazırlıksız insanlara fırsat, şans gibi görünür.",
+      "en": "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
+      "ar": "يفوت الفرصة على معظم الناس لأنها ترتدي ملابس العمل وتبدو كالجهد.",
+      "es": "La oportunidad pasa desapercibida para la mayoría porque viene vestida con ropa de trabajo.",
+      "fr": "L'opportunité est manquée par la plupart des gens parce qu'elle porte des vêtements de travail.",
+      "de": "Die Gelegenheit wird von den meisten Menschen verpasst, weil sie Arbeitskleidung trägt und nach Arbeit aussieht.",
+      "ru": "Возможность упускается большинством людей, потому что она одета в рабочую одежду и выглядит как труд.",
+      "pt": "A oportunidade é perdida pela maioria das pessoas porque está vestida com roupa de trabalho e parece trabalho.",
+      "it": "L'opportunità è persa dalla maggior parte delle persone perché indossa abiti da lavoro e sembra fatica.",
+      "hi": "अवसर अधिकांश लोगों से छूट जाता है क्योंकि यह काम के कपड़े पहनता है।"
+    },
+    "tags": [
+      "success",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000025",
+    "texts": {
+      "tr": "Başarı yüzde bir yetenek, yüzde doksan dokuz terdir.",
+      "en": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+      "ar": "العبقرية واحد بالمائة إلهام وتسعة وتسعون بالمائة جهد.",
+      "es": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+      "fr": "Le génie, c'est un pour cent d'inspiration et quatre-vingt-dix-neuf pour cent de transpiration.",
+      "de": "Genie ist ein Prozent Inspiration und neunundneunzig Prozent Transpiration.",
+      "ru": "Гениальность — это один процент вдохновения и девяносто девять процентов пота.",
+      "pt": "O gênio é um por cento de inspiração e noventa e nove por cento de transpiração.",
+      "it": "Il genio è un per cento di ispirazione e novantanove per cento di traspirazione.",
+      "hi": "प्रतिभा एक प्रतिशत प्रेरणा और निन्यानवे प्रतिशत परिश्रम है।"
+    },
+    "tags": [
+      "success",
+      "motivation"
+    ],
+    "source": null
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000025",
+    "texts": {
+      "tr": "Her başarısızlık, başarıya giden yolda bir adımdır.",
+      "en": "Every failure is a step closer to success.",
+      "ar": "كل فشل هو خطوة أقرب إلى النجاح.",
+      "es": "Cada fracaso es un paso más cerca del éxito.",
+      "fr": "Chaque échec est un pas de plus vers le succès.",
+      "de": "Jedes Scheitern ist ein Schritt näher zum Erfolg.",
+      "ru": "Каждая неудача — это шаг к успеху.",
+      "pt": "Cada fracasso é um passo mais perto do sucesso.",
+      "it": "Ogni fallimento è un passo più vicino al successo.",
+      "hi": "हर असफलता सफलता की ओर एक कदम है।"
+    },
+    "tags": [
+      "courage",
+      "success"
+    ],
+    "source": null
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000025",
+    "texts": {
+      "tr": "Pes etmedim; henüz işe yaramayan yolları eliyorum.",
+      "en": "I have not failed. I've just found 10,000 ways that won't work.",
+      "ar": "لم أفشل. لقد وجدت فقط عشرة آلاف طريقة لا تعمل.",
+      "es": "No he fracasado. Solo he encontrado 10.000 formas que no funcionan.",
+      "fr": "Je n'ai pas échoué. J'ai simplement trouvé 10 000 façons qui ne fonctionnent pas.",
+      "de": "Ich habe nicht versagt. Ich habe nur 10.000 Wege gefunden, die nicht funktionieren.",
+      "ru": "Я не потерпел неудачу. Я просто нашёл 10 000 способов, которые не работают.",
+      "pt": "Eu não falhei. Apenas encontrei 10.000 maneiras que não funcionam.",
+      "it": "Non ho fallito. Ho solo trovato 10.000 modi che non funzionano.",
+      "hi": "मैं असफल नहीं हुआ। मैंने बस 10,000 तरीके खोजे हैं जो काम नहीं करते।"
+    },
+    "tags": [
+      "courage",
+      "motivation"
+    ],
+    "source": null
+  },
+  {
+    "id": "26000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000025",
+    "texts": {
+      "tr": "İcat etmek için iyi bir hayal gücüne ve bir çöp yığına ihtiyacın var.",
+      "en": "To invent, you need a good imagination and a pile of junk.",
+      "ar": "للاختراع، تحتاج إلى خيال جيد وكومة من الخردة.",
+      "es": "Para inventar, necesitas una buena imaginación y un montón de chatarra.",
+      "fr": "Pour inventer, il faut une bonne imagination et un tas de ferraille.",
+      "de": "Zum Erfinden braucht man eine gute Vorstellungskraft und einen Haufen Schrott.",
+      "ru": "Чтобы изобретать, нужно хорошее воображение и куча хлама.",
+      "pt": "Para inventar, você precisa de uma boa imaginação e uma pilha de sucata.",
+      "it": "Per inventare, serve una buona immaginazione e un mucchio di rottami.",
+      "hi": "आविष्कार के लिए आपको अच्छी कल्पना और कबाड़ का ढेर चाहिए।"
+    },
+    "tags": [
+      "creativity",
+      "motivation"
+    ],
+    "source": null
+  },
+  {
+    "id": "27000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000026",
+    "texts": {
+      "tr": "Günümüz bilimi gerçekliği incelemekten vazgeçmiş, modelleri inceliyor.",
+      "en": "Today's scientists have substituted mathematics for experiments, and they wander off through equation after equation.",
+      "ar": "علماء اليوم استبدلوا الرياضيات بالتجارب، ويتيهون بين معادلة وأخرى.",
+      "es": "Los científicos de hoy han sustituido las matemáticas por los experimentos y vagan de ecuación en ecuación.",
+      "fr": "Les scientifiques d'aujourd'hui ont substitué les mathématiques aux expériences et errent d'équation en équation.",
+      "de": "Die Wissenschaftler von heute haben Mathematik durch Experimente ersetzt und wandern von Gleichung zu Gleichung.",
+      "ru": "Современные учёные заменили эксперименты математикой и блуждают от уравнения к уравнению.",
+      "pt": "Os cientistas de hoje substituíram os experimentos pela matemática e vagam de equação em equação.",
+      "it": "Gli scienziati di oggi hanno sostituito la matematica agli esperimenti e vagano da un'equazione all'altra.",
+      "hi": "आज के वैज्ञानिकों ने प्रयोगों की जगह गणित को रख दिया है और समीकरण से समीकरण में भटकते हैं।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "27000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000026",
+    "texts": {
+      "tr": "Her yaşayan şey, evrenin temel titreşiminin bir motorudur.",
+      "en": "Every living being is an engine geared to the wheelwork of the universe.",
+      "ar": "كل كائن حي هو محرك مرتبط بآلية الكون.",
+      "es": "Todo ser vivo es un motor conectado al mecanismo del universo.",
+      "fr": "Chaque être vivant est un moteur relié au mécanisme de l'univers.",
+      "de": "Jedes Lebewesen ist ein Motor, der mit dem Räderwerk des Universums verbunden ist.",
+      "ru": "Каждое живое существо — это двигатель, связанный с механизмом вселенной.",
+      "pt": "Todo ser vivo é um motor conectado ao mecanismo do universo.",
+      "it": "Ogni essere vivente è un motore collegato al meccanismo dell'universo.",
+      "hi": "हर जीवित प्राणी ब्रह्मांड की मशीनरी से जुड़ा एक इंजन है।"
+    },
+    "tags": [
+      "nature",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "27000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000026",
+    "texts": {
+      "tr": "Bırakın gelecek, gerçeği söylesin.",
+      "en": "Let the future tell the truth, and evaluate each one according to his work and accomplishments.",
+      "ar": "دع المستقبل يقول الحقيقة، وقيّم كل شخص وفقًا لعمله وإنجازاته.",
+      "es": "Deja que el futuro diga la verdad y evalúe a cada uno según su trabajo y logros.",
+      "fr": "Laissez le futur dire la vérité et évaluer chacun selon son travail et ses réalisations.",
+      "de": "Lasst die Zukunft die Wahrheit sagen und jeden nach seiner Arbeit und seinen Leistungen beurteilen.",
+      "ru": "Пусть будущее скажет правду и оценит каждого по его труду и достижениям.",
+      "pt": "Deixe o futuro dizer a verdade e avaliar cada um de acordo com seu trabalho e conquistas.",
+      "it": "Lasciate che il futuro dica la verità e valuti ciascuno secondo il suo lavoro e le sue realizzazioni.",
+      "hi": "भविष्य को सच बताने दो और हरेक को उसके कार्य और उपलब्धियों के अनुसार आँको।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "27000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000026",
+    "texts": {
+      "tr": "Bir bilim insanının amacı, acil bir sonuç değil, evrenin daha derin bir kavrayışıdır.",
+      "en": "The scientific man does not aim at an immediate result. His work is like that of the planter.",
+      "ar": "العالِم لا يهدف إلى نتيجة فورية. عمله كعمل الزارع.",
+      "es": "El hombre de ciencia no busca un resultado inmediato. Su trabajo es como el del sembrador.",
+      "fr": "L'homme de science ne vise pas un résultat immédiat. Son travail est comme celui du planteur.",
+      "de": "Der Wissenschaftler strebt nicht nach einem sofortigen Ergebnis. Seine Arbeit gleicht der des Pflanzers.",
+      "ru": "Учёный не стремится к немедленному результату. Его работа подобна работе садовника.",
+      "pt": "O homem de ciência não busca um resultado imediato. Seu trabalho é como o do plantador.",
+      "it": "L'uomo di scienza non mira a un risultato immediato. Il suo lavoro è come quello del seminatore.",
+      "hi": "वैज्ञानिक तुरंत परिणाम नहीं चाहता। उसका कार्य एक बीज बोने वाले की तरह है।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "27000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000026",
+    "texts": {
+      "tr": "Beynim sadece bir alıcıdır; evrende bilgiyi, gücü ve ilhamı aldığımız bir çekirdek var.",
+      "en": "My brain is only a receiver, in the Universe there is a core from which we obtain knowledge, strength and inspiration.",
+      "ar": "دماغي مجرد جهاز استقبال؛ في الكون نواة نستمد منها المعرفة والقوة والإلهام.",
+      "es": "Mi cerebro es solo un receptor; en el universo hay un núcleo del cual obtenemos conocimiento, fuerza e inspiración.",
+      "fr": "Mon cerveau n'est qu'un récepteur ; dans l'univers, il y a un noyau d'où nous tirons la connaissance, la force et l'inspiration.",
+      "de": "Mein Gehirn ist nur ein Empfänger; im Universum gibt es einen Kern, aus dem wir Wissen, Kraft und Inspiration beziehen.",
+      "ru": "Мой мозг — лишь приёмник; во Вселенной есть ядро, из которого мы черпаем знания, силу и вдохновение.",
+      "pt": "Meu cérebro é apenas um receptor; no universo há um núcleo de onde obtemos conhecimento, força e inspiração.",
+      "it": "Il mio cervello è solo un ricevitore; nell'universo c'è un nucleo da cui attingiamo conoscenza, forza e ispirazione.",
+      "hi": "मेरा मस्तिष्क केवल एक रिसीवर है; ब्रह्मांड में एक केंद्र है जहाँ से हम ज्ञान, शक्ति और प्रेरणा प्राप्त करते हैं।"
+    },
+    "tags": [
+      "spirituality",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000027",
+    "texts": {
+      "tr": "Koşulları beklemek yerine, koşulları yarat.",
+      "en": "Don't find fault, find a remedy.",
+      "ar": "لا تبحث عن الخطأ، ابحث عن العلاج.",
+      "es": "No busques culpas, busca soluciones.",
+      "fr": "Ne cherchez pas la faute, cherchez le remède.",
+      "de": "Suche nicht nach Fehlern, suche nach Lösungen.",
+      "ru": "Не ищите виноватых, ищите средство.",
+      "pt": "Não procure culpados, procure soluções.",
+      "it": "Non cercare colpe, cerca rimedi.",
+      "hi": "दोष मत ढूँढो, उपाय ढूँढो।"
+    },
+    "tags": [
+      "motivation",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000027",
+    "texts": {
+      "tr": "Müşterilerime ne istediklerini sorsaydım, daha hızlı atlar derlerdi.",
+      "en": "If I had asked people what they wanted, they would have said faster horses.",
+      "ar": "لو سألت الناس عما يريدون، لقالوا خيولًا أسرع.",
+      "es": "Si hubiera preguntado a la gente qué quería, habrían dicho caballos más rápidos.",
+      "fr": "Si j'avais demandé aux gens ce qu'ils voulaient, ils auraient dit des chevaux plus rapides.",
+      "de": "Wenn ich die Menschen gefragt hätte, was sie wollen, hätten sie gesagt: schnellere Pferde.",
+      "ru": "Если бы я спросил людей, чего они хотят, они бы сказали: более быстрых лошадей.",
+      "pt": "Se eu tivesse perguntado às pessoas o que queriam, teriam dito cavalos mais rápidos.",
+      "it": "Se avessi chiesto alle persone cosa volevano, avrebbero detto cavalli più veloci.",
+      "hi": "अगर मैंने लोगों से पूछा होता कि वे क्या चाहते हैं, तो वे कहते: तेज़ घोड़े।"
+    },
+    "tags": [
+      "creativity",
+      "leadership"
+    ],
+    "source": null
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000008",
+    "figure_id": "00000000-0000-0000-0000-000000000027",
+    "texts": {
+      "tr": "Geçmiş deneyim ve gelecek ümit — ikisini birleştiren şey bugünkü çalışmadır.",
+      "en": "Experience is the thing of supreme value.",
+      "ar": "التجربة هي الشيء ذو القيمة العليا.",
+      "es": "La experiencia es lo de mayor valor.",
+      "fr": "L'expérience est la chose de valeur suprême.",
+      "de": "Erfahrung ist das Ding von höchstem Wert.",
+      "ru": "Опыт — это вещь высшей ценности.",
+      "pt": "A experiência é a coisa de valor supremo.",
+      "it": "L'esperienza è la cosa di valore supremo.",
+      "hi": "अनुभव सर्वोच्च मूल्य की वस्तु है।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "success"
+    ],
+    "source": null
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000009",
+    "figure_id": "00000000-0000-0000-0000-000000000027",
+    "texts": {
+      "tr": "Engeller, gözlerini hedeften ayırdığında gördüğün şeylerdir.",
+      "en": "Obstacles are those frightful things you see when you take your eyes off your goal.",
+      "ar": "العقبات هي تلك الأشياء المخيفة التي تراها عندما ترفع عينيك عن هدفك.",
+      "es": "Los obstáculos son esas cosas aterradoras que ves cuando apartas los ojos de tu meta.",
+      "fr": "Les obstacles sont ces choses effrayantes que vous voyez lorsque vous détournez les yeux de votre objectif.",
+      "de": "Hindernisse sind die furchterregenden Dinge, die man sieht, wenn man den Blick vom Ziel abwendet.",
+      "ru": "Препятствия — это те ужасные вещи, которые вы видите, когда отводите взгляд от цели.",
+      "pt": "Obstáculos são aquelas coisas assustadoras que você vê quando tira os olhos do seu objetivo.",
+      "it": "Gli ostacoli sono quelle cose spaventose che vedi quando togli gli occhi dal tuo obiettivo.",
+      "hi": "बाधाएँ वे भयानक चीज़ें हैं जो आप तब देखते हैं जब आपकी नज़र लक्ष्य से हट जाती है।"
+    },
+    "tags": [
+      "motivation",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "28000000-0000-0000-0000-000000000010",
+    "figure_id": "00000000-0000-0000-0000-000000000027",
+    "texts": {
+      "tr": "Bir işi seviyorsan, hayatında bir gün bile çalışmazsın.",
+      "en": "There is joy in work.",
+      "ar": "هناك متعة في العمل.",
+      "es": "Hay alegría en el trabajo.",
+      "fr": "Il y a de la joie dans le travail.",
+      "de": "Es gibt Freude in der Arbeit.",
+      "ru": "В работе есть радость.",
+      "pt": "Há alegria no trabalho.",
+      "it": "C'è gioia nel lavoro.",
+      "hi": "काम में आनंद है।"
+    },
+    "tags": [
+      "motivation",
+      "success"
+    ],
+    "source": null
+  },
+  {
+    "id": "30000000-0000-0000-0000-000000000056",
+    "figure_id": "00000000-0000-0000-0000-000000000029",
+    "texts": {
+      "tr": "Savaş barış değildir; kölelik özgürlük değildir; cahillik güç değildir.",
+      "en": "War is peace. Freedom is slavery. Ignorance is strength.",
+      "ar": "الحرب سلام. الحرية عبودية. الجهل قوة.",
+      "es": "La guerra es la paz. La libertad es la esclavitud. La ignorancia es la fuerza.",
+      "fr": "La guerre, c'est la paix. La liberté, c'est l'esclavage. L'ignorance, c'est la force.",
+      "de": "Krieg ist Frieden. Freiheit ist Sklaverei. Unwissenheit ist Stärke.",
+      "ru": "Война — это мир. Свобода — это рабство. Невежество — это сила.",
+      "pt": "Guerra é paz. Liberdade é escravidão. Ignorância é força.",
+      "it": "La guerra è pace. La libertà è schiavitù. L'ignoranza è forza.",
+      "hi": "युद्ध शांति है। स्वतंत्रता दासता है। अज्ञानता शक्ति है।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": "1984"
+  },
+  {
+    "id": "30000000-0000-0000-0000-000000000057",
+    "figure_id": "00000000-0000-0000-0000-000000000029",
+    "texts": {
+      "tr": "Dili bozan iktidar, iktidarı bozan dildir.",
+      "en": "Political language is designed to make lies sound truthful.",
+      "ar": "اللغة السياسية مُصممة لجعل الأكاذيب تبدو صادقة.",
+      "es": "El lenguaje político está diseñado para hacer que las mentiras suenen verdaderas.",
+      "fr": "Le langage politique est conçu pour que les mensonges sonnent vrais.",
+      "de": "Politische Sprache ist dafür gemacht, Lügen wahrhaftig klingen zu lassen.",
+      "ru": "Политический язык призван делать ложь похожей на правду.",
+      "pt": "A linguagem política é projetada para fazer mentiras parecerem verdadeiras.",
+      "it": "Il linguaggio politico è progettato per far sembrare veritiere le bugie.",
+      "hi": "राजनीतिक भाषा झूठ को सच जैसा बनाने के लिए डिज़ाइन की गई है।"
+    },
+    "tags": [
+      "philosophy",
+      "leadership"
+    ],
+    "source": null
+  },
+  {
+    "id": "30000000-0000-0000-0000-000000000058",
+    "figure_id": "00000000-0000-0000-0000-000000000029",
+    "texts": {
+      "tr": "Tarih kazananlar tarafından yazılır.",
+      "en": "Who controls the past controls the future. Who controls the present controls the past.",
+      "ar": "من يتحكم في الماضي يتحكم في المستقبل. من يتحكم في الحاضر يتحكم في الماضي.",
+      "es": "Quien controla el pasado controla el futuro. Quien controla el presente controla el pasado.",
+      "fr": "Qui contrôle le passé contrôle le futur. Qui contrôle le présent contrôle le passé.",
+      "de": "Wer die Vergangenheit kontrolliert, kontrolliert die Zukunft. Wer die Gegenwart kontrolliert, kontrolliert die Vergangenheit.",
+      "ru": "Кто управляет прошлым, тот управляет будущим. Кто управляет настоящим, тот управляет прошлым.",
+      "pt": "Quem controla o passado controla o futuro. Quem controla o presente controla o passado.",
+      "it": "Chi controlla il passato controlla il futuro. Chi controlla il presente controlla il passato.",
+      "hi": "जो अतीत को नियंत्रित करता है वह भविष्य को नियंत्रित करता है। जो वर्तमान को नियंत्रित करता है वह अतीत को नियंत्रित करता है।"
+    },
+    "tags": [
+      "philosophy",
+      "leadership"
+    ],
+    "source": "1984"
+  },
+  {
+    "id": "30000000-0000-0000-0000-000000000059",
+    "figure_id": "00000000-0000-0000-0000-000000000029",
+    "texts": {
+      "tr": "En etkili yalan, gerçeğin dikkatli bir seçimidir.",
+      "en": "The most effective way to destroy people is to deny and obliterate their own understanding of their history.",
+      "ar": "أكثر الطرق فعالية لتدمير الناس هي إنكار ومحو فهمهم لتاريخهم.",
+      "es": "La forma más efectiva de destruir a la gente es negar y borrar su propia comprensión de su historia.",
+      "fr": "Le moyen le plus efficace de détruire les gens est de nier et d'effacer leur propre compréhension de leur histoire.",
+      "de": "Der wirksamste Weg, Menschen zu zerstören, ist, ihr eigenes Verständnis ihrer Geschichte zu leugnen und auszulöschen.",
+      "ru": "Самый эффективный способ уничтожить народ — отрицать и стирать его понимание собственной истории.",
+      "pt": "A maneira mais eficaz de destruir as pessoas é negar e apagar sua própria compreensão de sua história.",
+      "it": "Il modo più efficace per distruggere le persone è negare e cancellare la loro comprensione della propria storia.",
+      "hi": "लोगों को नष्ट करने का सबसे प्रभावी तरीका उनके इतिहास की समझ को नकारना और मिटाना है।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "30000000-0000-0000-0000-000000000060",
+    "figure_id": "00000000-0000-0000-0000-000000000029",
+    "texts": {
+      "tr": "Gerçekten tehlikeli olan, düşünmenin kendisini yasaklamaktır.",
+      "en": "The truly dangerous thing is not the lie itself, but that thinking can be forbidden.",
+      "ar": "الشيء الخطير حقًا ليس الكذب بحد ذاته، بل أن التفكير يمكن أن يُمنع.",
+      "es": "Lo verdaderamente peligroso no es la mentira en sí, sino que el pensamiento pueda ser prohibido.",
+      "fr": "Ce qui est vraiment dangereux, ce n'est pas le mensonge lui-même, mais que la pensée puisse être interdite.",
+      "de": "Das wirklich Gefährliche ist nicht die Lüge selbst, sondern dass das Denken verboten werden kann.",
+      "ru": "По-настоящему опасно не сама ложь, а то, что мышление может быть запрещено.",
+      "pt": "O verdadeiramente perigoso não é a mentira em si, mas que o pensamento possa ser proibido.",
+      "it": "La cosa veramente pericolosa non è la menzogna in sé, ma che il pensiero possa essere proibito.",
+      "hi": "वास्तव में खतरनाक झूठ नहीं, बल्कि यह है कि सोचने पर प्रतिबंध लगाया जा सकता है।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000001",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Hakkını düşünmeye ayır; az bile olsa düşünmek, hiç düşünmemekten iyidir.",
+      "en": "Reserve your right to think, for even to think wrongly is better than not to think at all.",
+      "ar": "احتفظ بحقك في التفكير، فحتى التفكير الخاطئ أفضل من عدم التفكير على الإطلاق.",
+      "es": "Reserva tu derecho a pensar, pues incluso pensar equivocadamente es mejor que no pensar en absoluto.",
+      "fr": "Réserve-toi le droit de penser, car même penser mal vaut mieux que ne pas penser du tout.",
+      "de": "Bewahre dir das Recht zu denken, denn selbst falsch zu denken ist besser als gar nicht zu denken.",
+      "ru": "Сохраняй за собой право думать, ведь даже думать неправильно лучше, чем не думать вовсе.",
+      "pt": "Reserve seu direito de pensar, pois mesmo pensar errado é melhor do que não pensar.",
+      "it": "Riservati il diritto di pensare, perché anche pensare in modo sbagliato è meglio che non pensare affatto.",
+      "hi": "सोचने का अपना अधिकार सुरक्षित रखो, क्योंकि गलत सोचना भी न सोचने से बेहतर है।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000002",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Hurafeler gerçekmiş gibi öğretildikçe, gerçekler hurafe gibi görülecektir.",
+      "en": "Fables should be taught as fables, myths as myths, and miracles as poetic fancies.",
+      "ar": "يجب تعليم الخرافات على أنها خرافات، والأساطير على أنها أساطير.",
+      "es": "Las fábulas deben enseñarse como fábulas, los mitos como mitos y los milagros como fantasías poéticas.",
+      "fr": "Les fables doivent être enseignées comme des fables, les mythes comme des mythes.",
+      "de": "Fabeln sollten als Fabeln gelehrt werden, Mythen als Mythen und Wunder als poetische Fantasien.",
+      "ru": "Басни следует преподавать как басни, мифы как мифы, а чудеса как поэтические фантазии.",
+      "pt": "Fábulas devem ser ensinadas como fábulas, mitos como mitos e milagres como fantasias poéticas.",
+      "it": "Le favole vanno insegnate come favole, i miti come miti e i miracoli come fantasie poetiche.",
+      "hi": "कथाओं को कथा के रूप में पढ़ाया जाना चाहिए, मिथकों को मिथक के रूप में।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000003",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Yıldızları anlamak bizi küçültmez, aksine yüceltir.",
+      "en": "To understand the stars is not to diminish ourselves, but to elevate us.",
+      "ar": "فهم النجوم لا يقلل من شأننا، بل يرفعنا.",
+      "es": "Comprender las estrellas no nos disminuye, sino que nos eleva.",
+      "fr": "Comprendre les étoiles ne nous diminue pas, mais nous élève.",
+      "de": "Die Sterne zu verstehen macht uns nicht kleiner, sondern erhebt uns.",
+      "ru": "Понимание звёзд не умаляет нас, а возвышает.",
+      "pt": "Compreender as estrelas não nos diminui, mas nos eleva.",
+      "it": "Comprendere le stelle non ci sminuisce, ma ci eleva.",
+      "hi": "तारों को समझना हमें छोटा नहीं करता, बल्कि ऊँचा उठाता है।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000004",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Bilgiyi kendin için değil, bilginin kendisi için ara.",
+      "en": "Seek knowledge not for yourself, but for the sake of knowledge itself.",
+      "ar": "ابحث عن المعرفة لا من أجلك، بل من أجل المعرفة ذاتها.",
+      "es": "Busca el conocimiento no para ti, sino por el conocimiento mismo.",
+      "fr": "Cherche le savoir non pour toi-même, mais pour le savoir lui-même.",
+      "de": "Suche Wissen nicht für dich selbst, sondern um des Wissens willen.",
+      "ru": "Ищи знания не ради себя, а ради самого знания.",
+      "pt": "Busque o conhecimento não para si, mas pelo próprio conhecimento.",
+      "it": "Cerca la conoscenza non per te stesso, ma per la conoscenza stessa.",
+      "hi": "ज्ञान की खोज अपने लिए नहीं, बल्कि ज्ञान के लिए करो।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000005",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Masalları gerçek diye savunma hakkını saklı tutuyorum ama gerçekleri asla masal diye küçümsemem.",
+      "en": "I may defend fables as truths, but I will never belittle truths as fables.",
+      "ar": "قد أدافع عن الخرافات كحقائق، لكنني لن أستهين بالحقائق أبدًا.",
+      "es": "Puedo defender fábulas como verdades, pero nunca despreciaré las verdades como fábulas.",
+      "fr": "Je peux défendre des fables comme des vérités, mais jamais je ne dénigrerai les vérités.",
+      "de": "Ich mag Fabeln als Wahrheiten verteidigen, aber ich werde Wahrheiten niemals als Fabeln abwerten.",
+      "ru": "Я могу защищать басни как истины, но никогда не принижу истины.",
+      "pt": "Posso defender fábulas como verdades, mas nunca menosprezarei as verdades como fábulas.",
+      "it": "Posso difendere le favole come verità, ma non sminuirò mai le verità come favole.",
+      "hi": "मैं कथाओं को सच मान सकती हूँ, लेकिन सच को कभी कथा नहीं कहूँगी।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Bir şeyi bildiğini düşünme anı, cahilliğin başladığı andır.",
+      "en": "The moment you think you know, is the moment your ignorance begins.",
+      "ar": "اللحظة التي تظن فيها أنك تعرف، هي لحظة بداية جهلك.",
+      "es": "El momento en que crees que sabes, es el momento en que comienza tu ignorancia.",
+      "fr": "Le moment où tu penses savoir est le moment où ton ignorance commence.",
+      "de": "Der Moment, in dem du glaubst zu wissen, ist der Moment, in dem deine Unwissenheit beginnt.",
+      "ru": "Момент, когда ты думаешь, что знаешь — это начало твоего невежества.",
+      "pt": "O momento em que você pensa que sabe é o momento em que sua ignorância começa.",
+      "it": "Il momento in cui pensi di sapere è il momento in cui inizia la tua ignoranza.",
+      "hi": "जिस क्षण तुम समझते हो कि तुम जानते हो, उसी क्षण तुम्हारी अज्ञानता शुरू होती है।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "32000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000031",
+    "texts": {
+      "tr": "Düşüncenin önündeki en büyük engel, otorite değil alışkanlıktır.",
+      "en": "The greatest obstacle to thought is not authority, but habit.",
+      "ar": "أكبر عائق أمام التفكير ليس السلطة، بل العادة.",
+      "es": "El mayor obstáculo para el pensamiento no es la autoridad, sino la costumbre.",
+      "fr": "Le plus grand obstacle à la pensée n'est pas l'autorité, mais l'habitude.",
+      "de": "Das größte Hindernis für das Denken ist nicht Autorität, sondern Gewohnheit.",
+      "ru": "Величайшее препятствие мысли — не власть, а привычка.",
+      "pt": "O maior obstáculo ao pensamento não é a autoridade, mas o hábito.",
+      "it": "Il più grande ostacolo al pensiero non è l'autorità, ma l'abitudine.",
+      "hi": "विचार के सबसे बड़े रोड़े अधिकार नहीं, आदत है।"
+    },
+    "tags": [
+      "philosophy",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000001",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "Hayatta korkulacak bir şey yok, sadece anlaşılması gereken şeyler var.",
+      "en": "Nothing in life is to be feared, it is only to be understood.",
+      "ar": "لا شيء في الحياة يستحق الخوف، بل يستحق الفهم فقط.",
+      "es": "Nada en la vida debe ser temido, solo debe ser comprendido.",
+      "fr": "Dans la vie, rien n'est à craindre, tout est à comprendre.",
+      "de": "Im Leben gibt es nichts zu fürchten, nur zu verstehen.",
+      "ru": "В жизни нечего бояться, нужно только понять.",
+      "pt": "Nada na vida deve ser temido, apenas compreendido.",
+      "it": "Nulla nella vita va temuto, solo compreso.",
+      "hi": "जीवन में किसी चीज़ से डरना नहीं चाहिए, केवल समझना चाहिए।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000002",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "İnsan fark edilmeye değil, yapılması gereken şeylere odaklanmalıdır.",
+      "en": "Be less curious about people and more curious about ideas.",
+      "ar": "كن أقل فضولًا حول الناس وأكثر فضولًا حول الأفكار.",
+      "es": "Sé menos curioso sobre las personas y más curioso sobre las ideas.",
+      "fr": "Sois moins curieux des gens et plus curieux des idées.",
+      "de": "Sei weniger neugierig auf Menschen und mehr neugierig auf Ideen.",
+      "ru": "Будь менее любопытным к людям и более любопытным к идеям.",
+      "pt": "Seja menos curioso sobre as pessoas e mais curioso sobre as ideias.",
+      "it": "Sii meno curioso delle persone e più curioso delle idee.",
+      "hi": "लोगों के बारे में कम और विचारों के बारे में अधिक जिज्ञासु बनो।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000003",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "Büyük keşifler bir dahi tarafından değil, kararlı bir çalışma ile yapılır.",
+      "en": "I was taught that the way of progress is neither swift nor easy.",
+      "ar": "تعلمت أن طريق التقدم ليس سريعًا ولا سهلًا.",
+      "es": "Me enseñaron que el camino del progreso no es rápido ni fácil.",
+      "fr": "On m'a appris que le chemin du progrès n'est ni rapide ni facile.",
+      "de": "Ich lernte, dass der Weg des Fortschritts weder schnell noch leicht ist.",
+      "ru": "Меня научили, что путь прогресса не быстр и не лёгок.",
+      "pt": "Aprendi que o caminho do progresso não é rápido nem fácil.",
+      "it": "Ho imparato che la via del progresso non è né rapida né facile.",
+      "hi": "मुझे सिखाया गया कि प्रगति का मार्ग न तेज़ है न आसान।"
+    },
+    "tags": [
+      "courage",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000004",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "Bilim insanı, şeylerin görünüşüyle değil, gerçekliğiyle ilgilenir.",
+      "en": "A scientist in his laboratory is not a mere technician: he is also a child confronting natural phenomena that impress him as though they were fairy tales.",
+      "ar": "العالم في مختبره ليس مجرد تقني، بل طفل يواجه عجائب الطبيعة.",
+      "es": "Un científico en su laboratorio no es solo un técnico: es también un niño ante los fenómenos naturales.",
+      "fr": "Un scientifique dans son laboratoire n'est pas un simple technicien : c'est aussi un enfant face aux phénomènes naturels.",
+      "de": "Ein Wissenschaftler im Labor ist nicht nur ein Techniker: er ist auch ein Kind, das den Naturphänomenen gegenübersteht.",
+      "ru": "Учёный в лаборатории — не просто техник, а ребёнок, стоящий перед чудесами природы.",
+      "pt": "Um cientista no laboratório não é apenas um técnico: é uma criança diante dos fenômenos naturais.",
+      "it": "Uno scienziato nel suo laboratorio non è solo un tecnico: è anche un bambino di fronte ai fenomeni naturali.",
+      "hi": "प्रयोगशाला में वैज्ञानिक केवल तकनीशियन नहीं: वह प्रकृति के चमत्कारों के सामने एक बच्चा भी है।"
+    },
+    "tags": [
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000005",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "Bilim barış ve güzelliğin temelidir.",
+      "en": "You cannot hope to build a better world without improving the individuals.",
+      "ar": "لا يمكنك بناء عالم أفضل دون تحسين الأفراد.",
+      "es": "No puedes construir un mundo mejor sin mejorar a los individuos.",
+      "fr": "On ne peut espérer bâtir un monde meilleur sans améliorer les individus.",
+      "de": "Man kann keine bessere Welt aufbauen, ohne die Menschen zu verbessern.",
+      "ru": "Нельзя построить лучший мир, не улучшая людей.",
+      "pt": "Não se pode construir um mundo melhor sem melhorar os indivíduos.",
+      "it": "Non si può sperare di costruire un mondo migliore senza migliorare gli individui.",
+      "hi": "व्यक्तियों को सुधारे बिना आप एक बेहतर दुनिया नहीं बना सकते।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "İlerleme merakla başlar, azimle devam eder.",
+      "en": "First principle: never to let oneself be beaten down by persons or by events.",
+      "ar": "المبدأ الأول: لا تدع الأشخاص أو الأحداث تهزمك.",
+      "es": "Primer principio: nunca dejarse abatir por las personas o los acontecimientos.",
+      "fr": "Premier principe : ne jamais se laisser abattre par les personnes ni par les événements.",
+      "de": "Erstes Prinzip: Sich niemals von Menschen oder Ereignissen unterkriegen lassen.",
+      "ru": "Первый принцип: никогда не позволять людям или событиям сломить тебя.",
+      "pt": "Primeiro princípio: nunca se deixar abater por pessoas ou acontecimentos.",
+      "it": "Primo principio: non lasciarsi mai abbattere dalle persone o dagli eventi.",
+      "hi": "पहला सिद्धांत: कभी भी लोगों या घटनाओं से हार न मानो।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "33000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000032",
+    "texts": {
+      "tr": "Hiçbir şeyden korkmayın. Hiçbir şeyi anlamadığınızdan başka.",
+      "en": "Now is the time to understand more, so that we may fear less.",
+      "ar": "الآن هو الوقت لنفهم أكثر، حتى نخاف أقل.",
+      "es": "Ahora es el momento de comprender más, para que podamos temer menos.",
+      "fr": "C'est maintenant le moment de comprendre davantage, afin de craindre moins.",
+      "de": "Jetzt ist die Zeit, mehr zu verstehen, damit wir weniger fürchten.",
+      "ru": "Сейчас время понимать больше, чтобы бояться меньше.",
+      "pt": "Agora é hora de compreender mais, para que possamos temer menos.",
+      "it": "Ora è il momento di capire di più, affinché possiamo temere di meno.",
+      "hi": "अब समय है और अधिक समझने का, ताकि हम कम डरें।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000001",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Bir kraliçe olarak taç giymektense, kendi ellerimle ölmeyi tercih ederim köle olarak yaşamaktansa.",
+      "en": "I will not be triumphed over. I would rather die a queen than live a slave.",
+      "ar": "لن يُنتصر عليّ. أفضّل الموت ملكة على العيش أمة.",
+      "es": "No seré conquistada. Prefiero morir como reina que vivir como esclava.",
+      "fr": "On ne triomphera pas de moi. Je préfère mourir reine que vivre esclave.",
+      "de": "Man wird nicht über mich triumphieren. Lieber sterbe ich als Königin, als als Sklavin zu leben.",
+      "ru": "Надо мной не будут торжествовать. Лучше умереть царицей, чем жить рабыней.",
+      "pt": "Não triunfarão sobre mim. Prefiro morrer rainha a viver escrava.",
+      "it": "Non trionferanno su di me. Preferisco morire regina che vivere schiava.",
+      "hi": "मुझ पर कोई विजय नहीं पाएगा। मैं दासी बनकर जीने से रानी बनकर मरना पसंद करूँगी।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000002",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Güç tahtta değil, onu kullanan akıldadır.",
+      "en": "Power lies not in the throne, but in the mind that commands it.",
+      "ar": "القوة ليست في العرش، بل في العقل الذي يديره.",
+      "es": "El poder no reside en el trono, sino en la mente que lo gobierna.",
+      "fr": "Le pouvoir ne réside pas dans le trône, mais dans l'esprit qui le commande.",
+      "de": "Macht liegt nicht im Thron, sondern im Geist, der ihn regiert.",
+      "ru": "Сила не в троне, а в разуме, который им повелевает.",
+      "pt": "O poder não está no trono, mas na mente que o comanda.",
+      "it": "Il potere non risiede nel trono, ma nella mente che lo governa.",
+      "hi": "शक्ति सिंहासन में नहीं, बल्कि उस बुद्धि में है जो उसे चलाती है।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000003",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Bütün savaşlar kılıçla kazanılmaz; bazıları bir bakışla, bazıları bir kelimeyle kazanılır.",
+      "en": "Not all battles are won with swords; some are won with a glance, others with a word.",
+      "ar": "ليست كل المعارك تُكسب بالسيف؛ بعضها بنظرة، وبعضها بكلمة.",
+      "es": "No todas las batallas se ganan con espadas; algunas se ganan con una mirada, otras con una palabra.",
+      "fr": "Toutes les batailles ne se gagnent pas par l'épée ; certaines se gagnent par un regard, d'autres par un mot.",
+      "de": "Nicht alle Schlachten werden mit dem Schwert gewonnen; manche mit einem Blick, andere mit einem Wort.",
+      "ru": "Не все битвы выигрываются мечом; некоторые — взглядом, другие — словом.",
+      "pt": "Nem todas as batalhas são vencidas com espadas; algumas com um olhar, outras com uma palavra.",
+      "it": "Non tutte le battaglie si vincono con la spada; alcune con uno sguardo, altre con una parola.",
+      "hi": "सभी लड़ाइयाँ तलवार से नहीं जीती जातीं; कुछ एक नज़र से, कुछ एक शब्द से।"
+    },
+    "tags": [
+      "lifeWisdom",
+      "courage"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000004",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Düşmanlarını tanı, ama asıl kendini tanımayı ihmal etme.",
+      "en": "Know your enemies, but above all, never neglect to know yourself.",
+      "ar": "اعرف أعداءك، لكن لا تهمل معرفة نفسك.",
+      "es": "Conoce a tus enemigos, pero sobre todo, nunca descuides conocerte a ti mismo.",
+      "fr": "Connais tes ennemis, mais surtout, ne néglige jamais de te connaître toi-même.",
+      "de": "Kenne deine Feinde, aber vor allem vernachlässige es nie, dich selbst zu kennen.",
+      "ru": "Знай своих врагов, но прежде всего никогда не забывай познать себя.",
+      "pt": "Conheça seus inimigos, mas acima de tudo, nunca negligencie conhecer a si mesmo.",
+      "it": "Conosci i tuoi nemici, ma soprattutto non trascurare mai di conoscere te stesso.",
+      "hi": "अपने दुश्मनों को जानो, लेकिन सबसे पहले खुद को जानना न भूलो।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000005",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Dilleri öğrendim çünkü bir tercümana güvenen, tahtını başkasına teslim eder.",
+      "en": "I learned languages because a ruler who relies on a translator surrenders her throne to another.",
+      "ar": "تعلمت اللغات لأن الحاكم الذي يعتمد على مترجم يسلم عرشه لغيره.",
+      "es": "Aprendí idiomas porque un gobernante que depende de un traductor entrega su trono a otro.",
+      "fr": "J'ai appris les langues car un souverain qui dépend d'un traducteur cède son trône à un autre.",
+      "de": "Ich lernte Sprachen, denn ein Herrscher, der sich auf einen Übersetzer verlässt, gibt seinen Thron ab.",
+      "ru": "Я учила языки, потому что правитель, полагающийся на переводчика, отдаёт трон другому.",
+      "pt": "Aprendi línguas porque um governante que depende de um tradutor entrega seu trono a outro.",
+      "it": "Ho imparato le lingue perché un sovrano che si affida a un traduttore cede il proprio trono a un altro.",
+      "hi": "मैंने भाषाएँ सीखीं क्योंकि जो शासक अनुवादक पर निर्भर करता है, वह अपना सिंहासन दूसरे को सौंप देता है।"
+    },
+    "tags": [
+      "philosophy",
+      "lifeWisdom"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000006",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Bir kadının zekası, tahtından daha güçlü bir silahtır.",
+      "en": "A woman's intellect is a weapon mightier than any throne.",
+      "ar": "ذكاء المرأة سلاح أقوى من أي عرش.",
+      "es": "El intelecto de una mujer es un arma más poderosa que cualquier trono.",
+      "fr": "L'intelligence d'une femme est une arme plus puissante que tout trône.",
+      "de": "Der Intellekt einer Frau ist eine mächtigere Waffe als jeder Thron.",
+      "ru": "Интеллект женщины — оружие сильнее любого трона.",
+      "pt": "O intelecto de uma mulher é uma arma mais poderosa que qualquer trono.",
+      "it": "L'intelletto di una donna è un'arma più potente di qualsiasi trono.",
+      "hi": "एक स्त्री की बुद्धि किसी भी सिंहासन से अधिक शक्तिशाली हथियार है।"
+    },
+    "tags": [
+      "courage",
+      "philosophy"
+    ],
+    "source": null
+  },
+  {
+    "id": "34000000-0000-0000-0000-000000000007",
+    "figure_id": "00000000-0000-0000-0000-000000000033",
+    "texts": {
+      "tr": "Kader cesurların yanındadır, korkaklar ise kaderin oyuncağıdır.",
+      "en": "Fate favors the bold; cowards are but playthings of destiny.",
+      "ar": "القدر يحالف الشجعان؛ أما الجبناء فلعبة القدر.",
+      "es": "El destino favorece a los valientes; los cobardes son juguetes del destino.",
+      "fr": "Le destin favorise les audacieux ; les lâches ne sont que les jouets du sort.",
+      "de": "Das Schicksal begünstigt die Kühnen; Feiglinge sind nur Spielzeuge des Schicksals.",
+      "ru": "Судьба благоволит смелых; трусы — лишь игрушки судьбы.",
+      "pt": "O destino favorece os corajosos; os covardes são brinquedos do destino.",
+      "it": "Il destino favorisce gli audaci; i codardi sono solo giocattoli del fato.",
+      "hi": "भाग्य साहसी का साथ देता है; कायर तो भाग्य के खिलौने हैं।"
+    },
+    "tags": [
+      "courage"
+    ],
+    "source": null
   }
 ]
