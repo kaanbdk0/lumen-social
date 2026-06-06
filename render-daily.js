@@ -3,11 +3,17 @@ import { readFileSync, writeFileSync, unlinkSync, mkdirSync, existsSync, copyFil
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import https from "https";
+import { validateData } from "./scripts/validate-data.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // ── Paths ──
 const FFMPEG = process.env.FFMPEG_PATH || "/opt/homebrew/bin/ffmpeg";
+
+// Last-resort bust used if a figure's image is somehow missing at render time.
+// The preflight check below should catch this first; this only keeps the day's
+// render alive instead of letting one bad asset abort every language.
+const FALLBACK_BUST = "bust_ancient_wisdom.png";
 
 // ── Config ──
 const LANGUAGES = ["tr", "en", "ar", "es", "fr", "de", "ru", "pt", "it", "hi"];
@@ -157,6 +163,15 @@ async function main() {
   const langsArg = process.argv[3];
   const targetLangs = langsArg ? langsArg.split(",") : LANGUAGES;
 
+  // ── Preflight: uphold the constitution before doing any work ──
+  const { errors, warnings } = validateData();
+  if (warnings.length) console.log(`⚠ ${warnings.length} data warning(s) (non-fatal).`);
+  if (errors.length) {
+    console.error(`\n❌ Aborting render — data validation failed (${errors.length} error(s)):`);
+    for (const e of errors) console.error(`   - ${e}`);
+    process.exit(1);
+  }
+
   const day = dayNumber(dateStr);
   const { quote, figure } = getDailyQuote(dateStr);
 
@@ -171,11 +186,21 @@ async function main() {
   const outDir = join(__dirname, "out", dateStr);
   if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
 
+  // Resolve bust image with a fallback so a single missing asset never
+  // aborts the render (preflight already guarantees it exists, but defense
+  // in depth keeps production alive on unexpected data).
+  let bustImage = figure.bustImage.endsWith(".png") ? figure.bustImage : figure.bustImage + ".png";
+  if (!existsSync(join(__dirname, "public", bustImage))) {
+    console.log(`⚠ Bust image ${bustImage} missing — falling back to ${FALLBACK_BUST}`);
+    bustImage = FALLBACK_BUST;
+  }
+
   // Generate SFX once
   console.log("🔊 Generating sound effects...");
   const sfx = generateSFX(outDir);
   console.log("✅ SFX ready\n");
 
+  let rendered = 0;
   for (const lang of targetLangs) {
     const locale = locales[lang];
     if (!locale) { console.log(`⚠ Skipping ${lang}: no locale`); continue; }
@@ -188,7 +213,7 @@ async function main() {
 
     const props = {
       figureName, quoteText,
-      bustImage: figure.bustImage.endsWith(".png") ? figure.bustImage : figure.bustImage + ".png",
+      bustImage,
       lifeSpan: life, dayNumber: day,
       dayLabel: locale.dayLabel, slogan: locale.slogan,
       ctaText: locale.ctaText, teaserText: locale.teaserText,
@@ -222,6 +247,7 @@ async function main() {
       unlinkSync(silentVideo);
       unlinkSync(voiceFile);
 
+      rendered++;
       console.log(`✅ [${lang}] → ${finalFile}\n`);
     } catch (err) {
       console.error(`❌ [${lang}] failed: ${err.message}\n`);
@@ -233,7 +259,14 @@ async function main() {
     if (existsSync(f)) unlinkSync(f);
   });
 
-  console.log(`✦ Done! Final videos in: ${outDir}\n`);
+  // Honest exit: if we produced nothing, the run FAILED — don't let the
+  // pipeline march on to create empty releases and "succeed" on emptiness.
+  if (rendered === 0) {
+    console.error(`\n❌ No videos were rendered for ${dateStr}. Failing the job.`);
+    process.exit(1);
+  }
+
+  console.log(`✦ Done! ${rendered}/${targetLangs.length} videos in: ${outDir}\n`);
 }
 
 main();

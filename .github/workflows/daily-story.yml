@@ -37,6 +37,11 @@ jobs:
       - name: Install Chromium for Remotion
         run: npx remotion browser ensure
 
+      # Constitution gate: refuse to start if data is broken (missing bust
+      # image, orphan quote, etc.) so we never silently render 0 videos.
+      - name: Validate data (constitution)
+        run: node scripts/validate-data.js
+
       - name: Set date
         id: date
         run: echo "DATE=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
@@ -48,6 +53,18 @@ jobs:
           ELEVENLABS_FEMALE_VOICE_ID: ${{ secrets.ELEVENLABS_FEMALE_VOICE_ID }}
           FFMPEG_PATH: /usr/bin/ffmpeg
         run: node render-daily.js
+
+      # Hard gate: at least one video must exist before we touch any platform.
+      - name: Verify rendered videos exist
+        run: |
+          DATE="${{ steps.date.outputs.DATE }}"
+          shopt -s nullglob
+          files=(out/${DATE}/*.mp4)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::error::No videos rendered for ${DATE} — aborting before posting."
+            exit 1
+          fi
+          echo "✅ ${#files[@]} video(s) rendered for ${DATE}."
 
       - name: Upload videos as artifacts
         uses: actions/upload-artifact@v4
@@ -70,13 +87,20 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
+          shopt -s nullglob
           DATE="${{ steps.date.outputs.DATE }}"
+          files=(out/${DATE}/*.mp4)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::error::No videos to host for ${DATE}."
+            exit 1
+          fi
           gh release create "daily-${DATE}" \
             --title "Daily ${DATE}" \
             --notes "Auto-generated for daily posting. Will be cleaned up." \
             || true
-          for f in out/${DATE}/*.mp4; do
-            [ -f "$f" ] && gh release upload "daily-${DATE}" "$f" --clobber
+          for f in "${files[@]}"; do
+            gh release upload "daily-${DATE}" "$f" --clobber
           done
 
       - name: Post to Instagram Stories
