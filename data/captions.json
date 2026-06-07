@@ -1,0 +1,498 @@
+{
+  "_note": "Per-figure post captions in all 10 languages. Posting script composes: <bio[lang]>\\n\\n“<quote[lang]>” — <figureName[lang]>\\n\\n<hashtags>. YouTube/TikTok use 'en'; each Instagram account uses its own language.",
+  "mevlana": {
+    "hashtags": ["#mevlana", "#rumi", "#tasavvuf", "#aşk", "#bilgelik", "#wisdom", "#sufi", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Mevlânâ Celâleddîn-i Rûmî (1207–1273), Doğu'nun en derin sesi; aşkı, hoşgörüyü ve insanın içindeki sonsuzluğu anlatan Sufi şair. Sözleri yüzyıllar sonra bile kalbe dokunur.",
+      "en": "Jalāl ad-Dīn Rūmī (1207–1273), the East's deepest voice — a Sufi poet of love, tolerance and the infinity within. His words still touch the heart centuries later.",
+      "ar": "جلال الدين الرومي (1207–1273)، أعمق أصوات الشرق؛ شاعر صوفي تغنّى بالحب والتسامح واللانهاية التي في داخل الإنسان. كلماته تلامس القلب حتى بعد قرون.",
+      "es": "Yalal ad-Din Rumi (1207–1273), la voz más profunda de Oriente: un poeta sufí del amor, la tolerancia y la infinitud interior. Sus palabras aún tocan el corazón siglos después.",
+      "fr": "Djalâl ad-Dîn Rûmî (1207–1273), la voix la plus profonde de l'Orient — un poète soufi de l'amour, de la tolérance et de l'infini intérieur. Ses mots touchent encore le cœur des siècles plus tard.",
+      "de": "Dschalal ad-Din Rumi (1207–1273), die tiefste Stimme des Ostens – ein Sufi-Dichter der Liebe, der Toleranz und der inneren Unendlichkeit. Seine Worte berühren noch nach Jahrhunderten das Herz.",
+      "ru": "Джалаладдин Руми (1207–1273) — самый глубокий голос Востока, суфийский поэт любви, терпимости и бесконечности внутри человека. Его слова трогают сердце и спустя века.",
+      "pt": "Jalal ad-Din Rumi (1207–1273), a voz mais profunda do Oriente — um poeta sufi do amor, da tolerância e do infinito interior. Suas palavras ainda tocam o coração séculos depois.",
+      "it": "Jalāl al-Dīn Rūmī (1207–1273), la voce più profonda dell'Oriente: un poeta sufi dell'amore, della tolleranza e dell'infinito interiore. Le sue parole toccano il cuore ancora dopo secoli.",
+      "hi": "जलालुद्दीन रूमी (1207–1273), पूर्व की सबसे गहरी आवाज़ — प्रेम, सहिष्णुता और भीतर के अनंत के सूफ़ी कवि। उनके शब्द सदियों बाद भी हृदय को छू जाते हैं।"
+    }
+  },
+  "marcus_aurelius": {
+    "hashtags": ["#marcusaurelius", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#lumen", "#motivation"],
+    "bio": {
+      "tr": "Marcus Aurelius (MS 121–180), Roma'nın \"filozof imparator\"u ve Stoacılığın en dingin sesi. Gücün zirvesindeyken bile sadeliği, öz disiplini ve aklın huzurunu seçti.",
+      "en": "Marcus Aurelius (121–180 AD), Rome's \"philosopher emperor\" and the calmest voice of Stoicism. Even at the height of power he chose simplicity, self-discipline and a quiet mind.",
+      "ar": "ماركوس أوريليوس (121–180م)، \"الإمبراطور الفيلسوف\" في روما وأهدأ أصوات الرواقية. حتى في أوج سلطته اختار البساطة وضبط النفس وسكينة العقل.",
+      "es": "Marco Aurelio (121–180 d.C.), el \"emperador filósofo\" de Roma y la voz más serena del estoicismo. Aun en la cumbre del poder eligió la sencillez, la autodisciplina y la calma de la mente.",
+      "fr": "Marc Aurèle (121–180 apr. J.-C.), l'« empereur philosophe » de Rome et la voix la plus sereine du stoïcisme. Au sommet du pouvoir, il choisit la simplicité, la discipline et la paix de l'esprit.",
+      "de": "Mark Aurel (121–180 n. Chr.), Roms „Philosophenkaiser\" und die ruhigste Stimme der Stoa. Selbst auf dem Gipfel der Macht wählte er Einfachheit, Selbstdisziplin und innere Ruhe.",
+      "ru": "Марк Аврелий (121–180 н.э.) — «император-философ» Рима и самый спокойный голос стоицизма. Даже на вершине власти он выбирал простоту, самодисциплину и покой ума.",
+      "pt": "Marco Aurélio (121–180 d.C.), o \"imperador filósofo\" de Roma e a voz mais serena do estoicismo. Mesmo no auge do poder, escolheu a simplicidade, a autodisciplina e a calma da mente.",
+      "it": "Marco Aurelio (121–180 d.C.), l'\"imperatore filosofo\" di Roma e la voce più serena dello stoicismo. Anche all'apice del potere scelse la semplicità, l'autodisciplina e la quiete della mente.",
+      "hi": "मार्कस ऑरेलियस (121–180 ई.), रोम के \"दार्शनिक सम्राट\" और स्टोइकवाद की सबसे शांत आवाज़। सत्ता के शिखर पर भी उन्होंने सादगी, आत्म-अनुशासन और मन की शांति को चुना।"
+    }
+  },
+  "confucius": {
+    "hashtags": ["#konfüçyüs", "#confucius", "#bilgelik", "#wisdom", "#felsefe", "#philosophy", "#doğu", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Konfüçyüs (MÖ 551–479), Çin düşüncesinin temel taşı. Erdemi, saygıyı ve öğrenmeyi bir yaşam biçimine dönüştüren öğretisi binlerce yıldır yol gösteriyor.",
+      "en": "Confucius (551–479 BC), the cornerstone of Chinese thought. His teaching turned virtue, respect and learning into a way of life that has guided people for millennia.",
+      "ar": "كونفوشيوس (551–479 ق.م)، حجر الأساس في الفكر الصيني. حوّل تعليمُه الفضيلةَ والاحترامَ والتعلّمَ إلى أسلوب حياة ظلّ يهدي الناس آلاف السنين.",
+      "es": "Confucio (551–479 a.C.), la piedra angular del pensamiento chino. Su enseñanza convirtió la virtud, el respeto y el aprendizaje en un modo de vida que ha guiado a la humanidad durante milenios.",
+      "fr": "Confucius (551–479 av. J.-C.), la pierre angulaire de la pensée chinoise. Son enseignement a fait de la vertu, du respect et du savoir un art de vivre qui guide les hommes depuis des millénaires.",
+      "de": "Konfuzius (551–479 v. Chr.), der Grundstein des chinesischen Denkens. Seine Lehre machte Tugend, Respekt und Lernen zu einer Lebensweise, die seit Jahrtausenden leitet.",
+      "ru": "Конфуций (551–479 до н.э.) — краеугольный камень китайской мысли. Его учение превратило добродетель, уважение и стремление к знанию в образ жизни, ведущий людей тысячелетиями.",
+      "pt": "Confúcio (551–479 a.C.), a pedra angular do pensamento chinês. Seu ensinamento transformou a virtude, o respeito e o aprendizado num modo de vida que guia a humanidade há milênios.",
+      "it": "Confucio (551–479 a.C.), la pietra angolare del pensiero cinese. Il suo insegnamento ha trasformato virtù, rispetto e sapere in uno stile di vita che guida l'uomo da millenni.",
+      "hi": "कन्फ्यूशियस (551–479 ई.पू.), चीनी विचार की आधारशिला। उनकी शिक्षा ने सद्गुण, सम्मान और सीखने को जीवन का ढंग बना दिया, जो सहस्राब्दियों से मार्गदर्शन करता आ रहा है।"
+    }
+  },
+  "yunus_emre": {
+    "hashtags": ["#yunusemre", "#tasavvuf", "#aşk", "#bilgelik", "#sufi", "#anadolu", "#wisdom", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Yunus Emre (1238–1320), Anadolu'nun gönül diliyle konuşan halk ozanı ve Sufi bilgesi. Sevgiyi, hoşgörüyü ve insanı merkeze alan dizeleri yüzyıllardır dilden dile dolaşıyor.",
+      "en": "Yunus Emre (1238–1320), Anatolia's beloved folk poet and Sufi sage. His verses of love, tolerance and humanity have passed from heart to heart for centuries.",
+      "ar": "يونس إمره (1238–1320)، شاعر الأناضول الشعبي وحكيمها الصوفي. أبياته في الحب والتسامح والإنسانية تنتقل من قلب إلى قلب منذ قرون.",
+      "es": "Yunus Emre (1238–1320), el querido poeta popular de Anatolia y sabio sufí. Sus versos de amor, tolerancia y humanidad pasan de corazón en corazón desde hace siglos.",
+      "fr": "Yunus Emre (1238–1320), le poète populaire bien-aimé d'Anatolie et sage soufi. Ses vers d'amour, de tolérance et d'humanité passent de cœur en cœur depuis des siècles.",
+      "de": "Yunus Emre (1238–1320), Anatoliens geliebter Volksdichter und Sufi-Weiser. Seine Verse über Liebe, Toleranz und Menschlichkeit gehen seit Jahrhunderten von Herz zu Herz.",
+      "ru": "Юнус Эмре (1238–1320) — любимый народный поэт Анатолии и суфийский мудрец. Его стихи о любви, терпимости и человечности уже века передаются из сердца в сердце.",
+      "pt": "Yunus Emre (1238–1320), o querido poeta popular da Anatólia e sábio sufi. Seus versos de amor, tolerância e humanidade passam de coração em coração há séculos.",
+      "it": "Yunus Emre (1238–1320), l'amato poeta popolare dell'Anatolia e saggio sufi. I suoi versi d'amore, tolleranza e umanità passano di cuore in cuore da secoli.",
+      "hi": "यूनुस एमरे (1238–1320), अनातोलिया के प्रिय लोक-कवि और सूफ़ी संत। प्रेम, सहिष्णुता और मानवता के उनके छंद सदियों से हृदय-से-हृदय तक पहुँचते रहे हैं।"
+    }
+  },
+  "seneca": {
+    "hashtags": ["#seneca", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#lumen", "#motivation"],
+    "bio": {
+      "tr": "Seneca (MÖ 4 – MS 65), Roma'nın Stoacı filozofu ve devlet adamı. Zamanın değeri, öfkenin dizginlenmesi ve sade bir hayat üzerine yazdıkları bugün hâlâ pusula gibi.",
+      "en": "Seneca (4 BC – 65 AD), Rome's Stoic philosopher and statesman. His words on the value of time, mastering anger and living simply still serve as a compass today.",
+      "ar": "سينيكا (4 ق.م – 65م)، فيلسوف روما الرواقي ورجل دولتها. كلماته عن قيمة الوقت وكبح الغضب والعيش ببساطة لا تزال بوصلةً حتى اليوم.",
+      "es": "Séneca (4 a.C. – 65 d.C.), filósofo estoico y estadista de Roma. Sus palabras sobre el valor del tiempo, el dominio de la ira y la vida sencilla siguen siendo hoy una brújula.",
+      "fr": "Sénèque (4 av. – 65 apr. J.-C.), philosophe stoïcien et homme d'État de Rome. Ses écrits sur la valeur du temps, la maîtrise de la colère et la vie simple restent une boussole aujourd'hui.",
+      "de": "Seneca (4 v. – 65 n. Chr.), stoischer Philosoph und Staatsmann Roms. Seine Worte über den Wert der Zeit, die Beherrschung des Zorns und ein einfaches Leben sind bis heute ein Kompass.",
+      "ru": "Сенека (4 до н.э. – 65 н.э.) — стоический философ и государственный деятель Рима. Его слова о ценности времени, обуздании гнева и простой жизни и сегодня служат компасом.",
+      "pt": "Sêneca (4 a.C. – 65 d.C.), filósofo estoico e estadista de Roma. Suas palavras sobre o valor do tempo, o domínio da raiva e a vida simples ainda servem de bússola hoje.",
+      "it": "Seneca (4 a.C. – 65 d.C.), filosofo stoico e statista di Roma. Le sue parole sul valore del tempo, sul dominio dell'ira e sulla vita semplice sono ancora oggi una bussola.",
+      "hi": "सेनेका (4 ई.पू. – 65 ई.), रोम के स्टोइक दार्शनिक और राजनेता। समय के मूल्य, क्रोध पर नियंत्रण और सादगी पर उनके शब्द आज भी दिशा-सूचक हैं।"
+    }
+  },
+  "epictetus": {
+    "hashtags": ["#epiktetos", "#epictetus", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#lumen", "#motivation"],
+    "bio": {
+      "tr": "Epiktetos (MS 50–135), köle olarak doğup Stoacılığın en güçlü seslerinden biri olan filozof. Öğretisinin özü nettir: olayları değil, onlara verdiğimiz tepkiyi yönetiriz.",
+      "en": "Epictetus (50–135 AD), born a slave and risen to become one of Stoicism's strongest voices. His teaching is simple: we control not events, but our response to them.",
+      "ar": "إبكتيتوس (50–135م)، وُلد عبداً وصار من أقوى أصوات الرواقية. جوهر تعليمه واضح: لا نتحكّم في الأحداث، بل في ردّ فعلنا تجاهها.",
+      "es": "Epicteto (50–135 d.C.), nacido esclavo y convertido en una de las voces más firmes del estoicismo. Su enseñanza es clara: no controlamos los hechos, sino nuestra reacción ante ellos.",
+      "fr": "Épictète (50–135 apr. J.-C.), né esclave et devenu l'une des voix les plus fortes du stoïcisme. Son enseignement est clair : nous ne maîtrisons pas les événements, mais notre réaction.",
+      "de": "Epiktet (50–135 n. Chr.), als Sklave geboren und zu einer der stärksten Stimmen der Stoa geworden. Seine Lehre ist klar: Wir beherrschen nicht die Ereignisse, sondern unsere Reaktion darauf.",
+      "ru": "Эпиктет (50–135 н.э.) — рождённый рабом и ставший одним из сильнейших голосов стоицизма. Суть его учения проста: мы управляем не событиями, а своей реакцией на них.",
+      "pt": "Epicteto (50–135 d.C.), nascido escravo e tornado uma das vozes mais firmes do estoicismo. Seu ensinamento é claro: não controlamos os acontecimentos, mas a nossa reação a eles.",
+      "it": "Epitteto (50–135 d.C.), nato schiavo e divenuto una delle voci più forti dello stoicismo. Il suo insegnamento è chiaro: non controlliamo gli eventi, ma la nostra reazione ad essi.",
+      "hi": "एपिक्टेटस (50–135 ई.), जो दास के रूप में जन्मे और स्टोइकवाद की सबसे प्रबल आवाज़ों में से एक बने। उनकी शिक्षा सरल है: हम घटनाओं को नहीं, उन पर अपनी प्रतिक्रिया को नियंत्रित करते हैं।"
+    }
+  },
+  "plato": {
+    "hashtags": ["#platon", "#plato", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Platon (MÖ 428–348), Batı felsefesinin kurucularından, Sokrates'in öğrencisi ve Akademi'nin kurucusu. Adalet, bilgi ve erdem üzerine sorduğu sorular düşünceyi hâlâ biçimlendiriyor.",
+      "en": "Plato (428–348 BC), a founder of Western philosophy, student of Socrates and founder of the Academy. His questions on justice, knowledge and virtue still shape how we think.",
+      "ar": "أفلاطون (428–348 ق.م)، أحد مؤسّسي الفلسفة الغربية، تلميذ سقراط ومؤسّس الأكاديمية. أسئلته عن العدل والمعرفة والفضيلة لا تزال تشكّل تفكيرنا.",
+      "es": "Platón (428–348 a.C.), fundador de la filosofía occidental, discípulo de Sócrates y fundador de la Academia. Sus preguntas sobre la justicia, el saber y la virtud aún moldean nuestro pensar.",
+      "fr": "Platon (428–348 av. J.-C.), fondateur de la philosophie occidentale, élève de Socrate et fondateur de l'Académie. Ses questions sur la justice, le savoir et la vertu façonnent encore notre pensée.",
+      "de": "Platon (428–348 v. Chr.), Mitbegründer der westlichen Philosophie, Schüler des Sokrates und Gründer der Akademie. Seine Fragen nach Gerechtigkeit, Wissen und Tugend prägen unser Denken bis heute.",
+      "ru": "Платон (428–348 до н.э.) — один из основателей западной философии, ученик Сократа и основатель Академии. Его вопросы о справедливости, знании и добродетели до сих пор формируют наше мышление.",
+      "pt": "Platão (428–348 a.C.), fundador da filosofia ocidental, discípulo de Sócrates e fundador da Academia. Suas perguntas sobre justiça, saber e virtude ainda moldam o nosso pensar.",
+      "it": "Platone (428–348 a.C.), fondatore della filosofia occidentale, allievo di Socrate e fondatore dell'Accademia. Le sue domande su giustizia, conoscenza e virtù plasmano ancora il nostro pensiero.",
+      "hi": "प्लेटो (428–348 ई.पू.), पश्चिमी दर्शन के संस्थापक, सुकरात के शिष्य और अकादमी के संस्थापक। न्याय, ज्ञान और सद्गुण पर उनके प्रश्न आज भी हमारे चिंतन को आकार देते हैं।"
+    }
+  },
+  "aristotle": {
+    "hashtags": ["#aristoteles", "#aristotle", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#motivation"],
+    "bio": {
+      "tr": "Aristoteles (MÖ 384–322), mantıktan etiğe, bilimden sanata neredeyse her alana iz bırakan filozof. \"Mükemmellik bir alışkanlıktır\" diyen aklın ustası.",
+      "en": "Aristotle (384–322 BC), a philosopher who left his mark on nearly every field, from logic and ethics to science and art. The master of reason who taught that excellence is a habit.",
+      "ar": "أرسطو (384–322 ق.م)، فيلسوف ترك بصمته في كل حقل تقريباً، من المنطق والأخلاق إلى العلم والفن. سيّد العقل الذي علّم أن التميّز عادة.",
+      "es": "Aristóteles (384–322 a.C.), un filósofo que dejó su huella en casi todos los campos, de la lógica y la ética a la ciencia y el arte. El maestro de la razón que enseñó que la excelencia es un hábito.",
+      "fr": "Aristote (384–322 av. J.-C.), un philosophe qui marqua presque tous les domaines, de la logique et l'éthique à la science et l'art. Le maître de la raison pour qui l'excellence est une habitude.",
+      "de": "Aristoteles (384–322 v. Chr.), ein Philosoph, der nahezu jedes Feld prägte – von Logik und Ethik bis zu Wissenschaft und Kunst. Der Meister der Vernunft, für den Vortrefflichkeit eine Gewohnheit ist.",
+      "ru": "Аристотель (384–322 до н.э.) — философ, оставивший след почти в каждой области: от логики и этики до науки и искусства. Мастер разума, учивший, что совершенство — это привычка.",
+      "pt": "Aristóteles (384–322 a.C.), um filósofo que deixou sua marca em quase todos os campos, da lógica e da ética à ciência e à arte. O mestre da razão que ensinou que a excelência é um hábito.",
+      "it": "Aristotele (384–322 a.C.), un filosofo che ha lasciato il segno in quasi ogni campo, dalla logica all'etica, dalla scienza all'arte. Il maestro della ragione per cui l'eccellenza è un'abitudine.",
+      "hi": "अरस्तू (384–322 ई.पू.), एक दार्शनिक जिन्होंने तर्क और नैतिकता से लेकर विज्ञान और कला तक लगभग हर क्षेत्र पर छाप छोड़ी। बुद्धि के स्वामी जिन्होंने सिखाया कि उत्कृष्टता एक आदत है।"
+    }
+  },
+  "lao_tzu": {
+    "hashtags": ["#laotzu", "#tao", "#taoizm", "#bilgelik", "#wisdom", "#felsefe", "#doğu", "#lumen", "#innerpeace"],
+    "bio": {
+      "tr": "Lao Tzu (MÖ 6. yy), Taoizm'in kurucusu ve \"Tao Te Ching\"in bilge yazarı. Akışa uyum, sadelik ve yumuşaklığın gücü üzerine öğretisi binlerce yıldır dinginlik veriyor.",
+      "en": "Lao Tzu (6th c. BC), founder of Taoism and sage author of the \"Tao Te Ching.\" His teaching on harmony, simplicity and the strength of softness has brought calm for millennia.",
+      "ar": "لاو تسي (القرن السادس ق.م)، مؤسّس الطاوية ومؤلّف \"تاو تي تشينغ\" الحكيم. تعليمه عن الانسجام والبساطة وقوة اللين يمنح الطمأنينة منذ آلاف السنين.",
+      "es": "Lao-Tse (s. VI a.C.), fundador del taoísmo y sabio autor del \"Tao Te King\". Su enseñanza sobre la armonía, la sencillez y la fuerza de lo blando trae calma desde hace milenios.",
+      "fr": "Lao Tseu (VIe s. av. J.-C.), fondateur du taoisme et sage auteur du « Tao Tö King ». Son enseignement sur l'harmonie, la simplicité et la force de la douceur apaise depuis des millénaires.",
+      "de": "Laozi (6. Jh. v. Chr.), Begründer des Taoismus und weiser Verfasser des „Daodejing\". Seine Lehre von Harmonie, Einfachheit und der Kraft des Sanften schenkt seit Jahrtausenden Ruhe.",
+      "ru": "Лао-цзы (VI в. до н.э.) — основатель даосизма и мудрый автор «Дао дэ цзин». Его учение о гармонии, простоте и силе мягкости дарует покой уже тысячелетия.",
+      "pt": "Lao-Tsé (séc. VI a.C.), fundador do taoismo e sábio autor do \"Tao Te Ching\". Seu ensinamento sobre harmonia, simplicidade e a força da brandura traz calma há milênios.",
+      "it": "Lao Tzu (VI sec. a.C.), fondatore del taoismo e saggio autore del \"Tao Te Ching\". Il suo insegnamento su armonia, semplicità e forza della dolcezza dona quiete da millenni.",
+      "hi": "लाओ त्ज़ु (छठी शताब्दी ई.पू.), ताओवाद के संस्थापक और \"ताओ ते चिंग\" के ज्ञानी रचयिता। सामंजस्य, सादगी और कोमलता की शक्ति पर उनकी शिक्षा सहस्राब्दियों से शांति देती आ रही है।"
+    }
+  },
+  "buddha": {
+    "hashtags": ["#buddha", "#budizm", "#buddhism", "#innerpeace", "#bilgelik", "#wisdom", "#meditasyon", "#lumen", "#huzur"],
+    "bio": {
+      "tr": "Buddha (MÖ 563–483), Budizm'in kurucusu. Zihnin gücü, acının doğası ve içsel huzura giden yol üzerine öğretisi, dünyanın dört bir yanında milyonlara rehber.",
+      "en": "Buddha (563–483 BC), the founder of Buddhism. His teaching on the power of the mind, the nature of suffering and the path to inner peace guides millions across the world.",
+      "ar": "بوذا (563–483 ق.م)، مؤسّس البوذية. تعليمه عن قوة العقل وطبيعة المعاناة وطريق السلام الداخلي يهدي الملايين حول العالم.",
+      "es": "Buda (563–483 a.C.), el fundador del budismo. Su enseñanza sobre el poder de la mente, la naturaleza del sufrimiento y el camino a la paz interior guía a millones en el mundo.",
+      "fr": "Bouddha (563–483 av. J.-C.), fondateur du bouddhisme. Son enseignement sur la puissance de l'esprit, la nature de la souffrance et la voie de la paix intérieure guide des millions de personnes.",
+      "de": "Buddha (563–483 v. Chr.), der Begründer des Buddhismus. Seine Lehre über die Kraft des Geistes, das Wesen des Leidens und den Weg zum inneren Frieden leitet Millionen weltweit.",
+      "ru": "Будда (563–483 до н.э.) — основатель буддизма. Его учение о силе ума, природе страдания и пути к внутреннему покою ведёт миллионы людей по всему миру.",
+      "pt": "Buda (563–483 a.C.), o fundador do budismo. Seu ensinamento sobre o poder da mente, a natureza do sofrimento e o caminho para a paz interior guia milhões pelo mundo.",
+      "it": "Buddha (563–483 a.C.), il fondatore del buddismo. Il suo insegnamento sul potere della mente, sulla natura della sofferenza e sulla via della pace interiore guida milioni di persone nel mondo.",
+      "hi": "बुद्ध (563–483 ई.पू.), बौद्ध धर्म के संस्थापक। मन की शक्ति, दुःख की प्रकृति और आंतरिक शांति के मार्ग पर उनकी शिक्षा दुनिया भर के करोड़ों लोगों का मार्गदर्शन करती है।"
+    }
+  },
+  "hafiz": {
+    "hashtags": ["#hafız", "#hafiz", "#şiir", "#aşk", "#tasavvuf", "#bilgelik", "#poetry", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Hâfız-ı Şîrâzî (1315–1390), Pers şiirinin zirvesi. Aşkı, neşeyi ve hayatın anını kutlayan gazelleri yüzyıllardır okurların kalbini ısıtıyor.",
+      "en": "Hafiz of Shiraz (1315–1390), the summit of Persian poetry. His verses celebrating love, joy and the present moment have warmed readers' hearts for centuries.",
+      "ar": "حافظ الشيرازي (1315–1390)، قمّة الشعر الفارسي. غزلياته التي تحتفي بالحب والفرح ولحظة الحاضر تُدفئ قلوب القرّاء منذ قرون.",
+      "es": "Hafez de Shiraz (1315–1390), la cima de la poesía persa. Sus versos que celebran el amor, la alegría y el instante presente han calentado el corazón de los lectores durante siglos.",
+      "fr": "Hafez de Chiraz (1315–1390), le sommet de la poésie persane. Ses vers célébrant l'amour, la joie et l'instant présent réchauffent le cœur des lecteurs depuis des siècles.",
+      "de": "Hafis von Schiras (1315–1390), der Gipfel der persischen Dichtung. Seine Verse, die Liebe, Freude und den Augenblick feiern, wärmen seit Jahrhunderten die Herzen der Leser.",
+      "ru": "Хафиз Ширази (1315–1390) — вершина персидской поэзии. Его газели, воспевающие любовь, радость и миг настоящего, согревают сердца читателей уже века.",
+      "pt": "Hafiz de Shiraz (1315–1390), o auge da poesia persa. Seus versos que celebram o amor, a alegria e o instante presente aquecem o coração dos leitores há séculos.",
+      "it": "Hafez di Shiraz (1315–1390), la vetta della poesia persiana. I suoi versi che celebrano l'amore, la gioia e l'attimo presente scaldano il cuore dei lettori da secoli.",
+      "hi": "हाफ़िज़ शिराज़ी (1315–1390), फ़ारसी कविता का शिखर। प्रेम, आनंद और वर्तमान क्षण का उत्सव मनाते उनके छंद सदियों से पाठकों के हृदय को गर्माते आए हैं।"
+    }
+  },
+  "gibran": {
+    "hashtags": ["#halilcibran", "#kahlilgibran", "#şiir", "#poetry", "#aşk", "#bilgelik", "#theprophet", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Halil Cibran (1883–1931), Lübnan asıllı şair ve \"Ermiş\"in yazarı. Aşk, acı ve özgürlük üzerine şiirsel bilgeliği milyonlarca okura dokundu.",
+      "en": "Kahlil Gibran (1883–1931), Lebanese poet and author of \"The Prophet.\" His poetic wisdom on love, sorrow and freedom has touched millions of readers.",
+      "ar": "جبران خليل جبران (1883–1931)، الشاعر اللبناني ومؤلّف \"النبي\". حكمته الشعرية في الحب والألم والحرية لامست ملايين القرّاء.",
+      "es": "Khalil Gibran (1883–1931), poeta libanés y autor de \"El Profeta\". Su sabiduría poética sobre el amor, el dolor y la libertad ha tocado a millones de lectores.",
+      "fr": "Khalil Gibran (1883–1931), poète libanais et auteur du « Prophète ». Sa sagesse poétique sur l'amour, la douleur et la liberté a touché des millions de lecteurs.",
+      "de": "Khalil Gibran (1883–1931), libanesischer Dichter und Autor von „Der Prophet\". Seine poetische Weisheit über Liebe, Schmerz und Freiheit hat Millionen Leser berührt.",
+      "ru": "Халиль Джебран (1883–1931) — ливанский поэт и автор «Пророка». Его поэтическая мудрость о любви, боли и свободе тронула миллионы читателей.",
+      "pt": "Khalil Gibran (1883–1931), poeta libanês e autor de \"O Profeta\". Sua sabedoria poética sobre o amor, a dor e a liberdade tocou milhões de leitores.",
+      "it": "Kahlil Gibran (1883–1931), poeta libanese e autore de \"Il Profeta\". La sua saggezza poetica su amore, dolore e libertà ha toccato milioni di lettori.",
+      "hi": "ख़लील जिब्रान (1883–1931), लेबनानी कवि और \"द प्रॉफ़ेट\" के रचयिता। प्रेम, पीड़ा और स्वतंत्रता पर उनकी काव्यात्मक बुद्धिमत्ता ने करोड़ों पाठकों को छुआ है।"
+    }
+  },
+  "khayyam": {
+    "hashtags": ["#ömerhayyam", "#omarkhayyam", "#rubai", "#şiir", "#bilgelik", "#felsefe", "#poetry", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Ömer Hayyam (1048–1131), Pers'in büyük şairi, matematikçisi ve astronomu. Rubaileri, anın kıymetini ve hayatın geçiciliğini en zarif diliyle hatırlatır.",
+      "en": "Omar Khayyam (1048–1131), Persia's great poet, mathematician and astronomer. His quatrains remind us, with rare elegance, to treasure the moment and the fleeting nature of life.",
+      "ar": "عمر الخيّام (1048–1131)، شاعر فارس العظيم وعالم رياضياتها وفلكها. رباعياته تذكّرنا بأناقة نادرة بقيمة اللحظة وزوال الحياة.",
+      "es": "Omar Jayam (1048–1131), gran poeta, matemático y astrónomo de Persia. Sus rubaiyat nos recuerdan, con rara elegancia, atesorar el instante y lo fugaz de la vida.",
+      "fr": "Omar Khayyam (1048–1131), grand poète, mathématicien et astronome de Perse. Ses quatrains nous rappellent, avec une rare élégance, de chérir l'instant et la fugacité de la vie.",
+      "de": "Omar Chayyam (1048–1131), Persiens großer Dichter, Mathematiker und Astronom. Seine Vierzeiler erinnern mit seltener Eleganz daran, den Augenblick und die Vergänglichkeit des Lebens zu schätzen.",
+      "ru": "Омар Хайям (1048–1131) — великий персидский поэт, математик и астроном. Его рубаи с редким изяществом напоминают ценить мгновение и мимолётность жизни.",
+      "pt": "Omar Khayyam (1048–1131), grande poeta, matemático e astrônomo da Pérsia. Seus rubai nos lembram, com rara elegância, de valorizar o instante e a fugacidade da vida.",
+      "it": "Omar Khayyam (1048–1131), grande poeta, matematico e astronomo della Persia. Le sue quartine ci ricordano, con rara eleganza, di custodire l'attimo e la fugacità della vita.",
+      "hi": "उमर ख़य्याम (1048–1131), फ़ारस के महान कवि, गणितज्ञ और खगोलशास्त्री। उनकी रुबाइयाँ दुर्लभ लालित्य के साथ क्षण के मोल और जीवन की क्षणभंगुरता की याद दिलाती हैं।"
+    }
+  },
+  "da_vinci": {
+    "hashtags": ["#leonardodavinci", "#davinci", "#rönesans", "#renaissance", "#sanat", "#deha", "#yaratıcılık", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Leonardo da Vinci (1452–1519), Rönesans'ın evrensel dehası; ressam, mucit, bilim insanı. Merakı sınır tanımayan zihni, sanat ile bilimi tek bir nefeste birleştirdi.",
+      "en": "Leonardo da Vinci (1452–1519), the universal genius of the Renaissance — painter, inventor, scientist. His boundless curiosity fused art and science in a single breath.",
+      "ar": "ليوناردو دافنشي (1452–1519)، عبقري عصر النهضة الشامل؛ رسّام ومخترع وعالم. فضوله الذي لا حدّ له مزج الفنّ بالعلم في نَفَسٍ واحد.",
+      "es": "Leonardo da Vinci (1452–1519), el genio universal del Renacimiento: pintor, inventor, científico. Su curiosidad sin límites fundió el arte y la ciencia en un solo aliento.",
+      "fr": "Léonard de Vinci (1452–1519), le génie universel de la Renaissance — peintre, inventeur, savant. Sa curiosité sans bornes a fondu l'art et la science en un seul souffle.",
+      "de": "Leonardo da Vinci (1452–1519), das Universalgenie der Renaissance – Maler, Erfinder, Wissenschaftler. Seine grenzenlose Neugier verschmolz Kunst und Wissenschaft in einem Atemzug.",
+      "ru": "Леонардо да Винчи (1452–1519) — универсальный гений Возрождения: художник, изобретатель, учёный. Его безграничное любопытство соединило искусство и науку в едином дыхании.",
+      "pt": "Leonardo da Vinci (1452–1519), o gênio universal do Renascimento — pintor, inventor, cientista. Sua curiosidade sem limites uniu arte e ciência num só fôlego.",
+      "it": "Leonardo da Vinci (1452–1519), il genio universale del Rinascimento: pittore, inventore, scienziato. La sua curiosità sconfinata fuse arte e scienza in un solo respiro.",
+      "hi": "लियोनार्दो दा विंची (1452–1519), पुनर्जागरण की सार्वभौमिक प्रतिभा — चित्रकार, आविष्कारक, वैज्ञानिक। उनकी असीम जिज्ञासा ने कला और विज्ञान को एक ही साँस में जोड़ दिया।"
+    }
+  },
+  "hz_ali": {
+    "hashtags": ["#hzali", "#imamali", "#bilgelik", "#wisdom", "#hikmet", "#adalet", "#lumen", "#ilham", "#söz"],
+    "bio": {
+      "tr": "Hz. Ali (601–661), Hz. Muhammed'in damadı ve dördüncü halife; ilmi, adaleti ve hitabetiyle tanınan bir bilgelik kaynağı. Sözleri yüzyıllardır hikmet pınarı olmuştur.",
+      "en": "Ali ibn Abi Talib (601–661), cousin and son-in-law of the Prophet Muhammad and the fourth caliph — renowned for knowledge, justice and eloquence. His sayings have been a fountain of wisdom for centuries.",
+      "ar": "علي بن أبي طالب (601–661)، ابن عمّ النبي محمد وصهره والخليفة الرابع؛ عُرف بالعلم والعدل والبلاغة. أقواله ظلّت منبعَ حكمة على مرّ القرون.",
+      "es": "Ali ibn Abi Talib (601–661), primo y yerno del profeta Mahoma y cuarto califa, célebre por su saber, justicia y elocuencia. Sus dichos han sido fuente de sabiduría durante siglos.",
+      "fr": "Ali ibn Abi Talib (601–661), cousin et gendre du prophète Mahomet et quatrième calife, réputé pour son savoir, sa justice et son éloquence. Ses paroles sont une source de sagesse depuis des siècles.",
+      "de": "Ali ibn Abi Talib (601–661), Cousin und Schwiegersohn des Propheten Mohammed und vierter Kalif – bekannt für Wissen, Gerechtigkeit und Beredsamkeit. Seine Aussprüche sind seit Jahrhunderten eine Quelle der Weisheit.",
+      "ru": "Али ибн Аби Талиб (601–661) — двоюродный брат и зять пророка Мухаммеда, четвёртый халиф, известный знанием, справедливостью и красноречием. Его изречения веками служат источником мудрости.",
+      "pt": "Ali ibn Abi Talib (601–661), primo e genro do profeta Maomé e quarto califa, célebre por seu saber, justiça e eloquência. Seus ditos são fonte de sabedoria há séculos.",
+      "it": "Ali ibn Abi Talib (601–661), cugino e genero del profeta Maometto e quarto califfo, celebre per sapienza, giustizia ed eloquenza. I suoi detti sono da secoli una fonte di saggezza.",
+      "hi": "अली इब्न अबी तालिब (601–661), पैग़ंबर मुहम्मद के चचेरे भाई व दामाद और चौथे ख़लीफ़ा — ज्ञान, न्याय और वाक्पटुता के लिए विख्यात। उनके कथन सदियों से ज्ञान का स्रोत रहे हैं।"
+    }
+  },
+  "ancient_wisdom": {
+    "hashtags": ["#bilgelik", "#wisdom", "#felsefe", "#philosophy", "#stoa", "#motivation", "#hayat", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Çağları aşan bir söz — bilgeliğin zamansız mirası. Latince ve antik özdeyişler, az kelimeyle en derin gerçekleri fısıldar.",
+      "en": "A line that outlives the ages — the timeless inheritance of wisdom. Ancient maxims whisper the deepest truths in the fewest words.",
+      "ar": "كلمةٌ تتجاوز العصور — ميراث الحكمة الخالد. الأمثال القديمة تهمس بأعمق الحقائق في أقلّ الكلمات.",
+      "es": "Una frase que sobrevive a las épocas: la herencia atemporal de la sabiduría. Las máximas antiguas susurran las verdades más hondas con las menos palabras.",
+      "fr": "Une parole qui traverse les âges — l'héritage intemporel de la sagesse. Les maximes anciennes murmurent les vérités les plus profondes en peu de mots.",
+      "de": "Ein Wort, das die Zeiten überdauert – das zeitlose Erbe der Weisheit. Alte Sinnsprüche flüstern die tiefsten Wahrheiten in den wenigsten Worten.",
+      "ru": "Слово, что переживает века, — вечное наследие мудрости. Древние изречения шепчут глубочайшие истины в немногих словах.",
+      "pt": "Uma frase que sobrevive às eras — a herança atemporal da sabedoria. As máximas antigas sussurram as verdades mais profundas com as menores palavras.",
+      "it": "Una frase che supera le epoche — l'eredità senza tempo della saggezza. Le massime antiche sussurrano le verità più profonde con le parole più brevi.",
+      "hi": "एक वाक्य जो युगों से परे है — बुद्धिमत्ता की कालातीत विरासत। प्राचीन सूक्तियाँ सबसे कम शब्दों में गहनतम सत्य फुसफुसाती हैं।"
+    }
+  },
+  "einstein": {
+    "hashtags": ["#einstein", "#bilim", "#science", "#deha", "#hayalgücü", "#imagination", "#bilgelik", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Albert Einstein (1879–1955), çağın en büyük fizikçisi ve hayal gücünün savunucusu. Evreni yeniden düşündüren zihni, merakın bilgiden değerli olduğunu söyledi.",
+      "en": "Albert Einstein (1879–1955), the era's greatest physicist and a champion of imagination. The mind that reimagined the universe taught that curiosity matters more than knowledge.",
+      "ar": "ألبرت أينشتاين (1879–1955)، أعظم فيزيائيي العصر ونصير الخيال. العقل الذي أعاد تصوّر الكون علّم أن الفضول أثمن من المعرفة.",
+      "es": "Albert Einstein (1879–1955), el mayor físico de su tiempo y defensor de la imaginación. La mente que reimaginó el universo enseñó que la curiosidad vale más que el conocimiento.",
+      "fr": "Albert Einstein (1879–1955), le plus grand physicien de son époque et champion de l'imagination. L'esprit qui réinventa l'univers enseigna que la curiosité importe plus que le savoir.",
+      "de": "Albert Einstein (1879–1955), der größte Physiker seiner Zeit und Verfechter der Vorstellungskraft. Der Geist, der das Universum neu dachte, lehrte: Neugier zählt mehr als Wissen.",
+      "ru": "Альберт Эйнштейн (1879–1955) — величайший физик эпохи и поборник воображения. Ум, переосмысливший Вселенную, учил, что любопытство важнее знания.",
+      "pt": "Albert Einstein (1879–1955), o maior físico de sua era e defensor da imaginação. A mente que reimaginou o universo ensinou que a curiosidade vale mais que o conhecimento.",
+      "it": "Albert Einstein (1879–1955), il più grande fisico dell'epoca e paladino dell'immaginazione. La mente che reimmaginò l'universo insegnò che la curiosità conta più della conoscenza.",
+      "hi": "अल्बर्ट आइंस्टाइन (1879–1955), युग के सबसे महान भौतिकशास्त्री और कल्पना के पक्षधर। ब्रह्मांड को नए सिरे से सोचने वाले इस मस्तिष्क ने सिखाया कि जिज्ञासा ज्ञान से अधिक मूल्यवान है।"
+    }
+  },
+  "mark_twain": {
+    "hashtags": ["#marktwain", "#edebiyat", "#literature", "#mizah", "#bilgelik", "#wisdom", "#yazar", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Mark Twain (1835–1910), Amerikan edebiyatının keskin zekâlı kalemi. Mizahla bilgeliği harmanlayan sözleri, hayatın gerçeklerini gülümseterek anlatır.",
+      "en": "Mark Twain (1835–1910), the sharp-witted pen of American literature. Blending humor with wisdom, his words tell life's truths with a smile.",
+      "ar": "مارك توين (1835–1910)، قلم الأدب الأمريكي اللمّاح. مزج الفكاهة بالحكمة، فروَت كلماتُه حقائق الحياة بابتسامة.",
+      "es": "Mark Twain (1835–1910), la pluma ingeniosa de la literatura estadounidense. Mezclando humor y sabiduría, sus palabras cuentan las verdades de la vida con una sonrisa.",
+      "fr": "Mark Twain (1835–1910), la plume spirituelle de la littérature américaine. Mêlant humour et sagesse, ses mots disent les vérités de la vie avec le sourire.",
+      "de": "Mark Twain (1835–1910), die scharfsinnige Feder der amerikanischen Literatur. Mit einer Mischung aus Humor und Weisheit erzählen seine Worte die Wahrheiten des Lebens mit einem Lächeln.",
+      "ru": "Марк Твен (1835–1910) — острое перо американской литературы. Соединяя юмор с мудростью, его слова с улыбкой говорят правду о жизни.",
+      "pt": "Mark Twain (1835–1910), a pena espirituosa da literatura americana. Misturando humor e sabedoria, suas palavras contam as verdades da vida com um sorriso.",
+      "it": "Mark Twain (1835–1910), la penna arguta della letteratura americana. Mescolando umorismo e saggezza, le sue parole raccontano le verità della vita con un sorriso.",
+      "hi": "मार्क ट्वेन (1835–1910), अमेरिकी साहित्य की तीक्ष्ण-बुद्धि क़लम। हास्य और बुद्धिमत्ता को मिलाकर, उनके शब्द जीवन के सत्य मुस्कान के साथ कहते हैं।"
+    }
+  },
+  "tolstoy": {
+    "hashtags": ["#tolstoy", "#edebiyat", "#literature", "#bilgelik", "#wisdom", "#felsefe", "#yazar", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Lev Tolstoy (1828–1910), \"Savaş ve Barış\"ın yazarı, edebiyatın devlerinden. İnsanın iç dünyası, sevgi ve sadelik üzerine düşünceleri çağları aştı.",
+      "en": "Leo Tolstoy (1828–1910), author of \"War and Peace\" and a giant of literature. His reflections on the inner life, love and simplicity have outlived the ages.",
+      "ar": "ليو تولستوي (1828–1910)، مؤلّف \"الحرب والسلام\" وأحد عمالقة الأدب. تأمّلاته في العالم الداخلي والحب والبساطة تجاوزت العصور.",
+      "es": "León Tolstói (1828–1910), autor de \"Guerra y paz\" y un gigante de la literatura. Sus reflexiones sobre la vida interior, el amor y la sencillez han sobrevivido a las épocas.",
+      "fr": "Léon Tolstoï (1828–1910), auteur de « Guerre et Paix » et géant de la littérature. Ses réflexions sur la vie intérieure, l'amour et la simplicité ont traversé les âges.",
+      "de": "Lew Tolstoi (1828–1910), Autor von „Krieg und Frieden\" und Gigant der Literatur. Seine Gedanken über das Innenleben, die Liebe und die Einfachheit haben die Zeiten überdauert.",
+      "ru": "Лев Толстой (1828–1910) — автор «Войны и мира» и гигант литературы. Его размышления о внутренней жизни, любви и простоте пережили века.",
+      "pt": "Liev Tolstói (1828–1910), autor de \"Guerra e Paz\" e um gigante da literatura. Suas reflexões sobre a vida interior, o amor e a simplicidade sobreviveram às eras.",
+      "it": "Lev Tolstoj (1828–1910), autore di \"Guerra e pace\" e gigante della letteratura. Le sue riflessioni sulla vita interiore, l'amore e la semplicità hanno superato le epoche.",
+      "hi": "लियो तॉल्स्तॉय (1828–1910), \"वॉर एंड पीस\" के रचयिता और साहित्य के दिग्गज। आंतरिक जीवन, प्रेम और सादगी पर उनके चिंतन युगों से परे चले गए।"
+    }
+  },
+  "oscar_wilde": {
+    "hashtags": ["#oscarwilde", "#edebiyat", "#literature", "#mizah", "#bilgelik", "#wit", "#yazar", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Oscar Wilde (1854–1900), İrlandalı yazar ve zekâsının keskinliğiyle tanınan söz ustası. İğneleyici esprileri ardında derin bir hayat felsefesi taşır.",
+      "en": "Oscar Wilde (1854–1900), Irish writer and a master of wit. Behind his sharp, playful lines lies a deep philosophy of life.",
+      "ar": "أوسكار وايلد (1854–1900)، الكاتب الأيرلندي وسيّد الفطنة. خلف عباراته اللاذعة المرحة فلسفةٌ عميقة في الحياة.",
+      "es": "Oscar Wilde (1854–1900), escritor irlandés y maestro del ingenio. Tras sus frases agudas y juguetonas se esconde una profunda filosofía de la vida.",
+      "fr": "Oscar Wilde (1854–1900), écrivain irlandais et maître de l'esprit. Derrière ses traits incisifs et malicieux se cache une profonde philosophie de la vie.",
+      "de": "Oscar Wilde (1854–1900), irischer Schriftsteller und Meister des Witzes. Hinter seinen scharfen, spielerischen Sätzen verbirgt sich eine tiefe Lebensphilosophie.",
+      "ru": "Оскар Уайльд (1854–1900) — ирландский писатель и мастер остроумия. За его колкими и игривыми фразами скрывается глубокая философия жизни.",
+      "pt": "Oscar Wilde (1854–1900), escritor irlandês e mestre do humor. Por trás de suas frases afiadas e brincalhonas há uma profunda filosofia de vida.",
+      "it": "Oscar Wilde (1854–1900), scrittore irlandese e maestro dell'arguzia. Dietro le sue battute taglienti e giocose si cela una profonda filosofia di vita.",
+      "hi": "ऑस्कर वाइल्ड (1854–1900), आयरिश लेखक और हाज़िरजवाबी के उस्ताद। उनकी तीखी, चुलबुली पंक्तियों के पीछे जीवन का गहरा दर्शन छिपा है।"
+    }
+  },
+  "victor_hugo": {
+    "hashtags": ["#victorhugo", "#edebiyat", "#literature", "#bilgelik", "#umut", "#hope", "#yazar", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Victor Hugo (1802–1885), \"Sefiller\"in yazarı, Fransız edebiyatının vicdanı. Adalet, umut ve insan onuru üzerine sözleri hâlâ yüreklere dokunuyor.",
+      "en": "Victor Hugo (1802–1885), author of \"Les Misérables\" and the conscience of French literature. His words on justice, hope and human dignity still stir the heart.",
+      "ar": "فيكتور هوغو (1802–1885)، مؤلّف \"البؤساء\" وضمير الأدب الفرنسي. كلماته عن العدل والأمل وكرامة الإنسان لا تزال تحرّك القلوب.",
+      "es": "Victor Hugo (1802–1885), autor de \"Los miserables\" y la conciencia de la literatura francesa. Sus palabras sobre la justicia, la esperanza y la dignidad humana aún conmueven el corazón.",
+      "fr": "Victor Hugo (1802–1885), auteur des « Misérables » et conscience de la littérature française. Ses mots sur la justice, l'espoir et la dignité humaine émeuvent encore les cœurs.",
+      "de": "Victor Hugo (1802–1885), Autor von „Die Elenden\" und Gewissen der französischen Literatur. Seine Worte über Gerechtigkeit, Hoffnung und Menschenwürde bewegen noch heute das Herz.",
+      "ru": "Виктор Гюго (1802–1885) — автор «Отверженных» и совесть французской литературы. Его слова о справедливости, надежде и человеческом достоинстве и поныне трогают сердце.",
+      "pt": "Victor Hugo (1802–1885), autor de \"Os Miseráveis\" e a consciência da literatura francesa. Suas palavras sobre justiça, esperança e dignidade humana ainda comovem o coração.",
+      "it": "Victor Hugo (1802–1885), autore de \"I miserabili\" e coscienza della letteratura francese. Le sue parole su giustizia, speranza e dignità umana commuovono ancora il cuore.",
+      "hi": "विक्टर ह्यूगो (1802–1885), \"ले मिज़राब्ल\" के रचयिता और फ़्रांसीसी साहित्य की अंतरात्मा। न्याय, आशा और मानव गरिमा पर उनके शब्द आज भी हृदय को झकझोरते हैं।"
+    }
+  },
+  "dostoyevski": {
+    "hashtags": ["#dostoyevski", "#dostoevsky", "#edebiyat", "#literature", "#felsefe", "#bilgelik", "#yazar", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Fyodor Dostoyevski (1821–1881), insan ruhunun en derin köşelerini aydınlatan Rus romancı. Acı, inanç ve özgürlük üzerine yazdıkları okuru kendi içine bakmaya çağırır.",
+      "en": "Fyodor Dostoevsky (1821–1881), the Russian novelist who illuminated the deepest corners of the human soul. His writing on suffering, faith and freedom invites us to look within.",
+      "ar": "فيودور دوستويفسكي (1821–1881)، الروائي الروسي الذي أنار أعمق زوايا الروح البشرية. كتاباته عن الألم والإيمان والحرية تدعونا للنظر في دواخلنا.",
+      "es": "Fiódor Dostoievski (1821–1881), el novelista ruso que iluminó los rincones más profundos del alma humana. Su obra sobre el sufrimiento, la fe y la libertad nos invita a mirar hacia dentro.",
+      "fr": "Fiodor Dostoïevski (1821–1881), le romancier russe qui éclaira les recoins les plus profonds de l'âme humaine. Son œuvre sur la souffrance, la foi et la liberté nous invite à regarder en nous.",
+      "de": "Fjodor Dostojewski (1821–1881), der russische Romancier, der die tiefsten Winkel der menschlichen Seele erhellte. Sein Werk über Leid, Glaube und Freiheit lädt ein, in sich zu blicken.",
+      "ru": "Фёдор Достоевский (1821–1881) — русский романист, осветивший самые глубокие уголки человеческой души. Его сочинения о страдании, вере и свободе зовут заглянуть внутрь себя.",
+      "pt": "Fiódor Dostoiévski (1821–1881), o romancista russo que iluminou os recantos mais profundos da alma humana. Sua obra sobre o sofrimento, a fé e a liberdade nos convida a olhar para dentro.",
+      "it": "Fëdor Dostoevskij (1821–1881), il romanziere russo che illuminò gli angoli più profondi dell'anima umana. La sua opera su sofferenza, fede e libertà ci invita a guardarci dentro.",
+      "hi": "फ़्योदोर दोस्तोयेव्स्की (1821–1881), वह रूसी उपन्यासकार जिसने मानव आत्मा के गहनतम कोनों को रोशन किया। दुःख, आस्था और स्वतंत्रता पर उनका लेखन हमें भीतर झाँकने को बुलाता है।"
+    }
+  },
+  "ataturk": {
+    "hashtags": ["#atatürk", "#mustafakemal", "#cumhuriyet", "#bilim", "#çağdaşlık", "#bilgelik", "#lider", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Mustafa Kemal Atatürk (1881–1938), Türkiye Cumhuriyeti'nin kurucusu ve çağdaş bir milletin mimarı. Bilime, akla ve özgürlüğe olan inancı bugün hâlâ yol gösteriyor.",
+      "en": "Mustafa Kemal Atatürk (1881–1938), founder of the Republic of Turkey and architect of a modern nation. His faith in science, reason and freedom still lights the way.",
+      "ar": "مصطفى كمال أتاتورك (1881–1938)، مؤسّس الجمهورية التركية ومهندس أمّة حديثة. إيمانه بالعلم والعقل والحرية لا يزال ينير الطريق.",
+      "es": "Mustafa Kemal Atatürk (1881–1938), fundador de la República de Turquía y arquitecto de una nación moderna. Su fe en la ciencia, la razón y la libertad aún ilumina el camino.",
+      "fr": "Mustafa Kemal Atatürk (1881–1938), fondateur de la République de Turquie et architecte d'une nation moderne. Sa foi en la science, la raison et la liberté éclaire encore le chemin.",
+      "de": "Mustafa Kemal Atatürk (1881–1938), Gründer der Republik Türkei und Architekt einer modernen Nation. Sein Glaube an Wissenschaft, Vernunft und Freiheit weist bis heute den Weg.",
+      "ru": "Мустафа Кемаль Ататюрк (1881–1938) — основатель Турецкой Республики и архитектор современной нации. Его вера в науку, разум и свободу и сегодня освещает путь.",
+      "pt": "Mustafa Kemal Atatürk (1881–1938), fundador da República da Turquia e arquiteto de uma nação moderna. Sua fé na ciência, na razão e na liberdade ainda ilumina o caminho.",
+      "it": "Mustafa Kemal Atatürk (1881–1938), fondatore della Repubblica di Turchia e architetto di una nazione moderna. La sua fede nella scienza, nella ragione e nella libertà illumina ancora il cammino.",
+      "hi": "मुस्तफ़ा कमाल अतातुर्क (1881–1938), तुर्की गणराज्य के संस्थापक और एक आधुनिक राष्ट्र के निर्माता। विज्ञान, विवेक और स्वतंत्रता में उनकी आस्था आज भी राह दिखाती है।"
+    }
+  },
+  "roosevelt": {
+    "hashtags": ["#roosevelt", "#liderlik", "#leadership", "#cesaret", "#courage", "#motivasyon", "#motivation", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Theodore Roosevelt (1858–1919), ABD'nin enerjik başkanı ve cesaretin sembolü. \"Elindekiyle, bulunduğun yerde, yapabileceğini yap\" diyen eyleme adanmış bir ruh.",
+      "en": "Theodore Roosevelt (1858–1919), America's energetic president and a symbol of courage. A spirit devoted to action who urged: do what you can, with what you have, where you are.",
+      "ar": "ثيودور روزفلت (1858–1919)، رئيس أمريكا النشِط ورمز الشجاعة. روحٌ مكرّسة للعمل قالت: افعل ما تستطيع، بما لديك، حيث أنت.",
+      "es": "Theodore Roosevelt (1858–1919), el enérgico presidente de EE. UU. y símbolo del coraje. Un espíritu entregado a la acción que urgía: haz lo que puedas, con lo que tengas, donde estés.",
+      "fr": "Theodore Roosevelt (1858–1919), l'énergique président des États-Unis et symbole du courage. Un esprit voué à l'action qui exhortait : fais ce que tu peux, avec ce que tu as, là où tu es.",
+      "de": "Theodore Roosevelt (1858–1919), Amerikas energischer Präsident und Sinnbild des Mutes. Ein der Tat gewidmeter Geist, der mahnte: Tu, was du kannst, mit dem, was du hast, wo du bist.",
+      "ru": "Теодор Рузвельт (1858–1919) — энергичный президент США и символ мужества. Дух, преданный действию, призывавший: делай, что можешь, тем, что есть, там, где ты есть.",
+      "pt": "Theodore Roosevelt (1858–1919), o enérgico presidente dos EUA e símbolo de coragem. Um espírito dedicado à ação que exortava: faça o que puder, com o que tiver, onde estiver.",
+      "it": "Theodore Roosevelt (1858–1919), l'energico presidente degli USA e simbolo di coraggio. Uno spirito votato all'azione che esortava: fai ciò che puoi, con ciò che hai, dove sei.",
+      "hi": "थियोडोर रूज़वेल्ट (1858–1919), अमेरिका के ऊर्जावान राष्ट्रपति और साहस के प्रतीक। कर्म को समर्पित एक आत्मा जिन्होंने कहा: जो कर सकते हो, जो तुम्हारे पास है उससे, जहाँ हो वहीं करो।"
+    }
+  },
+  "edison": {
+    "hashtags": ["#edison", "#icat", "#invention", "#çalışma", "#azim", "#motivation", "#başarı", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Thomas Edison (1847–1931), dünyayı aydınlatan mucit. Binlerce denemeden yılmayan azmi, başarının ilhamdan çok ter olduğunu kanıtladı.",
+      "en": "Thomas Edison (1847–1931), the inventor who lit up the world. His relentless persistence through thousands of attempts proved that success is more perspiration than inspiration.",
+      "ar": "توماس إديسون (1847–1931)، المخترع الذي أنار العالم. مثابرته التي لا تكلّ عبر آلاف المحاولات أثبتت أن النجاح عرقٌ أكثر منه إلهام.",
+      "es": "Thomas Edison (1847–1931), el inventor que iluminó el mundo. Su persistencia incansable a lo largo de miles de intentos probó que el éxito es más sudor que inspiración.",
+      "fr": "Thomas Edison (1847–1931), l'inventeur qui éclaira le monde. Sa persévérance inlassable, au fil de milliers d'essais, a prouvé que le succès tient plus de la sueur que de l'inspiration.",
+      "de": "Thomas Edison (1847–1931), der Erfinder, der die Welt erhellte. Seine unermüdliche Beharrlichkeit über Tausende Versuche bewies: Erfolg ist mehr Schweiß als Inspiration.",
+      "ru": "Томас Эдисон (1847–1931) — изобретатель, осветивший мир. Его неустанное упорство через тысячи попыток доказало: успех — это больше пот, чем вдохновение.",
+      "pt": "Thomas Edison (1847–1931), o inventor que iluminou o mundo. Sua persistência incansável ao longo de milhares de tentativas provou que o sucesso é mais suor que inspiração.",
+      "it": "Thomas Edison (1847–1931), l'inventore che illuminò il mondo. La sua tenacia instancabile attraverso migliaia di tentativi dimostrò che il successo è più sudore che ispirazione.",
+      "hi": "थॉमस एडिसन (1847–1931), वह आविष्कारक जिसने दुनिया को रोशन किया। हज़ारों प्रयासों में उनकी अथक दृढ़ता ने सिद्ध किया कि सफलता प्रेरणा से अधिक परिश्रम है।"
+    }
+  },
+  "tesla": {
+    "hashtags": ["#tesla", "#nikolatesla", "#bilim", "#science", "#icat", "#deha", "#gelecek", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Nikola Tesla (1856–1943), çağının ötesini gören mucit ve mühendis. Enerji, elektrik ve geleceğe dair vizyonu modern dünyanın temelini attı.",
+      "en": "Nikola Tesla (1856–1943), an inventor and engineer who saw beyond his age. His vision of energy, electricity and the future laid the foundations of the modern world.",
+      "ar": "نيكولا تسلا (1856–1943)، مخترع ومهندس رأى أبعد من زمنه. رؤيته للطاقة والكهرباء والمستقبل أرست أسس العالم الحديث.",
+      "es": "Nikola Tesla (1856–1943), inventor e ingeniero que vio más allá de su tiempo. Su visión de la energía, la electricidad y el futuro sentó las bases del mundo moderno.",
+      "fr": "Nikola Tesla (1856–1943), inventeur et ingénieur qui voyait au-delà de son époque. Sa vision de l'énergie, de l'électricité et de l'avenir a posé les fondements du monde moderne.",
+      "de": "Nikola Tesla (1856–1943), ein Erfinder und Ingenieur, der über seine Zeit hinaussah. Seine Vision von Energie, Elektrizität und Zukunft legte das Fundament der modernen Welt.",
+      "ru": "Никола Тесла (1856–1943) — изобретатель и инженер, видевший дальше своего времени. Его видение энергии, электричества и будущего заложило основы современного мира.",
+      "pt": "Nikola Tesla (1856–1943), inventor e engenheiro que viu além de seu tempo. Sua visão de energia, eletricidade e futuro lançou os alicerces do mundo moderno.",
+      "it": "Nikola Tesla (1856–1943), inventore e ingegnere che vide oltre la sua epoca. La sua visione di energia, elettricità e futuro gettò le fondamenta del mondo moderno.",
+      "hi": "निकोला टेस्ला (1856–1943), अपने युग से आगे देखने वाले आविष्कारक और इंजीनियर। ऊर्जा, बिजली और भविष्य की उनकी दूरदृष्टि ने आधुनिक दुनिया की नींव रखी।"
+    }
+  },
+  "henry_ford": {
+    "hashtags": ["#henryford", "#girişimcilik", "#leadership", "#motivasyon", "#motivation", "#başarı", "#vizyon", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Henry Ford (1863–1947), seri üretimi ve modern sanayiyi şekillendiren sanayici. \"Yapabilirim de yapamam da dersen, haklısın\" diyen vizyoner bir irade.",
+      "en": "Henry Ford (1863–1947), the industrialist who shaped mass production and modern industry. A visionary will who said: whether you think you can or you can't, you're right.",
+      "ar": "هنري فورد (1863–1947)، الصناعي الذي شكّل الإنتاج الضخم والصناعة الحديثة. إرادةٌ صاحبة رؤية قالت: سواء ظننت أنك تستطيع أو لا تستطيع، فأنت محقّ.",
+      "es": "Henry Ford (1863–1947), el industrial que dio forma a la producción en serie y a la industria moderna. Una voluntad visionaria que dijo: tanto si crees que puedes como si no, tienes razón.",
+      "fr": "Henry Ford (1863–1947), l'industriel qui façonna la production de masse et l'industrie moderne. Une volonté visionnaire qui disait : que tu penses pouvoir ou non, tu as raison.",
+      "de": "Henry Ford (1863–1947), der Industrielle, der die Massenproduktion und die moderne Industrie prägte. Ein visionärer Wille, der sagte: Ob du glaubst, du kannst es, oder nicht – du hast recht.",
+      "ru": "Генри Форд (1863–1947) — промышленник, сформировавший массовое производство и современную индустрию. Дальновидная воля, сказавшая: думаешь ли ты, что можешь, или что не можешь, — ты прав.",
+      "pt": "Henry Ford (1863–1947), o industrial que moldou a produção em massa e a indústria moderna. Uma vontade visionária que disse: quer pense que consegue, quer pense que não, você tem razão.",
+      "it": "Henry Ford (1863–1947), l'industriale che plasmò la produzione di massa e l'industria moderna. Una volontà visionaria che disse: sia che pensi di farcela sia che no, hai ragione.",
+      "hi": "हेनरी फ़ोर्ड (1863–1947), वह उद्योगपति जिसने बड़े पैमाने के उत्पादन और आधुनिक उद्योग को आकार दिया। एक दूरदर्शी इच्छाशक्ति जिसने कहा: तुम सोचो कि कर सकते हो या नहीं — तुम सही हो।"
+    }
+  },
+  "socrates": {
+    "hashtags": ["#sokrates", "#socrates", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Sokrates (MÖ 470–399), Batı felsefesinin atası. Soru sormayı bir sanata dönüştürdü ve \"sorgulanmamış bir hayatın yaşanmaya değmediğini\" söyledi.",
+      "en": "Socrates (470–399 BC), the father of Western philosophy. He turned questioning into an art and taught that the unexamined life is not worth living.",
+      "ar": "سقراط (470–399 ق.م)، أبو الفلسفة الغربية. حوّل السؤال إلى فنّ وعلّم أن الحياة غير المفحوصة لا تستحقّ أن تُعاش.",
+      "es": "Sócrates (470–399 a.C.), el padre de la filosofía occidental. Convirtió el preguntar en un arte y enseñó que una vida sin examen no merece ser vivida.",
+      "fr": "Socrate (470–399 av. J.-C.), le père de la philosophie occidentale. Il fit du questionnement un art et enseigna qu'une vie sans examen ne vaut pas d'être vécue.",
+      "de": "Sokrates (470–399 v. Chr.), der Vater der westlichen Philosophie. Er machte das Fragen zur Kunst und lehrte, dass ein ungeprüftes Leben nicht lebenswert ist.",
+      "ru": "Сократ (470–399 до н.э.) — отец западной философии. Он превратил вопрошание в искусство и учил, что неосмысленная жизнь не стоит того, чтобы её жить.",
+      "pt": "Sócrates (470–399 a.C.), o pai da filosofia ocidental. Transformou o perguntar numa arte e ensinou que uma vida sem exame não vale a pena ser vivida.",
+      "it": "Socrate (470–399 a.C.), il padre della filosofia occidentale. Trasformò il domandare in un'arte e insegnò che una vita non esaminata non è degna di essere vissuta.",
+      "hi": "सुकरात (470–399 ई.पू.), पश्चिमी दर्शन के जनक। उन्होंने प्रश्न पूछने को एक कला बना दिया और सिखाया कि बिना परीक्षण किया गया जीवन जीने योग्य नहीं।"
+    }
+  },
+  "george_orwell": {
+    "hashtags": ["#georgeorwell", "#orwell", "#edebiyat", "#literature", "#özgürlük", "#truth", "#hakikat", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "George Orwell (1903–1950), \"1984\" ve \"Hayvan Çiftliği\"nin yazarı. Hakikat, özgürlük ve iktidar üzerine keskin uyarıları bugün her zamankinden anlamlı.",
+      "en": "George Orwell (1903–1950), author of \"1984\" and \"Animal Farm.\" His sharp warnings about truth, freedom and power feel more relevant today than ever.",
+      "ar": "جورج أورويل (1903–1950)، مؤلّف \"1984\" و\"مزرعة الحيوان\". تحذيراته الحادّة عن الحقيقة والحرية والسلطة أكثر دلالةً اليوم من أيّ وقت مضى.",
+      "es": "George Orwell (1903–1950), autor de \"1984\" y \"Rebelión en la granja\". Sus agudas advertencias sobre la verdad, la libertad y el poder son hoy más vigentes que nunca.",
+      "fr": "George Orwell (1903–1950), auteur de « 1984 » et « La Ferme des animaux ». Ses avertissements tranchants sur la vérité, la liberté et le pouvoir sont plus actuels que jamais.",
+      "de": "George Orwell (1903–1950), Autor von „1984\" und „Farm der Tiere\". Seine scharfen Warnungen vor Wahrheit, Freiheit und Macht sind heute aktueller denn je.",
+      "ru": "Джордж Оруэлл (1903–1950) — автор «1984» и «Скотного двора». Его резкие предостережения об истине, свободе и власти сегодня актуальны как никогда.",
+      "pt": "George Orwell (1903–1950), autor de \"1984\" e \"A Revolução dos Bichos\". Seus alertas afiados sobre verdade, liberdade e poder são hoje mais atuais do que nunca.",
+      "it": "George Orwell (1903–1950), autore di \"1984\" e \"La fattoria degli animali\". I suoi avvertimenti taglienti su verità, libertà e potere sono oggi più attuali che mai.",
+      "hi": "जॉर्ज ऑरवेल (1903–1950), \"1984\" और \"एनिमल फ़ार्म\" के रचयिता। सत्य, स्वतंत्रता और सत्ता पर उनकी तीखी चेतावनियाँ आज पहले से कहीं अधिक प्रासंगिक हैं।"
+    }
+  },
+  "machiavelli": {
+    "hashtags": ["#machiavelli", "#strateji", "#strategy", "#liderlik", "#leadership", "#felsefe", "#güç", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Niccolò Machiavelli (1469–1527), siyaset düşüncesinin köşe taşı \"Prens\"in yazarı. İktidar, strateji ve insan doğası üzerine gözlemleri çağları aşan bir gerçekçilik taşır.",
+      "en": "Niccolò Machiavelli (1469–1527), author of \"The Prince,\" a cornerstone of political thought. His observations on power, strategy and human nature carry a realism that outlasts the ages.",
+      "ar": "نيكولو مكيافيلّي (1469–1527)، مؤلّف \"الأمير\"، أحد أركان الفكر السياسي. ملاحظاته عن السلطة والاستراتيجية والطبيعة البشرية تحمل واقعيةً تتجاوز العصور.",
+      "es": "Nicolás Maquiavelo (1469–1527), autor de \"El Príncipe\", piedra angular del pensamiento político. Sus observaciones sobre el poder, la estrategia y la naturaleza humana tienen un realismo que perdura.",
+      "fr": "Nicolas Machiavel (1469–1527), auteur du « Prince », pierre angulaire de la pensée politique. Ses observations sur le pouvoir, la stratégie et la nature humaine portent un réalisme qui traverse les âges.",
+      "de": "Niccolò Machiavelli (1469–1527), Autor von „Der Fürst\", einem Eckpfeiler des politischen Denkens. Seine Beobachtungen über Macht, Strategie und menschliche Natur tragen einen Realismus, der die Zeiten überdauert.",
+      "ru": "Никколо Макиавелли (1469–1527) — автор «Государя», краеугольного камня политической мысли. Его наблюдения о власти, стратегии и человеческой природе несут реализм, переживающий века.",
+      "pt": "Nicolau Maquiavel (1469–1527), autor de \"O Príncipe\", pedra angular do pensamento político. Suas observações sobre poder, estratégia e natureza humana carregam um realismo que atravessa as eras.",
+      "it": "Niccolò Machiavelli (1469–1527), autore de \"Il Principe\", pietra angolare del pensiero politico. Le sue osservazioni su potere, strategia e natura umana hanno un realismo che supera le epoche.",
+      "hi": "निकोलो मैकियावेली (1469–1527), राजनीतिक चिंतन की आधारशिला \"द प्रिंस\" के रचयिता। सत्ता, रणनीति और मानव स्वभाव पर उनके अवलोकन युगों से परे यथार्थवाद रखते हैं।"
+    }
+  },
+  "hypatia": {
+    "hashtags": ["#hypatia", "#hipatia", "#bilim", "#science", "#felsefe", "#kadın", "#bilgelik", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Hypatia (370–415), İskenderiye'nin matematikçisi, astronomu ve filozofu; tarihin ilk büyük kadın bilim insanlarından. Düşünme cesaretini her şeyin üstünde tuttu.",
+      "en": "Hypatia (370–415), mathematician, astronomer and philosopher of Alexandria — one of history's first great women of science. She prized the courage to think above all else.",
+      "ar": "هيباتيا (370–415)، عالمة الرياضيات والفلك والفلسفة في الإسكندرية؛ من أوائل عظيمات العلم في التاريخ. أعلت شجاعة التفكير فوق كل شيء.",
+      "es": "Hipatia (370–415), matemática, astrónoma y filósofa de Alejandría; una de las primeras grandes mujeres de la ciencia. Valoró el coraje de pensar por encima de todo.",
+      "fr": "Hypatie (370–415), mathématicienne, astronome et philosophe d'Alexandrie — l'une des premières grandes femmes de science de l'histoire. Elle plaçait le courage de penser au-dessus de tout.",
+      "de": "Hypatia (370–415), Mathematikerin, Astronomin und Philosophin Alexandrias – eine der ersten großen Frauen der Wissenschaft. Sie stellte den Mut zu denken über alles.",
+      "ru": "Гипатия (370–415) — математик, астроном и философ Александрии, одна из первых великих женщин науки в истории. Превыше всего она ценила смелость мыслить.",
+      "pt": "Hipátia (370–415), matemática, astrônoma e filósofa de Alexandria — uma das primeiras grandes mulheres da ciência. Valorizava a coragem de pensar acima de tudo.",
+      "it": "Ipazia (370–415), matematica, astronoma e filosofa di Alessandria — una delle prime grandi donne di scienza della storia. Poneva il coraggio di pensare al di sopra di tutto.",
+      "hi": "हाइपेशिया (370–415), अलेक्ज़ेंड्रिया की गणितज्ञ, खगोलशास्त्री और दार्शनिक — इतिहास की पहली महान विज्ञान-महिलाओं में से एक। उन्होंने सोचने के साहस को सबसे ऊपर रखा।"
+    }
+  },
+  "marie_curie": {
+    "hashtags": ["#mariecurie", "#bilim", "#science", "#kadın", "#nobel", "#azim", "#bilgelik", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Marie Curie (1867–1934), iki bilim dalında Nobel kazanan ilk insan ve radyoaktivitenin öncüsü. \"Hayatta korkulacak hiçbir şey yoktur, yalnızca anlaşılması gereken şeyler vardır\" dedi.",
+      "en": "Marie Curie (1867–1934), the first person to win Nobel Prizes in two sciences and a pioneer of radioactivity. She taught that nothing in life is to be feared, only to be understood.",
+      "ar": "ماري كوري (1867–1934)، أول من نال جائزتي نوبل في علمين مختلفين ورائدة النشاط الإشعاعي. علّمت أنه لا شيء في الحياة يُخشى، بل يُفهم فقط.",
+      "es": "Marie Curie (1867–1934), la primera persona en ganar dos Nobel en ciencias distintas y pionera de la radiactividad. Enseñó que nada en la vida ha de temerse, solo comprenderse.",
+      "fr": "Marie Curie (1867–1934), première personne à recevoir deux prix Nobel dans deux sciences et pionnière de la radioactivité. Elle enseigna que rien dans la vie n'est à craindre, seulement à comprendre.",
+      "de": "Marie Curie (1867–1934), die erste Person mit Nobelpreisen in zwei Wissenschaften und Pionierin der Radioaktivität. Sie lehrte, dass im Leben nichts zu fürchten, sondern nur zu verstehen ist.",
+      "ru": "Мария Кюри (1867–1934) — первый человек, получивший Нобелевские премии в двух науках, и пионер исследований радиоактивности. Она учила: в жизни нечего бояться, нужно лишь понимать.",
+      "pt": "Marie Curie (1867–1934), a primeira pessoa a ganhar Nobel em duas ciências e pioneira da radioatividade. Ensinou que nada na vida deve ser temido, apenas compreendido.",
+      "it": "Marie Curie (1867–1934), la prima persona a vincere due Nobel in due scienze e pioniera della radioattività. Insegnò che nella vita nulla va temuto, solo compreso.",
+      "hi": "मैरी क्यूरी (1867–1934), दो विज्ञानों में नोबेल जीतने वाली पहली व्यक्ति और रेडियोधर्मिता की अग्रदूत। उन्होंने सिखाया कि जीवन में कुछ भी डरने योग्य नहीं, केवल समझने योग्य है।"
+    }
+  },
+  "cleopatra": {
+    "hashtags": ["#kleopatra", "#cleopatra", "#mısır", "#tarih", "#güç", "#kadın", "#liderlik", "#lumen", "#ilham"],
+    "bio": {
+      "tr": "Kleopatra (MÖ 69–30), Mısır'ın son firavunu; zekâsı, dilleri ve siyasi dehasıyla bir imparatorluğa hükmetti. Gücün tahtta değil, onu yöneten akılda olduğunu gösterdi.",
+      "en": "Cleopatra (69–30 BC), the last pharaoh of Egypt — she ruled an empire through intellect, languages and political genius. She showed that power lies not in the throne, but in the mind that commands it.",
+      "ar": "كليوباترا (69–30 ق.م)، آخر فراعنة مصر؛ حكمت إمبراطورية بذكائها ولغاتها وعبقريتها السياسية. أثبتت أن القوة ليست في العرش، بل في العقل الذي يحكمه.",
+      "es": "Cleopatra (69–30 a.C.), la última faraona de Egipto: gobernó un imperio con su inteligencia, sus idiomas y su genio político. Demostró que el poder no está en el trono, sino en la mente que lo gobierna.",
+      "fr": "Cléopâtre (69–30 av. J.-C.), dernière pharaonne d'Égypte — elle régna sur un empire par l'intelligence, les langues et le génie politique. Elle montra que le pouvoir n'est pas dans le trône, mais dans l'esprit qui le commande.",
+      "de": "Kleopatra (69–30 v. Chr.), die letzte Pharaonin Ägyptens – sie beherrschte ein Reich durch Geist, Sprachen und politisches Genie. Sie zeigte: Macht liegt nicht im Thron, sondern im Geist, der ihn lenkt.",
+      "ru": "Клеопатра (69–30 до н.э.) — последняя царица Египта; она правила империей силой ума, знанием языков и политическим гением. Она показала, что власть — не в троне, а в уме, что им повелевает.",
+      "pt": "Cleópatra (69–30 a.C.), a última faraó do Egito — governou um império com inteligência, idiomas e gênio político. Mostrou que o poder não está no trono, mas na mente que o comanda.",
+      "it": "Cleopatra (69–30 a.C.), l'ultima faraona d'Egitto — governò un impero con intelletto, lingue e genio politico. Dimostrò che il potere non è nel trono, ma nella mente che lo comanda.",
+      "hi": "क्लियोपात्रा (69–30 ई.पू.), मिस्र की अंतिम फ़राओ — उन्होंने बुद्धि, भाषाओं और राजनीतिक प्रतिभा से एक साम्राज्य पर शासन किया। उन्होंने दिखाया कि शक्ति सिंहासन में नहीं, उसे चलाने वाले मन में है।"
+    }
+  }
+}

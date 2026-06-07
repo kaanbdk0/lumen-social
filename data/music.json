@@ -1,0 +1,36 @@
+{
+  "_note": "Reel müzikleri. startSec = şarkının kaçıncı saniyesinden başlayacağı (patlama anı). Otomasyon post sırasına göre sırayla döndürür (rotateByOrder). startSec değerlerini Kaan söyleyince doldur.",
+  "rotateByOrder": true,
+  "tracks": [
+    {
+      "file": "01.mp3",
+      "label": "artmylife-powerful-dramatic-trailer",
+      "durationSec": 132,
+      "startSec": 73
+    },
+    {
+      "file": "02.mp3",
+      "label": "atlasaudio-piano-motivation",
+      "durationSec": 122,
+      "startSec": 0
+    },
+    {
+      "file": "03.mp3",
+      "label": "nastelbom-dramatic",
+      "durationSec": 94,
+      "startSec": 12
+    },
+    {
+      "file": "04.mp3",
+      "label": "the_mountain-dramatic-music",
+      "durationSec": 158,
+      "startSec": 0
+    },
+    {
+      "file": "05.mp3",
+      "label": "leberch-piano",
+      "durationSec": 90,
+      "startSec": 0
+    }
+  ]
+}

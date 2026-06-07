@@ -4,3 +4,7 @@ out/
 *.mp3
 *.mp4
 _props_*.json
+
+# ...but the reel background music IS part of the repo
+!public/music/
+!public/music/*.mp3

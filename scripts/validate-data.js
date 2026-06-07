@@ -11,13 +11,19 @@
 //
 // See CONSTITUTION.md for the human-readable version of these rules.
 // ─────────────────────────────────────────────────────────────────────────
-import { readFileSync, existsSync } from "fs";
+import { readFileSync, existsSync, readdirSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const PUBLIC = join(ROOT, "public");
+
+function themeImageCount(theme) {
+  const dir = join(PUBLIC, "bg", theme);
+  if (!existsSync(dir)) return 0;
+  return readdirSync(dir).filter((f) => /\.(jpg|jpeg|png)$/i.test(f)).length;
+}
 
 export const LANGUAGES = ["tr", "en", "ar", "es", "fr", "de", "ru", "pt", "it", "hi"];
 
@@ -46,6 +52,10 @@ export function validateData() {
   const figures = JSON.parse(readFileSync(join(ROOT, "data/figures.json"), "utf8"));
   const quotes = JSON.parse(readFileSync(join(ROOT, "data/quotes.json"), "utf8"));
   const locales = JSON.parse(readFileSync(join(ROOT, "data/locales.json"), "utf8"));
+  // captions.json is optional for the legacy video pipeline but required for
+  // the Reel post pipeline; validate it when present.
+  let captions = null;
+  try { captions = JSON.parse(readFileSync(join(ROOT, "data/captions.json"), "utf8")); } catch { /* absent */ }
 
   // Rule 1 — every language has a locale block.
   for (const lang of LANGUAGES) {
@@ -68,6 +78,26 @@ export function validateData() {
     } else {
       for (const lang of LANGUAGES) {
         if (!f.names[lang]) warnings.push(`figures.json: figure "${label}" missing name for "${lang}" (will fall back)`);
+      }
+    }
+    // Every figure must declare a visual theme, and that theme must have at
+    // least one background image. This is the "don't forget the new figure's
+    // art" rule — a new figure with no theme/background fails the build here.
+    if (!f.theme) {
+      errors.push(`figures.json: figure "${label}" has no theme`);
+    } else if (themeImageCount(f.theme) === 0) {
+      errors.push(`figures.json: figure "${label}" → theme "${f.theme}" has no backgrounds in public/bg/${f.theme}/ (run: node scripts/fetch-backgrounds.js ${f.theme})`);
+    }
+    // Reel posts need a caption (bio in every language + hashtags) per figure.
+    if (captions) {
+      const c = captions[f.key];
+      if (!c) {
+        errors.push(`captions.json: figure "${label}" has no caption block`);
+      } else {
+        if (!Array.isArray(c.hashtags) || c.hashtags.length === 0) errors.push(`captions.json: figure "${label}" has no hashtags`);
+        for (const lang of LANGUAGES) {
+          if (!c.bio || !c.bio[lang]) errors.push(`captions.json: figure "${label}" missing ${lang} bio`);
+        }
       }
     }
   }
