@@ -82,7 +82,9 @@ function themeBackgrounds(theme) {
 function composeCaption(figKey, lang, quoteText, figName) {
   const c = captions[figKey];
   if (!c) return `“${quoteText}” — ${figName}`;
-  return `${c.bio[lang] || c.bio.en}\n\n“${quoteText}” — ${figName}\n\n${c.hashtags.join(" ")}`;
+  // hashtags is keyed by language (fall back to en, then to a flat array for safety).
+  const tags = Array.isArray(c.hashtags) ? c.hashtags : (c.hashtags[lang] || c.hashtags.en || []);
+  return `${c.bio[lang] || c.bio.en}\n\n“${quoteText}” — ${figName}\n\n${tags.join(" ")}`;
 }
 
 function main() {

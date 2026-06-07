@@ -1,7 +1,118 @@
 {
-  "_note": "Per-figure post captions in all 10 languages. Posting script composes: <bio[lang]>\\n\\n“<quote[lang]>” — <figureName[lang]>\\n\\n<hashtags>. YouTube/TikTok use 'en'; each Instagram account uses its own language.",
+  "_note": "Per-figure captions in 10 languages. hashtags is keyed by language. Posting composes: <bio[lang]>\\n\\n“<quote[lang]>” — <name[lang]>\\n\\n<hashtags[lang]>.",
   "mevlana": {
-    "hashtags": ["#mevlana", "#rumi", "#tasavvuf", "#aşk", "#bilgelik", "#wisdom", "#sufi", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#rumi",
+        "#mevlana",
+        "#sufi",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Mevlânâ Celâleddîn-i Rûmî (1207–1273), Doğu'nun en derin sesi; aşkı, hoşgörüyü ve insanın içindeki sonsuzluğu anlatan Sufi şair. Sözleri yüzyıllar sonra bile kalbe dokunur.",
       "en": "Jalāl ad-Dīn Rūmī (1207–1273), the East's deepest voice — a Sufi poet of love, tolerance and the infinity within. His words still touch the heart centuries later.",
@@ -16,7 +127,108 @@
     }
   },
   "marcus_aurelius": {
-    "hashtags": ["#marcusaurelius", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#lumen", "#motivation"],
+    "hashtags": {
+      "tr": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#marcusaurelius",
+        "#stoicism",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Marcus Aurelius (MS 121–180), Roma'nın \"filozof imparator\"u ve Stoacılığın en dingin sesi. Gücün zirvesindeyken bile sadeliği, öz disiplini ve aklın huzurunu seçti.",
       "en": "Marcus Aurelius (121–180 AD), Rome's \"philosopher emperor\" and the calmest voice of Stoicism. Even at the height of power he chose simplicity, self-discipline and a quiet mind.",
@@ -31,7 +243,98 @@
     }
   },
   "confucius": {
-    "hashtags": ["#konfüçyüs", "#confucius", "#bilgelik", "#wisdom", "#felsefe", "#philosophy", "#doğu", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#confucius",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#confucius",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#confucius",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#confucius",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#confucius",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#confucius",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#confucius",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#confucius",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#confucius",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#confucius",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Konfüçyüs (MÖ 551–479), Çin düşüncesinin temel taşı. Erdemi, saygıyı ve öğrenmeyi bir yaşam biçimine dönüştüren öğretisi binlerce yıldır yol gösteriyor.",
       "en": "Confucius (551–479 BC), the cornerstone of Chinese thought. His teaching turned virtue, respect and learning into a way of life that has guided people for millennia.",
@@ -46,7 +349,108 @@
     }
   },
   "yunus_emre": {
-    "hashtags": ["#yunusemre", "#tasavvuf", "#aşk", "#bilgelik", "#sufi", "#anadolu", "#wisdom", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#yunusemre",
+        "#sufi",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Yunus Emre (1238–1320), Anadolu'nun gönül diliyle konuşan halk ozanı ve Sufi bilgesi. Sevgiyi, hoşgörüyü ve insanı merkeze alan dizeleri yüzyıllardır dilden dile dolaşıyor.",
       "en": "Yunus Emre (1238–1320), Anatolia's beloved folk poet and Sufi sage. His verses of love, tolerance and humanity have passed from heart to heart for centuries.",
@@ -61,7 +465,108 @@
     }
   },
   "seneca": {
-    "hashtags": ["#seneca", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#lumen", "#motivation"],
+    "hashtags": {
+      "tr": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#seneca",
+        "#stoicism",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Seneca (MÖ 4 – MS 65), Roma'nın Stoacı filozofu ve devlet adamı. Zamanın değeri, öfkenin dizginlenmesi ve sade bir hayat üzerine yazdıkları bugün hâlâ pusula gibi.",
       "en": "Seneca (4 BC – 65 AD), Rome's Stoic philosopher and statesman. His words on the value of time, mastering anger and living simply still serve as a compass today.",
@@ -76,7 +581,108 @@
     }
   },
   "epictetus": {
-    "hashtags": ["#epiktetos", "#epictetus", "#stoa", "#stoicism", "#felsefe", "#philosophy", "#bilgelik", "#lumen", "#motivation"],
+    "hashtags": {
+      "tr": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#epictetus",
+        "#stoicism",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Epiktetos (MS 50–135), köle olarak doğup Stoacılığın en güçlü seslerinden biri olan filozof. Öğretisinin özü nettir: olayları değil, onlara verdiğimiz tepkiyi yönetiriz.",
       "en": "Epictetus (50–135 AD), born a slave and risen to become one of Stoicism's strongest voices. His teaching is simple: we control not events, but our response to them.",
@@ -91,7 +697,98 @@
     }
   },
   "plato": {
-    "hashtags": ["#platon", "#plato", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#plato",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#plato",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#plato",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#plato",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#plato",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#plato",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#plato",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#plato",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#plato",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#plato",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Platon (MÖ 428–348), Batı felsefesinin kurucularından, Sokrates'in öğrencisi ve Akademi'nin kurucusu. Adalet, bilgi ve erdem üzerine sorduğu sorular düşünceyi hâlâ biçimlendiriyor.",
       "en": "Plato (428–348 BC), a founder of Western philosophy, student of Socrates and founder of the Academy. His questions on justice, knowledge and virtue still shape how we think.",
@@ -106,7 +803,98 @@
     }
   },
   "aristotle": {
-    "hashtags": ["#aristoteles", "#aristotle", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#motivation"],
+    "hashtags": {
+      "tr": [
+        "#aristotle",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#aristotle",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#aristotle",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#aristotle",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#aristotle",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#aristotle",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#aristotle",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#aristotle",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#aristotle",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#aristotle",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Aristoteles (MÖ 384–322), mantıktan etiğe, bilimden sanata neredeyse her alana iz bırakan filozof. \"Mükemmellik bir alışkanlıktır\" diyen aklın ustası.",
       "en": "Aristotle (384–322 BC), a philosopher who left his mark on nearly every field, from logic and ethics to science and art. The master of reason who taught that excellence is a habit.",
@@ -121,7 +909,108 @@
     }
   },
   "lao_tzu": {
-    "hashtags": ["#laotzu", "#tao", "#taoizm", "#bilgelik", "#wisdom", "#felsefe", "#doğu", "#lumen", "#innerpeace"],
+    "hashtags": {
+      "tr": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#laotzu",
+        "#tao",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Lao Tzu (MÖ 6. yy), Taoizm'in kurucusu ve \"Tao Te Ching\"in bilge yazarı. Akışa uyum, sadelik ve yumuşaklığın gücü üzerine öğretisi binlerce yıldır dinginlik veriyor.",
       "en": "Lao Tzu (6th c. BC), founder of Taoism and sage author of the \"Tao Te Ching.\" His teaching on harmony, simplicity and the strength of softness has brought calm for millennia.",
@@ -136,7 +1025,108 @@
     }
   },
   "buddha": {
-    "hashtags": ["#buddha", "#budizm", "#buddhism", "#innerpeace", "#bilgelik", "#wisdom", "#meditasyon", "#lumen", "#huzur"],
+    "hashtags": {
+      "tr": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#buddha",
+        "#zen",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Buddha (MÖ 563–483), Budizm'in kurucusu. Zihnin gücü, acının doğası ve içsel huzura giden yol üzerine öğretisi, dünyanın dört bir yanında milyonlara rehber.",
       "en": "Buddha (563–483 BC), the founder of Buddhism. His teaching on the power of the mind, the nature of suffering and the path to inner peace guides millions across the world.",
@@ -151,7 +1141,98 @@
     }
   },
   "hafiz": {
-    "hashtags": ["#hafız", "#hafiz", "#şiir", "#aşk", "#tasavvuf", "#bilgelik", "#poetry", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#hafiz",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#hafiz",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#hafiz",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#hafiz",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#hafiz",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#hafiz",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#hafiz",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#hafiz",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#hafiz",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#hafiz",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Hâfız-ı Şîrâzî (1315–1390), Pers şiirinin zirvesi. Aşkı, neşeyi ve hayatın anını kutlayan gazelleri yüzyıllardır okurların kalbini ısıtıyor.",
       "en": "Hafiz of Shiraz (1315–1390), the summit of Persian poetry. His verses celebrating love, joy and the present moment have warmed readers' hearts for centuries.",
@@ -166,7 +1247,98 @@
     }
   },
   "gibran": {
-    "hashtags": ["#halilcibran", "#kahlilgibran", "#şiir", "#poetry", "#aşk", "#bilgelik", "#theprophet", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#kahlilgibran",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#kahlilgibran",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#kahlilgibran",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#kahlilgibran",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#kahlilgibran",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#kahlilgibran",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#kahlilgibran",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#kahlilgibran",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#kahlilgibran",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#kahlilgibran",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Halil Cibran (1883–1931), Lübnan asıllı şair ve \"Ermiş\"in yazarı. Aşk, acı ve özgürlük üzerine şiirsel bilgeliği milyonlarca okura dokundu.",
       "en": "Kahlil Gibran (1883–1931), Lebanese poet and author of \"The Prophet.\" His poetic wisdom on love, sorrow and freedom has touched millions of readers.",
@@ -181,7 +1353,98 @@
     }
   },
   "khayyam": {
-    "hashtags": ["#ömerhayyam", "#omarkhayyam", "#rubai", "#şiir", "#bilgelik", "#felsefe", "#poetry", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#omarkhayyam",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#omarkhayyam",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#omarkhayyam",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#omarkhayyam",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#omarkhayyam",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#omarkhayyam",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#omarkhayyam",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#omarkhayyam",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#omarkhayyam",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#omarkhayyam",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Ömer Hayyam (1048–1131), Pers'in büyük şairi, matematikçisi ve astronomu. Rubaileri, anın kıymetini ve hayatın geçiciliğini en zarif diliyle hatırlatır.",
       "en": "Omar Khayyam (1048–1131), Persia's great poet, mathematician and astronomer. His quatrains remind us, with rare elegance, to treasure the moment and the fleeting nature of life.",
@@ -196,7 +1459,108 @@
     }
   },
   "da_vinci": {
-    "hashtags": ["#leonardodavinci", "#davinci", "#rönesans", "#renaissance", "#sanat", "#deha", "#yaratıcılık", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#davinci",
+        "#renaissance",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Leonardo da Vinci (1452–1519), Rönesans'ın evrensel dehası; ressam, mucit, bilim insanı. Merakı sınır tanımayan zihni, sanat ile bilimi tek bir nefeste birleştirdi.",
       "en": "Leonardo da Vinci (1452–1519), the universal genius of the Renaissance — painter, inventor, scientist. His boundless curiosity fused art and science in a single breath.",
@@ -211,7 +1575,108 @@
     }
   },
   "hz_ali": {
-    "hashtags": ["#hzali", "#imamali", "#bilgelik", "#wisdom", "#hikmet", "#adalet", "#lumen", "#ilham", "#söz"],
+    "hashtags": {
+      "tr": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#imamali",
+        "#hzali",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Hz. Ali (601–661), Hz. Muhammed'in damadı ve dördüncü halife; ilmi, adaleti ve hitabetiyle tanınan bir bilgelik kaynağı. Sözleri yüzyıllardır hikmet pınarı olmuştur.",
       "en": "Ali ibn Abi Talib (601–661), cousin and son-in-law of the Prophet Muhammad and the fourth caliph — renowned for knowledge, justice and eloquence. His sayings have been a fountain of wisdom for centuries.",
@@ -226,7 +1691,98 @@
     }
   },
   "ancient_wisdom": {
-    "hashtags": ["#bilgelik", "#wisdom", "#felsefe", "#philosophy", "#stoa", "#motivation", "#hayat", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#stoicism",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#stoicism",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#stoicism",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#stoicism",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#stoicism",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#stoicism",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#stoicism",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#stoicism",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#stoicism",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#stoicism",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Çağları aşan bir söz — bilgeliğin zamansız mirası. Latince ve antik özdeyişler, az kelimeyle en derin gerçekleri fısıldar.",
       "en": "A line that outlives the ages — the timeless inheritance of wisdom. Ancient maxims whisper the deepest truths in the fewest words.",
@@ -241,7 +1797,108 @@
     }
   },
   "einstein": {
-    "hashtags": ["#einstein", "#bilim", "#science", "#deha", "#hayalgücü", "#imagination", "#bilgelik", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#einstein",
+        "#science",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Albert Einstein (1879–1955), çağın en büyük fizikçisi ve hayal gücünün savunucusu. Evreni yeniden düşündüren zihni, merakın bilgiden değerli olduğunu söyledi.",
       "en": "Albert Einstein (1879–1955), the era's greatest physicist and a champion of imagination. The mind that reimagined the universe taught that curiosity matters more than knowledge.",
@@ -256,7 +1913,98 @@
     }
   },
   "mark_twain": {
-    "hashtags": ["#marktwain", "#edebiyat", "#literature", "#mizah", "#bilgelik", "#wisdom", "#yazar", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#marktwain",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#marktwain",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#marktwain",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#marktwain",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#marktwain",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#marktwain",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#marktwain",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#marktwain",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#marktwain",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#marktwain",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Mark Twain (1835–1910), Amerikan edebiyatının keskin zekâlı kalemi. Mizahla bilgeliği harmanlayan sözleri, hayatın gerçeklerini gülümseterek anlatır.",
       "en": "Mark Twain (1835–1910), the sharp-witted pen of American literature. Blending humor with wisdom, his words tell life's truths with a smile.",
@@ -271,7 +2019,98 @@
     }
   },
   "tolstoy": {
-    "hashtags": ["#tolstoy", "#edebiyat", "#literature", "#bilgelik", "#wisdom", "#felsefe", "#yazar", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#tolstoy",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#tolstoy",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#tolstoy",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#tolstoy",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#tolstoy",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#tolstoy",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#tolstoy",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#tolstoy",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#tolstoy",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#tolstoy",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Lev Tolstoy (1828–1910), \"Savaş ve Barış\"ın yazarı, edebiyatın devlerinden. İnsanın iç dünyası, sevgi ve sadelik üzerine düşünceleri çağları aştı.",
       "en": "Leo Tolstoy (1828–1910), author of \"War and Peace\" and a giant of literature. His reflections on the inner life, love and simplicity have outlived the ages.",
@@ -286,7 +2125,98 @@
     }
   },
   "oscar_wilde": {
-    "hashtags": ["#oscarwilde", "#edebiyat", "#literature", "#mizah", "#bilgelik", "#wit", "#yazar", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#oscarwilde",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#oscarwilde",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#oscarwilde",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#oscarwilde",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#oscarwilde",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#oscarwilde",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#oscarwilde",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#oscarwilde",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#oscarwilde",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#oscarwilde",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Oscar Wilde (1854–1900), İrlandalı yazar ve zekâsının keskinliğiyle tanınan söz ustası. İğneleyici esprileri ardında derin bir hayat felsefesi taşır.",
       "en": "Oscar Wilde (1854–1900), Irish writer and a master of wit. Behind his sharp, playful lines lies a deep philosophy of life.",
@@ -301,7 +2231,98 @@
     }
   },
   "victor_hugo": {
-    "hashtags": ["#victorhugo", "#edebiyat", "#literature", "#bilgelik", "#umut", "#hope", "#yazar", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#victorhugo",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#victorhugo",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#victorhugo",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#victorhugo",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#victorhugo",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#victorhugo",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#victorhugo",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#victorhugo",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#victorhugo",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#victorhugo",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Victor Hugo (1802–1885), \"Sefiller\"in yazarı, Fransız edebiyatının vicdanı. Adalet, umut ve insan onuru üzerine sözleri hâlâ yüreklere dokunuyor.",
       "en": "Victor Hugo (1802–1885), author of \"Les Misérables\" and the conscience of French literature. His words on justice, hope and human dignity still stir the heart.",
@@ -316,7 +2337,98 @@
     }
   },
   "dostoyevski": {
-    "hashtags": ["#dostoyevski", "#dostoevsky", "#edebiyat", "#literature", "#felsefe", "#bilgelik", "#yazar", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#dostoevsky",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#dostoevsky",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#dostoevsky",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#dostoevsky",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#dostoevsky",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#dostoevsky",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#dostoevsky",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#dostoevsky",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#dostoevsky",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#dostoevsky",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Fyodor Dostoyevski (1821–1881), insan ruhunun en derin köşelerini aydınlatan Rus romancı. Acı, inanç ve özgürlük üzerine yazdıkları okuru kendi içine bakmaya çağırır.",
       "en": "Fyodor Dostoevsky (1821–1881), the Russian novelist who illuminated the deepest corners of the human soul. His writing on suffering, faith and freedom invites us to look within.",
@@ -331,7 +2443,108 @@
     }
   },
   "ataturk": {
-    "hashtags": ["#atatürk", "#mustafakemal", "#cumhuriyet", "#bilim", "#çağdaşlık", "#bilgelik", "#lider", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#atatürk",
+        "#mustafakemal",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Mustafa Kemal Atatürk (1881–1938), Türkiye Cumhuriyeti'nin kurucusu ve çağdaş bir milletin mimarı. Bilime, akla ve özgürlüğe olan inancı bugün hâlâ yol gösteriyor.",
       "en": "Mustafa Kemal Atatürk (1881–1938), founder of the Republic of Turkey and architect of a modern nation. His faith in science, reason and freedom still lights the way.",
@@ -346,7 +2559,98 @@
     }
   },
   "roosevelt": {
-    "hashtags": ["#roosevelt", "#liderlik", "#leadership", "#cesaret", "#courage", "#motivasyon", "#motivation", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#roosevelt",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#roosevelt",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#roosevelt",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#roosevelt",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#roosevelt",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#roosevelt",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#roosevelt",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#roosevelt",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#roosevelt",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#roosevelt",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Theodore Roosevelt (1858–1919), ABD'nin enerjik başkanı ve cesaretin sembolü. \"Elindekiyle, bulunduğun yerde, yapabileceğini yap\" diyen eyleme adanmış bir ruh.",
       "en": "Theodore Roosevelt (1858–1919), America's energetic president and a symbol of courage. A spirit devoted to action who urged: do what you can, with what you have, where you are.",
@@ -361,7 +2665,98 @@
     }
   },
   "edison": {
-    "hashtags": ["#edison", "#icat", "#invention", "#çalışma", "#azim", "#motivation", "#başarı", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#edison",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#edison",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#edison",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#edison",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#edison",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#edison",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#edison",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#edison",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#edison",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#edison",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Thomas Edison (1847–1931), dünyayı aydınlatan mucit. Binlerce denemeden yılmayan azmi, başarının ilhamdan çok ter olduğunu kanıtladı.",
       "en": "Thomas Edison (1847–1931), the inventor who lit up the world. His relentless persistence through thousands of attempts proved that success is more perspiration than inspiration.",
@@ -376,7 +2771,98 @@
     }
   },
   "tesla": {
-    "hashtags": ["#tesla", "#nikolatesla", "#bilim", "#science", "#icat", "#deha", "#gelecek", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#tesla",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#tesla",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#tesla",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#tesla",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#tesla",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#tesla",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#tesla",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#tesla",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#tesla",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#tesla",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Nikola Tesla (1856–1943), çağının ötesini gören mucit ve mühendis. Enerji, elektrik ve geleceğe dair vizyonu modern dünyanın temelini attı.",
       "en": "Nikola Tesla (1856–1943), an inventor and engineer who saw beyond his age. His vision of energy, electricity and the future laid the foundations of the modern world.",
@@ -391,7 +2877,98 @@
     }
   },
   "henry_ford": {
-    "hashtags": ["#henryford", "#girişimcilik", "#leadership", "#motivasyon", "#motivation", "#başarı", "#vizyon", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#henryford",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#henryford",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#henryford",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#henryford",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#henryford",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#henryford",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#henryford",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#henryford",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#henryford",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#henryford",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Henry Ford (1863–1947), seri üretimi ve modern sanayiyi şekillendiren sanayici. \"Yapabilirim de yapamam da dersen, haklısın\" diyen vizyoner bir irade.",
       "en": "Henry Ford (1863–1947), the industrialist who shaped mass production and modern industry. A visionary will who said: whether you think you can or you can't, you're right.",
@@ -406,7 +2983,98 @@
     }
   },
   "socrates": {
-    "hashtags": ["#sokrates", "#socrates", "#felsefe", "#philosophy", "#bilgelik", "#wisdom", "#antikçağ", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#socrates",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#socrates",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#socrates",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#socrates",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#socrates",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#socrates",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#socrates",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#socrates",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#socrates",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#socrates",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Sokrates (MÖ 470–399), Batı felsefesinin atası. Soru sormayı bir sanata dönüştürdü ve \"sorgulanmamış bir hayatın yaşanmaya değmediğini\" söyledi.",
       "en": "Socrates (470–399 BC), the father of Western philosophy. He turned questioning into an art and taught that the unexamined life is not worth living.",
@@ -421,7 +3089,98 @@
     }
   },
   "george_orwell": {
-    "hashtags": ["#georgeorwell", "#orwell", "#edebiyat", "#literature", "#özgürlük", "#truth", "#hakikat", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#orwell",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#orwell",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#orwell",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#orwell",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#orwell",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#orwell",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#orwell",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#orwell",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#orwell",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#orwell",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "George Orwell (1903–1950), \"1984\" ve \"Hayvan Çiftliği\"nin yazarı. Hakikat, özgürlük ve iktidar üzerine keskin uyarıları bugün her zamankinden anlamlı.",
       "en": "George Orwell (1903–1950), author of \"1984\" and \"Animal Farm.\" His sharp warnings about truth, freedom and power feel more relevant today than ever.",
@@ -436,7 +3195,98 @@
     }
   },
   "machiavelli": {
-    "hashtags": ["#machiavelli", "#strateji", "#strategy", "#liderlik", "#leadership", "#felsefe", "#güç", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#machiavelli",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#machiavelli",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#machiavelli",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#machiavelli",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#machiavelli",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#machiavelli",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#machiavelli",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#machiavelli",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#machiavelli",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#machiavelli",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Niccolò Machiavelli (1469–1527), siyaset düşüncesinin köşe taşı \"Prens\"in yazarı. İktidar, strateji ve insan doğası üzerine gözlemleri çağları aşan bir gerçekçilik taşır.",
       "en": "Niccolò Machiavelli (1469–1527), author of \"The Prince,\" a cornerstone of political thought. His observations on power, strategy and human nature carry a realism that outlasts the ages.",
@@ -451,7 +3301,98 @@
     }
   },
   "hypatia": {
-    "hashtags": ["#hypatia", "#hipatia", "#bilim", "#science", "#felsefe", "#kadın", "#bilgelik", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#hypatia",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#hypatia",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#hypatia",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#hypatia",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#hypatia",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#hypatia",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#hypatia",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#hypatia",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#hypatia",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#hypatia",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Hypatia (370–415), İskenderiye'nin matematikçisi, astronomu ve filozofu; tarihin ilk büyük kadın bilim insanlarından. Düşünme cesaretini her şeyin üstünde tuttu.",
       "en": "Hypatia (370–415), mathematician, astronomer and philosopher of Alexandria — one of history's first great women of science. She prized the courage to think above all else.",
@@ -466,7 +3407,108 @@
     }
   },
   "marie_curie": {
-    "hashtags": ["#mariecurie", "#bilim", "#science", "#kadın", "#nobel", "#azim", "#bilgelik", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#mariecurie",
+        "#science",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Marie Curie (1867–1934), iki bilim dalında Nobel kazanan ilk insan ve radyoaktivitenin öncüsü. \"Hayatta korkulacak hiçbir şey yoktur, yalnızca anlaşılması gereken şeyler vardır\" dedi.",
       "en": "Marie Curie (1867–1934), the first person to win Nobel Prizes in two sciences and a pioneer of radioactivity. She taught that nothing in life is to be feared, only to be understood.",
@@ -481,7 +3523,98 @@
     }
   },
   "cleopatra": {
-    "hashtags": ["#kleopatra", "#cleopatra", "#mısır", "#tarih", "#güç", "#kadın", "#liderlik", "#lumen", "#ilham"],
+    "hashtags": {
+      "tr": [
+        "#cleopatra",
+        "#lumen",
+        "#bilgelik",
+        "#felsefe",
+        "#motivasyon",
+        "#ilham",
+        "#söz"
+      ],
+      "en": [
+        "#cleopatra",
+        "#lumen",
+        "#wisdom",
+        "#philosophy",
+        "#motivation",
+        "#inspiration",
+        "#quotes"
+      ],
+      "ar": [
+        "#cleopatra",
+        "#lumen",
+        "#حكمة",
+        "#فلسفة",
+        "#اقتباسات",
+        "#تحفيز",
+        "#إلهام"
+      ],
+      "es": [
+        "#cleopatra",
+        "#lumen",
+        "#sabiduría",
+        "#filosofía",
+        "#motivación",
+        "#frases",
+        "#reflexión"
+      ],
+      "fr": [
+        "#cleopatra",
+        "#lumen",
+        "#sagesse",
+        "#philosophie",
+        "#motivation",
+        "#citations",
+        "#inspiration"
+      ],
+      "de": [
+        "#cleopatra",
+        "#lumen",
+        "#weisheit",
+        "#philosophie",
+        "#motivation",
+        "#zitate",
+        "#inspiration"
+      ],
+      "ru": [
+        "#cleopatra",
+        "#lumen",
+        "#мудрость",
+        "#философия",
+        "#мотивация",
+        "#цитаты",
+        "#вдохновение"
+      ],
+      "pt": [
+        "#cleopatra",
+        "#lumen",
+        "#sabedoria",
+        "#filosofia",
+        "#motivação",
+        "#frases",
+        "#inspiração"
+      ],
+      "it": [
+        "#cleopatra",
+        "#lumen",
+        "#saggezza",
+        "#filosofia",
+        "#motivazione",
+        "#citazioni",
+        "#ispirazione"
+      ],
+      "hi": [
+        "#cleopatra",
+        "#lumen",
+        "#ज्ञान",
+        "#दर्शन",
+        "#प्रेरणा",
+        "#सुविचार",
+        "#विचार"
+      ]
+    },
     "bio": {
       "tr": "Kleopatra (MÖ 69–30), Mısır'ın son firavunu; zekâsı, dilleri ve siyasi dehasıyla bir imparatorluğa hükmetti. Gücün tahtta değil, onu yöneten akılda olduğunu gösterdi.",
       "en": "Cleopatra (69–30 BC), the last pharaoh of Egypt — she ruled an empire through intellect, languages and political genius. She showed that power lies not in the throne, but in the mind that commands it.",

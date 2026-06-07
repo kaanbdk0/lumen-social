@@ -94,9 +94,10 @@ export function validateData() {
       if (!c) {
         errors.push(`captions.json: figure "${label}" has no caption block`);
       } else {
-        if (!Array.isArray(c.hashtags) || c.hashtags.length === 0) errors.push(`captions.json: figure "${label}" has no hashtags`);
         for (const lang of LANGUAGES) {
           if (!c.bio || !c.bio[lang]) errors.push(`captions.json: figure "${label}" missing ${lang} bio`);
+          const tags = Array.isArray(c.hashtags) ? c.hashtags : c.hashtags?.[lang];
+          if (!Array.isArray(tags) || tags.length === 0) errors.push(`captions.json: figure "${label}" missing ${lang} hashtags`);
         }
       }
     }
