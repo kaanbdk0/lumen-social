@@ -1,10 +1,15 @@
 name: Reel Post (every 2 days)
 
 on:
-  schedule:
-    # Runs daily, but the "gate" step only proceeds every 2nd day from POST_START.
-    - cron: '0 8 * * *'
-  workflow_dispatch: # Manual trigger always posts
+  # Scheduling is handled by an external cron (cron-job.org) that calls
+  # workflow_dispatch daily. The gate step below keeps the every-2-days
+  # cadence; pass force=true to post on an off-day.
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force a post even on an off-day"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,8 +30,8 @@ jobs:
       - name: Gate (is today a post day?)
         id: gate
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Manual run → posting."; exit 0
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Force input → posting."; exit 0
           fi
           days=$(( ( $(date -u +%s) - $(date -u -d "${POST_START}" +%s) ) / 86400 ))
           if [ $(( days % 2 )) -eq 0 ]; then

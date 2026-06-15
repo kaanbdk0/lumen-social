@@ -1,10 +1,10 @@
 name: Daily Story Render & Post
 
 on:
-  schedule:
-    # Every day at 07:00 UTC (10:00 TR time)
-    - cron: '0 7 * * *'
-  workflow_dispatch: # Manual trigger
+  # Scheduling is handled by an external cron (cron-job.org) that calls
+  # workflow_dispatch daily. GitHub's built-in scheduler was silently
+  # dropping scheduled runs, so it is no longer used here.
+  workflow_dispatch:
 
 permissions:
   contents: write
