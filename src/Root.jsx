@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { LumenQuoteVideo } from "./LumenQuoteVideo.jsx";
 import { LumenPost } from "./LumenPost.jsx";
 import { LumenReel } from "./LumenReel.jsx";
+import { LumenWidgetOutro } from "./LumenWidgetOutro.jsx";
 
 const POST_DEFAULTS = {
   figureName: "Marcus Aurelius",
@@ -69,6 +70,16 @@ export const RemotionRoot = () => {
             "bg/antik/bg_03.jpg", "bg/antik/bg_04.jpg",
           ],
         }}
+      />
+      {/* App Store widget outro — 9:16, ~5s */}
+      <Composition
+        id="LumenWidgetOutro"
+        component={LumenWidgetOutro}
+        durationInFrames={150}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ lang: "en" }}
       />
     </>
   );

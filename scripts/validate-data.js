@@ -13,7 +13,7 @@
 // ─────────────────────────────────────────────────────────────────────────
 import { readFileSync, existsSync, readdirSync } from "fs";
 import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -127,7 +127,7 @@ export function validateData() {
 }
 
 // CLI entry point.
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const { errors, warnings } = validateData();
   if (warnings.length) {
     console.log(`⚠ ${warnings.length} warning(s):`);

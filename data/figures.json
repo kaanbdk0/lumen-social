@@ -691,5 +691,362 @@
     "deathYear": -30,
     "gender": "female",
     "theme": "antik"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000001",
+    "key": "nietzsche",
+    "names": {
+      "tr": "Friedrich Nietzsche",
+      "en": "Friedrich Nietzsche",
+      "ar": "فريدريش نيتشه",
+      "es": "Friedrich Nietzsche",
+      "fr": "Friedrich Nietzsche",
+      "de": "Friedrich Nietzsche",
+      "ru": "Фридрих Ницше",
+      "pt": "Friedrich Nietzsche",
+      "it": "Friedrich Nietzsche",
+      "hi": "फ़्रीड्रिश नीत्शे"
+    },
+    "bustImage": "bust_nietzsche.png",
+    "birthYear": 1844,
+    "deathYear": 1900,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000002",
+    "key": "goethe",
+    "names": {
+      "tr": "Johann Wolfgang von Goethe",
+      "en": "Johann Wolfgang von Goethe",
+      "ar": "يوهان فولفغانغ فون غوته",
+      "es": "Johann Wolfgang von Goethe",
+      "fr": "Johann Wolfgang von Goethe",
+      "de": "Johann Wolfgang von Goethe",
+      "ru": "Иоганн Вольфганг фон Гёте",
+      "pt": "Johann Wolfgang von Goethe",
+      "it": "Johann Wolfgang von Goethe",
+      "hi": "योहान वोल्फगांग फ़ॉन गेटे"
+    },
+    "bustImage": "bust_goethe.png",
+    "birthYear": 1749,
+    "deathYear": 1832,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000003",
+    "key": "montaigne",
+    "names": {
+      "tr": "Michel de Montaigne",
+      "en": "Michel de Montaigne",
+      "ar": "ميشيل دو مونتين",
+      "es": "Michel de Montaigne",
+      "fr": "Michel de Montaigne",
+      "de": "Michel de Montaigne",
+      "ru": "Мишель де Монтень",
+      "pt": "Michel de Montaigne",
+      "it": "Michel de Montaigne",
+      "hi": "मिशेल दे मॉन्तेन"
+    },
+    "bustImage": "bust_montaigne.png",
+    "birthYear": 1533,
+    "deathYear": 1592,
+    "gender": "male",
+    "theme": "ronesans"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000004",
+    "key": "voltaire",
+    "names": {
+      "tr": "Voltaire",
+      "en": "Voltaire",
+      "ar": "فولتير",
+      "es": "Voltaire",
+      "fr": "Voltaire",
+      "de": "Voltaire",
+      "ru": "Вольтер",
+      "pt": "Voltaire",
+      "it": "Voltaire",
+      "hi": "वॉल्तेयर"
+    },
+    "bustImage": "bust_voltaire.png",
+    "birthYear": 1694,
+    "deathYear": 1778,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000005",
+    "key": "cicero",
+    "names": {
+      "tr": "Çiçero",
+      "en": "Cicero",
+      "ar": "شيشرون",
+      "es": "Cicerón",
+      "fr": "Cicéron",
+      "de": "Cicero",
+      "ru": "Цицерон",
+      "pt": "Cícero",
+      "it": "Cicerone",
+      "hi": "सिसरो"
+    },
+    "bustImage": "bust_cicero.png",
+    "birthYear": -106,
+    "deathYear": -43,
+    "gender": "male",
+    "theme": "antik"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000006",
+    "key": "thoreau",
+    "names": {
+      "tr": "Henry David Thoreau",
+      "en": "Henry David Thoreau",
+      "ar": "هنري ديفيد ثورو",
+      "es": "Henry David Thoreau",
+      "fr": "Henry David Thoreau",
+      "de": "Henry David Thoreau",
+      "ru": "Генри Дэвид Торо",
+      "pt": "Henry David Thoreau",
+      "it": "Henry David Thoreau",
+      "hi": "हेनरी डेविड थोरो"
+    },
+    "bustImage": "bust_thoreau.png",
+    "birthYear": 1817,
+    "deathYear": 1862,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000007",
+    "key": "emerson",
+    "names": {
+      "tr": "Ralph Waldo Emerson",
+      "en": "Ralph Waldo Emerson",
+      "ar": "رالف والدو إمرسون",
+      "es": "Ralph Waldo Emerson",
+      "fr": "Ralph Waldo Emerson",
+      "de": "Ralph Waldo Emerson",
+      "ru": "Ральф Уолдо Эмерсон",
+      "pt": "Ralph Waldo Emerson",
+      "it": "Ralph Waldo Emerson",
+      "hi": "राल्फ़ वाल्डो इमर्सन"
+    },
+    "bustImage": "bust_emerson.png",
+    "birthYear": 1803,
+    "deathYear": 1882,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000008",
+    "key": "franklin",
+    "names": {
+      "tr": "Benjamin Franklin",
+      "en": "Benjamin Franklin",
+      "ar": "بنجامين فرانكلين",
+      "es": "Benjamin Franklin",
+      "fr": "Benjamin Franklin",
+      "de": "Benjamin Franklin",
+      "ru": "Бенджамин Франклин",
+      "pt": "Benjamin Franklin",
+      "it": "Benjamin Franklin",
+      "hi": "बेंजामिन फ्रैंकलिन"
+    },
+    "bustImage": "bust_franklin.png",
+    "birthYear": 1706,
+    "deathYear": 1790,
+    "gender": "male",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000009",
+    "key": "gandhi",
+    "names": {
+      "tr": "Mahatma Gandhi",
+      "en": "Mahatma Gandhi",
+      "ar": "مهاتما غاندي",
+      "es": "Mahatma Gandhi",
+      "fr": "Mahatma Gandhi",
+      "de": "Mahatma Gandhi",
+      "ru": "Махатма Ганди",
+      "pt": "Mahatma Gandhi",
+      "it": "Mahatma Gandhi",
+      "hi": "महात्मा गांधी"
+    },
+    "bustImage": "bust_gandhi.png",
+    "birthYear": 1869,
+    "deathYear": 1948,
+    "gender": "male",
+    "theme": "dogu"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000a",
+    "key": "tagore",
+    "names": {
+      "tr": "Rabindranath Tagore",
+      "en": "Rabindranath Tagore",
+      "ar": "رابيندرانات طاغور",
+      "es": "Rabindranath Tagore",
+      "fr": "Rabindranath Tagore",
+      "de": "Rabindranath Tagore",
+      "ru": "Рабиндранат Тагор",
+      "pt": "Rabindranath Tagore",
+      "it": "Rabindranath Tagore",
+      "hi": "रवीन्द्रनाथ टैगोर"
+    },
+    "bustImage": "bust_tagore.png",
+    "birthYear": 1861,
+    "deathYear": 1941,
+    "gender": "male",
+    "theme": "dogu"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000b",
+    "key": "sun_tzu",
+    "names": {
+      "tr": "Sun Tzu",
+      "en": "Sun Tzu",
+      "ar": "صن تزو",
+      "es": "Sun Tzu",
+      "fr": "Sun Tzu",
+      "de": "Sunzi",
+      "ru": "Сунь-цзы",
+      "pt": "Sun Tzu",
+      "it": "Sun Tzu",
+      "hi": "सुन त्ज़ु"
+    },
+    "bustImage": "bust_sun_tzu.png",
+    "birthYear": -544,
+    "deathYear": -496,
+    "gender": "male",
+    "theme": "dogu"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000c",
+    "key": "saadi",
+    "names": {
+      "tr": "Sadi Şirazi",
+      "en": "Saadi Shirazi",
+      "ar": "سعدي الشيرازي",
+      "es": "Saadi de Shiraz",
+      "fr": "Saadi de Chiraz",
+      "de": "Saadi Schirasi",
+      "ru": "Саади Ширази",
+      "pt": "Saadi de Shiraz",
+      "it": "Saadi di Shiraz",
+      "hi": "शेख़ सादी शीराज़ी"
+    },
+    "bustImage": "bust_saadi.png",
+    "birthYear": 1210,
+    "deathYear": 1291,
+    "gender": "male",
+    "theme": "tasavvuf"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000d",
+    "key": "austen",
+    "names": {
+      "tr": "Jane Austen",
+      "en": "Jane Austen",
+      "ar": "جين أوستن",
+      "es": "Jane Austen",
+      "fr": "Jane Austen",
+      "de": "Jane Austen",
+      "ru": "Джейн Остин",
+      "pt": "Jane Austen",
+      "it": "Jane Austen",
+      "hi": "जेन ऑस्टेन"
+    },
+    "bustImage": "bust_austen.png",
+    "birthYear": 1775,
+    "deathYear": 1817,
+    "gender": "female",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000e",
+    "key": "dickinson",
+    "names": {
+      "tr": "Emily Dickinson",
+      "en": "Emily Dickinson",
+      "ar": "إيميلي ديكنسون",
+      "es": "Emily Dickinson",
+      "fr": "Emily Dickinson",
+      "de": "Emily Dickinson",
+      "ru": "Эмили Дикинсон",
+      "pt": "Emily Dickinson",
+      "it": "Emily Dickinson",
+      "hi": "एमिली डिकिंसन"
+    },
+    "bustImage": "bust_dickinson.png",
+    "birthYear": 1830,
+    "deathYear": 1886,
+    "gender": "female",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-00000000000f",
+    "key": "woolf",
+    "names": {
+      "tr": "Virginia Woolf",
+      "en": "Virginia Woolf",
+      "ar": "فرجينيا وولف",
+      "es": "Virginia Woolf",
+      "fr": "Virginia Woolf",
+      "de": "Virginia Woolf",
+      "ru": "Вирджиния Вулф",
+      "pt": "Virginia Woolf",
+      "it": "Virginia Woolf",
+      "hi": "वर्जीनिया वुल्फ"
+    },
+    "bustImage": "bust_woolf.png",
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "gender": "female",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000010",
+    "key": "nightingale",
+    "names": {
+      "tr": "Florence Nightingale",
+      "en": "Florence Nightingale",
+      "ar": "فلورنس نايتينغيل",
+      "es": "Florence Nightingale",
+      "fr": "Florence Nightingale",
+      "de": "Florence Nightingale",
+      "ru": "Флоренс Найтингейл",
+      "pt": "Florence Nightingale",
+      "it": "Florence Nightingale",
+      "hi": "फ्लोरेंस नाइटिंगेल"
+    },
+    "bustImage": "bust_nightingale.png",
+    "birthYear": 1820,
+    "deathYear": 1910,
+    "gender": "female",
+    "theme": "modern"
+  },
+  {
+    "id": "f0000000-0000-4000-8000-000000000011",
+    "key": "george_eliot",
+    "names": {
+      "tr": "George Eliot",
+      "en": "George Eliot",
+      "ar": "جورج إليوت",
+      "es": "George Eliot",
+      "fr": "George Eliot",
+      "de": "George Eliot",
+      "ru": "Джордж Элиот",
+      "pt": "George Eliot",
+      "it": "George Eliot",
+      "hi": "जॉर्ज एलियट"
+    },
+    "bustImage": "bust_george_eliot.png",
+    "birthYear": 1819,
+    "deathYear": 1880,
+    "gender": "female",
+    "theme": "modern"
   }
 ]

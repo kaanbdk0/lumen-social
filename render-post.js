@@ -73,10 +73,22 @@ function lifeSpan(f, lang) {
   return `${formatYear(f.birthYear, lang)} – ${formatYear(f.deathYear, lang)}`;
 }
 
-function themeBackgrounds(theme) {
-  const dir = join(__dirname, "public", "bg", theme);
+function bgImages(folder) {
+  const dir = join(__dirname, "public", "bg", folder);
   if (!existsSync(dir)) return [];
-  return readdirSync(dir).filter((f) => /\.(jpg|jpeg|png)$/i.test(f)).sort().map((f) => `bg/${theme}/${f}`);
+  return readdirSync(dir).filter((f) => /\.(jpg|jpeg|png)$/i.test(f)).sort().map((f) => `bg/${folder}/${f}`);
+}
+
+// Pick a theme's background set for the chosen tonal variant. "canli" uses the
+// vibrant sibling folder <theme>_canli; it falls back to the base (koyu) set if
+// that variant is missing/empty. Each reel uses ONE set (no koyu/canli mixing
+// within a single montage) so the reel stays tonally consistent.
+function themeBackgrounds(theme, variant) {
+  if (variant === "canli") {
+    const vivid = bgImages(`${theme}_canli`);
+    if (vivid.length) return vivid;
+  }
+  return bgImages(theme);
 }
 
 function composeCaption(figKey, lang, quoteText, figName) {
@@ -104,13 +116,17 @@ function main() {
   const quote = quoteById[quoteId];
   const figure = figureById[quote.figure_id];
   const track = music.tracks[n % music.tracks.length];
+  // Alternate tonal variant per reel (deterministic by post number): even = koyu
+  // (base set), odd = canli (vibrant set). Both rotate over time; each reel stays
+  // tonally consistent. Falls back to koyu if a theme has no _canli set.
+  const bgVariant = n % 2 === 1 ? "canli" : "koyu";
 
   console.log(`\n✦ Lumen Reel — ${dateStr} (post #${n})`);
-  console.log(`Figure: ${figure.key} | theme: ${figure.theme}`);
+  console.log(`Figure: ${figure.key} | theme: ${figure.theme} | bg: ${bgVariant}`);
   console.log(`Quote: ${(quote.texts.en || quote.texts.tr || "").slice(0, 60)}`);
   console.log(`Music: ${track.file} @ ${track.startSec}s\n`);
 
-  const backgrounds = themeBackgrounds(figure.theme);
+  const backgrounds = themeBackgrounds(figure.theme, bgVariant);
   if (!backgrounds.length) { console.error(`❌ No backgrounds for theme ${figure.theme}`); process.exit(1); }
 
   let bustImage = figure.bustImage.endsWith(".png") ? figure.bustImage : figure.bustImage + ".png";
@@ -121,7 +137,7 @@ function main() {
   const musicPath = join(__dirname, "public", "music", track.file);
   const hasMusic = existsSync(musicPath);
 
-  const meta = { date: dateStr, postNumber: n, quoteId, figureKey: figure.key, theme: figure.theme, music: track.file, musicStartSec: track.startSec, captions: {}, titles: {}, langs: [] };
+  const meta = { date: dateStr, postNumber: n, quoteId, figureKey: figure.key, theme: figure.theme, bgVariant, music: track.file, musicStartSec: track.startSec, captions: {}, titles: {}, langs: [] };
   let rendered = 0;
 
   for (const lang of langsArg) {
