@@ -10,6 +10,10 @@ on:
         description: "Force a post even on an off-day"
         type: boolean
         default: false
+      langs:
+        description: "Comma-separated langs to render/post (blank = all). Use to re-post only specific languages."
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -20,7 +24,7 @@ env:
 jobs:
   render-and-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -75,7 +79,11 @@ jobs:
         if: steps.gate.outputs.post_day == 'true'
         env:
           FFMPEG_PATH: /usr/bin/ffmpeg
-        run: node render-post.js ${{ steps.date.outputs.DATE }}
+        run: |
+          ARGS="${{ steps.date.outputs.DATE }}"
+          LANGS="${{ github.event.inputs.langs }}"
+          if [ -n "$LANGS" ]; then ARGS="$ARGS --langs $LANGS"; echo "Rendering only: $LANGS"; fi
+          node render-post.js $ARGS
 
       - name: Verify reels exist
         if: steps.gate.outputs.post_day == 'true'
@@ -116,7 +124,7 @@ jobs:
         run: node scripts/post-reel-instagram.js ${{ steps.date.outputs.DATE }}
 
       - name: Post to YouTube Shorts (EN)
-        if: steps.gate.outputs.post_day == 'true'
+        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}

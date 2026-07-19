@@ -48,9 +48,42 @@ async function resolveUserId(accessToken) {
   throw new Error(`Could not resolve IG user ID: ${JSON.stringify(res.data)}`);
 }
 
+// Poll the container until Instagram finishes transcoding. Patient (up to ~15 min)
+// because IG processing can be slow on busy days; we only publish once it is
+// actually FINISHED, so we never fire a doomed publish that returns 9007.
+async function waitForFinished(lang, containerId, accessToken) {
+  const MAX_POLLS = 150; // 150 × 6s = 15 min
+  for (let i = 0; i < MAX_POLLS; i++) {
+    await sleep(6000);
+    const st = await graphAPI("GET", `/v21.0/${containerId}`, { fields: "status_code", access_token: accessToken });
+    const status = st.data?.status_code;
+    if (status === "FINISHED") return true;
+    if (status === "ERROR") throw new Error(`Processing failed: ${JSON.stringify(st.data)}`);
+    if (i % 5 === 0) console.log(`  [${lang}] processing… ${status || "IN_PROGRESS"} (${i * 6}s)`);
+  }
+  return false;
+}
+
+// Publish, retrying the transient "media not ready yet" error (code 9007 /
+// subcode 2207027) that IG returns when transcoding lags behind the status.
+async function publishWithRetry(lang, igUserId, containerId, accessToken) {
+  for (let attempt = 1; attempt <= 6; attempt++) {
+    const pub = await graphAPI("POST", `/v21.0/${igUserId}/media_publish`, { creation_id: containerId, access_token: accessToken });
+    if (pub.status === 200 && pub.data?.id) return pub.data.id;
+    const err = pub.data?.error || {};
+    const transient = err.code === 9007 || err.error_subcode === 2207027 || err.is_transient;
+    if (transient && attempt < 6) {
+      console.log(`  [${lang}] not ready yet, retry ${attempt}/5 in 20s…`);
+      await sleep(20000);
+      continue;
+    }
+    throw new Error(`Publish failed: ${JSON.stringify(pub.data)}`);
+  }
+}
+
 async function postReel(account, videoUrl, caption) {
   const { lang, igUserId, accessToken, pageName } = account;
-  console.log(`  [${lang}] Creating reel container for @${pageName}...`);
+  console.log(`  [${lang}] creating reel container for @${pageName}…`);
   const createRes = await graphAPI("POST", `/v21.0/${igUserId}/media`, {
     media_type: "REELS",
     video_url: videoUrl,
@@ -61,20 +94,9 @@ async function postReel(account, videoUrl, caption) {
   if (createRes.status !== 200 || !createRes.data.id) throw new Error(`Container creation failed: ${JSON.stringify(createRes.data)}`);
   const containerId = createRes.data.id;
 
-  console.log(`  [${lang}] Container ${containerId}, processing...`);
-  for (let i = 0; i < 60; i++) {
-    await sleep(5000);
-    const st = await graphAPI("GET", `/v21.0/${containerId}`, { fields: "status_code", access_token: accessToken });
-    const status = st.data?.status_code;
-    if (status === "FINISHED") break;
-    if (status === "ERROR") throw new Error(`Processing failed for container ${containerId}`);
-    if (i % 3 === 0) console.log(`  [${lang}] Status: ${status || "IN_PROGRESS"}...`);
-  }
-
-  console.log(`  [${lang}] Publishing reel...`);
-  const pub = await graphAPI("POST", `/v21.0/${igUserId}/media_publish`, { creation_id: containerId, access_token: accessToken });
-  if (pub.status !== 200 || !pub.data.id) throw new Error(`Publish failed: ${JSON.stringify(pub.data)}`);
-  return pub.data.id;
+  const finished = await waitForFinished(lang, containerId, accessToken);
+  if (!finished) console.log(`  [${lang}] still processing after 15 min — attempting publish with retries…`);
+  return publishWithRetry(lang, igUserId, containerId, accessToken);
 }
 
 async function main() {
@@ -91,21 +113,27 @@ async function main() {
     }
   }
 
-  let posted = 0;
-  for (const account of accounts) {
-    if (!meta.langs.includes(account.lang)) { console.log(`  [${account.lang}] no reel for this language, skip`); continue; }
+  // Post all accounts in PARALLEL. Each container is transcoded server-side by
+  // Instagram, so the wait is I/O-bound — running them concurrently makes total
+  // wall time ≈ the slowest single account instead of the sum. (Sequential posting
+  // used to blow past the job time limit whenever IG was slow, dropping every
+  // account after the first.) Each account keeps its own try/catch so one failure
+  // never affects the others.
+  const results = await Promise.all(accounts.map(async (account) => {
+    if (!meta.langs.includes(account.lang)) { console.log(`  [${account.lang}] no reel for this language, skip`); return false; }
     const caption = meta.captions[account.lang] || "";
     const videoUrl = `${videoBaseUrl}/lumen_post_${dateStr}_${account.lang}.mp4`;
     try {
       const id = await postReel(account, videoUrl, caption);
-      console.log(`  [${account.lang}] ✅ Reel posted! Media ID: ${id}\n`);
-      posted++;
+      console.log(`  [${account.lang}] ✅ Reel posted! Media ID: ${id}`);
+      return true;
     } catch (err) {
-      console.error(`  [${account.lang}] ❌ Failed: ${err.message}\n`);
+      console.error(`  [${account.lang}] ❌ Failed: ${err.message}`);
+      return false;
     }
-    await sleep(3000);
-  }
-  console.log(`📸 Done: ${posted} reels posted`);
+  }));
+  const posted = results.filter(Boolean).length;
+  console.log(`📸 Done: ${posted}/${meta.langs.length} reels posted`);
 }
 
 main();
