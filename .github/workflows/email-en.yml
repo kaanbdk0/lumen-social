@@ -1,0 +1,80 @@
+name: Email EN reel (manual)
+
+# On-demand: render ONLY the EN reel and email it (no Instagram/YouTube posting).
+# Use to test email delivery or to grab today's EN reel any day.
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date (YYYY-MM-DD), blank = today"
+        type: string
+        default: ""
+
+jobs:
+  render-and-email:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install ffmpeg and multilingual fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-cjk fonts-noto-color-emoji fonts-noto-core fonts-noto-extra
+          fc-cache -fv
+
+      - name: Install Chromium for Remotion
+        run: npx remotion browser ensure
+
+      - name: Validate data (constitution)
+        run: node scripts/validate-data.js
+
+      - name: Set date
+        id: date
+        run: |
+          D="${{ github.event.inputs.date }}"
+          [ -z "$D" ] && D=$(date +%Y-%m-%d)
+          echo "DATE=$D" >> "$GITHUB_OUTPUT"
+
+      - name: Render EN reel
+        env:
+          FFMPEG_PATH: /usr/bin/ffmpeg
+        run: node render-post.js ${{ steps.date.outputs.DATE }} --langs en
+
+      - name: Prepare EN reel for email
+        env:
+          DATE: ${{ steps.date.outputs.DATE }}
+        run: |
+          SRC="out/posts/$DATE/lumen_post_${DATE}_en.mp4"
+          ffmpeg -y -i "$SRC" -vf "scale=-2:1280" -c:v libx264 -preset veryfast -b:v 2200k -c:a aac -b:a 96k email_en.mp4
+          {
+            echo "Lumen — gunun EN reeli ($DATE)"
+            echo ""
+            echo "--- Caption (manuel paylasim icin) ---"
+            node -e "const m=require('./out/posts/'+process.env.DATE+'/meta.json');process.stdout.write((m.captions&&m.captions.en)||'')"
+          } > email_body.txt
+          ls -la email_en.mp4 email_body.txt
+
+      - name: Email EN reel to Kaan
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: kaanbudak0@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          from: Lumen <kaanbudak0@gmail.com>
+          to: kaanbudak0@gmail.com
+          subject: "🌙 Lumen — EN reel (${{ steps.date.outputs.DATE }})"
+          body: file://email_body.txt
+          attachments: email_en.mp4
