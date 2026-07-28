@@ -94,6 +94,40 @@ jobs:
           if [ ${#files[@]} -eq 0 ]; then echo "::error::No reels rendered for ${DATE}."; exit 1; fi
           echo "✅ ${#files[@]} reel(s) rendered."
 
+      # Email the EN reel to Kaan every reel day — Mac-independent delivery.
+      # Compresses to ~6MB so it fits comfortably under Gmail's 25MB limit.
+      - name: Prepare EN reel for email
+        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
+        continue-on-error: true
+        env:
+          DATE: ${{ steps.date.outputs.DATE }}
+        run: |
+          SRC="out/posts/$DATE/lumen_post_${DATE}_en.mp4"
+          ffmpeg -y -i "$SRC" -vf "scale=-2:1280" -c:v libx264 -preset veryfast -b:v 2200k -c:a aac -b:a 96k email_en.mp4
+          {
+            echo "Lumen — gunun EN reeli ($DATE)"
+            echo ""
+            echo "--- Caption (manuel paylasim icin) ---"
+            node -e "const m=require('./out/posts/'+process.env.DATE+'/meta.json');process.stdout.write((m.captions&&m.captions.en)||'')"
+          } > email_body.txt
+          ls -la email_en.mp4 email_body.txt
+
+      - name: Email EN reel to Kaan
+        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
+        continue-on-error: true
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: kaanbudak0@gmail.com
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          from: Lumen <kaanbudak0@gmail.com>
+          to: kaanbudak0@gmail.com
+          subject: "🌙 Lumen — günün EN reel'i (${{ steps.date.outputs.DATE }})"
+          body: file://email_body.txt
+          attachments: email_en.mp4
+
       - name: Upload reels as artifacts
         if: steps.gate.outputs.post_day == 'true'
         uses: actions/upload-artifact@v4
