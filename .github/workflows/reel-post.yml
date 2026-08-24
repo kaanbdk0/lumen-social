@@ -31,17 +31,23 @@ jobs:
 
       # Post every 2 days with no calendar drift: only proceed when the number
       # of whole days since POST_START is even (manual runs always proceed).
-      - name: Gate (is today a post day?)
+      - name: Gate (post day? already posted today?)
         id: gate
         run: |
+          DATE="$(date -u +%F)"
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Force input → posting."; exit 0
           fi
           days=$(( ( $(date -u +%s) - $(date -u -d "${POST_START}" +%s) ) / 86400 ))
-          if [ $(( days % 2 )) -eq 0 ]; then
-            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Day ${days} since start → post day."
+          if [ $(( days % 2 )) -ne 0 ]; then
+            echo "post_day=false" >> "$GITHUB_OUTPUT"; echo "Day ${days} → off-day, skip."; exit 0
+          fi
+          # Post day — but skip if a reel already posted today, so a manual run plus
+          # the scheduled cron run don't double-post the same reel.
+          if [ -z "${{ github.event.inputs.langs }}" ] && git ls-remote --tags origin "refs/tags/reel-done-${DATE}" 2>/dev/null | grep -q "reel-done-${DATE}"; then
+            echo "post_day=false" >> "$GITHUB_OUTPUT"; echo "Already posted today (${DATE}) → skip duplicate."
           else
-            echo "post_day=false" >> "$GITHUB_OUTPUT"; echo "Day ${days} since start → skip."
+            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Day ${days} → post day."
           fi
 
       - name: Setup Node 20
@@ -156,6 +162,16 @@ jobs:
           INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
           VIDEO_BASE_URL: "https://github.com/${{ github.repository }}/releases/download/reel-${{ steps.date.outputs.DATE }}"
         run: node scripts/post-reel-instagram.js ${{ steps.date.outputs.DATE }}
+
+      # Tag that a reel posted today so the later scheduled cron run skips it (no
+      # double-post). Only runs if the Instagram step succeeded — it exits non-zero
+      # when 0 accounts post, which stops the job before this step.
+      - name: Mark reel posted today
+        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
+        run: |
+          DATE="${{ steps.date.outputs.DATE }}"
+          git tag -f "reel-done-${DATE}"
+          git push -f origin "reel-done-${DATE}"
 
       - name: Post to YouTube Shorts (EN)
         if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
