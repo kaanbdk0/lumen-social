@@ -179,6 +179,12 @@ async function main() {
   }
 
   console.log(`📸 Done: ${posted}/${accounts.length} stories posted`);
+  // Fail LOUD (red run) when nothing posts. Otherwise expired tokens fail
+  // per-account (caught) and the run stays green, hiding the outage for weeks.
+  if (posted === 0 && accounts.length > 0) {
+    console.error(`::error::0/${accounts.length} stories posted — every account failed. Check INSTAGRAM_ACCOUNTS tokens (they may have expired).`);
+    process.exit(1);
+  }
 }
 
 main();

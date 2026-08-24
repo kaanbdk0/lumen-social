@@ -134,6 +134,12 @@ async function main() {
   }));
   const posted = results.filter(Boolean).length;
   console.log(`📸 Done: ${posted}/${meta.langs.length} reels posted`);
+  // Fail LOUD (red run) when nothing posts, so an outage (e.g. expired tokens)
+  // is visible immediately instead of hiding behind a green run for weeks.
+  if (posted === 0 && meta.langs.length > 0) {
+    console.error(`::error::0/${meta.langs.length} reels posted — every account failed. Check INSTAGRAM_ACCOUNTS tokens (they may have expired).`);
+    process.exit(1);
+  }
 }
 
 main();
