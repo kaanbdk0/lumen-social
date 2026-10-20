@@ -1,0 +1,57 @@
+name: Refresh Instagram tokens
+
+# Instagram long-lived tokens expire after 60 days and cannot be refreshed once
+# expired. This refreshes every account's token while it is still valid and hands
+# the new set back ENCRYPTED to the caller's public key (no token ever hits logs).
+on:
+  workflow_dispatch:
+    inputs:
+      pubkey_b64:
+        description: "Base64 of the RSA public key (PEM) to encrypt the refreshed tokens to"
+        required: true
+        type: string
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh every token
+        env:
+          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          accounts = json.loads(os.environ["INSTAGRAM_ACCOUNTS"])
+          def get(url):
+              with urllib.request.urlopen(url, timeout=30) as r:
+                  return json.load(r)
+          ok = 0
+          for a in accounts:
+              t = a["accessToken"]
+              try:
+                  d = get("https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=" + urllib.parse.quote(t))
+                  nt = d["access_token"]
+                  me = get("https://graph.instagram.com/me?fields=username&access_token=" + urllib.parse.quote(nt))
+                  a["accessToken"] = nt
+                  ok += 1
+                  print(f"OK   {a.get('lang')}  @{me['username']}  {round(d['expires_in']/86400)} days")
+              except Exception as e:
+                  print(f"FAIL {a.get('lang')}  {a.get('pageName')}  {type(e).__name__}")
+          print(f"{ok}/{len(accounts)} refreshed")
+          json.dump(accounts, open("new.json", "w"))
+          PY
+      - name: Encrypt to caller's key
+        env:
+          PUBKEY_B64: ${{ github.event.inputs.pubkey_b64 }}
+        run: |
+          mkdir out
+          echo "$PUBKEY_B64" | base64 -d > pub.pem
+          openssl rand -hex 32 > k
+          openssl enc -aes-256-cbc -pbkdf2 -pass file:k -in new.json -out out/new.enc
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in k -out out/k.enc
+          rm -f new.json k
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ig-tokens-encrypted
+          path: out/
+          retention-days: 1
