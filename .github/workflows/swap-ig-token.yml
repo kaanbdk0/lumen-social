@@ -1,0 +1,61 @@
+name: Swap one Instagram token
+
+# Puts a freshly generated token (stored as its own secret) into INSTAGRAM_ACCOUNTS for one
+# language, after checking via /me that it really belongs to the expected account. The new
+# account list is returned ENCRYPTED to the caller's public key; no token is ever logged.
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: "Language entry to replace (e.g. hi)"
+        required: true
+        type: string
+      pubkey_b64:
+        description: "Base64 of the RSA public key (PEM) to encrypt the result to"
+        required: true
+        type: string
+
+jobs:
+  swap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify and swap
+        env:
+          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
+          NEW_TOKEN: ${{ secrets.IG_TOKEN_HI }}
+          LANG_IN: ${{ github.event.inputs.lang }}
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, urllib.request, urllib.parse
+          accounts = json.loads(os.environ["INSTAGRAM_ACCOUNTS"])
+          tok = os.environ["NEW_TOKEN"].strip()
+          lang = os.environ["LANG_IN"]
+          entry = next((a for a in accounts if a.get("lang") == lang), None)
+          if not entry: sys.exit(f"no entry for {lang}")
+          try:
+              me = json.load(urllib.request.urlopen("https://graph.instagram.com/me?fields=username&access_token=" + urllib.parse.quote(tok), timeout=30))
+          except Exception as e:
+              sys.exit(f"token rejected by Instagram: {type(e).__name__}")
+          print(f"token belongs to @{me['username']}; expected @{entry.get('pageName')}")
+          if me["username"] != entry.get("pageName"):
+              sys.exit("MISMATCH - not swapping")
+          others = [a.get("lang") for a in accounts if a is not entry and a.get("pageName") == me["username"]]
+          entry["accessToken"] = tok
+          json.dump(accounts, open("new.json", "w"))
+          print(f"OK: {lang} -> @{me['username']}")
+          PY
+      - name: Encrypt to caller's key
+        env:
+          PUBKEY_B64: ${{ github.event.inputs.pubkey_b64 }}
+        run: |
+          mkdir out
+          echo "$PUBKEY_B64" | base64 -d > pub.pem
+          openssl rand -hex 32 > k
+          openssl enc -aes-256-cbc -pbkdf2 -pass file:k -in new.json -out out/new.enc
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in k -out out/k.enc
+          rm -f new.json k
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ig-tokens-encrypted
+          path: out/
+          retention-days: 1
