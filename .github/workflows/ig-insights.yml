@@ -1,0 +1,55 @@
+name: Instagram insights export
+
+# Pulls post-level metrics for every account into a JSON artifact (metrics only, no tokens)
+# so content decisions can be made from the accounts' own data.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Posts per account"
+        type: string
+        default: "60"
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch
+        env:
+          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
+          LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          G = "https://graph.instagram.com/v23.0/"
+          def get(path, tok, **p):
+              p["access_token"] = tok
+              try:
+                  with urllib.request.urlopen(G + path + "?" + urllib.parse.urlencode(p), timeout=40) as r:
+                      return json.load(r)
+              except urllib.error.HTTPError as e:
+                  return {"_error": json.loads(e.read() or b"{}").get("error", {}).get("message", str(e.code))}
+          out = []
+          for a in json.loads(os.environ["INSTAGRAM_ACCOUNTS"]):
+              tok = a["accessToken"]
+              me = get("me", tok, fields="username,followers_count,media_count")
+              acc = {"lang": a["lang"], "account": me, "posts": []}
+              media = get("me/media", tok, fields="id,caption,media_type,media_product_type,timestamp,like_count,comments_count,permalink", limit=os.environ.get("LIMIT") or "60")
+              for m in media.get("data", []):
+                  reel = m.get("media_product_type") == "REELS"
+                  metrics = "views,reach,saved,shares,total_interactions,likes,comments" + (",ig_reels_avg_watch_time,ig_reels_video_view_total_time" if reel else ",follows,profile_visits")
+                  ins = get(f"{m['id']}/insights", tok, metric=metrics)
+                  if "_error" in ins and not reel:
+                      ins = get(f"{m['id']}/insights", tok, metric="views,reach,saved,shares,total_interactions")
+                  m["insights"] = {d["name"]: d["values"][0]["value"] for d in ins.get("data", [])} or ins
+                  m["caption"] = (m.get("caption") or "")[:300]
+                  acc["posts"].append(m)
+              print(f"{a['lang']}: @{me.get('username')} followers={me.get('followers_count')} posts={len(acc['posts'])} err={media.get('_error','')[:80]}")
+              out.append(acc)
+          json.dump(out, open("insights.json", "w"), ensure_ascii=False)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ig-insights
+          path: insights.json
+          retention-days: 3
