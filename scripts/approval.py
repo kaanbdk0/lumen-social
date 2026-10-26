@@ -391,6 +391,10 @@ def watch(minutes):
             except Exception as e: log("handle error:", repr(e)[:400]); say(f"Bir hata oldu: {str(e)[:200]}")
         if not ups and time.time() - idle_since > 600 and not open_items():
             log("nothing pending, exiting"); return
+    # Time is up but reels are still waiting: hand over to a fresh run right away, so a button
+    # press never lands in a gap between watchers.
+    if open_items() and os.environ.get("CI"):
+        gh("workflow", "run", "reel-approve.yml", check=False); log("still pending, started a new watcher")
 
 def main():
     cmd = sys.argv[1]
