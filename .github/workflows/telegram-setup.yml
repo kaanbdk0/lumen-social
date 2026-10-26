@@ -1,0 +1,44 @@
+name: Telegram setup (find chat id)
+
+# One-time: after Kaan sends /start to the bot, read the chat id and return it
+# ENCRYPTED to the caller's public key, so it never appears in the public log.
+on:
+  workflow_dispatch:
+    inputs:
+      pubkey_b64:
+        description: "Base64 of the RSA public key (PEM) to encrypt the result to"
+        required: true
+        type: string
+
+jobs:
+  chat-id:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read chat id
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, urllib.request
+          r = json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/getUpdates", timeout=30))
+          chats = {u["message"]["chat"]["id"]: u["message"]["chat"].get("username", "") for u in r.get("result", [])
+                   if "message" in u and u["message"].get("text", "").startswith("/start") and u["message"]["chat"]["type"] == "private"}
+          if not chats: sys.exit("no /start message found - send /start to the bot first")
+          print(f"{len(chats)} private chat(s) sent /start")
+          json.dump([{"id": k, "username": v} for k, v in chats.items()], open("chat.json", "w"))
+          PY
+      - name: Encrypt to caller's key
+        env:
+          PUBKEY_B64: ${{ github.event.inputs.pubkey_b64 }}
+        run: |
+          mkdir out
+          echo "$PUBKEY_B64" | base64 -d > pub.pem
+          openssl rand -hex 32 > k
+          openssl enc -aes-256-cbc -pbkdf2 -pass file:k -in chat.json -out out/chat.enc
+          openssl pkeyutl -encrypt -pubin -inkey pub.pem -in k -out out/k.enc
+          rm -f chat.json k
+      - uses: actions/upload-artifact@v4
+        with:
+          name: telegram-chat-encrypted
+          path: out/
+          retention-days: 1

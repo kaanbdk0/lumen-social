@@ -1,190 +1,87 @@
-name: Reel Post (every 2 days)
+name: Reel Prepare (every 2 days → Telegram approval)
 
+# Renders today's voiced reel for every language, checks each voice track with
+# speech-to-text, and sends it to Kaan on Telegram. Nothing is posted here: the
+# reel-approve workflow posts a language only after Kaan presses "Paylaş".
 on:
   # Scheduling is handled by an external cron (cron-job.org) that calls
-  # workflow_dispatch daily. The gate step below keeps the every-2-days
-  # cadence; pass force=true to post on an off-day.
+  # workflow_dispatch daily; the gate keeps the every-2-days cadence.
   workflow_dispatch:
     inputs:
       force:
-        description: "Force a post even on an off-day"
+        description: "Prepare even on an off-day"
         type: boolean
         default: false
       langs:
-        description: "Comma-separated langs to render/post (blank = all). Use to re-post only specific languages."
+        description: "Comma-separated langs (blank = all)"
         type: string
         default: ""
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: reel-prepare
+  cancel-in-progress: false
 
 env:
   POST_START: "2026-06-07"
 
 jobs:
-  render-and-post:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Post every 2 days with no calendar drift: only proceed when the number
-      # of whole days since POST_START is even (manual runs always proceed).
-      - name: Gate (post day? already posted today?)
+      - name: Gate (post day? already prepared today?)
         id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          DATE="$(date -u +%F)"
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Force input → posting."; exit 0
+          DATE="$(TZ=Europe/Istanbul date +%F)"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event.inputs.force }}" = "true" ] || [ -n "${{ github.event.inputs.langs }}" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"; echo "Manual run → preparing."; exit 0
           fi
-          days=$(( ( $(date -u +%s) - $(date -u -d "${POST_START}" +%s) ) / 86400 ))
-          if [ $(( days % 2 )) -ne 0 ]; then
-            echo "post_day=false" >> "$GITHUB_OUTPUT"; echo "Day ${days} → off-day, skip."; exit 0
+          days=$(( ( $(date -u -d "$DATE" +%s) - $(date -u -d "${POST_START}" +%s) ) / 86400 ))
+          if [ $(( days % 2 )) -ne 0 ]; then echo "go=false" >> "$GITHUB_OUTPUT"; echo "Off-day."; exit 0; fi
+          if gh release view "approve-$DATE" >/dev/null 2>&1; then
+            echo "go=false" >> "$GITHUB_OUTPUT"; echo "Already prepared today."; exit 0
           fi
-          # Post day — but skip if a reel already posted today, so a manual run plus
-          # the scheduled cron run don't double-post the same reel.
-          if [ -z "${{ github.event.inputs.langs }}" ] && git ls-remote --tags origin "refs/tags/reel-done-${DATE}" 2>/dev/null | grep -q "reel-done-${DATE}"; then
-            echo "post_day=false" >> "$GITHUB_OUTPUT"; echo "Already posted today (${DATE}) → skip duplicate."
-          else
-            echo "post_day=true" >> "$GITHUB_OUTPUT"; echo "Day ${days} → post day."
-          fi
+          echo "go=true" >> "$GITHUB_OUTPUT"
 
-      - name: Setup Node 20
-        if: steps.gate.outputs.post_day == 'true'
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.go == 'true'
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
-        if: steps.gate.outputs.post_day == 'true'
-        run: npm ci
-
-      - name: Install ffmpeg and multilingual fonts
-        if: steps.gate.outputs.post_day == 'true'
+      - name: Install dependencies, ffmpeg, fonts, Chromium
+        if: steps.gate.outputs.go == 'true'
         run: |
+          npm ci
           sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-noto-cjk fonts-noto-color-emoji fonts-noto-core fonts-noto-extra
-          fc-cache -fv
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-extra fonts-noto-cjk fonts-noto-color-emoji
+          fc-cache -f
+          npx remotion browser ensure
 
-      - name: Install Chromium for Remotion
-        if: steps.gate.outputs.post_day == 'true'
-        run: npx remotion browser ensure
-
-      - name: Validate data (constitution)
-        if: steps.gate.outputs.post_day == 'true'
-        run: node scripts/validate-data.js
-
-      - name: Set date
-        if: steps.gate.outputs.post_day == 'true'
-        id: date
-        run: echo "DATE=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
-
-      - name: Render reels (all languages, random quote)
-        if: steps.gate.outputs.post_day == 'true'
+      - name: Render, check and send to Telegram
+        if: steps.gate.outputs.go == 'true'
         env:
-          FFMPEG_PATH: /usr/bin/ffmpeg
-        run: |
-          ARGS="${{ steps.date.outputs.DATE }}"
-          LANGS="${{ github.event.inputs.langs }}"
-          if [ -n "$LANGS" ]; then ARGS="$ARGS --langs $LANGS"; echo "Rendering only: $LANGS"; fi
-          node render-post.js $ARGS
-
-      - name: Verify reels exist
-        if: steps.gate.outputs.post_day == 'true'
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          shopt -s nullglob
-          files=(out/posts/${DATE}/*.mp4)
-          if [ ${#files[@]} -eq 0 ]; then echo "::error::No reels rendered for ${DATE}."; exit 1; fi
-          echo "✅ ${#files[@]} reel(s) rendered."
-
-      # Email the EN reel to Kaan every reel day — Mac-independent delivery.
-      # Compresses to ~6MB so it fits comfortably under Gmail's 25MB limit.
-      - name: Prepare EN reel for email
-        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
-        continue-on-error: true
-        env:
-          DATE: ${{ steps.date.outputs.DATE }}
-        run: |
-          SRC="out/posts/$DATE/lumen_post_${DATE}_en.mp4"
-          ffmpeg -y -i "$SRC" -vf "scale=-2:1280" -c:v libx264 -preset veryfast -b:v 2200k -c:a aac -b:a 96k email_en.mp4
-          {
-            echo "Lumen — gunun EN reeli ($DATE)"
-            echo ""
-            echo "--- Caption (manuel paylasim icin) ---"
-            node -e "const m=require('./out/posts/'+process.env.DATE+'/meta.json');process.stdout.write((m.captions&&m.captions.en)||'')"
-          } > email_body.txt
-          ls -la email_en.mp4 email_body.txt
-
-      - name: Email EN reel to Kaan
-        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
-        continue-on-error: true
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: kaanbudak0@gmail.com
-          password: ${{ secrets.GMAIL_APP_PASSWORD }}
-          from: Lumen <kaanbudak0@gmail.com>
-          to: kaanbudak0@gmail.com
-          subject: "🌙 Lumen — günün EN reel'i (${{ steps.date.outputs.DATE }})"
-          body: file://email_body.txt
-          attachments: email_en.mp4
-
-      - name: Upload reels as artifacts
-        if: steps.gate.outputs.post_day == 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: reels-${{ steps.date.outputs.DATE }}
-          path: out/posts/${{ steps.date.outputs.DATE }}/
-          retention-days: 7
-
-      # Host reels via a temp GitHub release so Instagram can fetch by URL.
-      - name: Create temp release for video hosting
-        if: steps.gate.outputs.post_day == 'true'
-        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
-          shopt -s nullglob
-          DATE="${{ steps.date.outputs.DATE }}"
-          files=(out/posts/${DATE}/*.mp4)
-          if [ ${#files[@]} -eq 0 ]; then echo "::error::No reels to host."; exit 1; fi
-          gh release create "reel-${DATE}" --title "Reel ${DATE}" --notes "Auto-generated reels. Will be cleaned up." || true
-          for f in "${files[@]}"; do gh release upload "reel-${DATE}" "$f" --clobber; done
+          ARGS="${{ steps.gate.outputs.date }}"
+          [ -n "${{ github.event.inputs.langs }}" ] && ARGS="$ARGS --langs ${{ github.event.inputs.langs }}"
+          python3 scripts/approval.py prepare $ARGS
 
-      - name: Post to Instagram Reels (all languages)
-        if: steps.gate.outputs.post_day == 'true'
-        env:
-          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
-          VIDEO_BASE_URL: "https://github.com/${{ github.repository }}/releases/download/reel-${{ steps.date.outputs.DATE }}"
-        run: node scripts/post-reel-instagram.js ${{ steps.date.outputs.DATE }}
-
-      # Tag that a reel posted today so the later scheduled cron run skips it (no
-      # double-post). Only runs if the Instagram step succeeded — it exits non-zero
-      # when 0 accounts post, which stops the job before this step.
-      - name: Mark reel posted today
-        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          git tag -f "reel-done-${DATE}"
-          git push -f origin "reel-done-${DATE}"
-
-      - name: Post to YouTube Shorts (EN)
-        if: steps.gate.outputs.post_day == 'true' && github.event.inputs.langs == ''
-        env:
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-        run: node scripts/post-reel-youtube.js ${{ steps.date.outputs.DATE }}
-
-      - name: Cleanup temp release
-        if: always() && steps.gate.outputs.post_day == 'true'
+      - name: Start the approval watcher
+        if: steps.gate.outputs.go == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          gh release delete "reel-${DATE}" -y --cleanup-tag 2>/dev/null || true
+        run: gh workflow run reel-approve.yml

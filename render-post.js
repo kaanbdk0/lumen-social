@@ -154,7 +154,7 @@ function main() {
     try {
       writeFileSync(propsFile, JSON.stringify(props));
       console.log(`🎬 [${lang}] rendering reel...`);
-      execSync(`npx remotion render src/index.js LumenReel "${silent}" --props="${propsFile}" --timeout=120000`, { cwd: __dirname, stdio: "pipe" });
+      execSync(`npx remotion render src/index.js LumenReel "${silent}" --props="${propsFile}" --timeout=${process.env.REMOTION_TIMEOUT_MS || 120000}`, { cwd: __dirname, stdio: "pipe" });
       unlinkSync(propsFile);
 
       if (hasMusic) {

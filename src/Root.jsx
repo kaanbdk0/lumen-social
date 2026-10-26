@@ -1,4 +1,5 @@
 import { Composition } from "remotion";
+import { LumenPoemReel, POEM_HOOK_SEC, POEM_PLUG_SEC, POEM_GAP_SEC } from "./LumenPoemReel";
 import { LumenQuoteVideo } from "./LumenQuoteVideo.jsx";
 import { LumenPost } from "./LumenPost.jsx";
 import { LumenReel } from "./LumenReel.jsx";
@@ -80,6 +81,20 @@ export const RemotionRoot = () => {
         width={1080}
         height={1920}
         defaultProps={{ lang: "en" }}
+      />
+      {/* Lumen 2.0 poem reel — hook card, voiced poem, widget plug. Length follows the voice. */}
+      <Composition
+        id="LumenPoemReel"
+        component={LumenPoemReel}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ stanzas: [] }}
+        calculateMetadata={({ props }) => {
+          const last = props.stanzas?.length ? props.stanzas[props.stanzas.length - 1].slice(-1)[0].end : 20;
+          return { durationInFrames: Math.ceil((POEM_HOOK_SEC + last + POEM_GAP_SEC + Math.max(POEM_PLUG_SEC, (props.ctaSec || 0) + 0.9)) * 30) };
+        }}
       />
     </>
   );
