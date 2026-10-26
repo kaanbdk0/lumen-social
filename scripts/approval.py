@@ -379,7 +379,9 @@ def open_items():
 def watch(minutes):
     deadline = time.time() + minutes * 60
     chat = int(os.environ["TELEGRAM_CHAT_ID"])
-    if not open_items(): log("nothing pending"); return       # scheduled runs end in seconds on quiet days
+    pending = open_items()
+    if not pending: log("nothing pending"); return       # scheduled runs end in seconds on quiet days
+    log("watching, pending:", pending)
     offset, idle_since = None, time.time()
     while time.time() < deadline:
         r = tg("getUpdates", timeout=50, allowed_updates=["callback_query"], **({"offset": offset} if offset else {}))
@@ -390,9 +392,11 @@ def watch(minutes):
             idle_since = time.time()
         for u in ups:
             cb = u.get("callback_query")
-            if not cb or cb.get("from", {}).get("id") != chat: continue
-            try: handle(cb)
-            except Exception as e: log("handle error:", repr(e)[:400]); say(f"Bir hata oldu: {str(e)[:200]}")
+            if not cb: continue
+            log("button:", cb.get("data"), "from me" if cb.get("from", {}).get("id") == chat else "from someone else, ignored")
+            if cb.get("from", {}).get("id") != chat: continue
+            try: handle(cb); log("done:", cb.get("data"))
+            except Exception as e: log("handle error:", repr(e)[:400]); say(f"Bir hata oldu: {str(e)[:300]}")
         if not ups and time.time() - idle_since > 600 and not open_items():
             log("nothing pending, exiting"); return
     # Time is up but reels are still waiting: hand over to a fresh run right away, so a button
