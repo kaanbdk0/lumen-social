@@ -206,12 +206,16 @@ def upload(d, files):
     gh("release", "upload", f"approve-{d}", *files, "--clobber")
 
 def tags(prefix):
-    r = subprocess.run(["git", "ls-remote", "--tags", "origin", f"refs/tags/{prefix}*"], capture_output=True, text=True, cwd=ROOT)
-    return {l.split("refs/tags/")[1] for l in r.stdout.splitlines() if "refs/tags/" in l}
+    r = gh("api", f"repos/{os.environ['GITHUB_REPOSITORY']}/git/matching-refs/tags/{prefix}", "--paginate", "-q", ".[].ref", check=False)
+    return {l[len("refs/tags/"):] for l in r.stdout.split()}
 
 def mark(tag_name):
-    subprocess.run(["git", "tag", "-f", tag_name], cwd=ROOT, check=True)
-    subprocess.run(["git", "push", "-f", "origin", f"refs/tags/{tag_name}"], cwd=ROOT, check=True, capture_output=True)
+    """Record a decision as a tag through the API (no git credentials or local tag state involved)."""
+    repo = os.environ["GITHUB_REPOSITORY"]
+    sha = gh("api", f"repos/{repo}/commits/HEAD", "-q", ".sha").stdout.strip()
+    r = gh("api", f"repos/{repo}/git/refs", "-f", f"ref=refs/tags/{tag_name}", "-f", f"sha={sha}", check=False)
+    if r.returncode != 0 and "already exists" not in r.stdout + r.stderr:
+        raise RuntimeError(f"tag {tag_name}: {(r.stdout + r.stderr)[-300:]}")
 
 def resolved(d, lang, have=None):
     have = have if have is not None else tags(f"reel-")
