@@ -229,7 +229,12 @@ def tg(method, **params):
 
 def tg_video(path, caption, keyboard):
     tok = os.environ["TELEGRAM_BOT_TOKEN"]
+    # Without explicit size + thumbnail Telegram guesses the aspect and shows the 9:16 reel squashed.
+    thumb = path + ".thumb.jpg"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1", "-i", path, "-frames:v", "1", "-vf", "scale=320:-2", thumb])
     out = subprocess.run(["curl", "-s", "-F", f"chat_id={os.environ['TELEGRAM_CHAT_ID']}", "-F", f"video=@{path}",
+                          "-F", "width=1080", "-F", "height=1920", "-F", f"duration={round(probe(path))}",
+                          "-F", f"thumbnail=@{thumb}",
                           "-F", "supports_streaming=true", "-F", f"caption={caption}",
                           "-F", f"reply_markup={json.dumps({'inline_keyboard': keyboard})}",
                           f"https://api.telegram.org/bot{tok}/sendVideo"], capture_output=True, text=True, timeout=300).stdout
