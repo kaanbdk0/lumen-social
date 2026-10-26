@@ -129,7 +129,7 @@ export const LumenPoemReel = ({
         </div>
       </div>
 
-      <div style={{ position: "absolute", left: 100, top: 1400, fontFamily: SANS, fontSize: 28, color: `${GOLD}cc`, opacity: 1 - plugIn }}>{handle}</div>
+      <div style={{ position: "absolute", left: 100, top: 1400, fontFamily: SANS, fontSize: 28, color: `${GOLD}cc`, opacity: 1 - plugIn, direction: "ltr" }}>{handle}</div>
     </AbsoluteFill>
   );
 };
