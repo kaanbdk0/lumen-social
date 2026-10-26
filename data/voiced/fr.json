@@ -1,0 +1,355 @@
+[
+ {
+  "slug": "fr_hugo_demain",
+  "mode": "poem",
+  "poet": "Victor Hugo",
+  "author": "Victor Hugo",
+  "title": "Demain, dès l’aube",
+  "hook": "Il a écrit ce poème pour sa fille.",
+  "stanzas": [
+   [
+    "Demain, dès l’aube, à l’heure où blanchit la campagne,",
+    "Je partirai. Vois-tu, je sais que tu m’attends.",
+    "J’irai par la forêt, j’irai par la montagne.",
+    "Je ne puis demeurer loin de toi plus longtemps."
+   ],
+   [
+    "Je ne regarderai ni l’or du soir qui tombe,",
+    "Ni les voiles au loin descendant vers Harfleur,",
+    "Et quand j’arriverai, je mettrai sur ta tombe"
+   ],
+   [
+    "Un bouquet de houx vert et de bruyère en fleur."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Il a écrit ce poème pour sa fille.\n\nVictor Hugo · Demain, dès l’aube\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #victorhugo #poèmes",
+  "source": "Victor Hugo, Les Contemplations, IV, XIV (1856), texte de fr.wikisource (éd. Nelson). Extrait : strophes 1 et 3, mot pour mot."
+ },
+ {
+  "slug": "fr_pascal_roseau",
+  "mode": "prose",
+  "poet": "Pascal",
+  "author": "Blaise Pascal",
+  "title": "Pensées",
+  "hook": "Pascal a écrit :",
+  "hookSub": "Pensées, 1670",
+  "stanzas": [
+   [
+    "L’homme n’est qu’un roseau, le plus faible de la nature ;",
+    "mais c’est un roseau pensant.",
+    "Il ne faut pas que l’univers entier s’arme pour l’écraser :",
+    "une vapeur, une goutte d’eau, suffit pour le tuer."
+   ],
+   [
+    "Mais, quand l’univers l’écraserait,",
+    "l’homme serait encore plus noble que ce qui le tue,",
+    "parce qu’il sait qu’il meurt,",
+    "et l’avantage que l’univers a sur lui ;",
+    "l’univers n’en sait rien."
+   ],
+   [
+    "Toute notre dignité consiste donc en la pensée."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Pascal a écrit :\n\nBlaise Pascal · Pensées\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #pascal #littérature",
+  "source": "Blaise Pascal, Pensées, fragment 347 (éd. Brunschvicg), texte original de fr.wikisource. Extrait mot pour mot."
+ },
+ {
+  "slug": "fr_desbordes_valmore_roses",
+  "mode": "poem",
+  "poet": "Marceline Desbordes-Valmore",
+  "author": "Marceline Desbordes-Valmore",
+  "title": "Les Roses de Saadi",
+  "hook": "As-tu déjà voulu tout offrir d’un coup ?",
+  "stanzas": [
+   [
+    "J’ai voulu, ce matin, te rapporter des roses ;",
+    "Mais j’en avais tant pris dans mes ceintures closes",
+    "Que les nœuds trop serrés n’ont pu les contenir."
+   ],
+   [
+    "Les nœuds ont éclaté. Les roses envolées",
+    "Dans le vent, à la mer s’en sont toutes allées.",
+    "Elles ont suivi l’eau pour ne plus revenir."
+   ],
+   [
+    "La vague en a paru rouge et comme enflammée :",
+    "Ce soir ma robe encore en est toute embaumée…"
+   ],
+   [
+    "Respires-en sur moi l’odorant souvenir."
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "As-tu déjà voulu tout offrir d’un coup ?\n\nMarceline Desbordes-Valmore · Les Roses de Saadi\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #desbordesvalmore #poèmes",
+  "source": "Marceline Desbordes-Valmore, Poésies inédites (Genève, Jules Fick, 1860), p. 15, fr.wikisource. Poème complet, mot pour mot."
+ },
+ {
+  "slug": "fr_seneque_vie_breve",
+  "mode": "prose",
+  "poet": "Sénèque",
+  "author": "Sénèque",
+  "title": "De la brièveté de la vie",
+  "hook": "Sénèque, il y a 2 000 ans :",
+  "hookSub": "De la brièveté de la vie",
+  "stanzas": [
+   [
+    "Nous n’avons pas peu de temps,",
+    "mais nous en avons beaucoup perdu.",
+    "La vie est assez longue,",
+    "et largement donnée pour accomplir les plus grandes choses,",
+    "si elle était tout entière bien employée."
+   ],
+   [
+    "Nous ne manquons pas de vie, nous la gaspillons."
+   ],
+   [
+    "Nous n’avons pas reçu une vie brève, nous l’avons faite telle."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "Sénèque, il y a 2 000 ans :\n\nSénèque · De la brièveté de la vie\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #sénèque #littérature",
+  "source": "Sénèque, De brevitate vitae, I, 3-4. Traduction française originale (Lumen) depuis le latin (texte de src/brevitate.html). Phrases réordonnées a minima : « nec inopes eius sed prodigi sumus » placée avant « non accipimus brevem vitam sed fecimus »."
+ },
+ {
+  "slug": "fr_baudelaire_albatros",
+  "mode": "poem",
+  "poet": "Baudelaire",
+  "author": "Charles Baudelaire",
+  "title": "L’Albatros",
+  "hook": "Et si ta différence, c’était tes ailes ?",
+  "stanzas": [
+   [
+    "Souvent, pour s’amuser, les hommes d’équipage",
+    "Prennent des albatros, vastes oiseaux des mers,",
+    "Qui suivent, indolents compagnons de voyage,",
+    "Le navire glissant sur les gouffres amers."
+   ],
+   [
+    "Le Poëte est semblable au prince des nuées",
+    "Qui hante la tempête et se rit de l’archer ;",
+    "Exilé sur le sol au milieu des huées,"
+   ],
+   [
+    "Ses ailes de géant l’empêchent de marcher."
+   ]
+  ],
+  "reel_bg": "bg/ronesans/bg_01.jpg",
+  "caption": "Et si ta différence, c’était tes ailes ?\n\nCharles Baudelaire · L’Albatros\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #baudelaire #poèmes",
+  "source": "Charles Baudelaire, Les Fleurs du mal (Poulet-Malassis et de Broise, 1861), II, fr.wikisource. Extrait : strophes 1 et 4, mot pour mot (graphie « Poëte » de l’édition)."
+ },
+ {
+  "slug": "fr_marc_aurele_matin",
+  "mode": "prose",
+  "poet": "Marc Aurèle",
+  "author": "Marc Aurèle",
+  "title": "Pensées pour moi-même",
+  "hook": "Tu as du mal à te lever le matin ?",
+  "hookSub": "Pensées pour moi-même, livre V",
+  "stanzas": [
+   [
+    "Le matin, quand tu as du mal à te lever,",
+    "aie cette pensée sous la main :",
+    "je me lève pour faire mon œuvre d’homme."
+   ],
+   [
+    "Pourquoi donc suis-je encore de mauvaise humeur,",
+    "si je vais faire ce pour quoi je suis né,",
+    "ce pour quoi j’ai été mis au monde ?",
+    "Ai-je donc été fait pour rester couché sous mes couvertures, à me tenir au chaud ?"
+   ],
+   [
+    "Mais c’est plus agréable."
+   ],
+   [
+    "Es-tu donc né pour le plaisir, et non pour agir ?"
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "Tu as du mal à te lever le matin ?\n\nMarc Aurèle · Pensées pour moi-même\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #marcaurèle #littérature",
+  "source": "Marc Aurèle, Pensées pour moi-même, V, 1 (début). Traduction française originale (Lumen) depuis le grec, vérifiée sur la traduction anglaise de George Long (src/meditations_long.txt)."
+ },
+ {
+  "slug": "fr_verlaine_il_pleure",
+  "mode": "poem",
+  "poet": "Paul Verlaine",
+  "author": "Paul Verlaine",
+  "title": "Il pleure dans mon cœur",
+  "hook": "Triste sans savoir pourquoi ?",
+  "stanzas": [
+   [
+    "Il pleure dans mon cœur",
+    "Comme il pleut sur la ville,",
+    "Quelle est cette langueur",
+    "Qui pénètre mon cœur ?"
+   ],
+   [
+    "Il pleure sans raison",
+    "Dans ce cœur qui s’écœure.",
+    "Quoi ! nulle trahison ?",
+    "Ce deuil est sans raison."
+   ],
+   [
+    "C’est bien la pire peine",
+    "De ne savoir pourquoi,",
+    "Sans amour et sans haine,"
+   ],
+   [
+    "Mon cœur a tant de peine !"
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_02.jpg",
+  "caption": "Triste sans savoir pourquoi ?\n\nPaul Verlaine · Il pleure dans mon cœur\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #verlaine #poèmes",
+  "source": "Paul Verlaine, Romances sans paroles, Ariettes oubliées III (éd. Vanier, 1902), fr.wikisource. Extrait : strophes 1, 3 et 4, mot pour mot."
+ },
+ {
+  "slug": "fr_epictete_jugements",
+  "mode": "prose",
+  "poet": "Épictète",
+  "author": "Épictète",
+  "title": "Manuel",
+  "hook": "Ce qui te trouble vraiment :",
+  "hookSub": "Manuel, chapitre 5",
+  "stanzas": [
+   [
+    "Ce qui trouble les hommes,",
+    "ce ne sont pas les choses,",
+    "mais les jugements qu’ils portent sur les choses."
+   ],
+   [
+    "Ainsi la mort n’a rien de terrible,",
+    "sinon elle aurait paru telle à Socrate ;",
+    "le terrible, c’est le jugement qui dit que la mort est terrible."
+   ],
+   [
+    "Quand donc nous sommes empêchés, troublés ou affligés,",
+    "n’accusons jamais un autre,"
+   ],
+   [
+    "mais nous-mêmes, c’est-à-dire nos propres jugements."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_02.jpg",
+  "caption": "Ce qui te trouble vraiment :\n\nÉpictète · Manuel\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #épictète #littérature",
+  "source": "Épictète, Manuel, chapitre 5. Traduction française originale (Lumen) depuis le grec, vérifiée sur la traduction anglaise de T. W. Higginson (src/enchiridion.txt)."
+ },
+ {
+  "slug": "fr_lamartine_lac",
+  "mode": "poem",
+  "poet": "Lamartine",
+  "author": "Alphonse de Lamartine",
+  "title": "Le Lac",
+  "hook": "Si tu pouvais arrêter le temps une nuit ?",
+  "stanzas": [
+   [
+    "Ô temps, suspends ton vol ! et vous, heures propices,",
+    "Suspendez votre cours !",
+    "Laissez-nous savourer les rapides délices",
+    "Des plus beaux de nos jours !"
+   ],
+   [
+    "Mais je demande en vain quelques moments encore,",
+    "Le temps m’échappe et fuit ;",
+    "Je dis à cette nuit : Sois plus lente ; et l’aurore",
+    "Va dissiper la nuit."
+   ],
+   [
+    "Aimons donc, aimons donc ! de l’heure fugitive,",
+    "Hâtons-nous, jouissons !",
+    "L’homme n’a point de port, le temps n’a point de rive ;"
+   ],
+   [
+    "Il coule, et nous passons !"
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_02.jpg",
+  "caption": "Si tu pouvais arrêter le temps une nuit ?\n\nAlphonse de Lamartine · Le Lac\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #lamartine #poèmes",
+  "source": "Alphonse de Lamartine, Méditations poétiques, « Le Lac », texte des Œuvres complètes (1860), tome 1, fr.wikisource. Extrait : strophes 6, 8 et 9 (la voix de l’aimée), mot pour mot ; seuls les guillemets d’ouverture de ligne « et » ont été retirés."
+ },
+ {
+  "slug": "fr_gibran_enfants",
+  "mode": "prose",
+  "poet": "Khalil Gibran",
+  "author": "Khalil Gibran",
+  "title": "Le Prophète",
+  "hook": "À tous les parents :",
+  "hookSub": "Le Prophète, 1923",
+  "stanzas": [
+   [
+    "Vos enfants ne sont pas vos enfants.",
+    "Ils sont les fils et les filles de l’appel de la Vie à elle-même.",
+    "Ils viennent à travers vous mais non de vous,",
+    "et bien qu’ils soient avec vous, ils ne vous appartiennent pas."
+   ],
+   [
+    "Vous pouvez leur donner votre amour, mais non vos pensées,",
+    "car ils ont leurs propres pensées."
+   ],
+   [
+    "Vous êtes les arcs par qui vos enfants, comme des flèches vivantes, sont lancés."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "À tous les parents :\n\nKhalil Gibran · Le Prophète\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #khalilgibran #littérature",
+  "source": "Khalil Gibran, The Prophet (1923), « On Children ». Traduction française originale (Lumen) depuis l’anglais (en_prophet.json). Extrait."
+ },
+ {
+  "slug": "fr_apollinaire_mirabeau",
+  "mode": "poem",
+  "poet": "Apollinaire",
+  "author": "Guillaume Apollinaire",
+  "title": "Le Pont Mirabeau",
+  "hook": "Tu as déjà vu un amour s’en aller ?",
+  "stanzas": [
+   [
+    "Sous le pont Mirabeau coule la Seine",
+    "Et nos amours",
+    "Faut-il qu’il m’en souvienne",
+    "La joie venait toujours après la peine"
+   ],
+   [
+    "L’amour s’en va comme cette eau courante",
+    "L’amour s’en va",
+    "Comme la vie est lente",
+    "Et comme l’Espérance est violente"
+   ],
+   [
+    "Vienne la nuit sonne l’heure"
+   ],
+   [
+    "Les jours s’en vont je demeure"
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Tu as déjà vu un amour s’en aller ?\n\nGuillaume Apollinaire · Le Pont Mirabeau\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #apollinaire #poèmes",
+  "source": "Guillaume Apollinaire, Alcools (1913), « Le Pont Mirabeau », fr.wikisource. Extrait : strophes 1 et 3 puis le refrain, mot pour mot (sans ponctuation, comme l’original)."
+ },
+ {
+  "slug": "fr_dostoievski_nuits_blanches",
+  "mode": "prose",
+  "poet": "Dostoïevski",
+  "author": "Fiodor Dostoïevski",
+  "title": "Les Nuits blanches",
+  "hook": "Dostoïevski a écrit ceci en 1848 :",
+  "hookSub": "Les Nuits blanches",
+  "stanzas": [
+   [
+    "Que ton ciel soit clair,",
+    "que ton doux sourire soit lumineux et serein,",
+    "et sois bénie pour cette minute de félicité et de bonheur",
+    "que tu as donnée à un autre cœur, solitaire et reconnaissant !"
+   ],
+   [
+    "Mon Dieu ! Toute une minute de félicité !"
+   ],
+   [
+    "Est-ce donc si peu, même pour toute une vie d’homme ?"
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "Dostoïevski a écrit ceci en 1848 :\n\nFiodor Dostoïevski · Les Nuits blanches\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #dostoïevski #littérature",
+  "source": "Fiodor Dostoïevski, Les Nuits blanches (1848), fin du récit (« Matin »). Traduction française originale (Lumen) depuis le russe, vérifiée sur la traduction anglaise de Constance Garnett (src/white_nights.txt)."
+ }
+]

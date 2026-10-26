@@ -1,0 +1,372 @@
+[
+ {
+  "slug": "es_becquer_poesia",
+  "mode": "poem",
+  "poet": "Bécquer",
+  "author": "Gustavo Adolfo Bécquer",
+  "title": "Rima XXI",
+  "hook": "¿Alguna vez te preguntaron qué es poesía?",
+  "stanzas": [
+   [
+    "¿Qué es poesía?, dices mientras clavas",
+    "En mi pupila tu pupila azul;",
+    "¿Qué es poesía? ¿Y tú me lo preguntas?"
+   ],
+   [
+    "¡Poesía... eres tú!"
+   ]
+  ],
+  "reel_bg": "tiktok/klimt_opucuk.jpg",
+  "caption": "¿Alguna vez te preguntaron qué es poesía?\n\nGustavo Adolfo Bécquer · Rima XXI\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #becquer #poemas",
+  "source": "Bécquer, Rimas, Rima XXI. Texto íntegro según es.wikisource.org (Rimas, ed. 1925 y Obras, ed. 1885; mismas palabras, puntuación moderna)."
+ },
+ {
+  "slug": "es_marco_aurelio_manana",
+  "mode": "prose",
+  "poet": "Marco Aurelio",
+  "author": "Marco Aurelio",
+  "title": "Meditaciones",
+  "hook": "¿Te cuesta levantarte por la mañana?",
+  "hookSub": "Marco Aurelio · Meditaciones",
+  "stanzas": [
+   [
+    "Por la mañana, cuando te cueste levantarte,",
+    "ten presente este pensamiento:",
+    "me levanto para hacer el trabajo de un ser humano."
+   ],
+   [
+    "¿Por qué me disgusta, entonces, ir a hacer aquello para lo que existo?",
+    "¿O acaso fui hecho para quedarme entre las sábanas, abrigado?"
+   ],
+   [
+    "¿No ves a las pequeñas plantas, a los pájaros,",
+    "a las hormigas, a las arañas, a las abejas,",
+    "trabajando juntos para poner en orden su parte del universo?"
+   ],
+   [
+    "¿Y tú no quieres hacer el trabajo de un ser humano?"
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "¿Te cuesta levantarte por la mañana?\n\nMarco Aurelio · Meditaciones\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #marcoaurelio #literatura",
+  "source": "Marco Aurelio, Meditaciones V.1 (fragmento). Traducción propia al español a partir de la versión inglesa de George Long (1862)."
+ },
+ {
+  "slug": "es_machado_caminante",
+  "mode": "poem",
+  "poet": "Antonio Machado",
+  "author": "Antonio Machado",
+  "title": "Proverbios y cantares XXIX",
+  "hook": "¿Sientes que no encuentras tu camino?",
+  "stanzas": [
+   [
+    "Caminante, son tus huellas",
+    "el camino, y nada más;",
+    "caminante, no hay camino:",
+    "se hace camino al andar."
+   ],
+   [
+    "Al andar se hace camino,",
+    "y al volver la vista atrás",
+    "se ve la senda que nunca",
+    "se ha de volver a pisar."
+   ],
+   [
+    "Caminante, no hay camino,"
+   ],
+   [
+    "sino estelas en la mar."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "¿Sientes que no encuentras tu camino?\n\nAntonio Machado · Proverbios y cantares XXIX\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #antoniomachado #poemas",
+  "source": "Antonio Machado, Campos de Castilla (1912), Proverbios y cantares XXIX. Texto íntegro según es.wikisource.org."
+ },
+ {
+  "slug": "es_seneca_vida_breve",
+  "mode": "prose",
+  "poet": "Séneca",
+  "author": "Séneca",
+  "title": "Sobre la brevedad de la vida",
+  "hook": "Séneca escribió esto hace 2.000 años:",
+  "hookSub": "Sobre la brevedad de la vida",
+  "stanzas": [
+   [
+    "No es que tengamos poco tiempo,",
+    "sino que hemos perdido mucho."
+   ],
+   [
+    "La vida es bastante larga",
+    "y se nos ha dado con generosidad para llevar a cabo las cosas más grandes,",
+    "si toda ella se empleara bien."
+   ],
+   [
+    "Pero cuando se escurre entre el lujo y la negligencia,",
+    "cuando no se gasta en nada bueno,",
+    "solo al final, empujados por la necesidad,",
+    "sentimos que se ha ido la vida que no vimos irse."
+   ],
+   [
+    "No recibimos una vida breve: nosotros la hacemos breve."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "Séneca escribió esto hace 2.000 años:\n\nSéneca · Sobre la brevedad de la vida\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #seneca #literatura",
+  "source": "Séneca, De brevitate vitae I.3-4 (fragmento). Traducción propia al español del original latino (texto latino de The Latin Library)."
+ },
+ {
+  "slug": "es_dario_juventud",
+  "mode": "poem",
+  "poet": "Rubén Darío",
+  "author": "Rubén Darío",
+  "title": "Canción de otoño en primavera",
+  "hook": "¿Echas de menos a quien eras?",
+  "stanzas": [
+   [
+    "Mas a pesar del tiempo terco,",
+    "mi sed de amor no tiene fin;",
+    "con el cabello gris, me acerco",
+    "a los rosales del jardín..."
+   ],
+   [
+    "Juventud, divino tesoro,",
+    "ya te vas para no volver...",
+    "Cuando quiero llorar, no lloro,"
+   ],
+   [
+    "y a veces lloro sin querer..."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "¿Echas de menos a quien eras?\n\nRubén Darío · Canción de otoño en primavera\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #rubendario #poemas",
+  "source": "Rubén Darío, Cantos de vida y esperanza (1905), Canción de otoño en primavera, penúltima y antepenúltima estrofas, literal según es.wikisource.org (ed. Madrid, 1918)."
+ },
+ {
+  "slug": "es_gibran_hijos",
+  "mode": "prose",
+  "poet": "Khalil Gibran",
+  "author": "Khalil Gibran",
+  "title": "El profeta",
+  "hook": "Khalil Gibran escribió sobre los hijos:",
+  "hookSub": "El profeta, 1923",
+  "stanzas": [
+   [
+    "Tus hijos no son tus hijos.",
+    "Son los hijos y las hijas del anhelo de la Vida por sí misma."
+   ],
+   [
+    "Vienen a través de ti, pero no de ti,",
+    "y aunque están contigo, no te pertenecen."
+   ],
+   [
+    "Puedes darles tu amor, pero no tus pensamientos,",
+    "porque ellos tienen sus propios pensamientos."
+   ],
+   [
+    "Puedes albergar sus cuerpos, pero no sus almas,",
+    "porque sus almas habitan en la casa del mañana,"
+   ],
+   [
+    "que tú no puedes visitar, ni siquiera en sueños."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "Khalil Gibran escribió sobre los hijos:\n\nKhalil Gibran · El profeta\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #khalilgibran #literatura",
+  "source": "Khalil Gibran, The Prophet (1923), On Children (fragmento). Traducción propia al español del original inglés."
+ },
+ {
+  "slug": "es_nervo_en_paz",
+  "mode": "poem",
+  "poet": "Amado Nervo",
+  "author": "Amado Nervo",
+  "title": "En paz",
+  "hook": "¿Sientes que la vida te debe algo?",
+  "stanzas": [
+   [
+    "Muy cerca de mi ocaso, yo te bendigo, vida,",
+    "porque nunca me diste ni esperanza fallida,",
+    "ni trabajos injustos, ni pena inmerecida;"
+   ],
+   [
+    "porque veo al final de mi rudo camino",
+    "que yo fui el arquitecto de mi propio destino;"
+   ],
+   [
+    "Amé, fui amado, el sol acarició mi faz."
+   ],
+   [
+    "¡Vida, nada me debes! ¡Vida, estamos en paz!"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "¿Sientes que la vida te debe algo?\n\nAmado Nervo · En paz\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #amadonervo #poemas",
+  "source": "Amado Nervo, En paz. Estrofas 1, 2 y final, literales según es.wikisource.org; se omiten las estrofas intermedias."
+ },
+ {
+  "slug": "es_epicteto_control",
+  "mode": "prose",
+  "poet": "Epicteto",
+  "author": "Epicteto",
+  "title": "Enquiridión",
+  "hook": "¿Qué depende realmente de ti?",
+  "hookSub": "Epicteto · Enquiridión",
+  "stanzas": [
+   [
+    "Hay cosas que dependen de nosotros",
+    "y cosas que no dependen de nosotros."
+   ],
+   [
+    "De nosotros dependen la opinión, la intención, el deseo, la aversión:",
+    "en una palabra, todo lo que es obra nuestra."
+   ],
+   [
+    "No dependen de nosotros el cuerpo, los bienes, la reputación, los cargos:",
+    "en una palabra, todo lo que no es obra nuestra."
+   ],
+   [
+    "Si tomas como tuyo solo lo que es tuyo,",
+    "nadie podrá obligarte jamás, nadie te pondrá trabas;"
+   ],
+   [
+    "nadie te hará daño y no tendrás enemigos."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "¿Qué depende realmente de ti?\n\nEpicteto · Enquiridión\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #epicteto #literatura",
+  "source": "Epicteto, Enquiridión 1 (fragmento). Traducción propia al español a partir de la versión inglesa de T. W. Higginson (1865)."
+ },
+ {
+  "slug": "es_becquer_golondrinas",
+  "mode": "poem",
+  "poet": "Bécquer",
+  "author": "Gustavo Adolfo Bécquer",
+  "title": "Rima LIII",
+  "hook": "¿Alguien te ha querido así?",
+  "stanzas": [
+   [
+    "Volverán del amor en tus oídos",
+    "Las palabras ardientes a sonar;",
+    "Tu corazón de su profundo sueño",
+    "Tal vez despertará;"
+   ],
+   [
+    "Pero mudo y absorto y de rodillas,",
+    "Como se adora a Dios ante su altar,",
+    "Como yo te he querido... desengáñate,"
+   ],
+   [
+    "¡Así no te querrán!"
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "¿Alguien te ha querido así?\n\nGustavo Adolfo Bécquer · Rima LIII\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #becquer #poemas",
+  "source": "Bécquer, Rimas, Rima LIII (Volverán las oscuras golondrinas), dos últimas estrofas, literales según es.wikisource.org (Rimas, ed. 1925)."
+ },
+ {
+  "slug": "es_cervantes_borrascas",
+  "mode": "prose",
+  "poet": "Cervantes",
+  "author": "Miguel de Cervantes",
+  "title": "Don Quijote de la Mancha",
+  "hook": "¿Llevas tiempo en una mala racha?",
+  "hookSub": "Cervantes · Don Quijote",
+  "stanzas": [
+   [
+    "Sábete, Sancho,",
+    "que no es un hombre más que otro",
+    "si no hace más que otro."
+   ],
+   [
+    "Todas estas borrascas que nos suceden",
+    "son señales de que presto ha de serenar el tiempo",
+    "y han de sucedernos bien las cosas;"
+   ],
+   [
+    "porque no es posible que el mal ni el bien sean durables,",
+    "y de aquí se sigue que, habiendo durado mucho el mal,"
+   ],
+   [
+    "el bien está ya cerca."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_01.jpg",
+  "caption": "¿Llevas tiempo en una mala racha?\n\nMiguel de Cervantes · Don Quijote de la Mancha\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #cervantes #literatura",
+  "source": "Cervantes, Don Quijote, Primera parte, cap. XVIII. Texto literal según es.wikisource.org (ed. México, 1842), con acentuación moderna."
+ },
+ {
+  "slug": "es_storni_blanca",
+  "mode": "poem",
+  "poet": "Alfonsina Storni",
+  "author": "Alfonsina Storni",
+  "title": "Tú me quieres blanca",
+  "hook": "¿Te exigieron lo que ellos nunca dieron?",
+  "stanzas": [
+   [
+    "Huye hacia los bosques,",
+    "Vete a la montaña;",
+    "Límpiate la boca;",
+    "Vive en las cabañas;"
+   ],
+   [
+    "Toca con las manos",
+    "La tierra mojada;",
+    "Alimenta el cuerpo",
+    "Con raíz amarga;"
+   ],
+   [
+    "Bebe de las rocas;",
+    "Duerme sobre escarcha;",
+    "Renueva tejidos",
+    "Con salitre y agua;",
+    "Habla con los pájaros",
+    "Y lévate al alba."
+   ],
+   [
+    "Y cuando las carnes",
+    "Te sean tornadas,",
+    "Y cuando hayas puesto",
+    "En ellas el alma",
+    "Que por las alcobas",
+    "Se quedó enredada,"
+   ],
+   [
+    "Entonces, buen hombre,",
+    "Preténdeme blanca,",
+    "Preténdeme nívea,"
+   ],
+   [
+    "Preténdeme casta."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "¿Te exigieron lo que ellos nunca dieron?\n\nAlfonsina Storni · Tú me quieres blanca\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #alfonsinastorni #poemas",
+  "source": "Alfonsina Storni, Tú me quieres blanca (El dulce daño, 1918), estrofa final, literal según es.wikisource.org."
+ },
+ {
+  "slug": "es_dostoievski_noches_blancas",
+  "mode": "prose",
+  "poet": "Dostoievski",
+  "author": "Fiódor Dostoievski",
+  "title": "Noches blancas",
+  "hook": "Dostoievski escribió esto en 1848:",
+  "hookSub": "Noches blancas",
+  "stanzas": [
+   [
+    "¡Pensar que yo pudiera guardarte rencor, Nástenka!",
+    "¡Oh, nunca, nunca!"
+   ],
+   [
+    "¡Que tu cielo sea claro,",
+    "que tu dulce sonrisa sea luminosa y serena,",
+    "y que seas bendecida por ese instante de dicha",
+    "que diste a otro corazón, solitario y agradecido!"
+   ],
+   [
+    "¡Dios mío, todo un instante de felicidad! ¿Acaso es poco para toda la vida de un hombre?"
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "Dostoievski escribió esto en 1848:\n\nFiódor Dostoievski · Noches blancas\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #dostoievski #literatura",
+  "source": "Dostoievski, Noches blancas (1848), final (fragmento). Traducción propia al español a partir de la versión inglesa de Constance Garnett."
+ }
+]

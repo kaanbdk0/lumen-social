@@ -1,0 +1,360 @@
+[
+ {
+  "slug": "it_leopardi_infinito",
+  "mode": "poem",
+  "poet": "Leopardi",
+  "author": "Giacomo Leopardi",
+  "title": "L’infinito",
+  "hook": "Hai mai guardato oltre una siepe?",
+  "stanzas": [
+   [
+    "Sempre caro mi fu quest’ermo colle,",
+    "E questa siepe, che da tanta parte",
+    "Dell’ultimo orizzonte il guardo esclude.",
+    "Ma sedendo e mirando, interminati",
+    "Spazi di là da quella, e sovrumani",
+    "Silenzi, e profondissima quiete",
+    "Io nel pensier mi fingo; ove per poco",
+    "Il cor non si spaura."
+   ],
+   [
+    "Così tra questa",
+    "Immensità s’annega il pensier mio:"
+   ],
+   [
+    "E il naufragar m’è dolce in questo mare."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Hai mai guardato oltre una siepe?\n\nGiacomo Leopardi · L’infinito\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #leopardi #poesie",
+  "source": "Giacomo Leopardi, Canti, XII (ed. Ranieri, Firenze, Le Monnier, 1845), it.wikisource. Estratto parola per parola: versi 1-8 e 13 (da «Così»)-15; omessi i versi 8 (da «E come il vento»)-13 per restare sotto le 90 parole."
+ },
+ {
+  "slug": "it_leopardi_almanacchi",
+  "mode": "prose",
+  "poet": "Leopardi",
+  "author": "Giacomo Leopardi",
+  "title": "Dialogo di un venditore d’almanacchi e di un passeggere",
+  "hook": "Leopardi lo scrisse quasi 200 anni fa:",
+  "hookSub": "Operette morali, 1832",
+  "stanzas": [
+   [
+    "Una vita a caso, e non saperne altro avanti,",
+    "come non si sa dell’anno nuovo?",
+    "Così vorrei ancor io se avessi a rivivere, e così tutti."
+   ],
+   [
+    "Quella vita ch’è una cosa bella,",
+    "non è la vita che si conosce,",
+    "ma quella che non si conosce;"
+   ],
+   [
+    "non la vita passata, ma la futura."
+   ]
+  ],
+  "reel_bg": "bg/ronesans/bg_03.jpg",
+  "caption": "Leopardi lo scrisse quasi 200 anni fa:\n\nGiacomo Leopardi · Dialogo di un venditore d’almanacchi e di un passeggere\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #leopardi #letteratura",
+  "source": "Giacomo Leopardi, Operette morali, Dialogo di un venditore d’almanacchi e di un passeggere (1832), it.wikisource. Battute del Passeggere, estratto parola per parola."
+ },
+ {
+  "slug": "it_dante_tanto_gentile",
+  "mode": "poem",
+  "poet": "Dante",
+  "author": "Dante Alighieri",
+  "title": "Tanto gentile e tanto onesta pare",
+  "hook": "Ti è mai mancata la voce davanti a qualcuno?",
+  "stanzas": [
+   [
+    "Tanto gentile e tanto onesta pare",
+    "la donna mia quand’ella altrui saluta,",
+    "ch’ogne lingua deven tremando muta,",
+    "e li occhi no l’ardiscon di guardare."
+   ],
+   [
+    "Mostrasi sì piacente a chi la mira,",
+    "che dà per li occhi una dolcezza al core,",
+    "che ’ntender no la può chi no la prova:"
+   ],
+   [
+    "e par che de la sua labbia si mova",
+    "un spirito soave pien d’amore,"
+   ],
+   [
+    "che va dicendo a l’anima: sospira"
+   ]
+  ],
+  "reel_bg": "tiktok/klimt_opucuk.jpg",
+  "caption": "Ti è mai mancata la voce davanti a qualcuno?\n\nDante Alighieri · Tanto gentile e tanto onesta pare\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #dante #poesie",
+  "source": "Dante Alighieri, Rime XXII (Vita nuova XXVI 5-7), it.wikisource. Estratto: prima quartina e terzine, parola per parola."
+ },
+ {
+  "slug": "it_seneca_vivi_subito",
+  "mode": "prose",
+  "poet": "Seneca",
+  "author": "Seneca",
+  "title": "La brevità della vita",
+  "hook": "Seneca, 2.000 anni fa:",
+  "hookSub": "La brevità della vita",
+  "stanzas": [
+   [
+    "La più grande perdita della vita è il rinvio:",
+    "ci strappa ogni giorno appena arriva,",
+    "ci ruba il presente mentre promette il futuro."
+   ],
+   [
+    "Il più grande ostacolo al vivere è l’attesa,",
+    "che dipende dal domani e perde l’oggi."
+   ],
+   [
+    "Dove guardi? Dove ti protendi?",
+    "Tutto ciò che verrà giace nell’incertezza."
+   ],
+   [
+    "Vivi subito."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "Seneca, 2.000 anni fa:\n\nSeneca · La brevità della vita\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #seneca #letteratura",
+  "source": "Seneca, De brevitate vitae, IX, 1. Traduzione italiana originale (Lumen) dal latino (testo di src/brevitate.html). Estratto; omessa la frase «Quod in manu fortunae positum est disponis, quod in tua, dimittis»."
+ },
+ {
+  "slug": "it_petrarca_solo_pensoso",
+  "mode": "poem",
+  "poet": "Petrarca",
+  "author": "Francesco Petrarca",
+  "title": "Solo et pensoso",
+  "hook": "Hai mai cercato un posto per stare solo?",
+  "stanzas": [
+   [
+    "Solo et pensoso i piú deserti campi",
+    "vo mesurando a passi tardi et lenti,",
+    "et gli occhi porto per fuggire intenti",
+    "ove vestigio human l’arena stampi."
+   ],
+   [
+    "Ma pur sí aspre vie né sí selvagge",
+    "cercar non so ch’Amor non venga sempre"
+   ],
+   [
+    "ragionando con meco, et io co’llui."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_04.jpg",
+  "caption": "Hai mai cercato un posto per stare solo?\n\nFrancesco Petrarca · Solo et pensoso\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #petrarca #poesie",
+  "source": "Francesco Petrarca, Canzoniere (Rerum vulgarium fragmenta), XXXV, it.wikisource. Estratto: prima quartina e ultima terzina, parola per parola (grafia dell’edizione)."
+ },
+ {
+  "slug": "it_marco_aurelio_rifugio",
+  "mode": "prose",
+  "poet": "Marco Aurelio",
+  "author": "Marco Aurelio",
+  "title": "Pensieri",
+  "hook": "Senti il bisogno di scappare da tutto?",
+  "hookSub": "Pensieri, libro IV",
+  "stanzas": [
+   [
+    "Gli uomini cercano rifugi per sé,",
+    "case in campagna, spiagge, montagne;",
+    "e anche tu sei solito desiderarli moltissimo."
+   ],
+   [
+    "Ma tutto questo è da persone molto comuni,",
+    "perché puoi, nell’ora che vuoi, ritirarti in te stesso.",
+    "In nessun luogo l’uomo si ritira con più quiete",
+    "e meno affanni che nella propria anima."
+   ],
+   [
+    "Concediti dunque di continuo questo rifugio, e rinnova te stesso."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "Senti il bisogno di scappare da tutto?\n\nMarco Aurelio · Pensieri\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #marcoaurelio #letteratura",
+  "source": "Marco Aurelio, Pensieri (Τὰ εἰς ἑαυτόν), IV, 3. Traduzione italiana originale (Lumen) dal greco, verificata sulla traduzione inglese di George Long (src/meditations_long.txt). Estratto."
+ },
+ {
+  "slug": "it_carducci_pianto_antico",
+  "mode": "poem",
+  "poet": "Carducci",
+  "author": "Giosuè Carducci",
+  "title": "Pianto antico",
+  "hook": "La scrisse per il figlio perduto.",
+  "stanzas": [
+   [
+    "L’albero a cui tendevi",
+    "La pargoletta mano,",
+    "Il verde melograno",
+    "Da’ bei vermigli fior,"
+   ],
+   [
+    "Nel muto orto solingo",
+    "Rinverdí tutto or ora",
+    "E giugno lo ristora",
+    "Di luce e di calor."
+   ],
+   [
+    "Tu fior de la mia pianta",
+    "Percossa e inaridita,",
+    "Tu de l’inutil vita",
+    "Estremo unico fior,"
+   ],
+   [
+    "Sei ne la terra fredda,",
+    "Sei ne la terra negra;",
+    "Né il sol piú ti rallegra"
+   ],
+   [
+    "Né ti risveglia amor."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_04.jpg",
+  "caption": "La scrisse per il figlio perduto.\n\nGiosuè Carducci · Pianto antico\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #carducci #poesie",
+  "source": "Giosuè Carducci, Rime nuove, III, XLII (1887), it.wikisource. Poesia completa, parola per parola (grafia dell’edizione)."
+ },
+ {
+  "slug": "it_epitteto_dipende",
+  "mode": "prose",
+  "poet": "Epitteto",
+  "author": "Epitteto",
+  "title": "Manuale",
+  "hook": "Epitteto, schiavo e filosofo, scrisse:",
+  "hookSub": "Manuale",
+  "stanzas": [
+   [
+    "Delle cose, alcune dipendono da noi, altre no.",
+    "Dipendono da noi il giudizio, l’impulso, il desiderio, l’avversione:",
+    "in una parola, tutto ciò che è opera nostra."
+   ],
+   [
+    "Non dipendono da noi il corpo, i beni, la reputazione, le cariche:",
+    "tutto ciò che non è opera nostra."
+   ],
+   [
+    "Non chiedere che le cose vadano come vuoi tu,",
+    "ma vogli che vadano come vanno,"
+   ],
+   [
+    "e la tua vita scorrerà serena."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_04.jpg",
+  "caption": "Epitteto, schiavo e filosofo, scrisse:\n\nEpitteto · Manuale\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #epitteto #letteratura",
+  "source": "Epitteto, Manuale (Enchiridion), capitoli 1 e 8. Traduzione italiana originale (Lumen) dal greco, verificata sulla traduzione inglese di T. W. Higginson (src/enchiridion.txt). Estratti uniti."
+ },
+ {
+  "slug": "it_dante_francesca",
+  "mode": "poem",
+  "poet": "Dante",
+  "author": "Dante Alighieri",
+  "title": "Inferno, Canto V",
+  "hook": "C’è un amore che non ti lascia andare?",
+  "stanzas": [
+   [
+    "Amor, ch’al cor gentil ratto s’apprende,",
+    "prese costui de la bella persona",
+    "che mi fu tolta; e ’l modo ancor m’offende."
+   ],
+   [
+    "Amor, ch’a nullo amato amar perdona,",
+    "mi prese del costui piacer sì forte,",
+    "che, come vedi, ancor non m’abbandona."
+   ],
+   [
+    "Amor condusse noi ad una morte."
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "C’è un amore che non ti lascia andare?\n\nDante Alighieri · Inferno, Canto V\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #dante #poesie",
+  "source": "Dante Alighieri, Divina Commedia, Inferno V, 100-106 (parole di Francesca), it.wikisource. Parola per parola; apostrofi uniformati."
+ },
+ {
+  "slug": "it_gibran_amore",
+  "mode": "prose",
+  "poet": "Gibran",
+  "author": "Khalil Gibran",
+  "title": "Il Profeta",
+  "hook": "Gibran scrisse dell’amore:",
+  "hookSub": "Il Profeta, 1923",
+  "stanzas": [
+   [
+    "L’amore non dà nulla se non sé stesso",
+    "e non prende nulla se non da sé stesso.",
+    "L’amore non possiede, né vuole essere posseduto;",
+    "perché all’amore basta l’amore."
+   ],
+   [
+    "E non pensare di poter guidare il corso dell’amore,"
+   ],
+   [
+    "perché l’amore, se ti trova degno, guida il tuo corso."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_03.jpg",
+  "caption": "Gibran scrisse dell’amore:\n\nKhalil Gibran · Il Profeta\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #khalilgibran #letteratura",
+  "source": "Khalil Gibran, The Prophet (1923), «On Love». Traduzione italiana originale (Lumen) dall’inglese (en_prophet.json). Estratto; omessa la frase su «God is in my heart»."
+ },
+ {
+  "slug": "it_pascoli_x_agosto",
+  "mode": "poem",
+  "poet": "Pascoli",
+  "author": "Giovanni Pascoli",
+  "title": "X Agosto",
+  "hook": "Suo padre fu ucciso il 10 agosto.",
+  "stanzas": [
+   [
+    "San Lorenzo, io lo so perchè tanto",
+    "di stelle per l’aria tranquilla",
+    "arde e cade, perchè sì gran pianto",
+    "nel concavo cielo sfavilla."
+   ],
+   [
+    "Ritornava una rondine al tetto:",
+    "l’uccisero: cadde tra spini:",
+    "ella aveva nel becco un insetto:",
+    "la cena de’ suoi rondinini."
+   ],
+   [
+    "Anche un uomo tornava al suo nido:",
+    "l’uccisero: disse: Perdono;",
+    "e restò negli aperti occhi un grido:"
+   ],
+   [
+    "portava due bambole, in dono..."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Suo padre fu ucciso il 10 agosto.\n\nGiovanni Pascoli · X Agosto\n\nA chi manderesti questi versi?\n\nUna poesia sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#poesia #pascoli #poesie",
+  "source": "Giovanni Pascoli, Myricae, Elegie, X Agosto (ed. 1912), it.wikisource. Estratto: strofe 1, 2 e 4, parola per parola."
+ },
+ {
+  "slug": "it_dostoevskij_notti_bianche",
+  "mode": "prose",
+  "poet": "Dostoevskij",
+  "author": "Fëdor Dostoevskij",
+  "title": "Le notti bianche",
+  "hook": "Dostoevskij scrisse nel 1848:",
+  "hookSub": "Le notti bianche",
+  "stanzas": [
+   [
+    "Era una notte meravigliosa,",
+    "una notte come può esserci soltanto",
+    "quando siamo giovani, caro lettore."
+   ],
+   [
+    "Il cielo era così stellato, così luminoso,",
+    "che guardandolo veniva da chiedersi:",
+    "possibile che sotto un cielo così",
+    "vivano persone irascibili e capricciose?"
+   ],
+   [
+    "Anche questa è una domanda da giovani, caro lettore,",
+    "molto da giovani,"
+   ],
+   [
+    "ma che il Signore ve la mandi più spesso nel cuore!"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "Dostoevskij scrisse nel 1848:\n\nFëdor Dostoevskij · Le notti bianche\n\nQuale frase ti è rimasta dentro?\n\nUn brano sulla tua schermata Home, ogni mattina: Lumen (link in bio)\n\n#filosofia #dostoevskij #letteratura",
+  "source": "Fëdor Dostoevskij, Le notti bianche (1848), incipit. Traduzione italiana originale (Lumen) dal russo, verificata sulla traduzione inglese di Constance Garnett (src/white_nights.txt)."
+ }
+]

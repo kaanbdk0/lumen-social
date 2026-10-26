@@ -1,0 +1,361 @@
+[
+ {
+  "slug": "pt_camoes_amor",
+  "mode": "poem",
+  "poet": "Camões",
+  "author": "Luís Vaz de Camões",
+  "title": "Amor é fogo que arde sem se ver",
+  "hook": "O que é o amor, afinal?",
+  "stanzas": [
+   [
+    "Amor é fogo que arde sem se ver;",
+    "É ferida que dói e não se sente;",
+    "É um contentamento descontente;",
+    "É dor que desatina sem doer;"
+   ],
+   [
+    "É um não querer mais que bem querer;",
+    "É solitário andar por entre a gente;",
+    "É um não contentar-se de contente;",
+    "É cuidar que se ganha em se perder;"
+   ],
+   [
+    "Mas como causar pode o seu favor",
+    "Nos mortais corações conformidade,"
+   ],
+   [
+    "Sendo a si tão contrário o mesmo Amor?"
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "O que é o amor, afinal?\n\nLuís Vaz de Camões · Amor é fogo que arde sem se ver\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #camoes #poemas",
+  "source": "Camões, soneto Amor é fogo que arde sem se ver. Texto segundo pt.wikisource.org (Obras completas de Luis de Camões, 1843, v. II), versos 1 a 8 e 12 a 14 (omitido o primeiro terceto), com grafia atualizada (He hum > É um etc.); nenhuma palavra alterada."
+ },
+ {
+  "slug": "pt_marco_aurelio_seja_bom",
+  "mode": "prose",
+  "poet": "Marco Aurélio",
+  "author": "Marco Aurélio",
+  "title": "Meditações",
+  "hook": "Marco Aurélio escreveu isto há 1.800 anos:",
+  "hookSub": "Meditações, Livro IV",
+  "stanzas": [
+   [
+    "Não aja como se fosse viver dez mil anos.",
+    "A morte paira sobre você."
+   ],
+   [
+    "Enquanto vive, enquanto ainda está em seu poder, seja bom."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "Marco Aurélio escreveu isto há 1.800 anos:\n\nMarco Aurélio · Meditações\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #marcoaurelio #literatura",
+  "source": "Marco Aurélio, Meditações IV.17 (integral). Tradução própria para o português a partir da versão inglesa de George Long (1862)."
+ },
+ {
+  "slug": "pt_pessoa_mar_portugues",
+  "mode": "poem",
+  "poet": "Fernando Pessoa",
+  "author": "Fernando Pessoa",
+  "title": "Mar Português",
+  "hook": "Você já se perguntou se valeu a pena?",
+  "stanzas": [
+   [
+    "Ó mar salgado, quanto do teu sal",
+    "São lágrimas de Portugal!",
+    "Por te cruzarmos, quantas mães choraram,",
+    "Quantos filhos em vão rezaram!"
+   ],
+   [
+    "Quantas noivas ficaram por casar",
+    "Para que fosses nosso, ó mar!"
+   ],
+   [
+    "Valeu a pena? Tudo vale a pena",
+    "Se a alma não é pequena."
+   ],
+   [
+    "Quem quer passar além do Bojador",
+    "Tem que passar além da dor.",
+    "Deus ao mar o perigo e o abismo deu,"
+   ],
+   [
+    "Mas nele é que espelhou o céu."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Você já se perguntou se valeu a pena?\n\nFernando Pessoa · Mar Português\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #fernandopessoa #poemas",
+  "source": "Fernando Pessoa, Mensagem (1934), Mar Portuguez. Texto integral segundo pt.wikisource.org (fac-símile da 1.ª edição), com grafia atualizada (lagrimas > lágrimas, resaram > rezaram, abysmo > abismo, nelle > nele)."
+ },
+ {
+  "slug": "pt_seneca_viva_agora",
+  "mode": "prose",
+  "poet": "Sêneca",
+  "author": "Sêneca",
+  "title": "Sobre a brevidade da vida",
+  "hook": "Você vive esperando o amanhã?",
+  "hookSub": "Sêneca · Sobre a brevidade da vida",
+  "stanzas": [
+   [
+    "O maior desperdício da vida é o adiamento:",
+    "ele nos tira cada dia que chega",
+    "e nos rouba o presente enquanto promete o futuro."
+   ],
+   [
+    "O maior obstáculo para viver é a espera,",
+    "que depende do amanhã e perde o hoje."
+   ],
+   [
+    "Você organiza o que está nas mãos da sorte",
+    "e abandona o que está nas suas."
+   ],
+   [
+    "Para onde você olha? Até onde você se estende?",
+    "Tudo o que está por vir é incerto."
+   ],
+   [
+    "Viva agora."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_04.jpg",
+  "caption": "Você vive esperando o amanhã?\n\nSêneca · Sobre a brevidade da vida\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #seneca #literatura",
+  "source": "Sêneca, De brevitate vitae IX.1 (trecho). Tradução própria para o português do original latino (texto latino de The Latin Library)."
+ },
+ {
+  "slug": "pt_florbela_fanatismo",
+  "mode": "poem",
+  "poet": "Florbela Espanca",
+  "author": "Florbela Espanca",
+  "title": "Fanatismo",
+  "hook": "Já amou alguém além da razão?",
+  "stanzas": [
+   [
+    "Minh'alma, de sonhar-te, anda perdida.",
+    "Meus olhos andam cegos de te ver.",
+    "Não és sequer razão do meu viver",
+    "Pois que tu és já toda a minha vida!"
+   ],
+   [
+    "“Tudo no mundo é frágil, tudo passa...”",
+    "Quando me dizem isto, toda a graça",
+    "Duma boca divina fala em mim!"
+   ],
+   [
+    "E, olhos postos em ti, digo de rastros:",
+    "“Ah! podem voar mundos, morrer astros,"
+   ],
+   [
+    "Que tu és como Deus: princípio e fim!...”"
+   ]
+  ],
+  "reel_bg": "tiktok/klimt_opucuk.jpg",
+  "caption": "Já amou alguém além da razão?\n\nFlorbela Espanca · Fanatismo\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #florbelaespanca #poemas",
+  "source": "Florbela Espanca, Livro de Sóror Saudade (1923), Fanatismo, primeiro quarteto e os dois tercetos (omitido o segundo quarteto), segundo pt.wikisource.org (fonte: Domínio Público); fechamento das aspas do verso 9 normalizado."
+ },
+ {
+  "slug": "pt_gibran_casamento",
+  "mode": "prose",
+  "poet": "Khalil Gibran",
+  "author": "Khalil Gibran",
+  "title": "O Profeta",
+  "hook": "Khalil Gibran escreveu sobre o casamento:",
+  "hookSub": "O Profeta, 1923",
+  "stanzas": [
+   [
+    "Amem-se um ao outro, mas não façam do amor uma corrente:",
+    "que ele seja, antes, um mar em movimento entre as margens de suas almas."
+   ],
+   [
+    "Cantem e dancem juntos e sejam alegres, mas que cada um de vocês esteja só,",
+    "assim como as cordas de um alaúde estão sós, embora vibrem com a mesma música."
+   ],
+   [
+    "Fiquem juntos, mas não juntos demais:",
+    "pois as colunas do templo ficam separadas,"
+   ],
+   [
+    "e o carvalho e o cipreste não crescem um à sombra do outro."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_03.jpg",
+  "caption": "Khalil Gibran escreveu sobre o casamento:\n\nKhalil Gibran · O Profeta\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #khalilgibran #literatura",
+  "source": "Khalil Gibran, The Prophet (1923), On Marriage (trecho). Tradução própria para o português do original inglês."
+ },
+ {
+  "slug": "pt_machado_carolina",
+  "mode": "poem",
+  "poet": "Machado de Assis",
+  "author": "Machado de Assis",
+  "title": "A Carolina",
+  "hook": "Ele escreveu isto depois de perder a esposa.",
+  "stanzas": [
+   [
+    "Querida, ao pé do leito derradeiro",
+    "Em que descansas dessa longa vida,",
+    "Aqui venho e virei, pobre querida,",
+    "Trazer-te o coração do companheiro."
+   ],
+   [
+    "Pulsa-lhe aquele afeto verdadeiro",
+    "Que, a despeito de toda a humana lida,",
+    "Fez a nossa existência apetecida",
+    "E num recanto pôs um mundo inteiro."
+   ],
+   [
+    "Trago-te flores, restos arrancados",
+    "Da terra que nos viu passar unidos",
+    "E ora mortos nos deixa e separados."
+   ],
+   [
+    "Que eu, se tenho nos olhos mal feridos",
+    "Pensamentos de vida formulados,"
+   ],
+   [
+    "São pensamentos idos e vividos."
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "Ele escreveu isto depois de perder a esposa.\n\nMachado de Assis · A Carolina\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #machadodeassis #poemas",
+  "source": "Machado de Assis, A Carolina, em Relíquias de Casa Velha (Garnier, 1906). Texto integral segundo pt.wikisource.org, com grafia atualizada (descanças > descansas, aquelle affecto > aquele afeto, n'um > num, poz > pôs); travessão do verso 9 omitido."
+ },
+ {
+  "slug": "pt_epicteto_opinioes",
+  "mode": "prose",
+  "poet": "Epicteto",
+  "author": "Epicteto",
+  "title": "Enquirídio",
+  "hook": "O que realmente te perturba?",
+  "hookSub": "Epicteto · Enquirídio",
+  "stanzas": [
+   [
+    "Não são as coisas que perturbam os homens,",
+    "mas as opiniões que eles têm sobre as coisas."
+   ],
+   [
+    "Por isso, quando formos impedidos, perturbados ou entristecidos,",
+    "nunca culpemos os outros, mas a nós mesmos,",
+    "isto é, as nossas próprias opiniões."
+   ],
+   [
+    "Culpar os outros pelas próprias desgraças é coisa de quem ainda não aprendeu;",
+    "culpar a si mesmo, de quem começou a aprender;"
+   ],
+   [
+    "e não culpar nem os outros nem a si mesmo, de quem já aprendeu por completo."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "O que realmente te perturba?\n\nEpicteto · Enquirídio\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #epicteto #literatura",
+  "source": "Epicteto, Enquirídio 5 (trecho; omitido o exemplo de Sócrates). Tradução própria para o português a partir da versão inglesa de T. W. Higginson (1865)."
+ },
+ {
+  "slug": "pt_campos_tabacaria",
+  "mode": "poem",
+  "poet": "Álvaro de Campos",
+  "author": "Fernando Pessoa (Álvaro de Campos)",
+  "title": "Tabacaria",
+  "hook": "Já sentiu que não é nada?",
+  "stanzas": [
+   [
+    "Não sou nada.",
+    "Nunca serei nada.",
+    "Não posso querer ser nada."
+   ],
+   [
+    "À parte isso, tenho em mim todos os sonhos do mundo."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Já sentiu que não é nada?\n\nFernando Pessoa (Álvaro de Campos) · Tabacaria\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #fernandopessoa #poemas",
+  "source": "Álvaro de Campos (Fernando Pessoa), Tabacaria (1928), primeira estrofe, literal segundo pt.wikisource.org."
+ },
+ {
+  "slug": "pt_machado_negativas",
+  "mode": "prose",
+  "poet": "Machado de Assis",
+  "author": "Machado de Assis",
+  "title": "Memórias Póstumas de Brás Cubas",
+  "hook": "Machado de Assis terminou um romance assim:",
+  "hookSub": "Memórias Póstumas de Brás Cubas, 1881",
+  "stanzas": [
+   [
+    "Este último capítulo é todo de negativas.",
+    "Não alcancei a celebridade do emplasto,",
+    "não fui ministro, não fui califa, não conheci o casamento."
+   ],
+   [
+    "Somadas umas coisas e outras, qualquer pessoa imaginará que não houve míngua nem sobra,",
+    "e conseguintemente que saí quite com a vida."
+   ],
+   [
+    "E imaginará mal;",
+    "porque ao chegar a este outro lado do mistério, achei-me com um pequeno saldo,",
+    "que é a derradeira negativa deste capítulo de negativas:"
+   ],
+   [
+    "Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "Machado de Assis terminou um romance assim:\n\nMachado de Assis · Memórias Póstumas de Brás Cubas\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #machadodeassis #literatura",
+  "source": "Machado de Assis, Memórias Póstumas de Brás Cubas (1881), cap. CLX, Das negativas (trecho; omitidas duas frases intermediárias). Texto segundo pt.wikisource.org (Typographia Nacional, 1881), com grafia atualizada."
+ },
+ {
+  "slug": "pt_bilac_estrelas",
+  "mode": "poem",
+  "poet": "Olavo Bilac",
+  "author": "Olavo Bilac",
+  "title": "Via Láctea, XIII",
+  "hook": "Você já conversou com as estrelas?",
+  "stanzas": [
+   [
+    "E conversamos toda a noite, enquanto",
+    "A via-láctea, como um pálio aberto,",
+    "Cintila. E, ao vir do sol, saudoso e em pranto,",
+    "Inda as procuro pelo céu deserto."
+   ],
+   [
+    "Direis agora: “Tresloucado amigo!",
+    "Que conversas com elas? Que sentido",
+    "Tem o que dizem, quando estão contigo?”"
+   ],
+   [
+    "E eu vos direi: “Amai para entendê-las!",
+    "Pois só quem ama pode ter ouvido"
+   ],
+   [
+    "Capaz de ouvir e de entender estrelas.”"
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Você já conversou com as estrelas?\n\nOlavo Bilac · Via Láctea, XIII\n\nPara quem você mandaria isso?\n\nUm poema na sua tela inicial toda manhã: Lumen (link na bio)\n\n#poesia #olavobilac #poemas",
+  "source": "Olavo Bilac, Poesias (1888), Via Láctea, soneto XIII (Ora direis ouvir estrelas), versos 5 a 14, literais segundo pt.wikisource.org; o primeiro quarteto é omitido."
+ },
+ {
+  "slug": "pt_dostoievski_noites_brancas",
+  "mode": "prose",
+  "poet": "Dostoiévski",
+  "author": "Fiódor Dostoiévski",
+  "title": "Noites Brancas",
+  "hook": "Dostoiévski escreveu isto em 1848:",
+  "hookSub": "Noites Brancas",
+  "stanzas": [
+   [
+    "Imaginar que eu pudesse guardar rancor de você, Nástienka!",
+    "Ah, nunca, nunca!"
+   ],
+   [
+    "Que o seu céu seja claro,",
+    "que o seu doce sorriso seja luminoso e sereno,",
+    "e que você seja abençoada por aquele instante de felicidade",
+    "que deu a outro coração, solitário e agradecido!"
+   ],
+   [
+    "Meu Deus, um instante inteiro de felicidade! Será pouco para a vida inteira de um homem?"
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "Dostoiévski escreveu isto em 1848:\n\nFiódor Dostoiévski · Noites Brancas\n\nQual frase ficou com você?\n\nUm trecho na sua tela inicial toda manhã: Lumen (link na bio)\n\n#filosofia #dostoievski #literatura",
+  "source": "Dostoiévski, Noites Brancas (1848), final (trecho). Tradução própria para o português a partir da versão inglesa de Constance Garnett."
+ }
+]
