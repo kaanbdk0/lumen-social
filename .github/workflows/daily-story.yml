@@ -1,128 +1,89 @@
-name: Daily Story Render & Post
+name: Daily Story Prepare (→ Telegram approval)
 
+# Renders today's quote-of-the-day story for every language, checks each voice with
+# speech-to-text, and sends it to Kaan on Telegram. Nothing is posted here: the
+# reel-approve watcher posts a language's Instagram story (EN also YouTube Shorts)
+# only after Kaan presses "Paylaş".
 on:
   # Scheduling is handled by an external cron (cron-job.org) that calls
   # workflow_dispatch daily. GitHub's built-in scheduler was silently
   # dropping scheduled runs, so it is no longer used here.
   workflow_dispatch:
+    inputs:
+      langs:
+        description: "Comma-separated langs (blank = all)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
+  actions: write
+
+concurrency:
+  group: story-prepare
+  cancel-in-progress: false
 
 jobs:
-  render-and-post:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # apt mirrors are sometimes very slow (2026-10-27 hit the old 45 min limit mid-install)
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Gate (already prepared today?)
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE="$(date +%Y-%m-%d)"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          if [ -z "${{ github.event.inputs.langs }}" ] && gh release view "story-approve-$DATE" >/dev/null 2>&1; then
+            echo "go=false" >> "$GITHUB_OUTPUT"; echo "Already prepared today."; exit 0
+          fi
+          echo "go=true" >> "$GITHUB_OUTPUT"
+
       - name: Setup Node 20
+        if: steps.gate.outputs.go == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install ffmpeg and multilingual fonts
+      - name: Install dependencies, ffmpeg, fonts, Chromium
+        if: steps.gate.outputs.go == 'true'
         run: |
+          npm ci
           sudo apt-get update
-          sudo apt-get install -y ffmpeg fonts-noto-cjk fonts-noto-color-emoji
-          sudo apt-get install -y fonts-noto-core fonts-noto-extra
-          fc-cache -fv
-
-      - name: Install Chromium for Remotion
-        run: npx remotion browser ensure
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-extra fonts-noto-cjk fonts-noto-color-emoji
+          fc-cache -f
+          npx remotion browser ensure
 
       # Constitution gate: refuse to start if data is broken (missing bust
       # image, orphan quote, etc.) so we never silently render 0 videos.
       - name: Validate data (constitution)
+        if: steps.gate.outputs.go == 'true'
         run: node scripts/validate-data.js
 
-      - name: Set date
-        id: date
-        run: echo "DATE=$(date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
-
-      - name: Render daily videos (all languages)
+      - name: Render, check and send to Telegram
+        if: steps.gate.outputs.go == 'true'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           ELEVENLABS_FEMALE_VOICE_ID: ${{ secrets.ELEVENLABS_FEMALE_VOICE_ID }}
           FFMPEG_PATH: /usr/bin/ffmpeg
-        run: node render-daily.js
-
-      # Hard gate: at least one video must exist before we touch any platform.
-      - name: Verify rendered videos exist
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          shopt -s nullglob
-          files=(out/${DATE}/*.mp4)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "::error::No videos rendered for ${DATE} — aborting before posting."
-            exit 1
-          fi
-          echo "✅ ${#files[@]} video(s) rendered for ${DATE}."
-
-      - name: Upload videos as artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: daily-videos-${{ steps.date.outputs.DATE }}
-          path: out/
-          retention-days: 7
-
-      - name: Post to YouTube Shorts
-        if: success()
-        env:
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-        run: node scripts/post-youtube.js ${{ steps.date.outputs.DATE }}
-
-      # Host videos temporarily via GitHub release (needed for Instagram API)
-      - name: Create temp release for video hosting
-        if: success()
-        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -euo pipefail
-          shopt -s nullglob
-          DATE="${{ steps.date.outputs.DATE }}"
-          files=(out/${DATE}/*.mp4)
-          if [ ${#files[@]} -eq 0 ]; then
-            echo "::error::No videos to host for ${DATE}."
-            exit 1
-          fi
-          gh release create "daily-${DATE}" \
-            --title "Daily ${DATE}" \
-            --notes "Auto-generated for daily posting. Will be cleaned up." \
-            || true
-          for f in "${files[@]}"; do
-            gh release upload "daily-${DATE}" "$f" --clobber
-          done
+          ARGS="${{ steps.gate.outputs.date }}"
+          [ -n "${{ github.event.inputs.langs }}" ] && ARGS="$ARGS --langs ${{ github.event.inputs.langs }}"
+          python3 scripts/approval.py prepare-story $ARGS
 
-      - name: Post to Instagram Stories
-        if: success()
-        env:
-          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
-          VIDEO_BASE_URL: "https://github.com/${{ github.repository }}/releases/download/daily-${{ steps.date.outputs.DATE }}"
-        run: node scripts/post-instagram.js ${{ steps.date.outputs.DATE }}
-
-      - name: Post to TikTok
-        if: success()
-        env:
-          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
-          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
-          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
-        run: node scripts/post-tiktok.js ${{ steps.date.outputs.DATE }}
-
-      # Clean up temp release after posting
-      - name: Cleanup temp release
-        if: always()
+      - name: Start the approval watcher
+        if: steps.gate.outputs.go == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          DATE="${{ steps.date.outputs.DATE }}"
-          gh release delete "daily-${DATE}" -y --cleanup-tag 2>/dev/null || true
+        run: gh workflow run reel-approve.yml

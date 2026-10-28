@@ -1,8 +1,9 @@
-"""Semi-automatic reel posting: prepare → Telegram approval → post.
+"""Semi-automatic reel and story posting: prepare → Telegram approval → post.
 
-  python3 scripts/approval.py prepare <date> [--langs tr,en]   # render + QA + send to Telegram
-  python3 scripts/approval.py watch [--minutes 330]             # handle Kaan's button presses
-  python3 scripts/approval.py render <lang> <slug> <out.mp4>    # local test render (no Telegram)
+  python3 scripts/approval.py prepare <date> [--langs tr,en]        # reels: render + QA + send to Telegram
+  python3 scripts/approval.py prepare-story <date> [--langs tr,en]  # daily stories: same, render-daily.js
+  python3 scripts/approval.py watch [--minutes 330]                 # handle Kaan's button presses
+  python3 scripts/approval.py render <lang> <slug> <out.mp4>        # local test render (no Telegram)
 
 Each post day one item per language is taken from data/voiced/<lang>.json, voiced with
 ElevenLabs (with timestamps), checked by speech-to-text against the text, rendered with
@@ -10,7 +11,11 @@ the LumenPoemReel composition and uploaded to the GitHub release `approve-<date>
 Kaan gets one Telegram message per language with Paylaş / Yeniden seslendir /
 Başka içerik / Bugün geç buttons. Nothing is posted without his press.
 
-State lives in git tags (atomic, visible): reel-posted-<date>-<lang>, reel-skip-<date>-<lang>.
+Daily stories (quote of the day, 15 s, render-daily.js) go the same way through the release
+`story-approve-<date>`; Paylaş posts the Instagram story (EN also to YouTube Shorts).
+
+State lives in git tags (atomic, visible): reel-posted-<date>-<lang>, reel-skip-<date>-<lang>,
+story-posted-<date>-<lang>, story-skip-<date>-<lang>.
 """
 import base64, difflib, hashlib, json, os, re, subprocess, sys, time, unicodedata, urllib.parse, urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -220,9 +225,9 @@ def mark(tag_name):
     if r.returncode != 0 and "already exists" not in r.stdout + r.stderr:
         raise RuntimeError(f"tag {tag_name}: {(r.stdout + r.stderr)[-300:]}")
 
-def resolved(d, lang, have=None):
-    have = have if have is not None else tags(f"reel-")
-    return f"reel-posted-{d}-{lang}" in have or f"reel-skip-{d}-{lang}" in have
+def resolved(d, lang, have=None, kind="reel"):
+    have = have if have is not None else tags(f"{kind}-")
+    return f"{kind}-posted-{d}-{lang}" in have or f"{kind}-skip-{d}-{lang}" in have
 
 # ─── Telegram ────────────────────────────────────────────────────────────────
 def tg(method, **params):
@@ -300,7 +305,7 @@ def ensure_render_env():
     global ENV_READY
     if ENV_READY or not os.environ.get("CI"): ENV_READY = True; return
     log("installing render environment…")
-    sh(["bash", "-c", "sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-extra fonts-noto-cjk >/dev/null && npm ci --silent && npx remotion browser ensure"], cwd=ROOT)
+    sh(["bash", "-c", "sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-extra fonts-noto-cjk fonts-noto-color-emoji >/dev/null && npm ci --silent && npx remotion browser ensure"], cwd=ROOT)
     ENV_READY = True
 
 def fetch_meta(d, lang):
@@ -327,6 +332,127 @@ def post(d, langs):
         if good: mark(f"reel-posted-{d}-{l}")
     return result
 
+# ─── Daily stories ───────────────────────────────────────────────────────────
+def story_rel(d): return f"story-approve-{d}"
+def story_asset(d, lang): return f"lumen_{d}_{lang}.mp4"   # the name post-instagram.js expects
+
+def daily_quote(d, lang):
+    """Same pick as render-daily.js getDailyQuote: djb2 over the date, then a Knuth multiply."""
+    M = 0x7FFFFFFFFFFFFFFF
+    h = 5381
+    for b in d.encode(): h = ((h << 5) + h + b) & 0xFFFFFFFFFFFFFFFF
+    h = ((h & M) * 2654435761) & M
+    quotes = json.load(open(f"{ROOT}/data/quotes.json")); figures = json.load(open(f"{ROOT}/data/figures.json"))
+    q = quotes[h % len(quotes)]; f = next(x for x in figures if x["id"] == q["figure_id"])
+    t = q["texts"]
+    return t.get(lang) or t.get("en") or t.get("tr"), f["names"].get(lang) or f["names"].get("en") or f["key"]
+
+def story_qa(mp4, text, lang):
+    wav = mp4 + ".qa.mp3"
+    sh(["ffmpeg", "-y", "-loglevel", "error", "-i", mp4, "-vn", "-ac", "1", wav])
+    heard = stt(wav, lang); os.remove(wav)
+    score = difflib.SequenceMatcher(None, _letters(text), _letters(heard), autojunk=False).ratio()
+    # the story is cut at 15 s, so a long quote loses its end: that shows up as a low score too
+    return {"score": round(score, 3), "problems": [f"metin eşleşmesi düşük (%{score*100:.0f})"] if score < QA_MIN else [], "heard": heard}
+
+def build_story(d, lang, v=0):
+    """render-daily.js for one language (a fresh voice take each run), best of QA_TRIES, uploaded."""
+    text, name = daily_quote(d, lang)
+    out = f"{ROOT}/out/{d}/{story_asset(d, lang)}"
+    best = None
+    for attempt in range(QA_TRIES):
+        r = subprocess.run(["node", "render-daily.js", d, lang], cwd=ROOT, capture_output=True, text=True)
+        if r.returncode or not os.path.exists(out):
+            log(f"  [{lang}] story render failed: {(r.stdout + r.stderr)[-400:]}"); continue
+        rep = story_qa(out, text, lang)
+        log(f"  [{lang}] story take {attempt+1}: %{rep['score']*100:.1f} {rep['problems'] or 'OK'}")
+        take = f"{out}.take{attempt}.mp4"; os.replace(out, take)
+        if best is None or rep["score"] > best[1]["score"]: best = (take, rep)
+        if not rep["problems"]: break
+    if best is None: raise RuntimeError("hikâye render edilemedi")
+    os.replace(best[0], out)
+    for a in range(QA_TRIES):
+        if os.path.exists(f"{out}.take{a}.mp4"): os.remove(f"{out}.take{a}.mp4")
+    rep = dict(best[1], attempts=attempt + 1)
+    meta = {"date": d, "lang": lang, "v": v, "figure": name, "text": text, "qa": {x: rep[x] for x in ("score", "problems", "attempts")}}
+    mj = f"{ROOT}/out/{d}/{lang}.json"; json.dump(meta, open(mj, "w"), ensure_ascii=False, indent=1)
+    gh("release", "create", story_rel(d), "--title", f"Onay bekleyen hikâyeler {d}", "--notes", "Telegram onayı bekleyen günlük hikâyeler. Otomatik silinir.", check=False)
+    gh("release", "upload", story_rel(d), out, mj, "--clobber")
+    return meta, rep, out
+
+def story_keyboard(d, lang, v):
+    return [[{"text": "✅ Paylaş", "callback_data": f"sok|{d}|{lang}"},
+             {"text": "🔁 Yeniden seslendir", "callback_data": f"sredo|{d}|{lang}|{v + 1}"}],
+            [{"text": "❌ Bugün geç", "callback_data": f"sskip|{d}|{lang}"}]]
+
+def send_story_preview(d, lang, meta, rep, mp4, v):
+    qa_line = ("🎙 Ses kontrolü: %{:.0f} ✓".format(rep["score"] * 100) if not rep["problems"]
+               else "⚠️ Ses kontrolü: " + "; ".join(rep["problems"]) + " — dikkatli dinle")
+    cap = f"📱 Hikâye · {FLAG[lang]} {lang.upper()} · {meta['figure']}\n{qa_line}\n\n“{meta['text']}”"
+    r = tg_video(mp4, cap[:1020], story_keyboard(d, lang, v))
+    if not r.get("ok"): log(f"  [{lang}] telegram: {r}")
+
+def prepare_story(d, langs):
+    say(f"☀️ Lumen · {d} hikâyeleri hazırlanıyor ({len(langs)} dil).")
+    ok = []
+    for lang in langs:
+        if resolved(d, lang, kind="story"): continue
+        try:
+            meta, rep, mp4 = build_story(d, lang)
+            send_story_preview(d, lang, meta, rep, mp4, 0); ok.append(lang)
+        except Exception as e:
+            log(f"[{lang}] ✗ {e!r}"[:400]); say(f"{FLAG[lang]} {lang.upper()} hikâyesi hazırlanamadı: {str(e)[:200]}")
+    if ok:
+        say(f"Hikâyeler hazır: {', '.join(FLAG[l] for l in ok)}\nHikâyeler 24 saat kalır; gün içinde onaylaman yeterli.",
+            reply_markup={"inline_keyboard": [[{"text": f"✅ Kalan hikâyelerin hepsini paylaş ({len(ok)})", "callback_data": f"sokall|{d}"}]]})
+
+def post_story(d, langs):
+    """Instagram story for each language (+ EN to YouTube Shorts). Returns {lang: ok}."""
+    accounts = [a for a in json.loads(os.environ.get("INSTAGRAM_ACCOUNTS", "[]")) if a.get("lang") in langs]
+    env = dict(os.environ, INSTAGRAM_ACCOUNTS=json.dumps(accounts),
+               VIDEO_BASE_URL=f"https://github.com/{os.environ['GITHUB_REPOSITORY']}/releases/download/{story_rel(d)}")
+    r = subprocess.run(["node", "scripts/post-instagram.js", d], cwd=ROOT, env=env, capture_output=True, text=True)
+    log(r.stdout[-3000:], r.stderr[-2000:])
+    result = {l: bool(re.search(rf"\[{l}\] ✅", r.stdout)) for l in langs}
+    if result.get("en"):
+        gh("release", "download", story_rel(d), "-p", story_asset(d, "en"), "-D", f"{ROOT}/out/{d}", "--clobber", check=False)
+        y = subprocess.run(["node", "scripts/post-youtube.js", d], cwd=ROOT, capture_output=True, text=True)
+        log(y.stdout[-1500:], y.stderr[-800:])
+    for l, good in result.items():
+        if good: mark(f"story-posted-{d}-{l}")
+    return result
+
+def release_langs(rel):
+    r = gh("release", "view", rel, "--json", "assets", check=False)
+    return [a["name"][:-5] for a in json.loads(r.stdout or '{"assets":[]}')["assets"] if a["name"].endswith(".json")]
+
+def handle_story(act, parts, msg):
+    d = parts[1]; lang = parts[2] if len(parts) > 2 else None
+    have = tags("story-")
+    if act == "sok":
+        if resolved(d, lang, have, "story"): return close_buttons(msg, "Bu zaten sonuçlanmış.")
+        res = post_story(d, [lang])
+        close_buttons(msg, f"✅ {FLAG[lang]} hikâye paylaşıldı." if res[lang] else f"❌ {FLAG[lang]} hikâye paylaşılamadı, Actions kaydına bak. Tekrar denemek için yeniden bas.")
+        if not res[lang]: tg("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"], reply_markup={"inline_keyboard": story_keyboard(d, lang, 0)})
+    elif act == "sokall":
+        todo = [l for l in release_langs(story_rel(d)) if not resolved(d, l, have, "story")]
+        if not todo: return close_buttons(msg, "Paylaşılacak bekleyen hikâye kalmadı.")
+        res = post_story(d, todo)
+        good = [FLAG[l] for l, v in res.items() if v]; bad = [FLAG[l] for l, v in res.items() if not v]
+        close_buttons(msg, f"✅ Hikâyeler paylaşıldı: {' '.join(good) or '-'}" + (f"\n❌ Olmadı: {' '.join(bad)}" if bad else ""))
+    elif act == "sskip":
+        mark(f"story-skip-{d}-{lang}"); close_buttons(msg, f"{FLAG[lang]} bugünkü hikâye paylaşılmayacak.")
+    elif act == "sredo":
+        if resolved(d, lang, have, "story"): return close_buttons(msg, "Bu zaten sonuçlanmış.")
+        v = int(parts[3])
+        close_buttons(msg, "🔁 Hikâye yeniden seslendiriliyor, birkaç dakika…")
+        ensure_render_env()
+        try:
+            meta, rep, mp4 = build_story(d, lang, v)
+            send_story_preview(d, lang, meta, rep, mp4, v)
+        except Exception as e:
+            say(f"{FLAG[lang]} hikâye yeniden hazırlanamadı: {str(e)[:200]}")
+
 def close_buttons(msg, note):
     if not msg: return
     tg("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"], reply_markup={"inline_keyboard": []})
@@ -336,8 +462,11 @@ def handle(cb):
     data, msg = cb.get("data", ""), cb.get("message")
     parts = data.split("|"); act, d = parts[0], parts[1]
     lang = parts[2] if len(parts) > 2 else None
-    tg("answerCallbackQuery", callback_query_id=cb["id"], text={"ok": "Paylaşılıyor…", "okall": "Hepsi paylaşılıyor…", "redo": "Yeniden seslendiriliyor…",
-                                                               "next": "Başka içerik hazırlanıyor…", "skip": "Tamam, bugün geçiyoruz."}.get(act, ""))
+    note = {"ok": "Paylaşılıyor…", "okall": "Hepsi paylaşılıyor…", "redo": "Yeniden seslendiriliyor…",
+            "next": "Başka içerik hazırlanıyor…", "skip": "Tamam, bugün geçiyoruz."}
+    note.update({"s" + k: v for k, v in note.items()})   # story buttons: sok, sokall, sredo, sskip
+    tg("answerCallbackQuery", callback_query_id=cb["id"], text=note.get(act, ""))
+    if act in ("sok", "sokall", "sskip", "sredo"): return handle_story(act, parts, msg)
     have = tags("reel-")
     if act == "ok":
         if resolved(d, lang, have): return close_buttons(msg, "Bu zaten sonuçlanmış.")
@@ -366,17 +495,18 @@ def handle(cb):
             say(f"{FLAG[lang]} yeniden hazırlanamadı: {str(e)[:200]}")
 
 def open_items():
-    """(date, lang) pairs still waiting for a decision, from approve-* releases of the last 3 days."""
+    """(kind, date, lang) still waiting for a decision: reels from approve-* releases of the last
+    3 days, stories from story-approve-* of the last day (a story is stale after that)."""
     rel = gh("release", "list", "--limit", "50", "--json", "tagName", check=False)
-    have = tags("reel-"); pending = []
+    have = tags("reel-") | tags("story-"); pending = []
     for r in json.loads(rel.stdout or "[]"):
         t = r["tagName"]
-        if not t.startswith("approve-"): continue
-        d = t[len("approve-"):]
-        if (Date.today() - Date.fromisoformat(d)).days > 3:
+        kind, keep = ("reel", 3) if t.startswith("approve-") else ("story", 1) if t.startswith("story-approve-") else (None, 0)
+        if not kind: continue
+        d = t[-10:]
+        if (Date.today() - Date.fromisoformat(d)).days > keep:
             gh("release", "delete", t, "-y", "--cleanup-tag", check=False); continue
-        assets = json.loads(gh("release", "view", t, "--json", "assets", check=False).stdout or '{"assets":[]}')["assets"]
-        pending += [(d, a["name"][:-5]) for a in assets if a["name"].endswith(".json") and not resolved(d, a["name"][:-5], have)]
+        pending += [(kind, d, l) for l in release_langs(t) if not resolved(d, l, have, kind)]
     return pending
 
 def watch(minutes):
@@ -413,6 +543,10 @@ def main():
         d = sys.argv[2]; langs = LANGS
         if "--langs" in sys.argv and sys.argv[sys.argv.index("--langs") + 1]: langs = sys.argv[sys.argv.index("--langs") + 1].split(",")
         prepare(d, langs)
+    elif cmd == "prepare-story":
+        d = sys.argv[2]; langs = LANGS
+        if "--langs" in sys.argv and sys.argv[sys.argv.index("--langs") + 1]: langs = sys.argv[sys.argv.index("--langs") + 1].split(",")
+        prepare_story(d, langs)
     elif cmd == "watch":
         watch(int(sys.argv[sys.argv.index("--minutes") + 1]) if "--minutes" in sys.argv else 330)
     elif cmd == "render":

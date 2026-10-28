@@ -1,10 +1,10 @@
 name: Reel Approve (Telegram watcher)
 
-# Waits for Kaan's button presses on the Telegram previews and acts on them:
-# Paylaş → post to that language's Instagram (+ EN to YouTube), Yeniden seslendir /
-# Başka içerik → re-render and send again, Bugün geç → skip. Started by the prepare
-# workflow; the schedule is a fallback for late approvals and ends in seconds when
-# nothing is waiting.
+# Waits for Kaan's button presses on the Telegram previews (reels and daily stories) and
+# acts on them: Paylaş → post to that language's Instagram (+ EN to YouTube), Yeniden
+# seslendir / Başka içerik → re-render and send again, Bugün geç → skip. Started by the
+# prepare workflows; the schedule is a fallback for late approvals and ends in seconds
+# when nothing is waiting.
 on:
   workflow_dispatch:
   schedule:
@@ -34,6 +34,9 @@ jobs:
       - name: Watch Telegram
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_FEMALE_VOICE_ID: ${{ secrets.ELEVENLABS_FEMALE_VOICE_ID }}
+          FFMPEG_PATH: /usr/bin/ffmpeg
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
