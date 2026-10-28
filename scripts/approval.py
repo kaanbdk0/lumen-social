@@ -81,9 +81,12 @@ def queue(lang):
     p = f"{ROOT}/data/voiced/{lang}.json"
     return json.load(open(p)) if os.path.exists(p) else []
 
+# The queues were reordered and grown for this post day, which takes item 0.
+ROTATION_START = "2026-10-29"
+
 def pick(lang, d, k=0):
     q = queue(lang)
-    return q[(post_number(d) + k) % len(q)] if q else None
+    return q[(post_number(d) - post_number(ROTATION_START) + k) % len(q)] if q else None
 
 # ─── ElevenLabs ──────────────────────────────────────────────────────────────
 def _el(path, body):

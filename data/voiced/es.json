@@ -21,6 +21,34 @@
   "source": "Bécquer, Rimas, Rima XXI. Texto íntegro según es.wikisource.org (Rimas, ed. 1925 y Obras, ed. 1885; mismas palabras, puntuación moderna)."
  },
  {
+  "slug": "es_lib_marco_aurelio_presente",
+  "lib_id": "marcus_08_36",
+  "mode": "prose",
+  "poet": "Marco Aurelio",
+  "author": "Marco Aurelio",
+  "title": "Meditaciones",
+  "hook": "¿Te abruma pensar en todo lo que viene?",
+  "hookSub": "Marco Aurelio · Meditaciones",
+  "stanzas": [
+   [
+    "No te perturbes pensando en tu vida entera."
+   ],
+   [
+    "Que tus pensamientos no abarquen de una vez todas las diversas desgracias que esperas que te sobrevengan;",
+    "sino que en cada ocasión pregúntate: “¿Qué hay en esto que sea intolerable e insoportable?”."
+   ],
+   [
+    "Porque te avergonzarás de confesarlo."
+   ],
+   [
+    "Recuerda, además, que no te pesan ni el futuro ni el pasado, sino solo el presente."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "¿Te abruma pensar en todo lo que viene?\n\nMarco Aurelio · Meditaciones\n\n¿Qué te pesa hoy de verdad?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #marcoaurelio #literatura",
+  "source": "George Long translation (1862); Lumen translation"
+ },
+ {
   "slug": "es_marco_aurelio_manana",
   "mode": "prose",
   "poet": "Marco Aurelio",
@@ -52,6 +80,34 @@
   "source": "Marco Aurelio, Meditaciones V.1 (fragmento). Traducción propia al español a partir de la versión inglesa de George Long (1862)."
  },
  {
+  "slug": "es_lib_tagore_he_amado",
+  "lib_id": "tagore_straybirds_277_280",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Pájaros perdidos",
+  "hook": "Tagore escribió esto hace 110 años:",
+  "hookSub": "Pájaros perdidos",
+  "stanzas": [
+   [
+    "La lámpara del encuentro arde largo tiempo;",
+    "se apaga en un instante en la despedida."
+   ],
+   [
+    "Guarda para mí una palabra en tu silencio, oh Mundo, cuando haya muerto: “He amado”."
+   ],
+   [
+    "Vivimos en este mundo cuando lo amamos."
+   ],
+   [
+    "Que los muertos tengan la inmortalidad de la fama, pero los vivos la inmortalidad del amor."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_02.jpg",
+  "caption": "Tagore escribió esto hace 110 años:\n\nRabindranath Tagore · Pájaros perdidos\n\n¿Qué palabra te gustaría dejar en el mundo?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #tagore #literatura",
+  "source": "Tagore's own English translation (1916); Lumen translation"
+ },
+ {
   "slug": "es_machado_caminante",
   "mode": "poem",
   "poet": "Antonio Machado",
@@ -81,6 +137,31 @@
   "reel_bg": "tiktok/friedrich_gezgin.jpg",
   "caption": "¿Sientes que no encuentras tu camino?\n\nAntonio Machado · Proverbios y cantares XXIX\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #antoniomachado #poemas",
   "source": "Antonio Machado, Campos de Castilla (1912), Proverbios y cantares XXIX. Texto íntegro según es.wikisource.org."
+ },
+ {
+  "slug": "es_lib_thoreau_tambor",
+  "lib_id": "thoreau_walden_drummer",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "¿Sientes que vas a otro ritmo?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "¿Por qué hemos de tener una prisa tan desesperada por triunfar, y en empresas tan desesperadas?"
+   ],
+   [
+    "Si un hombre no lleva el mismo paso que sus compañeros,",
+    "quizá sea porque oye un tambor distinto."
+   ],
+   [
+    "Que camine al compás de la música que oye, por pausada o lejana que sea."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "¿Sientes que vas a otro ritmo?\n\nHenry David Thoreau · Walden\n\n¿Qué música oyes tú que los demás no oyen?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #thoreau #literatura",
+  "source": "Walden (1854); Lumen translation"
  },
  {
   "slug": "es_seneca_vida_breve",
@@ -115,6 +196,36 @@
   "source": "Séneca, De brevitate vitae I.3-4 (fragmento). Traducción propia al español del original latino (texto latino de The Latin Library)."
  },
  {
+  "slug": "es_lib_epicteto_devuelto",
+  "lib_id": "epictetus_ench_11",
+  "mode": "prose",
+  "poet": "Epicteto",
+  "author": "Epicteto",
+  "title": "Enquiridión",
+  "hook": "¿Has perdido a alguien que amabas?",
+  "hookSub": "Epicteto · Enquiridión",
+  "stanzas": [
+   [
+    "Nunca digas de nada: “Lo he perdido”, sino: “Lo he devuelto”."
+   ],
+   [
+    "¿Ha muerto tu hijo? Ha sido devuelto.",
+    "¿Ha muerto tu esposa? Ha sido devuelta.",
+    "¿Te han quitado tu hacienda? También ha sido devuelta."
+   ],
+   [
+    "“Pero quien me la quitó era un malvado.”",
+    "¿Y qué te importa por medio de quién te la reclamó Aquel que te la dio?"
+   ],
+   [
+    "Mientras te permita poseerla, cuídala como algo que no es tuyo, como hacen los viajeros con la posada."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_04.jpg",
+  "caption": "¿Has perdido a alguien que amabas?\n\nEpicteto · Enquiridión\n\n¿Qué estás cuidando hoy como algo prestado?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #epicteto #literatura",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing); Lumen translation"
+ },
+ {
   "slug": "es_dario_juventud",
   "mode": "poem",
   "poet": "Rubén Darío",
@@ -140,6 +251,32 @@
   "reel_bg": "bg/modern_canli/bg_02.jpg",
   "caption": "¿Echas de menos a quien eras?\n\nRubén Darío · Canción de otoño en primavera\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #rubendario #poemas",
   "source": "Rubén Darío, Cantos de vida y esperanza (1905), Canción de otoño en primavera, penúltima y antepenúltima estrofas, literal según es.wikisource.org (ed. Madrid, 1918)."
+ },
+ {
+  "slug": "es_lib_buda_odio",
+  "lib_id": "dhammapada_3_6",
+  "mode": "prose",
+  "poet": "Buda",
+  "author": "Buda",
+  "title": "Dhammapada",
+  "hook": "¿No puedes olvidar lo que te hicieron?",
+  "hookSub": "Buda · Dhammapada",
+  "stanzas": [
+   [
+    "“Me insultó, me golpeó, me venció, me robó”:",
+    "en quienes albergan tales pensamientos el odio nunca cesará."
+   ],
+   [
+    "“Me insultó, me golpeó, me venció, me robó”:",
+    "en quienes no albergan tales pensamientos el odio cesará."
+   ],
+   [
+    "Porque el odio nunca cesa con el odio: el odio cesa con el amor; esta es una ley antigua."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_00.jpg",
+  "caption": "¿No puedes olvidar lo que te hicieron?\n\nBuda · Dhammapada\n\n¿Qué rencor estás listo para soltar?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #buda #literatura",
+  "source": "F. Max Müller translation (1881); Lumen translation"
  },
  {
   "slug": "es_gibran_hijos",
@@ -175,6 +312,34 @@
   "source": "Khalil Gibran, The Prophet (1923), On Children (fragmento). Traducción propia al español del original inglés."
  },
  {
+  "slug": "es_lib_seneca_espera_mejor",
+  "lib_id": "seneca_ep013b",
+  "mode": "prose",
+  "poet": "Séneca",
+  "author": "Séneca",
+  "title": "Cartas a Lucilio",
+  "hook": "¿Sufres por cosas que aún no han pasado?",
+  "hookSub": "Séneca · Cartas a Lucilio",
+  "stanzas": [
+   [
+    "Es probable que nos sobrevengan algunos males; pero no es un hecho presente."
+   ],
+   [
+    "¡Cuántas veces ha sucedido lo inesperado!",
+    "¡Cuántas veces lo esperado no ha llegado nunca!"
+   ],
+   [
+    "Y aunque esté destinado a suceder, ¿de qué sirve salir corriendo al encuentro de tu sufrimiento?"
+   ],
+   [
+    "Ya sufrirás bastante cuando llegue; mientras tanto, espera cosas mejores."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "¿Sufres por cosas que aún no han pasado?\n\nSéneca · Cartas a Lucilio\n\n¿Qué miedo de hoy nunca llegó a pasar?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #seneca #literatura",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen translation"
+ },
+ {
   "slug": "es_nervo_en_paz",
   "mode": "poem",
   "poet": "Amado Nervo",
@@ -201,6 +366,35 @@
   "reel_bg": "bg/modern_canli/bg_03.jpg",
   "caption": "¿Sientes que la vida te debe algo?\n\nAmado Nervo · En paz\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #amadonervo #poemas",
   "source": "Amado Nervo, En paz. Estrofas 1, 2 y final, literales según es.wikisource.org; se omiten las estrofas intermedias."
+ },
+ {
+  "slug": "es_lib_rilke_preguntas",
+  "lib_id": "rilke_live_the_questions",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Cartas a un joven poeta",
+  "hook": "¿Necesitas todas las respuestas ya?",
+  "hookSub": "Rainer Maria Rilke · Cartas a un joven poeta",
+  "stanzas": [
+   [
+    "Es usted tan joven, está tan antes de todo comienzo,",
+    "y quisiera rogarle, querido señor, lo mejor que sé, que tenga paciencia con todo lo que no está resuelto en su corazón",
+    "y que intente amar las preguntas mismas, como habitaciones cerradas y como libros escritos en una lengua muy extraña."
+   ],
+   [
+    "No busque ahora las respuestas, que no se le pueden dar porque no podría vivirlas."
+   ],
+   [
+    "Y de lo que se trata es de vivirlo todo."
+   ],
+   [
+    "Viva ahora las preguntas."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "¿Necesitas todas las respuestas ya?\n\nRainer Maria Rilke · Cartas a un joven poeta\n\n¿Qué pregunta estás viviendo ahora?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #rilke #literatura",
+  "source": "Translated from the German by Lumen; Lumen translation"
  },
  {
   "slug": "es_epicteto_control",
@@ -236,6 +430,35 @@
   "source": "Epicteto, Enquiridión 1 (fragmento). Traducción propia al español a partir de la versión inglesa de T. W. Higginson (1865)."
  },
  {
+  "slug": "es_lib_gibran_trabajo_amor",
+  "lib_id": "gibran_prophet_work",
+  "mode": "prose",
+  "poet": "Khalil Gibran",
+  "author": "Khalil Gibran",
+  "title": "El profeta",
+  "hook": "Gibran escribió esto sobre el trabajo:",
+  "hookSub": "El profeta",
+  "stanzas": [
+   [
+    "También les han dicho que la vida es oscuridad, y en su cansancio repiten lo que dijeron los cansados."
+   ],
+   [
+    "Y yo digo que la vida es en verdad oscuridad, salvo cuando hay impulso,",
+    "Y todo impulso es ciego, salvo cuando hay conocimiento,"
+   ],
+   [
+    "Y todo conocimiento es vano, salvo cuando hay trabajo,",
+    "Y todo trabajo está vacío, salvo cuando hay amor;"
+   ],
+   [
+    "Y cuando trabajan con amor se unen a sí mismos, y unos a otros, y a Dios."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_02.jpg",
+  "caption": "Gibran escribió esto sobre el trabajo:\n\nKhalil Gibran · El profeta\n\n¿Pones amor en lo que haces cada día?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #khalilgibran #literatura",
+  "source": "Alfred A. Knopf (1923); Lumen translation"
+ },
+ {
   "slug": "es_becquer_golondrinas",
   "mode": "poem",
   "poet": "Bécquer",
@@ -261,6 +484,31 @@
   "reel_bg": "tiktok/waterhouse_shalott.jpg",
   "caption": "¿Alguien te ha querido así?\n\nGustavo Adolfo Bécquer · Rima LIII\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #becquer #poemas",
   "source": "Bécquer, Rimas, Rima LIII (Volverán las oscuras golondrinas), dos últimas estrofas, literales según es.wikisource.org (Rimas, ed. 1925)."
+ },
+ {
+  "slug": "es_lib_montaigne_has_vivido",
+  "lib_id": "montaigne_lived",
+  "mode": "prose",
+  "poet": "Michel de Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Ensayos",
+  "hook": "¿Sientes que hoy no has hecho nada?",
+  "hookSub": "Michel de Montaigne · Ensayos",
+  "stanzas": [
+   [
+    "Somos grandes necios.",
+    "“Ha pasado su vida en la ociosidad”, decimos; “hoy no he hecho nada”."
+   ],
+   [
+    "¿Cómo? ¿No has vivido?"
+   ],
+   [
+    "Esa es no solo la fundamental, sino la más ilustre de tus ocupaciones."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "¿Sientes que hoy no has hecho nada?\n\nMichel de Montaigne · Ensayos\n\n¿Qué has vivido hoy que no cuenta como tarea?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #montaigne #literatura",
+  "source": "Charles Cotton translation, revised by W. C. Hazlitt (1877); Lumen translation"
  },
  {
   "slug": "es_cervantes_borrascas",
@@ -292,6 +540,32 @@
   "reel_bg": "bg/ronesans_canli/bg_01.jpg",
   "caption": "¿Llevas tiempo en una mala racha?\n\nMiguel de Cervantes · Don Quijote de la Mancha\n\n¿Con qué frase te quedas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #cervantes #literatura",
   "source": "Cervantes, Don Quijote, Primera parte, cap. XVIII. Texto literal según es.wikisource.org (ed. México, 1842), con acentuación moderna."
+ },
+ {
+  "slug": "es_lib_lao_tse_vencerse",
+  "lib_id": "laozi_33",
+  "mode": "prose",
+  "poet": "Lao Tse",
+  "author": "Lao Tse",
+  "title": "Tao Te Ching",
+  "hook": "Lao Tse escribió esto hace 2.500 años:",
+  "hookSub": "Tao Te Ching",
+  "stanzas": [
+   [
+    "Quien conoce a los demás es perspicaz;",
+    "quien se conoce a sí mismo es lúcido."
+   ],
+   [
+    "Quien vence a los demás es fuerte;",
+    "quien se vence a sí mismo es poderoso."
+   ],
+   [
+    "Quien está satisfecho con su suerte es rico; quien persevera con energía tiene una voluntad firme."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_03.jpg",
+  "caption": "Lao Tse escribió esto hace 2.500 años:\n\nLao Tse · Tao Te Ching\n\n¿Cuál de estas frases te cuesta más?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #laotse #literatura",
+  "source": "James Legge translation (1891); Lumen translation"
  },
  {
   "slug": "es_storni_blanca",
@@ -341,6 +615,595 @@
   "reel_bg": "bg/modern_canli/bg_04.jpg",
   "caption": "¿Te exigieron lo que ellos nunca dieron?\n\nAlfonsina Storni · Tú me quieres blanca\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #alfonsinastorni #poemas",
   "source": "Alfonsina Storni, Tú me quieres blanca (El dulce daño, 1918), estrofa final, literal según es.wikisource.org."
+ },
+ {
+  "slug": "es_lib_nietzsche_amor_fati",
+  "lib_id": "nietzsche_fw_amor",
+  "mode": "prose",
+  "poet": "Friedrich Nietzsche",
+  "author": "Friedrich Nietzsche",
+  "title": "La gaya ciencia",
+  "hook": "Nietzsche escribió esto en 1882:",
+  "hookSub": "La gaya ciencia",
+  "stanzas": [
+   [
+    "Quiero aprender cada vez más a ver lo necesario en las cosas como lo bello:",
+    "así seré uno de los que hacen bellas las cosas."
+   ],
+   [
+    "Amor fati: ¡sea este, de ahora en adelante, mi amor!",
+    "No quiero hacer la guerra a lo feo.",
+    "No quiero acusar, no quiero ni siquiera acusar a los acusadores."
+   ],
+   [
+    "¡Que apartar la mirada sea mi única negación!"
+   ],
+   [
+    "Y, en suma y en grande: ¡quiero algún día ser solamente alguien que dice sí!"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Nietzsche escribió esto en 1882:\n\nFriedrich Nietzsche · La gaya ciencia\n\n¿A qué te gustaría decirle que sí este año?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #nietzsche #literatura",
+  "source": "Thomas Common translation (1910); Lumen translation"
+ },
+ {
+  "slug": "es_lib_marco_aurelio_ira",
+  "lib_id": "marcus_11_18",
+  "mode": "prose",
+  "poet": "Marco Aurelio",
+  "author": "Marco Aurelio",
+  "title": "Meditaciones",
+  "hook": "¿Crees que enfadarte te hace fuerte?",
+  "hookSub": "Marco Aurelio · Meditaciones",
+  "stanzas": [
+   [
+    "Porque en la misma medida en que la mente de un hombre está más cerca de verse libre de toda pasión,",
+    "en esa misma medida está más cerca de la fuerza;"
+   ],
+   [
+    "y así como la sensación de dolor es propia de la debilidad, también lo es la ira."
+   ],
+   [
+    "Porque quien cede al dolor y quien cede a la ira, ambos están heridos y ambos se rinden."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "¿Crees que enfadarte te hace fuerte?\n\nMarco Aurelio · Meditaciones\n\n¿Cuándo fue la última vez que la ira te ganó?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #marcoaurelio #literatura",
+  "source": "George Long translation (1862); Lumen translation"
+ },
+ {
+  "slug": "es_lib_dostoievski_tus_anos",
+  "lib_id": "dostoevsky_wn_years",
+  "mode": "prose",
+  "poet": "Fiódor Dostoievski",
+  "author": "Fiódor Dostoievski",
+  "title": "Noches blancas",
+  "hook": "¿Sientes que los años se te escapan?",
+  "hookSub": "Fiódor Dostoievski · Noches blancas",
+  "stanzas": [
+   [
+    "Y te preguntas: ¿dónde están tus sueños?",
+    "Y meneas la cabeza y dices: ¡qué rápido vuelan los años!"
+   ],
+   [
+    "Y otra vez te preguntas: ¿qué has hecho con tus años?",
+    "¿Dónde enterraste tu mejor tiempo?"
+   ],
+   [
+    "¿Has vivido o no?"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "¿Sientes que los años se te escapan?\n\nFiódor Dostoievski · Noches blancas\n\n¿Dónde está tu mejor tiempo?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #dostoievski #literatura",
+  "source": "Constance Garnett translation (1918); Lumen translation"
+ },
+ {
+  "slug": "es_lib_pascal_cana_pensante",
+  "lib_id": "pascal_reed",
+  "mode": "prose",
+  "poet": "Blaise Pascal",
+  "author": "Blaise Pascal",
+  "title": "Pensamientos",
+  "hook": "Pascal escribió esto hace más de 350 años:",
+  "hookSub": "Pensamientos",
+  "stanzas": [
+   [
+    "El hombre no es más que una caña, la más débil de la naturaleza;",
+    "pero es una caña pensante."
+   ],
+   [
+    "No hace falta que el universo entero se arme para aplastarlo:",
+    "un vapor, una gota de agua bastan para matarlo."
+   ],
+   [
+    "Pero, aunque el universo lo aplastara, el hombre seguiría siendo más noble que lo que lo mata,",
+    "porque sabe que muere y conoce la ventaja que el universo tiene sobre él;"
+   ],
+   [
+    "el universo no sabe nada de eso."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_02.jpg",
+  "caption": "Pascal escribió esto hace más de 350 años:\n\nBlaise Pascal · Pensamientos\n\n¿Qué te hace sentir pequeño y grande a la vez?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #pascal #literatura",
+  "source": "W. F. Trotter translation (1910); Lumen translation"
+ },
+ {
+  "slug": "es_lib_kafka_quedate_quieto",
+  "lib_id": "kafka_stay_at_your_table",
+  "mode": "prose",
+  "poet": "Franz Kafka",
+  "author": "Franz Kafka",
+  "title": "Aforismos de Zürau",
+  "hook": "¿Y si no tuvieras que ir a ninguna parte?",
+  "hookSub": "Franz Kafka · Aforismos de Zürau",
+  "stanzas": [
+   [
+    "No es necesario que salgas de casa.",
+    "Quédate en tu mesa y escucha."
+   ],
+   [
+    "Ni siquiera escuches, solo espera.",
+    "Ni siquiera esperes, quédate completamente quieto y solo."
+   ],
+   [
+    "El mundo se te ofrecerá para que lo desenmascares, no puede hacer otra cosa; extasiado, se retorcerá ante ti."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "¿Y si no tuvieras que ir a ninguna parte?\n\nFranz Kafka · Aforismos de Zürau\n\n¿Cuándo fue la última vez que solo esperaste?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #kafka #literatura",
+  "source": "Translated from the German by Lumen; Lumen translation"
+ },
+ {
+  "slug": "es_lib_seneca_cambiar_de_alma",
+  "lib_id": "seneca_ep028",
+  "mode": "prose",
+  "poet": "Séneca",
+  "author": "Séneca",
+  "title": "Cartas a Lucilio",
+  "hook": "¿Crees que un viaje te va a curar?",
+  "hookSub": "Séneca · Cartas a Lucilio",
+  "stanzas": [
+   [
+    "¿Crees que solo a ti te ha pasado esto?"
+   ],
+   [
+    "¿Te sorprende, como si fuera una novedad, que después de un viaje tan largo y de tantos cambios de paisaje",
+    "no hayas podido sacudirte la tristeza y la pesadez de tu mente?"
+   ],
+   [
+    "Necesitas cambiar de alma, no de clima."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "¿Crees que un viaje te va a curar?\n\nSéneca · Cartas a Lucilio\n\n¿De qué intentas huir cuando te vas lejos?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #seneca #literatura",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen translation"
+ },
+ {
+  "slug": "es_lib_tolstoi_en_lugar_de_la_muerte",
+  "lib_id": "tolstoy_ivan_light",
+  "mode": "prose",
+  "poet": "León Tolstói",
+  "author": "León Tolstói",
+  "title": "La muerte de Iván Ilich",
+  "hook": "Tolstói escribió así el final de una vida:",
+  "hookSub": "La muerte de Iván Ilich",
+  "stanzas": [
+   [
+    "“¿Y la muerte? ¿Dónde está?”"
+   ],
+   [
+    "Buscó su antiguo y habitual miedo a la muerte y no lo encontró.",
+    "¿Dónde está? ¿Qué muerte?"
+   ],
+   [
+    "No había ningún miedo, porque tampoco había muerte."
+   ],
+   [
+    "En lugar de la muerte había luz."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Tolstói escribió así el final de una vida:\n\nLeón Tolstói · La muerte de Iván Ilich\n\n¿Qué crees que encontraremos al final?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #tolstoi #literatura",
+  "source": "Louise and Aylmer Maude translation; Lumen translation"
+ },
+ {
+  "slug": "es_lib_la_rochefoucauld_amor",
+  "lib_id": "larochefoucauld_love",
+  "mode": "prose",
+  "poet": "La Rochefoucauld",
+  "author": "La Rochefoucauld",
+  "title": "Máximas",
+  "hook": "¿Has visto alguna vez el amor verdadero?",
+  "hookSub": "La Rochefoucauld · Máximas",
+  "stanzas": [
+   [
+    "Casi no hay personas que no se avergüencen de haberse amado cuando ya no se aman."
+   ],
+   [
+    "Si se juzga el amor por la mayoría de sus efectos, se parece más al odio que a la amistad."
+   ],
+   [
+    "El amor, como el fuego, no puede subsistir sin un movimiento continuo;",
+    "y deja de vivir en cuanto deja de esperar o de temer."
+   ],
+   [
+    "Con el verdadero amor ocurre como con la aparición de los espíritus: todo el mundo habla de él, pero pocos lo han visto."
+   ]
+  ],
+  "reel_bg": "tiktok/klimt_opucuk.jpg",
+  "caption": "¿Has visto alguna vez el amor verdadero?\n\nLa Rochefoucauld · Máximas\n\n¿Tú lo has visto?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #larochefoucauld #literatura",
+  "source": "J. W. Willis Bund & J. Hain Friswell translation (1871); Lumen translation"
+ },
+ {
+  "slug": "es_lib_emerson_malinterpretado",
+  "lib_id": "emerson_misunderstood",
+  "mode": "prose",
+  "poet": "Ralph Waldo Emerson",
+  "author": "Ralph Waldo Emerson",
+  "title": "Ensayos",
+  "hook": "¿Te da miedo que no te entiendan?",
+  "hookSub": "Ralph Waldo Emerson · Ensayos",
+  "stanzas": [
+   [
+    "¿Tan malo es, entonces, ser malinterpretado?"
+   ],
+   [
+    "Pitágoras fue malinterpretado, y Sócrates, y Jesús, y Lutero, y Copérnico, y Galileo, y Newton,",
+    "y todo espíritu puro y sabio que alguna vez tomó carne."
+   ],
+   [
+    "Ser grande es ser malinterpretado."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "¿Te da miedo que no te entiendan?\n\nRalph Waldo Emerson · Ensayos\n\n¿Quién te ha malinterpretado alguna vez?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #emerson #literatura",
+  "source": "Essays: First Series (1841); Lumen translation"
+ },
+ {
+  "slug": "es_lib_gibran_hablar",
+  "lib_id": "gibran_prophet_talking",
+  "mode": "prose",
+  "poet": "Khalil Gibran",
+  "author": "Khalil Gibran",
+  "title": "El profeta",
+  "hook": "¿Hablas para no estar a solas?",
+  "hookSub": "Khalil Gibran · El profeta",
+  "stanzas": [
+   [
+    "Hablan cuando dejan de estar en paz con sus pensamientos;",
+    "Y cuando ya no pueden morar en la soledad de su corazón, viven en sus labios, y el sonido es una distracción y un pasatiempo."
+   ],
+   [
+    "Y en mucho de lo que hablan, el pensamiento queda medio asesinado."
+   ],
+   [
+    "Porque el pensamiento es un pájaro del espacio que, en una jaula de palabras, puede quizá desplegar las alas, pero no volar."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_04.jpg",
+  "caption": "¿Hablas para no estar a solas?\n\nKhalil Gibran · El profeta\n\n¿Te cuesta el silencio?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #khalilgibran #literatura",
+  "source": "Alfred A. Knopf (1923); Lumen translation"
+ },
+ {
+  "slug": "es_lib_lao_tse_blando",
+  "lib_id": "laozi_76",
+  "mode": "prose",
+  "poet": "Lao Tse",
+  "author": "Lao Tse",
+  "title": "Tao Te Ching",
+  "hook": "¿Crees que ser duro te protege?",
+  "hookSub": "Lao Tse · Tao Te Ching",
+  "stanzas": [
+   [
+    "El hombre, al nacer, es flexible y débil; al morir, duro y fuerte.",
+    "Así ocurre con todas las cosas."
+   ],
+   [
+    "Los árboles y las plantas, en su primer crecimiento, son tiernos y frágiles;",
+    "al morir, secos y marchitos."
+   ],
+   [
+    "Así, la dureza y la fuerza acompañan a la muerte; la blandura y la debilidad acompañan a la vida."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_04.jpg",
+  "caption": "¿Crees que ser duro te protege?\n\nLao Tse · Tao Te Ching\n\n¿Dónde te has vuelto demasiado rígido?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #laotse #literatura",
+  "source": "James Legge translation (1891); Lumen translation"
+ },
+ {
+  "slug": "es_lib_schopenhauer_soledad",
+  "lib_id": "schopenhauer_alone",
+  "mode": "prose",
+  "poet": "Arthur Schopenhauer",
+  "author": "Arthur Schopenhauer",
+  "title": "Aforismos sobre el arte de saber vivir",
+  "hook": "¿Te cuesta estar a solas contigo?",
+  "hookSub": "Arthur Schopenhauer · Aforismos sobre el arte de saber vivir",
+  "stanzas": [
+   [
+    "Ante todo, toda compañía exige necesariamente una acomodación y una moderación mutuas;",
+    "por eso, cuanto más numerosa, más insípida resulta."
+   ],
+   [
+    "Cada uno solo puede ser plenamente él mismo mientras está solo;",
+    "así pues, quien no ama la soledad tampoco ama la libertad,"
+   ],
+   [
+    "porque solo cuando se está solo se es libre."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_01.jpg",
+  "caption": "¿Te cuesta estar a solas contigo?\n\nArthur Schopenhauer · Aforismos sobre el arte de saber vivir\n\n¿Huyes de la soledad, la soportas o la amas?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #schopenhauer #literatura",
+  "source": "T. Bailey Saunders translation (1890); Lumen translation"
+ },
+ {
+  "slug": "es_lib_rumi_ocaso_amanecer",
+  "lib_id": "rumi_divan_life_in_death",
+  "mode": "poem",
+  "poet": "Rumi",
+  "author": "Rumi",
+  "title": "Diván",
+  "hook": "Rumi escribió esto hace 750 años:",
+  "hookSub": "Diván",
+  "stanzas": [
+   [
+    "Cuando veas mi cortejo fúnebre, no grites: “¡Separación, separación!”.",
+    "Mías son la unión y el encuentro en esa hora."
+   ],
+   [
+    "Si me entregas a la tumba, no digas: “¡Adiós, adiós!”,",
+    "pues la tumba es un velo que oculta la comunión del Paraíso."
+   ],
+   [
+    "Después de contemplar el descenso, considera la resurrección;",
+    "¿por qué habría de dañar el ocaso al sol y a la luna?"
+   ],
+   [
+    "A ti te parece un ocaso, pero es un amanecer;"
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_00.jpg",
+  "caption": "Rumi escribió esto hace 750 años:\n\nRumi · Diván\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #rumi #poemas",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907); Lumen translation"
+ },
+ {
+  "slug": "es_lib_thoreau_ama_tu_vida",
+  "lib_id": "thoreau_walden_love_your_life",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "¿Te quejas mucho de tu vida?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "Por mezquina que sea tu vida, hazle frente y vívela; no la rehúyas ni la insultes."
+   ],
+   [
+    "No es tan mala como tú.",
+    "Parece más pobre cuando eres más rico."
+   ],
+   [
+    "El que busca defectos los encontrará incluso en el paraíso."
+   ],
+   [
+    "Ama tu vida, por pobre que sea."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_00.jpg",
+  "caption": "¿Te quejas mucho de tu vida?\n\nHenry David Thoreau · Walden\n\n¿Qué tiene de bueno tu vida tal como es hoy?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #thoreau #literatura",
+  "source": "Walden (1854); Lumen translation"
+ },
+ {
+  "slug": "es_lib_chejov_dos_vidas",
+  "lib_id": "chekhov_lady_two_lives",
+  "mode": "prose",
+  "poet": "Antón Chéjov",
+  "author": "Antón Chéjov",
+  "title": "La dama del perrito",
+  "hook": "¿Tú también vives dos vidas?",
+  "hookSub": "Antón Chéjov · La dama del perrito",
+  "stanzas": [
+   [
+    "Tenía dos vidas:",
+    "una manifiesta, que veían y conocían todos los que necesitaban conocerla,"
+   ],
+   [
+    "llena de verdad convencional y de engaño convencional,",
+    "idéntica a la vida de sus conocidos y amigos,"
+   ],
+   [
+    "y otra que transcurría en secreto."
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "¿Tú también vives dos vidas?\n\nAntón Chéjov · La dama del perrito\n\n¿Cuál de tus dos vidas es la verdadera?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #chejov #literatura",
+  "source": "Constance Garnett translation (1917); Lumen translation"
+ },
+ {
+  "slug": "es_lib_buda_censura",
+  "lib_id": "dhammapada_227_228",
+  "mode": "prose",
+  "poet": "Buda",
+  "author": "Buda",
+  "title": "Dhammapada",
+  "hook": "¿Te importa demasiado lo que dicen de ti?",
+  "hookSub": "Buda · Dhammapada",
+  "stanzas": [
+   [
+    "Este es un viejo dicho, oh Atula, no es solo de hoy:",
+    "“Censuran al que se sienta en silencio, censuran al que habla mucho, censuran también al que dice poco;",
+    "no hay nadie en la tierra que no sea censurado”."
+   ],
+   [
+    "Nunca hubo, nunca habrá, ni hay ahora, un hombre que sea siempre censurado o un hombre que sea siempre alabado."
+   ]
+  ],
+  "reel_bg": "bg/dogu/bg_01.jpg",
+  "caption": "¿Te importa demasiado lo que dicen de ti?\n\nBuda · Dhammapada\n\n¿Qué crítica te sigue doliendo?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #buda #literatura",
+  "source": "F. Max Müller translation (1881); Lumen translation"
+ },
+ {
+  "slug": "es_lib_rilke_dragones",
+  "lib_id": "rilke_dragons",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Cartas a un joven poeta",
+  "hook": "¿Te asusta lo que estás viviendo?",
+  "hookSub": "Rainer Maria Rilke · Cartas a un joven poeta",
+  "stanzas": [
+   [
+    "¿Cómo podríamos olvidar aquellos antiguos mitos que están al comienzo de todos los pueblos,",
+    "los mitos de los dragones que en el momento extremo se transforman en princesas?"
+   ],
+   [
+    "Quizá todos los dragones de nuestra vida sean princesas que solo esperan vernos, alguna vez, hermosos y valientes."
+   ],
+   [
+    "Quizá todo lo terrible sea, en lo más hondo, lo desvalido que quiere nuestra ayuda."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "¿Te asusta lo que estás viviendo?\n\nRainer Maria Rilke · Cartas a un joven poeta\n\n¿Qué dragón tuyo podría ser una princesa?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #rilke #literatura",
+  "source": "Translated from the German by Lumen; Lumen translation"
+ },
+ {
+  "slug": "es_lib_seneca_vive_ahora",
+  "lib_id": "seneca_brev_09_1",
+  "mode": "prose",
+  "poet": "Séneca",
+  "author": "Séneca",
+  "title": "Sobre la brevedad de la vida",
+  "hook": "¿Estás esperando para empezar a vivir?",
+  "hookSub": "Séneca · Sobre la brevedad de la vida",
+  "stanzas": [
+   [
+    "El mayor obstáculo para vivir es la espera, que depende del mañana y pierde el hoy."
+   ],
+   [
+    "Dispones lo que está en manos de la fortuna y dejas escapar lo que está en las tuyas."
+   ],
+   [
+    "¿Adónde miras? ¿Hasta dónde pretendes llegar?"
+   ],
+   [
+    "Todo lo que ha de venir está en la incertidumbre: vive ahora."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_02.jpg",
+  "caption": "¿Estás esperando para empezar a vivir?\n\nSéneca · Sobre la brevedad de la vida\n\n¿Qué estás aplazando para mañana?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #seneca #literatura",
+  "source": "Latin text (The Latin Library), our translation; Lumen translation"
+ },
+ {
+  "slug": "es_lib_tagore_despedida",
+  "lib_id": "tagore_gitanjali_93",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Gitanjali",
+  "hook": "¿Cómo te gustaría despedirte?",
+  "hookSub": "Rabindranath Tagore · Gitanjali",
+  "stanzas": [
+   [
+    "Ya me han dado permiso para irme.",
+    "¡Despídanme, hermanos míos!",
+    "Me inclino ante todos ustedes y emprendo mi partida."
+   ],
+   [
+    "Aquí devuelvo las llaves de mi puerta, y renuncio a todo derecho sobre mi casa.",
+    "Solo les pido unas últimas palabras amables."
+   ],
+   [
+    "Fuimos vecinos mucho tiempo, pero recibí más de lo que pude dar.",
+    "Ahora ha amanecido el día y la lámpara que alumbraba mi rincón oscuro se ha apagado."
+   ],
+   [
+    "Me han llamado y estoy listo para mi viaje."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "¿Cómo te gustaría despedirte?\n\nRabindranath Tagore · Gitanjali\n\n¿A quién le darías hoy unas palabras amables?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #tagore #literatura",
+  "source": "Tagore's own English translation (1912); Lumen translation"
+ },
+ {
+  "slug": "es_lib_nietzsche_ceniza",
+  "lib_id": "nietzsche_ashes",
+  "mode": "prose",
+  "poet": "Friedrich Nietzsche",
+  "author": "Friedrich Nietzsche",
+  "title": "Así habló Zaratustra",
+  "hook": "¿Te da miedo empezar de cero?",
+  "hookSub": "Friedrich Nietzsche · Así habló Zaratustra",
+  "stanzas": [
+   [
+    "Hereje serás para ti mismo, y bruja, y adivino, y loco, y escéptico, e impío, y malvado."
+   ],
+   [
+    "Tienes que querer quemarte en tu propia llama:"
+   ],
+   [
+    "¡cómo querrías renovarte sin antes haberte convertido en ceniza!"
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_03.jpg",
+  "caption": "¿Te da miedo empezar de cero?\n\nFriedrich Nietzsche · Así habló Zaratustra\n\n¿Qué tendría que arder para que renacieras?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #nietzsche #literatura",
+  "source": "Thomas Common translation (1909); Lumen translation"
+ },
+ {
+  "slug": "es_lib_jayam_dedo_que_escribe",
+  "lib_id": "khayyam_lxxi_lxxii",
+  "mode": "poem",
+  "poet": "Omar Jayam",
+  "author": "Omar Jayam",
+  "title": "Rubaiyat",
+  "hook": "¿Te gustaría borrar algo que hiciste?",
+  "hookSub": "Omar Jayam · Rubaiyat",
+  "stanzas": [
+   [
+    "El Dedo que se mueve escribe; y, una vez escrito,",
+    "sigue adelante: ni toda tu Piedad ni tu Ingenio"
+   ],
+   [
+    "lograrán hacerlo volver para tachar media Línea,"
+   ],
+   [
+    "ni todas tus Lágrimas borrarán una sola Palabra."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_03.jpg",
+  "caption": "¿Te gustaría borrar algo que hiciste?\n\nOmar Jayam · Rubaiyat\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #omarjayam #poemas",
+  "source": "Edward FitzGerald translation, 5th edition (1889); Lumen translation"
+ },
+ {
+  "slug": "es_lib_rilke_amar_es_dificil",
+  "lib_id": "rilke_love_is_difficult",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Cartas a un joven poeta",
+  "hook": "Rilke escribió esto sobre el amor en 1904:",
+  "hookSub": "Cartas a un joven poeta",
+  "stanzas": [
+   [
+    "Sabemos poco, pero que debemos atenernos a lo difícil es una certeza que no nos abandonará;"
+   ],
+   [
+    "es bueno estar solo, porque la soledad es difícil;",
+    "que algo sea difícil debe ser para nosotros una razón más para hacerlo."
+   ],
+   [
+    "También amar es bueno: porque el amor es difícil.",
+    "Que un ser humano ame a otro: eso es quizá lo más difícil que se nos ha encomendado,",
+    "lo extremo, la última prueba y examen,"
+   ],
+   [
+    "el trabajo para el que todo otro trabajo no es más que preparación."
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "Rilke escribió esto sobre el amor en 1904:\n\nRainer Maria Rilke · Cartas a un joven poeta\n\n¿Qué te ha enseñado a ti el amor?\n\nUn pasaje en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#filosofía #rilke #literatura",
+  "source": "Translated from the German by Lumen; Lumen translation"
  },
  {
   "slug": "es_dostoievski_noches_blancas",

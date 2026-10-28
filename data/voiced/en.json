@@ -26,6 +26,31 @@
   "caption": "If you had nothing, what would you give them?\n\nW. B. Yeats · He Wishes for the Cloths of Heaven\n\nWho would you send this to?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #wbyeats #poems"
  },
  {
+  "slug": "en_lib_thoreau_deliberately",
+  "lib_id": "thoreau_walden_deliberately",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Thoreau wrote this in 1854:",
+  "hookSub": "Walden",
+  "stanzas": [
+   [
+    "I went to the woods because I wished to live deliberately,",
+    "to front only the essential facts of life,"
+   ],
+   [
+    "and see if I could not learn what it had to teach,"
+   ],
+   [
+    "and not, when I came to die, discover that I had not lived."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "Thoreau wrote this in 1854:\n\nHenry David Thoreau · Walden\n\nWhat would living deliberately look like for you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #henrydavidthoreau #literature",
+  "source": "Walden (1854)"
+ },
+ {
   "slug": "en_gibran_joy",
   "mode": "prose",
   "poet": "Kahlil Gibran",
@@ -48,6 +73,31 @@
   "caption": "Kahlil Gibran once wrote:\n\nKahlil Gibran · On Joy and Sorrow\n\nWhich line stayed with you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #kahlilgibran #literature"
  },
  {
+  "slug": "en_lib_marcus_promontory",
+  "lib_id": "marcus_04_49",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Meditations",
+  "hook": "Is something hard happening to you?",
+  "hookSub": "Marcus Aurelius · Meditations",
+  "stanzas": [
+   [
+    "Be like the promontory against which the waves continually break,",
+    "but it stands firm and tames the fury of the water around it."
+   ],
+   [
+    "Unhappy am I because this has happened to me?"
+   ],
+   [
+    "Not so, but happy am I, though this has happened to me, because I continue free from pain, neither crushed by the present nor fearing the future."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "Is something hard happening to you?\n\nMarcus Aurelius · Meditations\n\nWhat are you standing firm against right now?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature",
+  "source": "George Long translation (1862)"
+ },
+ {
   "slug": "en_dickinson",
   "mode": "poem",
   "poet": "Emily Dickinson",
@@ -66,6 +116,31 @@
   ],
   "reel_bg": "tiktok/friedrich_gezgin.jpg",
   "caption": "What keeps you going when nothing else does?\n\nEmily Dickinson · “Hope” is the thing with feathers\n\nWho would you send this to?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #emilydickinson #poems"
+ },
+ {
+  "slug": "en_lib_tagore_tears",
+  "lib_id": "tagore_straybirds_4_6",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Stray Birds",
+  "hook": "Tagore wrote this in 1916:",
+  "hookSub": "Stray Birds",
+  "stanzas": [
+   [
+    "It is the tears of the earth that keep her smiles in bloom."
+   ],
+   [
+    "The mighty desert is burning for the love of a blade of grass",
+    "who shakes her head and laughs and flies away."
+   ],
+   [
+    "If you shed tears when you miss the sun, you also miss the stars."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_00.jpg",
+  "caption": "Tagore wrote this in 1916:\n\nRabindranath Tagore · Stray Birds\n\nWhat have your tears taught you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #rabindranathtagore #literature",
+  "source": "Tagore's own English translation (1916)"
  },
  {
   "slug": "en_marcus_judgment",
@@ -89,6 +164,32 @@
   "caption": "Marcus Aurelius wrote this 1,800 years ago:\n\nMarcus Aurelius · Meditations\n\nWhich line stayed with you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature"
  },
  {
+  "slug": "en_lib_epictetus_cup",
+  "lib_id": "epictetus_ench_03",
+  "mode": "prose",
+  "poet": "Epictetus",
+  "author": "Epictetus",
+  "title": "Enchiridion",
+  "hook": "Epictetus, 1,900 years ago:",
+  "hookSub": "Enchiridion",
+  "stanzas": [
+   [
+    "With regard to whatever objects either delight the mind, or contribute to use, or are tenderly beloved,",
+    "remind yourself of what nature they are, beginning with the merest trifles:"
+   ],
+   [
+    "if you have a favorite cup, that it is a cup of which you are fond;",
+    "for thus, if it is broken, you can bear it:"
+   ],
+   [
+    "if you embrace your child, or your wife, that you embrace a mortal; and thus, if either of them dies, you can bear it."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "Epictetus, 1,900 years ago:\n\nEpictetus · Enchiridion\n\nWho will you hold a little closer today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #epictetus #literature",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing)"
+ },
+ {
   "slug": "en_byron",
   "mode": "poem",
   "poet": "Lord Byron",
@@ -107,6 +208,33 @@
   ],
   "reel_bg": "tiktok/friedrich_kesis.jpg",
   "caption": "Ever loved someone and still let go?\n\nLord Byron · So, We'll Go No More a Roving\n\nWho would you send this to?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #lordbyron #poems"
+ },
+ {
+  "slug": "en_lib_rumi_thou_and_i",
+  "lib_id": "rumi_divan_thou_and_i",
+  "mode": "poem",
+  "poet": "Rumi",
+  "author": "Rumi",
+  "title": "Dīvāni Shamsi Tabrīz",
+  "hook": "Rumi wrote this 750 years ago:",
+  "hookSub": "Dīvāni Shamsi Tabrīz",
+  "stanzas": [
+   [
+    "Happy the moment when we are seated in the Palace, thou and I,",
+    "With two forms and with two figures but with one soul, thou and I."
+   ],
+   [
+    "The colours of the grove and the voice of the birds will bestow immortality",
+    "At the time when we come into the garden, thou and I.",
+    "The stars of heaven will come to gaze upon us;"
+   ],
+   [
+    "We shall show them the moon itself, thou and I."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_01.jpg",
+  "caption": "Rumi wrote this 750 years ago:\n\nRumi · Dīvāni Shamsi Tabrīz\n\nWho do you want beside you in the garden?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #rumi #poems",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907)"
  },
  {
   "slug": "en_marcus_be_good",
@@ -129,6 +257,33 @@
   "caption": "Marcus Aurelius once wrote:\n\nMarcus Aurelius · Meditations\n\nWhich line stayed with you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature"
  },
  {
+  "slug": "en_lib_seneca_forever",
+  "lib_id": "seneca_brev_03_4",
+  "mode": "prose",
+  "poet": "Seneca",
+  "author": "Seneca",
+  "title": "On the Shortness of Life",
+  "hook": "Do you live as if you had forever?",
+  "hookSub": "Seneca · On the Shortness of Life",
+  "stanzas": [
+   [
+    "You live as though you were going to live forever;",
+    "your own frailty never occurs to you;",
+    "you do not notice how much time has already gone by."
+   ],
+   [
+    "You squander it as though from a full and overflowing supply,",
+    "while all the while that very day which you are giving to some person or some thing may be your last."
+   ],
+   [
+    "You fear everything like mortals, and you desire everything like immortals."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_03.jpg",
+  "caption": "Do you live as if you had forever?\n\nSeneca · On the Shortness of Life\n\nWhat are you still saving for later?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #seneca #literature",
+  "source": "Latin text (The Latin Library), our translation"
+ },
+ {
   "slug": "en_dostoevsky_white_nights",
   "mode": "prose",
   "poet": "Fyodor Dostoevsky",
@@ -149,6 +304,856 @@
   ],
   "reel_bg": "tiktok/hayez_opucuk.jpg",
   "caption": "Dostoevsky wrote this in 1848:\n\nFyodor Dostoevsky · White Nights\n\nWhich line stayed with you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #fyodordostoevsky #literature"
+ },
+ {
+  "slug": "en_lib_dostoevsky_years",
+  "lib_id": "dostoevsky_wn_years",
+  "mode": "prose",
+  "poet": "Fyodor Dostoevsky",
+  "author": "Fyodor Dostoevsky",
+  "title": "White Nights",
+  "hook": "Where have your best days gone?",
+  "hookSub": "Fyodor Dostoevsky · White Nights",
+  "stanzas": [
+   [
+    "And one asks oneself where are one's dreams.",
+    "And one shakes one's head and says how rapidly the years fly by!"
+   ],
+   [
+    "And again one asks oneself what has one done with one's years.",
+    "Where have you buried your best days?"
+   ],
+   [
+    "Have you lived or not?"
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Where have your best days gone?\n\nFyodor Dostoevsky · White Nights\n\nHave you lived, or only dreamed?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #fyodordostoevsky #literature",
+  "source": "Constance Garnett translation (1918)"
+ },
+ {
+  "slug": "en_lib_laozi_know",
+  "lib_id": "laozi_33",
+  "mode": "prose",
+  "poet": "Lao Tzu",
+  "author": "Lao Tzu",
+  "title": "Tao Te Ching",
+  "hook": "Lao Tzu wrote this 2,500 years ago:",
+  "hookSub": "Tao Te Ching",
+  "stanzas": [
+   [
+    "He who knows other men is discerning;",
+    "he who knows himself is intelligent."
+   ],
+   [
+    "He who overcomes others is strong;",
+    "he who overcomes himself is mighty."
+   ],
+   [
+    "He who is satisfied with his lot is rich; he who goes on acting with energy has a firm will."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "Lao Tzu wrote this 2,500 years ago:\n\nLao Tzu · Tao Te Ching\n\nWhich is harder for you: the world or yourself?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #laotzu #literature",
+  "source": "James Legge translation (1891)"
+ },
+ {
+  "slug": "en_lib_montaigne_friendship",
+  "lib_id": "montaigne_friendship",
+  "mode": "prose",
+  "poet": "Michel de Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essays",
+  "hook": "Why do you love your closest friend?",
+  "hookSub": "Michel de Montaigne · Essays",
+  "stanzas": [
+   [
+    "But in the friendship I speak of, they mix and work themselves into one piece,",
+    "with so universal a mixture, that there is no more sign of the seam by which they were first conjoined."
+   ],
+   [
+    "If a man should importune me to give a reason why I loved him,",
+    "I find it could no otherwise be expressed, than by making answer:"
+   ],
+   [
+    "because it was he, because it was I."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "Why do you love your closest friend?\n\nMichel de Montaigne · Essays\n\nCould you explain why you love them?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #micheldemontaigne #literature",
+  "source": "Charles Cotton translation, revised by W. C. Hazlitt (1877)"
+ },
+ {
+  "slug": "en_lib_kafka_table",
+  "lib_id": "kafka_stay_at_your_table",
+  "mode": "prose",
+  "poet": "Franz Kafka",
+  "author": "Franz Kafka",
+  "title": "The Zürau Aphorisms",
+  "hook": "When were you last completely still?",
+  "hookSub": "Franz Kafka · The Zürau Aphorisms",
+  "stanzas": [
+   [
+    "It is not necessary that you leave the house.",
+    "Stay at your table and listen."
+   ],
+   [
+    "Do not even listen, only wait.",
+    "Do not even wait, be completely still and alone."
+   ],
+   [
+    "The world will offer itself to you to be unmasked; it cannot do otherwise; in raptures it will writhe before you."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "When were you last completely still?\n\nFranz Kafka · The Zürau Aphorisms\n\nCould you sit still for ten minutes today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #franzkafka #literature",
+  "source": "Translated from the German by Lumen"
+ },
+ {
+  "slug": "en_lib_gibran_work",
+  "lib_id": "gibran_prophet_work",
+  "mode": "prose",
+  "poet": "Kahlil Gibran",
+  "author": "Kahlil Gibran",
+  "title": "The Prophet",
+  "hook": "Kahlil Gibran wrote this in 1923:",
+  "hookSub": "The Prophet",
+  "stanzas": [
+   [
+    "And what is it to work with love?"
+   ],
+   [
+    "It is to weave the cloth with threads drawn from your heart, even as if your beloved were to wear that cloth.",
+    "It is to build a house with affection, even as if your beloved were to dwell in that house."
+   ],
+   [
+    "It is to sow seeds with tenderness and reap the harvest with joy, even as if your beloved were to eat the fruit."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_02.jpg",
+  "caption": "Kahlil Gibran wrote this in 1923:\n\nKahlil Gibran · The Prophet\n\nWhat do you make with love?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #kahlilgibran #literature",
+  "source": "Alfred A. Knopf (1923)"
+ },
+ {
+  "slug": "en_lib_marcus_whole_life",
+  "lib_id": "marcus_08_36",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Meditations",
+  "hook": "Does the whole future feel too heavy?",
+  "hookSub": "Marcus Aurelius · Meditations",
+  "stanzas": [
+   [
+    "Do not disturb thyself by thinking of the whole of thy life.",
+    "Let not thy thoughts at once embrace all the various troubles which thou mayest expect to befall thee:"
+   ],
+   [
+    "but on every occasion ask thyself, What is there in this which is intolerable and past bearing?",
+    "for thou wilt be ashamed to confess."
+   ],
+   [
+    "In the next place remember that neither the future nor the past pains thee, but only the present."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "Does the whole future feel too heavy?\n\nMarcus Aurelius · Meditations\n\nWhat is actually in front of you today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature",
+  "source": "George Long translation (1862)"
+ },
+ {
+  "slug": "en_lib_khayyam_finger",
+  "lib_id": "khayyam_lxxi_lxxii",
+  "mode": "poem",
+  "poet": "Omar Khayyam",
+  "author": "Omar Khayyam",
+  "title": "The Rubáiyát",
+  "hook": "Ever wished you could take something back?",
+  "hookSub": "Omar Khayyam · The Rubáiyát",
+  "stanzas": [
+   [
+    "The Moving Finger writes; and, having writ,",
+    "Moves on: nor all your Piety nor Wit",
+    "Shall lure it back to cancel half a Line,"
+   ],
+   [
+    "Nor all your Tears wash out a Word of it."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_00.jpg",
+  "caption": "Ever wished you could take something back?\n\nOmar Khayyam · The Rubáiyát\n\nWhat would you rewrite if you could?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #omarkhayyam #poems",
+  "source": "Edward FitzGerald translation, 5th edition (1889)"
+ },
+ {
+  "slug": "en_lib_schopenhauer_day",
+  "lib_id": "schopenhauer_day",
+  "mode": "prose",
+  "poet": "Arthur Schopenhauer",
+  "author": "Arthur Schopenhauer",
+  "title": "Aphorisms on the Wisdom of Life",
+  "hook": "How do you spend your mornings?",
+  "hookSub": "Arthur Schopenhauer · Aphorisms on the Wisdom of Life",
+  "stanzas": [
+   [
+    "Do not shorten the morning by getting up late, or waste it in unworthy occupations or in talk;",
+    "look upon it as the quintessence of life, as to a certain extent sacred."
+   ],
+   [
+    "Evening is like old age: we are languid, talkative, silly."
+   ],
+   [
+    "Each day is a little life: every waking and rising a little birth, every fresh morning a little youth, every going to rest and sleep a little death."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "How do you spend your mornings?\n\nArthur Schopenhauer · Aphorisms on the Wisdom of Life\n\nWhat would you do with one more good morning?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #arthurschopenhauer #literature",
+  "source": "T. Bailey Saunders translation (1890)"
+ },
+ {
+  "slug": "en_lib_buddha_happily",
+  "lib_id": "dhammapada_197_200",
+  "mode": "prose",
+  "poet": "The Buddha",
+  "author": "The Buddha",
+  "title": "The Dhammapada",
+  "hook": "The Buddha taught this 2,500 years ago:",
+  "hookSub": "The Dhammapada",
+  "stanzas": [
+   [
+    "Let us live happily then, free from greed among the greedy!",
+    "among men who are greedy let us dwell free from greed!"
+   ],
+   [
+    "Let us live happily then, though we call nothing our own!"
+   ],
+   [
+    "We shall be like the bright gods, feeding on happiness!"
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_02.jpg",
+  "caption": "The Buddha taught this 2,500 years ago:\n\nThe Buddha · The Dhammapada\n\nWhat could you let go of today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #buddha #literature",
+  "source": "F. Max Müller translation (1881)"
+ },
+ {
+  "slug": "en_lib_emerson_crowd",
+  "lib_id": "emerson_crowd",
+  "mode": "prose",
+  "poet": "Ralph Waldo Emerson",
+  "author": "Ralph Waldo Emerson",
+  "title": "Essays: First Series",
+  "hook": "Do you lose yourself in a crowd?",
+  "hookSub": "Ralph Waldo Emerson · Essays: First Series",
+  "stanzas": [
+   [
+    "It is easy in the world to live after the world’s opinion;",
+    "it is easy in solitude to live after our own;"
+   ],
+   [
+    "but the great man is he who in the midst of the crowd keeps with perfect sweetness the independence of solitude."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_01.jpg",
+  "caption": "Do you lose yourself in a crowd?\n\nRalph Waldo Emerson · Essays: First Series\n\nWhere do you feel most like yourself?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #ralphwaldoemerson #literature",
+  "source": "Essays: First Series (1841)"
+ },
+ {
+  "slug": "en_lib_tolstoy_light",
+  "lib_id": "tolstoy_ivan_light",
+  "mode": "prose",
+  "poet": "Leo Tolstoy",
+  "author": "Leo Tolstoy",
+  "title": "The Death of Ivan Ilyich",
+  "hook": "Tolstoy wrote this in 1886:",
+  "hookSub": "The Death of Ivan Ilyich",
+  "stanzas": [
+   [
+    "\"And death...where is it?\""
+   ],
+   [
+    "He sought his former accustomed fear of death and did not find it.",
+    "\"Where is it? What death?\"",
+    "There was no fear because there was no death."
+   ],
+   [
+    "In place of death there was light."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "Tolstoy wrote this in 1886:\n\nLeo Tolstoy · The Death of Ivan Ilyich\n\nWhat do you think waits at the end?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #leotolstoy #literature",
+  "source": "Louise and Aylmer Maude translation"
+ },
+ {
+  "slug": "en_lib_epictetus_actor",
+  "lib_id": "epictetus_ench_17",
+  "mode": "prose",
+  "poet": "Epictetus",
+  "author": "Epictetus",
+  "title": "Enchiridion",
+  "hook": "Epictetus wrote this 1,900 years ago:",
+  "hookSub": "Enchiridion",
+  "stanzas": [
+   [
+    "Remember that you are an actor in a drama of such sort as the author chooses.",
+    "If short, then in a short one; if long, then in a long one."
+   ],
+   [
+    "If it be his pleasure that you should act a poor man, see that you act it well;",
+    "or a cripple, or a ruler, or a private citizen."
+   ],
+   [
+    "For this is your business, to act well the given part; but to choose it, belongs to another."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_04.jpg",
+  "caption": "Epictetus wrote this 1,900 years ago:\n\nEpictetus · Enchiridion\n\nWhat part are you playing right now?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #epictetus #literature",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing)"
+ },
+ {
+  "slug": "en_lib_tagore_love",
+  "lib_id": "tagore_straybirds_277_280",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Stray Birds",
+  "hook": "What will remain of you when you're gone?",
+  "hookSub": "Rabindranath Tagore · Stray Birds",
+  "stanzas": [
+   [
+    "The lamp of meeting burns long; it goes out in a moment at the parting."
+   ],
+   [
+    "One word keep for me in thy silence, O World, when I am dead, \"I have loved.\"",
+    "We live in this world when we love it."
+   ],
+   [
+    "Let the dead have the immortality of fame, but the living the immortality of love."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_03.jpg",
+  "caption": "What will remain of you when you're gone?\n\nRabindranath Tagore · Stray Birds\n\nWho would you say “I have loved” to?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #rabindranathtagore #literature",
+  "source": "Tagore's own English translation (1916)"
+ },
+ {
+  "slug": "en_lib_thoreau_drummer",
+  "lib_id": "thoreau_walden_drummer",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Feel like you're falling behind?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "Why should we be in such desperate haste to succeed, and in such desperate enterprises?"
+   ],
+   [
+    "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer."
+   ],
+   [
+    "Let him step to the music which he hears, however measured or far away."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Feel like you're falling behind?\n\nHenry David Thoreau · Walden\n\nWhose pace are you trying to keep?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #henrydavidthoreau #literature",
+  "source": "Walden (1854)"
+ },
+ {
+  "slug": "en_lib_rilke_questions",
+  "lib_id": "rilke_live_the_questions",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Letters to a Young Poet",
+  "hook": "Still waiting for answers?",
+  "hookSub": "Rainer Maria Rilke · Letters to a Young Poet",
+  "stanzas": [
+   [
+    "Do not search now for the answers,",
+    "which cannot be given to you because you would not be able to live them."
+   ],
+   [
+    "And the point is to live everything.",
+    "Live the questions now."
+   ],
+   [
+    "Perhaps then, gradually, without noticing it, you will live your way into the answer some distant day."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Still waiting for answers?\n\nRainer Maria Rilke · Letters to a Young Poet\n\nWhich question are you living right now?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #rainermariarilke #literature",
+  "source": "Translated from the German by Lumen"
+ },
+ {
+  "slug": "en_lib_marcus_anger",
+  "lib_id": "marcus_11_18",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Meditations",
+  "hook": "What does anger really cost you?",
+  "hookSub": "Marcus Aurelius · Meditations",
+  "stanzas": [
+   [
+    "For in the same degree in which a man’s mind is nearer to freedom from all passion,",
+    "in the same degree also is it nearer to strength:"
+   ],
+   [
+    "and as the sense of pain is a characteristic of weakness, so also is anger."
+   ],
+   [
+    "For he who yields to pain and he who yields to anger, both are wounded and both submit."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "What does anger really cost you?\n\nMarcus Aurelius · Meditations\n\nWhen did anger last get the better of you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature",
+  "source": "George Long translation (1862)"
+ },
+ {
+  "slug": "en_lib_khayyam_loved",
+  "lib_id": "khayyam_xxii_xxiv",
+  "mode": "poem",
+  "poet": "Omar Khayyam",
+  "author": "Omar Khayyam",
+  "title": "The Rubáiyát",
+  "hook": "Who have you lost along the way?",
+  "hookSub": "Omar Khayyam · The Rubáiyát",
+  "stanzas": [
+   [
+    "For some we loved, the loveliest and the best",
+    "That from his Vintage rolling Time hath prest,",
+    "Have drunk their Cup a Round or two before,"
+   ],
+   [
+    "And one by one crept silently to rest."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf/bg_03.jpg",
+  "caption": "Who have you lost along the way?\n\nOmar Khayyam · The Rubáiyát\n\nWho are you thinking of right now?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #omarkhayyam #poems",
+  "source": "Edward FitzGerald translation, 5th edition (1889)"
+ },
+ {
+  "slug": "en_lib_chekhov_student",
+  "lib_id": "chekhov_student",
+  "mode": "prose",
+  "poet": "Anton Chekhov",
+  "author": "Anton Chekhov",
+  "title": "The Student",
+  "hook": "Chekhov wrote this in 1894:",
+  "hookSub": "The Student",
+  "stanzas": [
+   [
+    "And joy suddenly stirred in his soul, and he even stopped for a minute to take breath."
+   ],
+   [
+    "“The past,” he thought, “is linked with the present by an unbroken chain of events flowing one out of another.”"
+   ],
+   [
+    "And it seemed to him that he had just seen both ends of that chain; that when he touched one end the other quivered."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "Chekhov wrote this in 1894:\n\nAnton Chekhov · The Student\n\nWhat links your past to who you are today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #antonchekhov #literature",
+  "source": "Constance Garnett translation (1918)"
+ },
+ {
+  "slug": "en_lib_nietzsche_amor_fati",
+  "lib_id": "nietzsche_fw_amor",
+  "mode": "prose",
+  "poet": "Friedrich Nietzsche",
+  "author": "Friedrich Nietzsche",
+  "title": "The Gay Science",
+  "hook": "Can you love even the hard parts?",
+  "hookSub": "Friedrich Nietzsche · The Gay Science",
+  "stanzas": [
+   [
+    "Amor fati: let that henceforth be my love!"
+   ],
+   [
+    "I do not want to wage war with the ugly.",
+    "I do not want to accuse, I do not want even to accuse the accusers.",
+    "Looking aside, let that be my sole negation!"
+   ],
+   [
+    "And all in all, to sum up: I wish to be at any time hereafter only a yea-sayer!"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "Can you love even the hard parts?\n\nFriedrich Nietzsche · The Gay Science\n\nWhat would saying yes to your life look like?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #friedrichnietzsche #literature",
+  "source": "Thomas Common translation (1910)"
+ },
+ {
+  "slug": "en_lib_gibran_talking",
+  "lib_id": "gibran_prophet_talking",
+  "mode": "prose",
+  "poet": "Kahlil Gibran",
+  "author": "Kahlil Gibran",
+  "title": "The Prophet",
+  "hook": "Why do we fill every silence?",
+  "hookSub": "Kahlil Gibran · The Prophet",
+  "stanzas": [
+   [
+    "You talk when you cease to be at peace with your thoughts;",
+    "And when you can no longer dwell in the solitude of your heart you live in your lips, and sound is a diversion and a pastime."
+   ],
+   [
+    "And in much of your talking, thinking is half murdered."
+   ],
+   [
+    "For thought is a bird of space, that in a cage of words may indeed unfold its wings but cannot fly."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_04.jpg",
+  "caption": "Why do we fill every silence?\n\nKahlil Gibran · The Prophet\n\nWhen did silence last say more than words?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #kahlilgibran #literature",
+  "source": "Alfred A. Knopf (1923)"
+ },
+ {
+  "slug": "en_lib_seneca_live_now",
+  "lib_id": "seneca_brev_09_1",
+  "mode": "prose",
+  "poet": "Seneca",
+  "author": "Seneca",
+  "title": "On the Shortness of Life",
+  "hook": "Seneca wrote this 2,000 years ago:",
+  "hookSub": "On the Shortness of Life",
+  "stanzas": [
+   [
+    "The greatest obstacle to living is expectation, which hangs upon tomorrow and loses today."
+   ],
+   [
+    "You arrange what lies in the hands of fortune, and you let go of what lies in your own.",
+    "Where are you looking? How far ahead are you reaching?"
+   ],
+   [
+    "Everything that is to come lies in uncertainty: live now."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "Seneca wrote this 2,000 years ago:\n\nSeneca · On the Shortness of Life\n\nWhat are you waiting for?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #seneca #literature",
+  "source": "Latin text (The Latin Library), our translation"
+ },
+ {
+  "slug": "en_lib_pascal_reed",
+  "lib_id": "pascal_reed",
+  "mode": "prose",
+  "poet": "Blaise Pascal",
+  "author": "Blaise Pascal",
+  "title": "Pensées",
+  "hook": "Pascal wrote this 350 years ago:",
+  "hookSub": "Pensées",
+  "stanzas": [
+   [
+    "Man is but a reed, the most feeble thing in nature; but he is a thinking reed.",
+    "The entire universe need not arm itself to crush him.",
+    "A vapour, a drop of water suffices to kill him."
+   ],
+   [
+    "But, if the universe were to crush him,",
+    "man would still be more noble than that which killed him,",
+    "because he knows that he dies and the advantage which the universe has over him;"
+   ],
+   [
+    "the universe knows nothing of this."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_01.jpg",
+  "caption": "Pascal wrote this 350 years ago:\n\nBlaise Pascal · Pensées\n\nWhich line stayed with you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #blaisepascal #literature",
+  "source": "W. F. Trotter translation (1910)"
+ },
+ {
+  "slug": "en_lib_dostoevsky_leaves",
+  "lib_id": "dostoevsky_bk_leaves",
+  "mode": "prose",
+  "poet": "Fyodor Dostoevsky",
+  "author": "Fyodor Dostoevsky",
+  "title": "The Brothers Karamazov",
+  "hook": "Dostoevsky wrote this in 1880:",
+  "hookSub": "The Brothers Karamazov",
+  "stanzas": [
+   [
+    "I have a longing for life, and I go on living in spite of logic."
+   ],
+   [
+    "Though I may not believe in the order of the universe, yet I love the sticky little leaves as they open in spring."
+   ],
+   [
+    "I love the blue sky, I love some people, whom one loves you know sometimes without knowing why."
+   ]
+  ],
+  "reel_bg": "tiktok/hayez_opucuk.jpg",
+  "caption": "Dostoevsky wrote this in 1880:\n\nFyodor Dostoevsky · The Brothers Karamazov\n\nWhat small thing keeps you in love with life?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #fyodordostoevsky #literature",
+  "source": "Constance Garnett translation (1912)"
+ },
+ {
+  "slug": "en_lib_rumi_death",
+  "lib_id": "rumi_divan_life_in_death",
+  "mode": "poem",
+  "poet": "Rumi",
+  "author": "Rumi",
+  "title": "Dīvāni Shamsi Tabrīz",
+  "hook": "What if an ending is a beginning?",
+  "hookSub": "Rumi · Dīvāni Shamsi Tabrīz",
+  "stanzas": [
+   [
+    "When thou seest my hearse, cry not \"Parted, parted!\"",
+    "Union and meeting are mine in that hour.",
+    "If thou commit me to the grave, say not \"Farewell, farewell!\""
+   ],
+   [
+    "For the grave is a curtain hiding the communion of Paradise,",
+    "After beholding descent, consider resurrection;",
+    "Why should setting be injurious to the sun and moon?",
+    "To thee it seems a setting, but 'tis a rising;"
+   ],
+   [
+    "Tho' the vault seems a prison, 'tis the release of the soul."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_03.jpg",
+  "caption": "What if an ending is a beginning?\n\nRumi · Dīvāni Shamsi Tabrīz\n\nWho would you send this to?\n\nA poem on your home screen every morning: Lumen (link in bio)\n\n#poetry #rumi #poems",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907)"
+ },
+ {
+  "slug": "en_lib_emerson_misunderstood",
+  "lib_id": "emerson_misunderstood",
+  "mode": "prose",
+  "poet": "Ralph Waldo Emerson",
+  "author": "Ralph Waldo Emerson",
+  "title": "Essays: First Series",
+  "hook": "Afraid of being misunderstood?",
+  "hookSub": "Ralph Waldo Emerson · Essays: First Series",
+  "stanzas": [
+   [
+    "Is it so bad then to be misunderstood?"
+   ],
+   [
+    "Pythagoras was misunderstood, and Socrates, and Jesus, and Luther, and Copernicus, and Galileo, and Newton,",
+    "and every pure and wise spirit that ever took flesh."
+   ],
+   [
+    "To be great is to be misunderstood."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "Afraid of being misunderstood?\n\nRalph Waldo Emerson · Essays: First Series\n\nWhen did standing apart cost you something?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #ralphwaldoemerson #literature",
+  "source": "Essays: First Series (1841)"
+ },
+ {
+  "slug": "en_lib_larochefoucauld_love",
+  "lib_id": "larochefoucauld_love",
+  "mode": "prose",
+  "poet": "François de La Rochefoucauld",
+  "author": "François de La Rochefoucauld",
+  "title": "Maxims",
+  "hook": "Have you ever seen real love?",
+  "hookSub": "François de La Rochefoucauld · Maxims",
+  "stanzas": [
+   [
+    "If we judge of love by the majority of its results it rather resembles hatred than friendship."
+   ],
+   [
+    "Neither love nor fire can subsist without perpetual motion;",
+    "both cease to live so soon as they cease to hope, or to fear."
+   ],
+   [
+    "There is real love just as there are real ghosts; every person speaks of it, few persons have seen it."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_02.jpg",
+  "caption": "Have you ever seen real love?\n\nFrançois de La Rochefoucauld · Maxims\n\nDo you believe in real love?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #larochefoucauld #literature",
+  "source": "J. W. Willis Bund & J. Hain Friswell translation (1871)"
+ },
+ {
+  "slug": "en_lib_laozi_vessel",
+  "lib_id": "laozi_9",
+  "mode": "prose",
+  "poet": "Lao Tzu",
+  "author": "Lao Tzu",
+  "title": "Tao Te Ching",
+  "hook": "Do you know when to stop?",
+  "hookSub": "Lao Tzu · Tao Te Ching",
+  "stanzas": [
+   [
+    "It is better to leave a vessel unfilled, than to attempt to carry it when it is full.",
+    "If you keep feeling a point that has been sharpened, the point cannot long preserve its sharpness."
+   ],
+   [
+    "When gold and jade fill the hall, their possessor cannot keep them safe.",
+    "When wealth and honours lead to arrogancy, this brings its evil on itself."
+   ],
+   [
+    "When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven."
+   ]
+  ],
+  "reel_bg": "bg/dogu/bg_04.jpg",
+  "caption": "Do you know when to stop?\n\nLao Tzu · Tao Te Ching\n\nWhat would “enough” look like for you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #laotzu #literature",
+  "source": "James Legge translation (1891)"
+ },
+ {
+  "slug": "en_lib_montaigne_lived",
+  "lib_id": "montaigne_lived",
+  "mode": "prose",
+  "poet": "Michel de Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essays",
+  "hook": "Feel like you did nothing today?",
+  "hookSub": "Michel de Montaigne · Essays",
+  "stanzas": [
+   [
+    "We are great fools.",
+    "“He has passed his life in idleness,” say we:",
+    "“I have done nothing to-day.”"
+   ],
+   [
+    "What? have you not lived? that is not only the fundamental, but the most illustrious, of your occupations."
+   ]
+  ],
+  "reel_bg": "bg/ronesans/bg_03.jpg",
+  "caption": "Feel like you did nothing today?\n\nMichel de Montaigne · Essays\n\nWhat counts as a good day for you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #micheldemontaigne #literature",
+  "source": "Charles Cotton translation, revised by W. C. Hazlitt (1877)"
+ },
+ {
+  "slug": "en_lib_tagore_scars",
+  "lib_id": "tagore_straybirds_290_292",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Stray Birds",
+  "hook": "Are you ashamed of your scars?",
+  "hookSub": "Rabindranath Tagore · Stray Birds",
+  "stanzas": [
+   [
+    "When I stand before thee at the day's end thou shalt see my scars",
+    "and know that I had my wounds and also my healing."
+   ],
+   [
+    "Some day I shall sing to thee in the sunrise of some other world,",
+    "\"I have seen thee before in the light of the earth, in the love of man.\""
+   ],
+   [
+    "Clouds come floating into my life from other days no longer to shed rain or usher storm but to give colour to my sunset sky."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_04.jpg",
+  "caption": "Are you ashamed of your scars?\n\nRabindranath Tagore · Stray Birds\n\nWhat has healed in you?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #rabindranathtagore #literature",
+  "source": "Tagore's own English translation (1916)"
+ },
+ {
+  "slug": "en_lib_marcus_leaves",
+  "lib_id": "marcus_10_34",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Meditations",
+  "hook": "Marcus Aurelius wrote this 1,800 years ago:",
+  "hookSub": "Meditations",
+  "stanzas": [
+   [
+    "But a brief existence is common to all things,"
+   ],
+   [
+    "and yet thou avoidest and pursuest all things as if they would be eternal."
+   ],
+   [
+    "A little time, and thou shalt close thy eyes; and him who has attended thee to thy grave another soon will lament."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_00.jpg",
+  "caption": "Marcus Aurelius wrote this 1,800 years ago:\n\nMarcus Aurelius · Meditations\n\nWhat are you chasing as if it would last forever?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #marcusaurelius #literature",
+  "source": "George Long translation (1862)"
+ },
+ {
+  "slug": "en_lib_schopenhauer_mine",
+  "lib_id": "schopenhauer_mine",
+  "mode": "prose",
+  "poet": "Arthur Schopenhauer",
+  "author": "Arthur Schopenhauer",
+  "title": "Aphorisms on the Wisdom of Life",
+  "hook": "Do you only value things once they're gone?",
+  "hookSub": "Arthur Schopenhauer · Aphorisms on the Wisdom of Life",
+  "stanzas": [
+   [
+    "The sight of things which do not belong to us is very apt to raise the thought:",
+    "Ah, if that were only mine! making us sensible of our privation."
+   ],
+   [
+    "Instead of that we should do better by more frequently putting to ourselves the opposite case: Ah, if that were not mine."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_02.jpg",
+  "caption": "Do you only value things once they're gone?\n\nArthur Schopenhauer · Aphorisms on the Wisdom of Life\n\nWhat would you miss most if it were gone?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #arthurschopenhauer #literature",
+  "source": "T. Bailey Saunders translation (1890)"
+ },
+ {
+  "slug": "en_lib_rilke_dragons",
+  "lib_id": "rilke_dragons",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Letters to a Young Poet",
+  "hook": "Is a sadness bigger than you right now?",
+  "hookSub": "Rainer Maria Rilke · Letters to a Young Poet",
+  "stanzas": [
+   [
+    "Perhaps everything terrible is, in its deepest being, something helpless that wants help from us."
+   ],
+   [
+    "So you must not be frightened, dear Mr. Kappus, when a sadness rises up before you larger than any you have ever seen;",
+    "when a restlessness, like light and cloud-shadows, passes over your hands and over everything you do."
+   ],
+   [
+    "You must think that something is happening to you, that life has not forgotten you, that it holds you in its hand; it will not let you fall."
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "Is a sadness bigger than you right now?\n\nRainer Maria Rilke · Letters to a Young Poet\n\nWho needs to hear this today?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #rainermariarilke #literature",
+  "source": "Translated from the German by Lumen"
+ },
+ {
+  "slug": "en_lib_buddha_rock",
+  "lib_id": "dhammapada_81_83",
+  "mode": "prose",
+  "poet": "The Buddha",
+  "author": "The Buddha",
+  "title": "The Dhammapada",
+  "hook": "Does praise or blame shake you?",
+  "hookSub": "The Buddha · The Dhammapada",
+  "stanzas": [
+   [
+    "As a solid rock is not shaken by the wind,",
+    "wise people falter not amidst blame and praise."
+   ],
+   [
+    "Wise people, after they have listened to the laws, become serene, like a deep, smooth, and still lake."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_00.jpg",
+  "caption": "Does praise or blame shake you?\n\nThe Buddha · The Dhammapada\n\nWhose words move you more than they should?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #buddha #literature",
+  "source": "F. Max Müller translation (1881)"
+ },
+ {
+  "slug": "en_lib_thoreau_love_life",
+  "lib_id": "thoreau_walden_love_your_life",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Is your life hard right now?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "However mean your life is, meet it and live it; do not shun it and call it hard names."
+   ],
+   [
+    "It is not so bad as you are.",
+    "It looks poorest when you are richest.",
+    "The fault-finder will find faults even in paradise."
+   ],
+   [
+    "Love your life, poor as it is."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "Is your life hard right now?\n\nHenry David Thoreau · Walden\n\nWhat is one good thing in your life as it is?\n\nA passage on your home screen every morning: Lumen (link in bio)\n\n#philosophy #henrydavidthoreau #literature",
+  "source": "Walden (1854)"
  },
  {
   "slug": "en_seneca_short_life",

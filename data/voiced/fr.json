@@ -27,6 +27,30 @@
   "source": "Victor Hugo, Les Contemplations, IV, XIV (1856), texte de fr.wikisource (éd. Nelson). Extrait : strophes 1 et 3, mot pour mot."
  },
  {
+  "slug": "fr_lib_montaigne_vivre_a_propos",
+  "lib_id": "montaigne_lived",
+  "mode": "prose",
+  "poet": "Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essais",
+  "hook": "Tu crois que ta vie manque d’éclat ?",
+  "hookSub": "Michel de Montaigne · Essais",
+  "stanzas": [
+   [
+    "Avez-vous su composer vos mœurs : vous avez bien plus fait que celui qui a composé des livres."
+   ],
+   [
+    "Avez-vous su prendre du repos : vous avez plus fait, que celui qui a pris des Empires et des villes."
+   ],
+   [
+    "Le glorieux chef-d’œuvre de l’homme, c’est vivre à propos."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "Tu crois que ta vie manque d’éclat ?\n\nMichel de Montaigne · Essais\n\nQue veut dire « vivre à propos » pour toi ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #montaigne #littérature",
+  "source": "Essais, texte de 1595, orthographe modernisée; gutenberg.org"
+ },
+ {
   "slug": "fr_pascal_roseau",
   "mode": "prose",
   "poet": "Pascal",
@@ -55,6 +79,32 @@
   "reel_bg": "bg/modern_canli/bg_01.jpg",
   "caption": "Pascal a écrit :\n\nBlaise Pascal · Pensées\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #pascal #littérature",
   "source": "Blaise Pascal, Pensées, fragment 347 (éd. Brunschvicg), texte original de fr.wikisource. Extrait mot pour mot."
+ },
+ {
+  "slug": "fr_lib_seneque_esperer",
+  "lib_id": "seneca_ep013b",
+  "mode": "prose",
+  "poet": "Sénèque",
+  "author": "Sénèque",
+  "title": "Lettres à Lucilius",
+  "hook": "Tu as peur de ce qui pourrait arriver ?",
+  "hookSub": "Sénèque · Lettres à Lucilius",
+  "stanzas": [
+   [
+    "Il est probable que quelque malheur nous arrivera ; mais ce n’est pas un fait présent.",
+    "Que de fois l’inattendu est arrivé !",
+    "Que de fois l’attendu n’est jamais venu !"
+   ],
+   [
+    "Et même s’il est fixé qu’il viendra, à quoi bon courir au-devant de ta souffrance ?"
+   ],
+   [
+    "Tu souffriras bien assez tôt, quand elle sera là ; en attendant, espère des jours meilleurs."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "Tu as peur de ce qui pourrait arriver ?\n\nSénèque · Lettres à Lucilius\n\nQuelle inquiétude ne s’est finalement jamais réalisée ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #sénèque #littérature",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen translation"
  },
  {
   "slug": "fr_desbordes_valmore_roses",
@@ -87,6 +137,31 @@
   "source": "Marceline Desbordes-Valmore, Poésies inédites (Genève, Jules Fick, 1860), p. 15, fr.wikisource. Poème complet, mot pour mot."
  },
  {
+  "slug": "fr_lib_rilke_aimer_difficile",
+  "lib_id": "rilke_love_is_difficult",
+  "mode": "prose",
+  "poet": "Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Lettres à un jeune poète",
+  "hook": "Rilke a écrit ceci en 1904 :",
+  "hookSub": "Lettres à un jeune poète",
+  "stanzas": [
+   [
+    "Aimer aussi est bon : car l’amour est difficile."
+   ],
+   [
+    "L’amour d’un être humain pour un autre : c’est peut-être ce qui nous est imposé de plus difficile,",
+    "l’extrême, la dernière épreuve, l’ultime examen,"
+   ],
+   [
+    "le travail pour lequel tout autre travail n’est que préparation."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "Rilke a écrit ceci en 1904 :\n\nRainer Maria Rilke · Lettres à un jeune poète\n\nQu’est-ce que l’amour t’a appris de plus difficile ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #rilke #littérature",
+  "source": "Translated from the German by Lumen; Lumen translation"
+ },
+ {
   "slug": "fr_seneque_vie_breve",
   "mode": "prose",
   "poet": "Sénèque",
@@ -114,6 +189,33 @@
   "source": "Sénèque, De brevitate vitae, I, 3-4. Traduction française originale (Lumen) depuis le latin (texte de src/brevitate.html). Phrases réordonnées a minima : « nec inopes eius sed prodigi sumus » placée avant « non accipimus brevem vitam sed fecimus »."
  },
  {
+  "slug": "fr_lib_pascal_coeur_raisons",
+  "lib_id": "pascal_heart",
+  "mode": "prose",
+  "poet": "Pascal",
+  "author": "Blaise Pascal",
+  "title": "Pensées",
+  "hook": "Pascal, il y a plus de 350 ans :",
+  "hookSub": "Pensées",
+  "stanzas": [
+   [
+    "Le cœur a ses raisons, que la raison ne connaît point ;",
+    "on le sait en mille choses."
+   ],
+   [
+    "Je dis que le cœur aime l’être universel naturellement,",
+    "et soi-même naturellement, selon qu’il s’y adonne ;",
+    "et il se durcit contre l’un ou l’autre, à son choix."
+   ],
+   [
+    "Vous avez rejeté l’un et conservé l’autre : est-ce par raison que vous vous aimez ?"
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_03.jpg",
+  "caption": "Pascal, il y a plus de 350 ans :\n\nBlaise Pascal · Pensées\n\nLe cœur ou la raison : qui gagne chez toi ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #pascal #littérature",
+  "source": "Pensées, éd. Brunschvicg, texte original; fr.wikisource.org"
+ },
+ {
   "slug": "fr_baudelaire_albatros",
   "mode": "poem",
   "poet": "Baudelaire",
@@ -139,6 +241,28 @@
   "reel_bg": "bg/ronesans/bg_01.jpg",
   "caption": "Et si ta différence, c’était tes ailes ?\n\nCharles Baudelaire · L’Albatros\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #baudelaire #poèmes",
   "source": "Charles Baudelaire, Les Fleurs du mal (Poulet-Malassis et de Broise, 1861), II, fr.wikisource. Extrait : strophes 1 et 4, mot pour mot (graphie « Poëte » de l’édition)."
+ },
+ {
+  "slug": "fr_lib_bouddha_haine",
+  "lib_id": "dhammapada_3_6",
+  "mode": "prose",
+  "poet": "Bouddha",
+  "author": "Bouddha",
+  "title": "Dhammapada",
+  "hook": "Tu n’arrives pas à pardonner ?",
+  "hookSub": "Bouddha · Dhammapada",
+  "stanzas": [
+   [
+    "« Il m’a insulté, il m’a frappé, il m’a vaincu, il m’a volé » :",
+    "chez ceux qui ne nourrissent pas de telles pensées, la haine s’apaisera."
+   ],
+   [
+    "Car jamais la haine ne s’apaise par la haine : la haine s’apaise par l’amour, c’est là une loi éternelle."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_02.jpg",
+  "caption": "Tu n’arrives pas à pardonner ?\n\nBouddha · Dhammapada\n\nÀ qui as-tu fini par pardonner ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #bouddha #littérature",
+  "source": "F. Max Müller translation (1881); Lumen translation"
  },
  {
   "slug": "fr_marc_aurele_matin",
@@ -170,6 +294,34 @@
   "reel_bg": "bg/antik_canli/bg_00.jpg",
   "caption": "Tu as du mal à te lever le matin ?\n\nMarc Aurèle · Pensées pour moi-même\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #marcaurèle #littérature",
   "source": "Marc Aurèle, Pensées pour moi-même, V, 1 (début). Traduction française originale (Lumen) depuis le grec, vérifiée sur la traduction anglaise de George Long (src/meditations_long.txt)."
+ },
+ {
+  "slug": "fr_lib_tagore_j_ai_aime",
+  "lib_id": "tagore_straybirds_277_280",
+  "mode": "prose",
+  "poet": "Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Oiseaux de passage",
+  "hook": "Le seul mot qu’il voulait laisser :",
+  "hookSub": "Rabindranath Tagore · Oiseaux de passage",
+  "stanzas": [
+   [
+    "La lampe de la rencontre brûle longtemps ;",
+    "elle s’éteint en un instant à l’heure de la séparation."
+   ],
+   [
+    "Garde pour moi un mot dans ton silence, ô Monde, quand je serai mort : « J’ai aimé. »"
+   ],
+   [
+    "Nous vivons en ce monde quand nous l’aimons."
+   ],
+   [
+    "Que les morts aient l’immortalité de la gloire, mais les vivants l’immortalité de l’amour."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_04.jpg",
+  "caption": "Le seul mot qu’il voulait laisser :\n\nRabindranath Tagore · Oiseaux de passage\n\nQuel mot voudrais-tu laisser derrière toi ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #tagore #littérature",
+  "source": "Tagore's own English translation (1916); Lumen translation"
  },
  {
   "slug": "fr_verlaine_il_pleure",
@@ -205,6 +357,36 @@
   "source": "Paul Verlaine, Romances sans paroles, Ariettes oubliées III (éd. Vanier, 1902), fr.wikisource. Extrait : strophes 1, 3 et 4, mot pour mot."
  },
  {
+  "slug": "fr_lib_montaigne_parce_que_c_etait_lui",
+  "lib_id": "montaigne_friendship",
+  "mode": "prose",
+  "poet": "Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essais",
+  "hook": "Pourquoi aime-t-on quelqu’un ?",
+  "hookSub": "Michel de Montaigne · Essais",
+  "stanzas": [
+   [
+    "Au demeurant, ce que nous appelons ordinairement amis et amitiés,",
+    "ce ne sont qu’accointances et familiarités nouées par quelque occasion ou commodité,",
+    "par le moyen de laquelle nos âmes s’entretiennent."
+   ],
+   [
+    "En l’amitié de quoi je parle, elles se mêlent et confondent l’une en l’autre, d’un mélange si universel,",
+    "qu’elles effacent, et ne retrouvent plus la couture qui les a jointes."
+   ],
+   [
+    "Si on me presse de dire pourquoi je l’aimais, je sens que cela ne se peut exprimer,"
+   ],
+   [
+    "qu’en répondant : Parce que c’était lui, parce que c’était moi."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_01.jpg",
+  "caption": "Pourquoi aime-t-on quelqu’un ?\n\nMichel de Montaigne · Essais\n\nÀ qui penses-tu en lisant ces lignes ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #montaigne #littérature",
+  "source": "Essais, texte de 1595, orthographe modernisée; gutenberg.org"
+ },
+ {
   "slug": "fr_epictete_jugements",
   "mode": "prose",
   "poet": "Épictète",
@@ -234,6 +416,32 @@
   "reel_bg": "bg/antik/bg_02.jpg",
   "caption": "Ce qui te trouble vraiment :\n\nÉpictète · Manuel\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #épictète #littérature",
   "source": "Épictète, Manuel, chapitre 5. Traduction française originale (Lumen) depuis le grec, vérifiée sur la traduction anglaise de T. W. Higginson (src/enchiridion.txt)."
+ },
+ {
+  "slug": "fr_lib_epictete_role",
+  "lib_id": "epictetus_ench_17",
+  "mode": "prose",
+  "poet": "Épictète",
+  "author": "Épictète",
+  "title": "Manuel",
+  "hook": "Épictète, il y a près de 2 000 ans :",
+  "hookSub": "Manuel",
+  "stanzas": [
+   [
+    "Souviens-toi que tu es acteur dans une pièce, telle qu’il plaît à l’auteur de la faire :",
+    "courte, s’il la veut courte ; longue, s’il la veut longue."
+   ],
+   [
+    "S’il veut que tu joues un mendiant, joue-le bien ;",
+    "de même un boiteux, un magistrat, un simple particulier."
+   ],
+   [
+    "Car ton affaire est de bien jouer le rôle qui t’est donné ; le choisir appartient à un autre."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_04.jpg",
+  "caption": "Épictète, il y a près de 2 000 ans :\n\nÉpictète · Manuel\n\nQuel rôle joues-tu en ce moment ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #épictète #littérature",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing); Lumen translation"
  },
  {
   "slug": "fr_lamartine_lac",
@@ -269,6 +477,32 @@
   "source": "Alphonse de Lamartine, Méditations poétiques, « Le Lac », texte des Œuvres complètes (1860), tome 1, fr.wikisource. Extrait : strophes 6, 8 et 9 (la voix de l’aimée), mot pour mot ; seuls les guillemets d’ouverture de ligne « et » ont été retirés."
  },
  {
+  "slug": "fr_lib_dostoievski_as_tu_vecu",
+  "lib_id": "dostoevsky_wn_years",
+  "mode": "prose",
+  "poet": "Dostoïevski",
+  "author": "Fiodor Dostoïevski",
+  "title": "Les Nuits blanches",
+  "hook": "Tu as l’impression que les années filent ?",
+  "hookSub": "Fiodor Dostoïevski · Les Nuits blanches",
+  "stanzas": [
+   [
+    "Et tu te demandes : où sont donc tes rêves ?",
+    "et tu hoches la tête, et tu dis : comme les années passent vite !"
+   ],
+   [
+    "Et de nouveau tu te demandes : qu’as-tu donc fait de tes années ?",
+    "où as-tu enterré tes plus beaux jours ?"
+   ],
+   [
+    "As-tu vécu, oui ou non ?"
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Tu as l’impression que les années filent ?\n\nFiodor Dostoïevski · Les Nuits blanches\n\nQu’aimerais-tu ne plus remettre à plus tard ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #dostoïevski #littérature",
+  "source": "Constance Garnett translation (1918); Lumen translation"
+ },
+ {
   "slug": "fr_gibran_enfants",
   "mode": "prose",
   "poet": "Khalil Gibran",
@@ -294,6 +528,34 @@
   "reel_bg": "bg/dogu_canli/bg_01.jpg",
   "caption": "À tous les parents :\n\nKhalil Gibran · Le Prophète\n\nQuelle phrase t’a marqué ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #khalilgibran #littérature",
   "source": "Khalil Gibran, The Prophet (1923), « On Children ». Traduction française originale (Lumen) depuis l’anglais (en_prophet.json). Extrait."
+ },
+ {
+  "slug": "fr_lib_la_rochefoucauld_amour",
+  "lib_id": "larochefoucauld_love",
+  "mode": "prose",
+  "poet": "La Rochefoucauld",
+  "author": "François de La Rochefoucauld",
+  "title": "Maximes",
+  "hook": "La Rochefoucauld, il y a 350 ans :",
+  "hookSub": "Maximes",
+  "stanzas": [
+   [
+    "Il n’y a guère de gens qui ne soient honteux de s’être aimés quand ils ne s’aiment plus."
+   ],
+   [
+    "Si on juge de l’amour par la plupart de ses effets, il ressemble plus à la haine qu’à l’amitié."
+   ],
+   [
+    "L’amour aussi bien que le feu ne peut subsister sans un mouvement continuel;",
+    "et il cesse de vivre dès qu’il cesse d’espérer ou de craindre."
+   ],
+   [
+    "Il est du véritable amour comme de l’apparition des esprits: tout le monde en parle, mais peu de gens en ont vu."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_02.jpg",
+  "caption": "La Rochefoucauld, il y a 350 ans :\n\nFrançois de La Rochefoucauld · Maximes\n\nLaquelle de ces maximes est la plus vraie ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #larochefoucauld #littérature",
+  "source": "Maximes, texte original; gutenberg.org"
  },
  {
   "slug": "fr_apollinaire_mirabeau",
@@ -325,6 +587,587 @@
   "reel_bg": "tiktok/friedrich_kesis.jpg",
   "caption": "Tu as déjà vu un amour s’en aller ?\n\nGuillaume Apollinaire · Le Pont Mirabeau\n\nÀ qui enverrais-tu ces vers ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #apollinaire #poèmes",
   "source": "Guillaume Apollinaire, Alcools (1913), « Le Pont Mirabeau », fr.wikisource. Extrait : strophes 1 et 3 puis le refrain, mot pour mot (sans ponctuation, comme l’original)."
+ },
+ {
+  "slug": "fr_lib_lao_tseu_premier_pas",
+  "lib_id": "laozi_64",
+  "mode": "prose",
+  "poet": "Lao-tseu",
+  "author": "Lao-tseu",
+  "title": "Tao-tö-king",
+  "hook": "Ton projet te paraît trop grand ?",
+  "hookSub": "Lao-tseu · Tao-tö-king",
+  "stanzas": [
+   [
+    "Il faut agir avant que la chose n’apparaisse ;",
+    "il faut établir l’ordre avant que le désordre ne commence."
+   ],
+   [
+    "L’arbre que les bras peuvent à peine entourer est né d’une pousse minuscule ;",
+    "la tour de neuf étages s’est élevée d’un petit tas de terre ;"
+   ],
+   [
+    "le voyage de mille lieues a commencé par un seul pas."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_00.jpg",
+  "caption": "Ton projet te paraît trop grand ?\n\nLao-tseu · Tao-tö-king\n\nQuel premier pas repousses-tu depuis trop longtemps ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #laotseu #littérature",
+  "source": "James Legge translation (1891); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_thoreau_autre_tambour",
+  "lib_id": "thoreau_walden_drummer",
+  "mode": "prose",
+  "poet": "Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Tu n’avances pas au rythme des autres ?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "Pourquoi serions-nous si désespérément pressés de réussir, et dans des entreprises si désespérées ?"
+   ],
+   [
+    "Si un homme ne marche pas au même pas que ses compagnons, c’est peut-être qu’il entend un autre tambour."
+   ],
+   [
+    "Qu’il règle son pas sur la musique qu’il entend, si lente ou si lointaine soit-elle."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "Tu n’avances pas au rythme des autres ?\n\nHenry David Thoreau · Walden\n\nQuel tambour entends-tu, toi ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #thoreau #littérature",
+  "source": "Walden (1854); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_montaigne_savoir_mourir",
+  "lib_id": "montaigne_death",
+  "mode": "prose",
+  "poet": "Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essais",
+  "hook": "Montaigne a écrit ceci en 1580 :",
+  "hookSub": "Essais",
+  "stanzas": [
+   [
+    "Il est incertain où la mort nous attende, attendons-la partout."
+   ],
+   [
+    "La préméditation de la mort, est préméditation de la liberté.",
+    "Qui a appris à mourir, il a désappris à servir."
+   ],
+   [
+    "Il n’y a rien de mal en la vie, pour celui qui a bien compris, que la privation de la vie n’est pas mal."
+   ],
+   [
+    "Le savoir mourir nous affranchit de toute sujétion et contrainte."
+   ]
+  ],
+  "reel_bg": "bg/ronesans/bg_03.jpg",
+  "caption": "Montaigne a écrit ceci en 1580 :\n\nMichel de Montaigne · Essais\n\nPenser à la mort te rend-il plus libre ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #montaigne #littérature",
+  "source": "Essais, texte de 1595, orthographe modernisée; gutenberg.org"
+ },
+ {
+  "slug": "fr_lib_gibran_travail",
+  "lib_id": "gibran_prophet_work",
+  "mode": "prose",
+  "poet": "Gibran",
+  "author": "Khalil Gibran",
+  "title": "Le Prophète",
+  "hook": "Tu travailles sans y mettre ton cœur ?",
+  "hookSub": "Khalil Gibran · Le Prophète",
+  "stanzas": [
+   [
+    "Le travail est l’amour rendu visible."
+   ],
+   [
+    "Et si vous ne pouvez travailler avec amour, mais seulement avec dégoût,",
+    "mieux vaut quitter votre travail et vous asseoir à la porte du temple",
+    "pour recevoir l’aumône de ceux qui travaillent avec joie."
+   ],
+   [
+    "Car si vous cuisez le pain avec indifférence, vous cuisez un pain amer qui n’apaise qu’à moitié la faim de l’homme."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_01.jpg",
+  "caption": "Tu travailles sans y mettre ton cœur ?\n\nKhalil Gibran · Le Prophète\n\nTon travail, le fais-tu avec amour ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #khalilgibran #littérature",
+  "source": "Alfred A. Knopf (1923); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_marc_aurele_present",
+  "lib_id": "marcus_08_36",
+  "mode": "prose",
+  "poet": "Marc Aurèle",
+  "author": "Marc Aurèle",
+  "title": "Pensées pour moi-même",
+  "hook": "Tout te semble trop lourd à porter ?",
+  "hookSub": "Marc Aurèle · Pensées pour moi-même",
+  "stanzas": [
+   [
+    "Ne te trouble pas en pensant à ta vie entière."
+   ],
+   [
+    "Que tes pensées n’embrassent pas d’un coup toutes les peines diverses que tu peux t’attendre à voir fondre sur toi ;",
+    "mais à chaque occasion, demande-toi : qu’y a-t-il là d’intolérable et d’insupportable ?",
+    "Tu aurais honte de l’avouer."
+   ],
+   [
+    "Ensuite, souviens-toi que ce n’est ni l’avenir ni le passé qui te pèse, mais toujours le présent."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "Tout te semble trop lourd à porter ?\n\nMarc Aurèle · Pensées pour moi-même\n\nQu’est-ce qui te pèse aujourd’hui, vraiment ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #marcaurèle #littérature",
+  "source": "George Long translation (1862); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_tchekhov_chaine",
+  "lib_id": "chekhov_student",
+  "mode": "prose",
+  "poet": "Tchekhov",
+  "author": "Anton Tchekhov",
+  "title": "L'Étudiant",
+  "hook": "Tchekhov a écrit ceci en 1894 :",
+  "hookSub": "L'Étudiant",
+  "stanzas": [
+   [
+    "Et la joie, soudain, s’agita dans son âme, et il s’arrêta même un instant pour reprendre son souffle."
+   ],
+   [
+    "Le passé, pensait-il, est relié au présent par une chaîne ininterrompue d’événements qui découlent les uns des autres."
+   ],
+   [
+    "Et il lui semblait qu’il venait de voir les deux bouts de cette chaîne :"
+   ],
+   [
+    "il avait touché l’un, et l’autre avait tremblé."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "Tchekhov a écrit ceci en 1894 :\n\nAnton Tchekhov · L'Étudiant\n\nAs-tu déjà senti ce fil qui relie les époques ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #tchekhov #littérature",
+  "source": "Constance Garnett translation (1918); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_pascal_qui_m_y_a_mis",
+  "lib_id": "pascal_spaces",
+  "mode": "prose",
+  "poet": "Pascal",
+  "author": "Blaise Pascal",
+  "title": "Pensées",
+  "hook": "Tu t’es déjà senti minuscule ?",
+  "hookSub": "Blaise Pascal · Pensées",
+  "stanzas": [
+   [
+    "Quand je considère la petite durée de ma vie, absorbée dans l’éternité précédente et suivante,",
+    "le petit espace que je remplis et même que je vois,",
+    "abîmé dans l’infinie immensité des espaces que j’ignore et qui m’ignorent,"
+   ],
+   [
+    "je m’effraie et m’étonne de me voir ici plutôt que là,",
+    "car il n’y a point de raison pourquoi ici plutôt que là, pourquoi à présent plutôt que lors :"
+   ],
+   [
+    "qui m’y a mis ?"
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_04.jpg",
+  "caption": "Tu t’es déjà senti minuscule ?\n\nBlaise Pascal · Pensées\n\nQue ressens-tu face au ciel, la nuit ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #pascal #littérature",
+  "source": "Pensées, éd. Brunschvicg, texte original; fr.wikisource.org"
+ },
+ {
+  "slug": "fr_lib_rumi_coucher_lever",
+  "lib_id": "rumi_divan_life_in_death",
+  "mode": "poem",
+  "poet": "Rûmî",
+  "author": "Rûmî",
+  "title": "Divân",
+  "hook": "Rûmî, il y a plus de 750 ans :",
+  "hookSub": "Divân",
+  "stanzas": [
+   [
+    "Si tu me confies à la tombe, ne dis pas : « Adieu, adieu ! »",
+    "Car la tombe est un rideau qui cache la communion du Paradis."
+   ],
+   [
+    "Après avoir vu la descente, songe à la résurrection ;",
+    "En quoi le couchant nuirait-il au soleil et à la lune ?",
+    "À toi cela semble un coucher, mais c’est un lever ;"
+   ],
+   [
+    "Si le caveau semble une prison, c’est la délivrance de l’âme."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_03.jpg",
+  "caption": "Rûmî, il y a plus de 750 ans :\n\nRûmî · Divân\n\nEt toi, comment vois-tu la fin ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #rumi #poèmes",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_emerson_incompris",
+  "lib_id": "emerson_misunderstood",
+  "mode": "prose",
+  "poet": "Emerson",
+  "author": "Ralph Waldo Emerson",
+  "title": "Essais",
+  "hook": "Tu as peur d’être incompris ?",
+  "hookSub": "Ralph Waldo Emerson · Essais",
+  "stanzas": [
+   [
+    "Dites aujourd’hui ce que vous pensez en mots durs,",
+    "et demain dites ce que pense demain en mots durs encore,",
+    "dût-il contredire tout ce que vous avez dit aujourd’hui."
+   ],
+   [
+    "« Ah, mais alors vous êtes sûr d’être incompris. »",
+    "Est-ce donc si grave d’être incompris ?"
+   ],
+   [
+    "Pythagore fut incompris, et Socrate, et Jésus, et Luther, et Copernic, et Galilée, et Newton,",
+    "et tout esprit pur et sage qui s’est jamais fait chair."
+   ],
+   [
+    "Être grand, c’est être incompris."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "Tu as peur d’être incompris ?\n\nRalph Waldo Emerson · Essais\n\nQuand as-tu été incompris pour la dernière fois ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #emerson #littérature",
+  "source": "Essays: First Series (1841); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_montaigne_arriere_boutique",
+  "lib_id": "montaigne_backshop",
+  "mode": "prose",
+  "poet": "Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essais",
+  "hook": "As-tu un endroit rien qu’à toi ?",
+  "hookSub": "Michel de Montaigne · Essais",
+  "stanzas": [
+   [
+    "Il faut avoir femmes, enfants, biens, et surtout de la santé, qui peut,",
+    "mais non pas s’y attacher en manière que notre heur en dépende."
+   ],
+   [
+    "Il se faut réserver une arrière-boutique, toute nôtre, toute franche,"
+   ],
+   [
+    "en laquelle nous établissions notre vraie liberté et principale retraite et solitude."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "As-tu un endroit rien qu’à toi ?\n\nMichel de Montaigne · Essais\n\nOù est ton arrière-boutique à toi ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #montaigne #littérature",
+  "source": "Essais, texte de 1595, orthographe modernisée; fr.wikisource.org"
+ },
+ {
+  "slug": "fr_lib_seneque_amis_disparus",
+  "lib_id": "seneca_ep063",
+  "mode": "prose",
+  "poet": "Sénèque",
+  "author": "Sénèque",
+  "title": "Lettres à Lucilius",
+  "hook": "Tu penses à quelqu’un qui est parti ?",
+  "hookSub": "Sénèque · Lettres à Lucilius",
+  "stanzas": [
+   [
+    "Pour moi, la pensée de mes amis disparus est douce et attachante."
+   ],
+   [
+    "Car je les ai eus comme si je devais un jour les perdre ;"
+   ],
+   [
+    "je les ai perdus comme si je les avais encore."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "Tu penses à quelqu’un qui est parti ?\n\nSénèque · Lettres à Lucilius\n\nQuel ami disparu te revient avec douceur ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #sénèque #littérature",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_nietzsche_amor_fati",
+  "lib_id": "nietzsche_fw_amor",
+  "mode": "prose",
+  "poet": "Nietzsche",
+  "author": "Friedrich Nietzsche",
+  "title": "Le Gai Savoir",
+  "hook": "Nietzsche a écrit ceci en 1882 :",
+  "hookSub": "Le Gai Savoir",
+  "stanzas": [
+   [
+    "Je veux apprendre toujours davantage à voir le nécessaire dans les choses comme le beau :",
+    "ainsi je serai de ceux qui rendent les choses belles."
+   ],
+   [
+    "Amor fati : que ce soit désormais mon amour !",
+    "Je ne veux pas faire la guerre à la laideur.",
+    "Je ne veux pas accuser, je ne veux même pas accuser les accusateurs."
+   ],
+   [
+    "Détourner le regard, que ce soit là ma seule négation !"
+   ],
+   [
+    "Et, somme toute, en grand : je veux, un jour, n’être plus qu’un homme qui dit oui !"
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Nietzsche a écrit ceci en 1882 :\n\nFriedrich Nietzsche · Le Gai Savoir\n\nÀ quoi aimerais-tu dire oui cette année ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #nietzsche #littérature",
+  "source": "Thomas Common translation (1910); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_la_rochefoucauld_dupe_du_coeur",
+  "lib_id": "larochefoucauld_self",
+  "mode": "prose",
+  "poet": "La Rochefoucauld",
+  "author": "François de La Rochefoucauld",
+  "title": "Maximes",
+  "hook": "Tu remarques vite les défauts des autres ?",
+  "hookSub": "François de La Rochefoucauld · Maximes",
+  "stanzas": [
+   [
+    "Nous avons tous assez de force pour supporter les maux d’autrui.",
+    "Le soleil ni la mort ne se peuvent regarder fixement."
+   ],
+   [
+    "Si nous n’avions point de défauts, nous ne prendrions pas tant de plaisir à en remarquer dans les autres."
+   ],
+   [
+    "Il est plus honteux de se défier de ses amis que d’en être trompé.",
+    "Tout le monde se plaint de sa mémoire, et personne ne se plaint de son jugement."
+   ],
+   [
+    "L’esprit est toujours la dupe du coeur."
+   ]
+  ],
+  "reel_bg": "bg/ronesans/bg_01.jpg",
+  "caption": "Tu remarques vite les défauts des autres ?\n\nFrançois de La Rochefoucauld · Maximes\n\nLaquelle de ces maximes te touche le plus ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #larochefoucauld #littérature",
+  "source": "Maximes, texte original; gutenberg.org"
+ },
+ {
+  "slug": "fr_lib_epictete_colere",
+  "lib_id": "epictetus_ench_20",
+  "mode": "prose",
+  "poet": "Épictète",
+  "author": "Épictète",
+  "title": "Manuel",
+  "hook": "Quelqu’un t’a mis en colère ?",
+  "hookSub": "Épictète · Manuel",
+  "stanzas": [
+   [
+    "Souviens-toi que ce n’est pas celui qui t’injurie ou te frappe qui t’outrage,",
+    "mais le jugement que tu portes sur ces choses comme outrageantes."
+   ],
+   [
+    "Quand donc quelqu’un t’irrite, sache que c’est ta propre opinion qui t’irrite.",
+    "Efforce-toi donc, d’abord, de ne pas te laisser éblouir par l’apparence."
+   ],
+   [
+    "Car si tu gagnes une fois du temps et du répit, tu seras plus facilement maître de toi."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "Quelqu’un t’a mis en colère ?\n\nÉpictète · Manuel\n\nQu’est-ce qui t’a irrité cette semaine ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #épictète #littérature",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_khayyam_doigt_mouvant",
+  "lib_id": "khayyam_lxxi_lxxii",
+  "mode": "poem",
+  "poet": "Omar Khayyâm",
+  "author": "Omar Khayyâm",
+  "title": "Rubaïyat",
+  "hook": "Tu voudrais effacer ce que tu as fait ?",
+  "hookSub": "Omar Khayyâm · Rubaïyat",
+  "stanzas": [
+   [
+    "Le Doigt mouvant écrit ; et, ayant écrit,",
+    "Poursuit : ni toute ta Piété ni ton Esprit",
+    "Ne le feront revenir pour biffer une demi-ligne,"
+   ],
+   [
+    "Ni toutes tes Larmes n’en effaceront un seul Mot."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_00.jpg",
+  "caption": "Tu voudrais effacer ce que tu as fait ?\n\nOmar Khayyâm · Rubaïyat\n\nQuelle ligne aimerais-tu pouvoir réécrire ?\n\nUn poème sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#poésie #khayyam #poèmes",
+  "source": "Edward FitzGerald translation, 5th edition (1889); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_tolstoi_lumiere",
+  "lib_id": "tolstoy_ivan_light",
+  "mode": "prose",
+  "poet": "Tolstoï",
+  "author": "Léon Tolstoï",
+  "title": "La Mort d'Ivan Ilitch",
+  "hook": "Tolstoï a écrit ceci en 1886 :",
+  "hookSub": "La Mort d'Ivan Ilitch",
+  "stanzas": [
+   [
+    "« Et la mort ? Où est-elle ? »"
+   ],
+   [
+    "Il chercha son ancienne peur habituelle de la mort et ne la trouva pas.",
+    "Où est-elle ? Quelle mort ?"
+   ],
+   [
+    "Il n’y avait aucune peur, parce qu’il n’y avait pas de mort non plus."
+   ],
+   [
+    "Au lieu de la mort, il y avait la lumière."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_04.jpg",
+  "caption": "Tolstoï a écrit ceci en 1886 :\n\nLéon Tolstoï · La Mort d'Ivan Ilitch\n\nQu’est-ce qui te fait le moins peur, aujourd’hui ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #tolstoï #littérature",
+  "source": "Louise and Aylmer Maude translation; Lumen translation"
+ },
+ {
+  "slug": "fr_lib_montaigne_quand_je_danse",
+  "lib_id": "montaigne_dance",
+  "mode": "prose",
+  "poet": "Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Essais",
+  "hook": "Tu es vraiment là où tu es ?",
+  "hookSub": "Michel de Montaigne · Essais",
+  "stanzas": [
+   [
+    "Quand je danse, je danse : quand je dors, je dors."
+   ],
+   [
+    "Voire, et quand je me promène solitairement en un beau verger,",
+    "si mes pensées se sont entretenues des occurrences étrangères quelque partie du temps :"
+   ],
+   [
+    "quelque autre partie, je les ramène à la promenade, au verger, à la douceur de cette solitude, et à moi."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_02.jpg",
+  "caption": "Tu es vraiment là où tu es ?\n\nMichel de Montaigne · Essais\n\nQuand as-tu été tout entier à ce que tu faisais ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #montaigne #littérature",
+  "source": "Essais, texte de 1595, orthographe modernisée; gutenberg.org"
+ },
+ {
+  "slug": "fr_lib_tagore_etoiles",
+  "lib_id": "tagore_straybirds_4_6",
+  "mode": "prose",
+  "poet": "Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Oiseaux de passage",
+  "hook": "Tu pleures ce que tu as manqué ?",
+  "hookSub": "Rabindranath Tagore · Oiseaux de passage",
+  "stanzas": [
+   [
+    "Ce sont les larmes de la terre qui gardent ses sourires en fleur."
+   ],
+   [
+    "Le puissant désert brûle d’amour pour un brin d’herbe qui secoue la tête, rit et s’envole."
+   ],
+   [
+    "Si tu pleures d’avoir manqué le soleil, tu manqueras aussi les étoiles."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "Tu pleures ce que tu as manqué ?\n\nRabindranath Tagore · Oiseaux de passage\n\nQu’as-tu failli ne pas voir, à force de regretter ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #tagore #littérature",
+  "source": "Tagore's own English translation (1916); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_schopenhauer_si_ce_n_etait_pas_a_moi",
+  "lib_id": "schopenhauer_mine",
+  "mode": "prose",
+  "poet": "Schopenhauer",
+  "author": "Arthur Schopenhauer",
+  "title": "Aphorismes sur la sagesse dans la vie",
+  "hook": "Tu ne vois que ce qui te manque ?",
+  "hookSub": "Arthur Schopenhauer · Aphorismes sur la sagesse dans la vie",
+  "stanzas": [
+   [
+    "Nous devrions plutôt nous demander plus souvent : « Et si ce n’était pas à moi ? » ;"
+   ],
+   [
+    "je veux dire que nous devrions parfois nous efforcer de regarder ce que nous possédons",
+    "tel qu’il nous apparaîtrait si nous l’avions perdu,"
+   ],
+   [
+    "et cela quoi que ce soit : biens, santé, amis, bien-aimée, femme, enfant, cheval et chien ;"
+   ],
+   [
+    "car le plus souvent, c’est seulement la perte qui nous instruit de la valeur des choses."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "Tu ne vois que ce qui te manque ?\n\nArthur Schopenhauer · Aphorismes sur la sagesse dans la vie\n\nQu’est-ce que tu tiens pour acquis ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #schopenhauer #littérature",
+  "source": "T. Bailey Saunders translation (1890); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_marc_aurele_olive",
+  "lib_id": "marcus_04_48",
+  "mode": "prose",
+  "poet": "Marc Aurèle",
+  "author": "Marc Aurèle",
+  "title": "Pensées pour moi-même",
+  "hook": "Marc Aurèle, il y a 1 850 ans :",
+  "hookSub": "Pensées pour moi-même",
+  "stanzas": [
+   [
+    "En somme, observe toujours combien les choses humaines sont éphémères et sans valeur :",
+    "ce qui était hier un peu de glaire sera demain momie ou cendre."
+   ],
+   [
+    "Traverse donc ce bref espace de temps en accord avec la nature,",
+    "et achève ton voyage avec sérénité,"
+   ],
+   [
+    "comme l’olive mûre qui tombe en bénissant la terre qui l’a portée et en rendant grâce à l’arbre qui l’a fait naître."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_04.jpg",
+  "caption": "Marc Aurèle, il y a 1 850 ans :\n\nMarc Aurèle · Pensées pour moi-même\n\nComment aimerais-tu achever ton voyage ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #marcaurèle #littérature",
+  "source": "George Long translation (1862); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_seneque_changer_d_ame",
+  "lib_id": "seneca_ep028",
+  "mode": "prose",
+  "poet": "Sénèque",
+  "author": "Sénèque",
+  "title": "Lettres à Lucilius",
+  "hook": "Tu crois qu’un voyage va te changer ?",
+  "hookSub": "Sénèque · Lettres à Lucilius",
+  "stanzas": [
+   [
+    "Crois-tu être le seul à qui cela soit arrivé ?"
+   ],
+   [
+    "T’étonnes-tu, comme d’une chose nouvelle, qu’après un si long voyage et tant de changements de lieux",
+    "tu n’aies pu secouer la tristesse et la pesanteur de ton esprit ?"
+   ],
+   [
+    "C’est d’âme qu’il te faut changer, non de climat."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Tu crois qu’un voyage va te changer ?\n\nSénèque · Lettres à Lucilius\n\nQu’as-tu essayé de fuir en partant ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #sénèque #littérature",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen translation"
+ },
+ {
+  "slug": "fr_lib_kafka_reste_a_ta_table",
+  "lib_id": "kafka_stay_at_your_table",
+  "mode": "prose",
+  "poet": "Kafka",
+  "author": "Franz Kafka",
+  "title": "Aphorismes de Zürau",
+  "hook": "Kafka a écrit ceci en 1918 :",
+  "hookSub": "Aphorismes de Zürau",
+  "stanzas": [
+   [
+    "Il n’est pas nécessaire que tu sortes de chez toi.",
+    "Reste à ta table et écoute."
+   ],
+   [
+    "N’écoute même pas, attends seulement.",
+    "N’attends même pas, sois tout à fait silencieux et seul."
+   ],
+   [
+    "Le monde viendra s’offrir à toi pour que tu le démasques, il ne peut faire autrement, extasié il se tordra devant toi."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_00.jpg",
+  "caption": "Kafka a écrit ceci en 1918 :\n\nFranz Kafka · Aphorismes de Zürau\n\nSais-tu encore rester seul en silence ?\n\nUn passage sur ton écran d’accueil, chaque matin : Lumen (lien en bio)\n\n#philosophie #kafka #littérature",
+  "source": "Translated from the German by Lumen; Lumen translation"
  },
  {
   "slug": "fr_dostoievski_nuits_blanches",

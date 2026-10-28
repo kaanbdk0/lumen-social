@@ -20,6 +20,32 @@
   "caption": "Sevmek seni hiç susturdu mu?\n\nOrhan Veli · Mahzun Durmak\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #orhanveli #şiirler"
  },
  {
+  "slug": "tr_lib_kmm_birkac_ay",
+  "lib_id": "kmm_12",
+  "mode": "prose",
+  "poet": "Sabahattin Ali",
+  "author": "Sabahattin Ali",
+  "title": "Kürk Mantolu Madonna",
+  "hook": "Birkaç ay, bir ömre bedel olabilir mi?",
+  "hookSub": "Sabahattin Ali · Kürk Mantolu Madonna",
+  "stanzas": [
+   [
+    "Sen bana, dünyada başka türlü bir hayatın da mevcut olduğunu,",
+    "benim bir de ruhum bulunduğunu öğrettin.",
+    "Bunu sonuna kadar götüremediysen, kabahat senin değil..."
+   ],
+   [
+    "Bana hakikaten yaşamak imkânını verdiğin birkaç ay için sana teşekkür ederim."
+   ],
+   [
+    "Böyle birkaç ay, birkaç ömür kıymetinde değil midir?.."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_00.jpg",
+  "caption": "Birkaç ay, bir ömre bedel olabilir mi?\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nSenin hayatında böyle birkaç ay oldu mu?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe",
+  "source": "Kürk Mantolu Madonna, Remzi Kitabevi 1943 (Vikikaynak)"
+ },
+ {
   "slug": "pasaj_kurk_mantolu",
   "mode": "prose",
   "poet": "Sabahattin Ali",
@@ -47,6 +73,33 @@
   "caption": "Sabahattin Ali şöyle yazar:\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe"
  },
  {
+  "slug": "tr_lib_seneca_dostlar",
+  "lib_id": "seneca_ep063",
+  "mode": "prose",
+  "poet": "Seneca",
+  "author": "Seneca",
+  "title": "Lucilius'a Mektuplar",
+  "hook": "Seneca şöyle yazar:",
+  "hookSub": "Lucilius'a Mektuplar",
+  "stanzas": [
+   [
+    "Ölmüş dostlarımı düşünmek bana tatlı ve iç ısıtıcı gelir.",
+    "Çünkü onlara, bir gün yitirecekmişim gibi sahip oldum;",
+    "onları, hâlâ sahipmişim gibi yitirdim."
+   ],
+   [
+    "Öyleyse, Lucilius, gönlünün dinginliğine yakışır biçimde davran ve Talih'in armağanlarını yanlış yorumlamayı bırak.",
+    "Talih aldı, ama Talih vermişti de."
+   ],
+   [
+    "Dostlarımızın tadını doyasıya çıkaralım, çünkü bu ayrıcalığın ne kadar süre bizim olacağını bilmiyoruz."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_04.jpg",
+  "caption": "Seneca şöyle yazar:\n\nSeneca · Lucilius'a Mektuplar\n\nAklına ilk gelen dost kim?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #seneca #felsefe",
+  "source": "Richard M. Gummere translation (Loeb, 1917–1925); Lumen çevirisi"
+ },
+ {
   "slug": "sabahattin_ali",
   "mode": "poem",
   "poet": "Sabahattin Ali",
@@ -65,6 +118,32 @@
   ],
   "reel_bg": "tiktok/friedrich_kesis.jpg",
   "caption": "Bu şiiri hapisteyken yazdı.\n\nSabahattin Ali · Geçmiyor Günler\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #sabahattinali #şiirler"
+ },
+ {
+  "slug": "tr_lib_tagore_yaralar",
+  "lib_id": "tagore_straybirds_290_292",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Başıboş Kuşlar",
+  "hook": "Yaraların hâlâ sızlıyor mu?",
+  "hookSub": "Rabindranath Tagore · Başıboş Kuşlar",
+  "stanzas": [
+   [
+    "Günün sonunda karşına çıktığımda yaralarımı göreceksin",
+    "ve yaralandığımı, ama iyileştiğimi de bileceksin."
+   ],
+   [
+    "Bir gün başka bir dünyanın gün doğumunda sana şarkı söyleyeceğim:",
+    "“Seni daha önce gördüm, yeryüzünün ışığında, insanın sevgisinde.”"
+   ],
+   [
+    "Başka günlerden bulutlar süzülüp hayatıma geliyor; artık yağmur yağdırmak ya da fırtına getirmek için değil, gün batımı göğüme renk vermek için."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_01.jpg",
+  "caption": "Yaraların hâlâ sızlıyor mu?\n\nRabindranath Tagore · Başıboş Kuşlar\n\nSeni iyileştiren ne oldu?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #tagore #felsefe",
+  "source": "Tagore's own English translation (1916); Lumen çevirisi"
  },
  {
   "slug": "pasaj_machiavelli",
@@ -101,6 +180,36 @@
   "caption": "Machiavelli şöyle der:\n\nNiccolò Machiavelli · Hükümdar\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #machiavelli #felsefe"
  },
  {
+  "slug": "tr_lib_epiktetos_geri_verdim",
+  "lib_id": "epictetus_ench_11",
+  "mode": "prose",
+  "poet": "Epiktetos",
+  "author": "Epiktetos",
+  "title": "Enkheiridion",
+  "hook": "Kaybettiğin bir şey var mı?",
+  "hookSub": "Epiktetos · Enkheiridion",
+  "stanzas": [
+   [
+    "Hiçbir şey için “Onu kaybettim” deme; “Onu geri verdim” de."
+   ],
+   [
+    "Çocuğun mu öldü? Geri verildi.",
+    "Karın mı öldü? Geri verildi.",
+    "Toprağın mı elinden alındı? O da geri verildi."
+   ],
+   [
+    "“Ama onu alan kötü bir adamdı.”",
+    "Onu sana verenin, onu kimin eliyle geri istediğinden sana ne?"
+   ],
+   [
+    "O sana sahip olmana izin verdiği sürece, onu kendinin olmayan bir şey gibi tut; tıpkı yolcuların bir handa kaldıkları gibi."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "Kaybettiğin bir şey var mı?\n\nEpiktetos · Enkheiridion\n\nGeri verdiğini düşünmek acını hafifletir mi?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #epiktetos #felsefe",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing); Lumen çevirisi"
+ },
+ {
   "slug": "yunus_emre",
   "mode": "poem",
   "poet": "Yunus Emre",
@@ -119,6 +228,32 @@
   ],
   "reel_bg": "bg/tasavvuf_canli/bg_01.jpg",
   "caption": "700 yıl önce yazıldı. Hâlâ aşk.\n\nYunus Emre · Ben Yürürüm Yana Yana\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #yunusemre #şiirler"
+ },
+ {
+  "slug": "tr_lib_rilke_ejderhalar",
+  "lib_id": "rilke_dragons",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Genç Bir Şaire Mektuplar",
+  "hook": "Rilke bunu 120 yıl önce yazdı:",
+  "hookSub": "Genç Bir Şaire Mektuplar",
+  "stanzas": [
+   [
+    "Bütün halkların başlangıcında duran o eski mitleri,",
+    "en son anda prensese dönüşen ejderhaların mitlerini nasıl unutabiliriz;"
+   ],
+   [
+    "belki de hayatımızdaki bütün ejderhalar,",
+    "bizi bir kez güzel ve cesur görmeyi bekleyen prenseslerdir."
+   ],
+   [
+    "Belki de korkunç olan her şey, en derin özünde, bizden yardım isteyen çaresiz bir şeydir."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "Rilke bunu 120 yıl önce yazdı:\n\nRainer Maria Rilke · Genç Bir Şaire Mektuplar\n\nSenin ejderhan hangisi?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #rilke #felsefe",
+  "source": "Translated from the German by Lumen; Lumen çevirisi"
  },
  {
   "slug": "pasaj_marcus",
@@ -149,6 +284,32 @@
   "caption": "Marcus Aurelius şöyle der:\n\nMarcus Aurelius · Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
  },
  {
+  "slug": "tr_lib_laozi_tek_adim",
+  "lib_id": "laozi_64",
+  "mode": "prose",
+  "poet": "Lao Tzu",
+  "author": "Lao Tzu",
+  "title": "Tao Te Ching",
+  "hook": "Bir şeye başlamaktan mı korkuyorsun?",
+  "hookSub": "Lao Tzu · Tao Te Ching",
+  "stanzas": [
+   [
+    "Durgun olanı tutmak kolaydır;",
+    "bir şey henüz belirti vermeden ona karşı önlem almak kolaydır;",
+    "kırılgan olan kolay kırılır; çok küçük olan kolay dağılır."
+   ],
+   [
+    "Bir şey ortaya çıkmadan harekete geçmeli; düzensizlik başlamadan düzen sağlanmalı."
+   ],
+   [
+    "Kucak dolusu ağaç en küçük filizden büyüdü; dokuz katlı kule küçük bir toprak yığınından yükseldi; bin li'lik yolculuk tek bir adımla başladı."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_02.jpg",
+  "caption": "Bir şeye başlamaktan mı korkuyorsun?\n\nLao Tzu · Tao Te Ching\n\nBugün atacağın ilk adım ne?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #laotzu #felsefe",
+  "source": "James Legge translation (1891); Lumen çevirisi"
+ },
+ {
   "slug": "ahmet_hasim",
   "mode": "poem",
   "poet": "Ahmet Haşim",
@@ -166,6 +327,32 @@
   ],
   "reel_bg": "bg/modern_canli/bg_01.jpg",
   "caption": "Bu merdivenleri kimin için çıktın?\n\nAhmet Haşim · Merdiven\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #ahmethasim #şiirler"
+ },
+ {
+  "slug": "tr_lib_thoreau_davulcu",
+  "lib_id": "thoreau_walden_drummer",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Herkesten geride mi kaldığını düşünüyorsun?",
+  "hookSub": "Henry David Thoreau · Walden",
+  "stanzas": [
+   [
+    "Başarmak için neden bu kadar umutsuzca acele ediyoruz,",
+    "hem de bu kadar umutsuz girişimlerde?"
+   ],
+   [
+    "Bir insan arkadaşlarıyla aynı adımı tutturamıyorsa,",
+    "belki de başka bir davulcuyu duyduğu içindir."
+   ],
+   [
+    "Duyduğu müziğe göre adım atsın, o müzik ne kadar ağır ya da ne kadar uzaktan gelirse gelsin."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_03.jpg",
+  "caption": "Herkesten geride mi kaldığını düşünüyorsun?\n\nHenry David Thoreau · Walden\n\nSenin duyduğun müzik ne?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #thoreau #felsefe",
+  "source": "Walden (1854); Lumen çevirisi"
  },
  {
   "slug": "pasaj_cibran_dostluk",
@@ -194,6 +381,30 @@
   "caption": "Halil Cibran şöyle der:\n\nHalil Cibran · Dostluk Üzerine\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #halilcibran #felsefe"
  },
  {
+  "slug": "tr_lib_buda_nefret",
+  "lib_id": "dhammapada_3_6",
+  "mode": "prose",
+  "poet": "Buda",
+  "author": "Buda",
+  "title": "Dhammapada",
+  "hook": "Buda şöyle der:",
+  "hookSub": "Dhammapada",
+  "stanzas": [
+   [
+    "“Bana sövdü, beni dövdü, beni yendi, beni soydu”: böyle düşünceler besleyenlerde nefret asla dinmez."
+   ],
+   [
+    "“Bana sövdü, beni dövdü, beni yendi, beni soydu”: böyle düşünceler beslemeyenlerde nefret diner."
+   ],
+   [
+    "Çünkü nefret hiçbir zaman nefretle dinmez; nefret sevgiyle diner, bu eski bir yasadır."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_03.jpg",
+  "caption": "Buda şöyle der:\n\nBuda · Dhammapada\n\nİçinde hâlâ tuttuğun bir kırgınlık var mı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #buda #felsefe",
+  "source": "F. Max Müller translation (1881); Lumen çevirisi"
+ },
+ {
   "slug": "pir_sultan",
   "mode": "poem",
   "poet": "Pir Sultan Abdal",
@@ -212,6 +423,37 @@
   ],
   "reel_bg": "tiktok/friedrich_gezgin.jpg",
   "caption": "Kalabalıkta yalnız kaldın mı?\n\nPir Sultan Abdal · Seyyah Olup Şu Âlemi Gezerim\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #pirsultanabdal #şiirler"
+ },
+ {
+  "slug": "tr_lib_montaigne_dostluk",
+  "lib_id": "montaigne_friendship",
+  "mode": "prose",
+  "poet": "Michel de Montaigne",
+  "author": "Michel de Montaigne",
+  "title": "Denemeler",
+  "hook": "Birini neden sevdiğini açıklayabilir misin?",
+  "hookSub": "Michel de Montaigne · Denemeler",
+  "stanzas": [
+   [
+    "Kaldı ki bizim genellikle dost ve dostluk dediğimiz şeyler,",
+    "bir rastlantıyla ya da bir çıkar uğruna kurulmuş,",
+    "ruhlarımızın aracılığıyla birbiriyle söyleştiği tanışıklıklardan, yakınlıklardan başka bir şey değildir."
+   ],
+   [
+    "Benim sözünü ettiğim dostlukta ise ruhlar birbirine karışır,",
+    "öylesine bütünüyle kaynaşır ki onları birleştiren dikiş silinir, bir daha bulunmaz."
+   ],
+   [
+    "Onu neden sevdiğimi söylemem için üstüme varsalar,",
+    "bunun ancak şöyle karşılık vererek anlatılabileceğini duyarım:"
+   ],
+   [
+    "Çünkü o oydu, çünkü ben bendim."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_00.jpg",
+  "caption": "Birini neden sevdiğini açıklayabilir misin?\n\nMichel de Montaigne · Denemeler\n\nSenin için o kişi kim?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #montaigne #felsefe",
+  "source": "Charles Cotton translation, revised by W. C. Hazlitt (1877); Lumen çevirisi"
  },
  {
   "slug": "marcus_sabah",
@@ -241,6 +483,31 @@
   "caption": "Sabahları kalkmak zor mu geliyor?\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
  },
  {
+  "slug": "tr_lib_mevlana_asli_ebedi",
+  "lib_id": "rumi_divan_eternal_water",
+  "mode": "poem",
+  "poet": "Mevlânâ",
+  "author": "Mevlânâ",
+  "title": "Divan-ı Kebir",
+  "hook": "750 yıl önce, kaybedenler için yazıldı.",
+  "hookSub": "Mevlânâ · Divan-ı Kebir",
+  "stanzas": [
+   [
+    "Gördüğün her biçimin mekânsız âlemde bir aslı vardır;",
+    "Biçim yok olduysa ne gam, onun Aslı ebedîdir."
+   ],
+   [
+    "Gördüğün her güzel suret, duyduğun her derin söz,"
+   ],
+   [
+    "Yok oldu diye üzülme; çünkü öyle değildir."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_00.jpg",
+  "caption": "750 yıl önce, kaybedenler için yazıldı.\n\nMevlânâ · Divan-ı Kebir\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #mevlana #şiirler",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907); Lumen çevirisi"
+ },
+ {
   "slug": "halil_cibran",
   "mode": "poem",
   "poet": "Halil Cibran",
@@ -259,6 +526,36 @@
   ],
   "reel_bg": "tiktok/klimt_opucuk.jpg",
   "caption": "Aşk, sahip olmak değildir.\n\nHalil Cibran · Aşk Üzerine\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #halilcibran #şiirler"
+ },
+ {
+  "slug": "tr_lib_schopenhauer_kayip",
+  "lib_id": "schopenhauer_mine",
+  "mode": "prose",
+  "poet": "Arthur Schopenhauer",
+  "author": "Arthur Schopenhauer",
+  "title": "Yaşam Bilgeliği Üzerine Aforizmalar",
+  "hook": "Schopenhauer şöyle der:",
+  "hookSub": "Yaşam Bilgeliği Üzerine Aforizmalar",
+  "stanzas": [
+   [
+    "Sahip olmadığımız bir şeyi gördüğümüzde içimizde pek kolay şu düşünce belirir: “Ya bu benim olsaydı?”",
+    "Ve bu düşünce yoksunluğumuzu bize hissettirir."
+   ],
+   [
+    "Bunun yerine daha sık şunu sormalıyız: “Ya bu benim olmasaydı?”"
+   ],
+   [
+    "Demek istediğim şu: sahip olduklarımıza ara sıra,",
+    "onları kaybettikten sonra gözümüzde nasıl canlanacaklarsa öyle bakmaya çalışmalıyız;",
+    "hem de ne olursa olsun her birine: mülke, sağlığa, dostlara, sevgiliye, karıya, çocuğa, ata ve köpeğe."
+   ],
+   [
+    "Çünkü çoğu zaman şeylerin değerini bize ancak kayıp öğretir."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_04.jpg",
+  "caption": "Schopenhauer şöyle der:\n\nArthur Schopenhauer · Yaşam Bilgeliği Üzerine Aforizmalar\n\nBugün neyin kıymetini fark ettin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #schopenhauer #felsefe",
+  "source": "T. Bailey Saunders translation (1890); Lumen çevirisi"
  },
  {
   "slug": "marcus_baskalari",
@@ -283,6 +580,32 @@
   "caption": "Marcus Aurelius şöyle der:\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
  },
  {
+  "slug": "tr_lib_dostoyevski_yillar",
+  "lib_id": "dostoevsky_wn_years",
+  "mode": "prose",
+  "poet": "Fyodor Dostoyevski",
+  "author": "Fyodor Dostoyevski",
+  "title": "Beyaz Geceler",
+  "hook": "Yılların nereye gittiğini düşündün mü?",
+  "hookSub": "Fyodor Dostoyevski · Beyaz Geceler",
+  "stanzas": [
+   [
+    "Ve kendine sorarsın: Hani nerede düşlerin?",
+    "Başını sallar, ne çabuk geçiyor yıllar, dersin!"
+   ],
+   [
+    "Ve yine sorarsın kendine: Ne yaptın yıllarını?",
+    "En güzel zamanını nereye gömdün?"
+   ],
+   [
+    "Yaşadın mı, yaşamadın mı?"
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_gezgin.jpg",
+  "caption": "Yılların nereye gittiğini düşündün mü?\n\nFyodor Dostoyevski · Beyaz Geceler\n\nSen bu soruya ne cevap verirdin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #dostoyevski #felsefe",
+  "source": "Constance Garnett translation (1918); Lumen çevirisi"
+ },
+ {
   "slug": "karacaoglan",
   "mode": "poem",
   "poet": "Karacaoğlan",
@@ -301,6 +624,37 @@
   ],
   "reel_bg": "tiktok/hayez_opucuk.jpg",
   "caption": "350 yıllık bir aşk itirafı.\n\nKaracaoğlan · Elâ Gözlerini Sevdiğim Dilber\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #karacaoglan #şiirler"
+ },
+ {
+  "slug": "tr_lib_marcus_ofke",
+  "lib_id": "marcus_11_18",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Kendime Düşünceler",
+  "hook": "Öfken seni güçlü mü gösteriyor?",
+  "hookSub": "Marcus Aurelius · Kendime Düşünceler",
+  "stanzas": [
+   [
+    "Öfkenin coşkusu içindeyken de şu gerçek aklında olsun:",
+    "Tutkuya kapılmak erkekçe değildir;",
+    "yumuşaklık ve nezaket ise insan doğasına daha uygun oldukları gibi, daha da erkekçedir."
+   ],
+   [
+    "Bu niteliklere sahip olan güce, dirence ve cesarete sahiptir;",
+    "öfke ve hoşnutsuzluk nöbetlerine teslim olan değil."
+   ],
+   [
+    "Çünkü insanın aklı her türlü tutkudan kurtulmaya ne kadar yakınsa, güce de o kadar yakındır;",
+    "ve acı duymak nasıl güçsüzlüğün belirtisiyse, öfke de öyledir."
+   ],
+   [
+    "Çünkü acıya boyun eğen de öfkeye boyun eğen de, ikisi de yaralanmıştır, ikisi de teslim olmuştur."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_00.jpg",
+  "caption": "Öfken seni güçlü mü gösteriyor?\n\nMarcus Aurelius · Kendime Düşünceler\n\nEn son ne zaman öfkene yenildin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe",
+  "source": "George Long translation (1862); Lumen çevirisi"
  },
  {
   "slug": "marcus_ruh",
@@ -329,6 +683,39 @@
   "caption": "Kaçacak bir yer mi arıyorsun?\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
  },
  {
+  "slug": "tr_lib_kmm_firsatlar",
+  "lib_id": "kmm_10",
+  "mode": "prose",
+  "poet": "Sabahattin Ali",
+  "author": "Sabahattin Ali",
+  "title": "Kürk Mantolu Madonna",
+  "hook": "Hâlâ aklından çıkmayan bir fırsat var mı?",
+  "hookSub": "Sabahattin Ali · Kürk Mantolu Madonna",
+  "stanzas": [
+   [
+    "Tam kapıdan çıkacağım sırada, karşı evin bir odasında kira ile oturan bekârın radyosu,",
+    "Weber’in Oberon operası uvertürünü çalmağa başladı.",
+    "Az daha elimdeki paketleri yere düşürecektim."
+   ],
+   [
+    "Maria ile beraber gittiğimiz birkaç operadan biri de buydu",
+    "ve onun Weber’e hususî bir muhabbeti olduğunu biliyordum;",
+    "yolda, hep onun uvertürünü ıslıkla çalardı.",
+    "Kendisinden daha dün ayrılmış gibi taze bir hasret duydum."
+   ],
+   [
+    "Kaybedilen en kıymetli eşyanın, servetin,",
+    "her türlü dünya saadetinin acısı zamanla unutuluyor."
+   ],
+   [
+    "Yalnız kaçırılan fırsatlar asla akıldan çıkmıyor ve her hatırlayışta insanın içini sızlatıyor."
+   ]
+  ],
+  "reel_bg": "tiktok/waterhouse_shalott.jpg",
+  "caption": "Hâlâ aklından çıkmayan bir fırsat var mı?\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nSana en çok hangi şarkı birini hatırlatıyor?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe",
+  "source": "Kürk Mantolu Madonna, Remzi Kitabevi 1943 (Vikikaynak)"
+ },
+ {
   "slug": "tr_yalnizlik",
   "mode": "poem",
   "poet": "Orhan Veli",
@@ -351,6 +738,36 @@
   "caption": "Sessizlik seni hiç korkuttu mu?\n\nOrhan Veli Kanık · Yalnızlık Şiiri\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #orhanveli #şiirler"
  },
  {
+  "slug": "tr_lib_cibran_emek",
+  "lib_id": "gibran_prophet_work",
+  "mode": "prose",
+  "poet": "Halil Cibran",
+  "author": "Halil Cibran",
+  "title": "Ermiş",
+  "hook": "Halil Cibran şöyle der:",
+  "hookSub": "Ermiş",
+  "stanzas": [
+   [
+    "Size hayatın karanlık olduğu da söylendi;",
+    "siz de yorgunluğunuz içinde yorgunların söylediklerini yankılıyorsunuz."
+   ],
+   [
+    "Ben de diyorum ki hayat gerçekten de karanlıktır, bir dürtü olmadıkça,",
+    "Ve her dürtü kördür, bilgi olmadıkça,"
+   ],
+   [
+    "Ve her bilgi beyhudedir, emek olmadıkça,",
+    "Ve her emek boştur, sevgi olmadıkça;"
+   ],
+   [
+    "Ve sevgiyle çalıştığınızda kendinizi kendinize, birbirinize ve Tanrı'ya bağlarsınız."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_02.jpg",
+  "caption": "Halil Cibran şöyle der:\n\nHalil Cibran · Ermiş\n\nSen işini sevgiyle mi yapıyorsun?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #halilcibran #felsefe",
+  "source": "Alfred A. Knopf (1923); Lumen çevirisi"
+ },
+ {
   "slug": "marcus_yargi",
   "mode": "prose",
   "poet": "Marcus Aurelius",
@@ -371,6 +788,32 @@
   ],
   "reel_bg": "bg/antik_canli/bg_04.jpg",
   "caption": "Marcus Aurelius şöyle der:\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
+ },
+ {
+  "slug": "tr_lib_nietzsche_nicin",
+  "lib_id": "nietzsche_gd_maxims",
+  "mode": "prose",
+  "poet": "Friedrich Nietzsche",
+  "author": "Friedrich Nietzsche",
+  "title": "Putların Alacakaranlığı",
+  "hook": "Nietzsche şöyle der:",
+  "hookSub": "Putların Alacakaranlığı",
+  "stanzas": [
+   [
+    "Hayatın savaş okulundan.",
+    "Beni öldürmeyen şey güçlendirir."
+   ],
+   [
+    "İnsan kendi eylemlerine karşı korkaklık etmesin!",
+    "Onları sonradan yüzüstü bırakmasın! Vicdan azabı yakışıksızdır."
+   ],
+   [
+    "Hayatının bir “niçin”i olan, hemen her “nasıl”a katlanır."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_01.jpg",
+  "caption": "Nietzsche şöyle der:\n\nFriedrich Nietzsche · Putların Alacakaranlığı\n\nSenin hayatının niçini ne?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #nietzsche #felsefe",
+  "source": "Anthony M. Ludovici translation (1911); Lumen çevirisi"
  },
  {
   "slug": "tr_daglar",
@@ -398,24 +841,33 @@
   "caption": "Şehir sana hiç dar geldi mi?\n\nSabahattin Ali · Dağlar\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #sabahattinali #şiirler"
  },
  {
-  "slug": "marcus_on_bin_yil",
-  "mode": "prose",
-  "poet": "Marcus Aurelius",
-  "author": "Marcus Aurelius",
-  "title": "Kendime Düşünceler",
-  "hook": "Marcus Aurelius şöyle der:",
-  "hookSub": "Kendime Düşünceler, IV. Kitap",
+  "slug": "tr_lib_hayyam_su_gibi",
+  "lib_id": "khayyam_xxvii_xxviii",
+  "mode": "poem",
+  "poet": "Ömer Hayyam",
+  "author": "Ömer Hayyam",
+  "title": "Rubailer",
+  "hook": "Ömer Hayyam bunu 900 yıl önce yazdı:",
+  "hookSub": "Rubailer",
   "stanzas": [
    [
-    "Sanki on bin yıl yaşayacakmışsın gibi davranma.",
-    "Ölüm tepende asılı duruyor."
+    "Gençken Âlimin, Ermişin kapısını",
+    "Hevesle aşındırır, dinlerdim büyük tartışmaları",
+    "Bir o yandan, bir bu yandan: ama her seferinde",
+    "Hangi kapıdan girdiysem ondan çıktım."
    ],
    [
-    "Yaşarken, elindeyken, iyi ol."
+    "Onlarla Bilgelik tohumunu ektim,",
+    "Büyüsün diye kendi elimle emek verdim;",
+    "Ve biçtiğim Hasat yalnızca buydu:"
+   ],
+   [
+    "“Su gibi geldim, Rüzgâr gibi gidiyorum.”"
    ]
   ],
-  "reel_bg": "bg/antik_canli/bg_01.jpg",
-  "caption": "Marcus Aurelius şöyle der:\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
+  "reel_bg": "bg/tasavvuf_canli/bg_03.jpg",
+  "caption": "Ömer Hayyam bunu 900 yıl önce yazdı:\n\nÖmer Hayyam · Rubailer\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #omerhayyam #şiirler",
+  "source": "Edward FitzGerald translation, 5th edition (1889); Lumen çevirisi"
  },
  {
   "slug": "tr_gun_olur",
@@ -439,6 +891,32 @@
   ],
   "reel_bg": "bg/modern_canli/bg_03.jpg",
   "caption": "Hiç alıp başını gitmek istedin mi?\n\nOrhan Veli Kanık · Gün Olur\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #orhanveli #şiirler"
+ },
+ {
+  "slug": "tr_lib_seneca_simdi_yasa",
+  "lib_id": "seneca_brev_09_1",
+  "mode": "prose",
+  "poet": "Seneca",
+  "author": "Seneca",
+  "title": "Hayatın Kısalığı Üzerine",
+  "hook": "Hep yarını mı bekliyorsun?",
+  "hookSub": "Seneca · Hayatın Kısalığı Üzerine",
+  "stanzas": [
+   [
+    "Yaşamanın en büyük engeli beklentidir;",
+    "yarına asılır ve bugünü yitirir."
+   ],
+   [
+    "Talihin elinde olanı düzenliyor, kendi elinde olanı bırakıyorsun.",
+    "Nereye bakıyorsun? Ne kadar uzağa uzanıyorsun?"
+   ],
+   [
+    "Gelecek olan her şey belirsizlik içindedir: Şimdi yaşa."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_02.jpg",
+  "caption": "Hep yarını mı bekliyorsun?\n\nSeneca · Hayatın Kısalığı Üzerine\n\nNeyi yarına bırakıyorsun?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #seneca #felsefe",
+  "source": "Latin text (The Latin Library), our translation; Lumen çevirisi"
  },
  {
   "slug": "dostoyevski_beyaz_geceler",
@@ -467,6 +945,32 @@
   "caption": "Dostoyevski şöyle yazar:\n\nFyodor Dostoyevski · Beyaz Geceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #dostoyevski #felsefe"
  },
  {
+  "slug": "tr_lib_tolstoy_isik",
+  "lib_id": "tolstoy_ivan_light",
+  "mode": "prose",
+  "poet": "Lev Tolstoy",
+  "author": "Lev Tolstoy",
+  "title": "İvan İlyiç'in Ölümü",
+  "hook": "Tolstoy, son anı şöyle yazar:",
+  "hookSub": "İvan İlyiç'in Ölümü",
+  "stanzas": [
+   [
+    "“Ya ölüm? Nerede o?”"
+   ],
+   [
+    "Eskiden alışık olduğu ölüm korkusunu aradı ve bulamadı.",
+    "Nerede o? Ne ölümü?",
+    "Hiçbir korku yoktu, çünkü ölüm de yoktu."
+   ],
+   [
+    "Ölümün yerinde ışık vardı."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_00.jpg",
+  "caption": "Tolstoy, son anı şöyle yazar:\n\nLev Tolstoy · İvan İlyiç'in Ölümü\n\nBu satırlar sende ne bıraktı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #tolstoy #felsefe",
+  "source": "Louise and Aylmer Maude translation; Lumen çevirisi"
+ },
+ {
   "slug": "tr_icinde",
   "mode": "poem",
   "poet": "Orhan Veli",
@@ -486,6 +990,32 @@
   ],
   "reel_bg": "bg/modern_canli/bg_02.jpg",
   "caption": "Her şeyin var ama yine de eksik mi?\n\nOrhan Veli Kanık · İçinde\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #orhanveli #şiirler"
+ },
+ {
+  "slug": "tr_lib_emerson_yanlis_anlasilmak",
+  "lib_id": "emerson_misunderstood",
+  "mode": "prose",
+  "poet": "Ralph Waldo Emerson",
+  "author": "Ralph Waldo Emerson",
+  "title": "Denemeler",
+  "hook": "Yanlış anlaşılmaktan mı korkuyorsun?",
+  "hookSub": "Ralph Waldo Emerson · Denemeler",
+  "stanzas": [
+   [
+    "Yanlış anlaşılmak o kadar kötü mü?"
+   ],
+   [
+    "Pisagor yanlış anlaşıldı;",
+    "Sokrates de, İsa da, Luther de, Kopernik de, Galileo da, Newton da;",
+    "bedene bürünmüş her saf ve bilge ruh yanlış anlaşıldı."
+   ],
+   [
+    "Büyük olmak, yanlış anlaşılmaktır."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_03.jpg",
+  "caption": "Yanlış anlaşılmaktan mı korkuyorsun?\n\nRalph Waldo Emerson · Denemeler\n\nSeni en çok kim yanlış anladı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #emerson #felsefe",
+  "source": "Essays: First Series (1841); Lumen çevirisi"
  },
  {
   "slug": "kurk_mantolu_yalnizlik",
@@ -514,6 +1044,37 @@
   "caption": "Hiç kimseye anlatamadığın bir şey var mı?\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe"
  },
  {
+  "slug": "tr_lib_pascal_kamis",
+  "lib_id": "pascal_reed",
+  "mode": "prose",
+  "poet": "Blaise Pascal",
+  "author": "Blaise Pascal",
+  "title": "Düşünceler",
+  "hook": "Pascal şöyle der:",
+  "hookSub": "Düşünceler",
+  "stanzas": [
+   [
+    "İnsan bir kamıştan başka bir şey değildir, doğanın en zayıf şeyi;",
+    "ama düşünen bir kamıştır."
+   ],
+   [
+    "Onu ezmek için bütün evrenin silahlanmasına gerek yok:",
+    "bir buhar, bir damla su onu öldürmeye yeter."
+   ],
+   [
+    "Ama evren onu ezse bile insan, onu öldürenden yine daha soyludur;",
+    "çünkü öldüğünü ve evrenin kendisinden üstün olduğunu bilir;",
+    "evrense bundan hiçbir şey bilmez."
+   ],
+   [
+    "Demek ki bütün değerimiz düşüncededir."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_01.jpg",
+  "caption": "Pascal şöyle der:\n\nBlaise Pascal · Düşünceler\n\nSeni en çok hangi düşünce ayakta tutuyor?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #pascal #felsefe",
+  "source": "W. F. Trotter translation (1910); Lumen çevirisi"
+ },
+ {
   "slug": "tr_kuslar_yalan",
   "mode": "poem",
   "poet": "Orhan Veli",
@@ -536,6 +1097,31 @@
   ],
   "reel_bg": "bg/modern_canli/bg_04.jpg",
   "caption": "Her bahar aynı yalana inandın mı?\n\nOrhan Veli Kanık · Kuşlar Yalan Söyler\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #orhanveli #şiirler"
+ },
+ {
+  "slug": "tr_lib_tagore_sevdim",
+  "lib_id": "tagore_straybirds_277_280",
+  "mode": "prose",
+  "poet": "Rabindranath Tagore",
+  "author": "Rabindranath Tagore",
+  "title": "Başıboş Kuşlar",
+  "hook": "Tagore şöyle yazar:",
+  "hookSub": "Başıboş Kuşlar",
+  "stanzas": [
+   [
+    "Buluşmanın kandili uzun yanar; ayrılıkta bir anda söner."
+   ],
+   [
+    "Ben öldüğümde, ey Dünya, sessizliğinde benim için tek bir söz sakla: “Sevdim.”",
+    "Bu dünyada, onu sevdiğimizde yaşarız."
+   ],
+   [
+    "Ölüler ünün ölümsüzlüğüne sahip olsun, yaşayanlar ise aşkın ölümsüzlüğüne."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_04.jpg",
+  "caption": "Tagore şöyle yazar:\n\nRabindranath Tagore · Başıboş Kuşlar\n\nSenden geriye hangi söz kalsın isterdin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #tagore #felsefe",
+  "source": "Tagore's own English translation (1916); Lumen çevirisi"
  },
  {
   "slug": "kurk_mantolu_ask",
@@ -563,6 +1149,32 @@
   "caption": "Sabahattin Ali şöyle yazar:\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe"
  },
  {
+  "slug": "tr_lib_epiktetos_rol",
+  "lib_id": "epictetus_ench_17",
+  "mode": "prose",
+  "poet": "Epiktetos",
+  "author": "Epiktetos",
+  "title": "Enkheiridion",
+  "hook": "Hayat sana zor bir rol mü verdi?",
+  "hookSub": "Epiktetos · Enkheiridion",
+  "stanzas": [
+   [
+    "Unutma ki sen, yazarı nasıl dilerse öyle bir oyunda oynayan bir oyuncusun.",
+    "Kısa bir oyun isterse kısa bir oyunda, uzun bir oyun isterse uzun bir oyunda."
+   ],
+   [
+    "Bir yoksulu oynamanı isterse, onu iyi oynamaya bak;",
+    "bir sakatı, bir hükümdarı ya da sıradan bir yurttaşı oynaman gerekse de öyle."
+   ],
+   [
+    "Çünkü senin işin, sana verilen rolü iyi oynamaktır; onu seçmekse bir başkasına düşer."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_03.jpg",
+  "caption": "Hayat sana zor bir rol mü verdi?\n\nEpiktetos · Enkheiridion\n\nŞu an hangi rolü oynuyorsun?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #epiktetos #felsefe",
+  "source": "Thomas Wentworth Higginson translation (1865; Little, Brown 1866 printing); Lumen çevirisi"
+ },
+ {
   "slug": "epiktetos",
   "mode": "prose",
   "poet": "Epiktetos",
@@ -586,6 +1198,37 @@
   ],
   "reel_bg": "bg/antik_canli/bg_02.jpg",
   "caption": "Neyi kontrol edebilirsin?\n\nEpiktetos · Enkheiridion\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #epiktetos #felsefe"
+ },
+ {
+  "slug": "tr_lib_kmm_yasamak",
+  "lib_id": "kmm_06",
+  "mode": "prose",
+  "poet": "Sabahattin Ali",
+  "author": "Sabahattin Ali",
+  "title": "Kürk Mantolu Madonna",
+  "hook": "Sabahattin Ali şöyle yazar:",
+  "hookSub": "Kürk Mantolu Madonna",
+  "stanzas": [
+   [
+    "Kenarlardaki ağaçlardan tek tük düşen yapraklar havada kıvrıntılar yaparak aşağıya süzülüyorlardı.",
+    "Bu karanlık ve sıkıntılı manzara nekadar güzeldi!",
+    "İçime çektiğim bu ıslak hava nekadar tazeydi!"
+   ],
+   [
+    "Yaşamak, tabiatın en küçük kımıldanışlarını sezerek,",
+    "hayatın sarsılmaz bir mantık ile akıp gidişini seyrederek yaşamak;"
+   ],
+   [
+    "herkesten daha çok, daha kuvvetli yaşadığını,",
+    "bir âna bir ömür kadar çok hayat doldurduğunu bilerek yaşamak..."
+   ],
+   [
+    "Ve bilhassa bütün bunları anlatacak bir insanın mevcut olduğunu düşünerek, onu bekliyerek yaşamak..."
+   ]
+  ],
+  "reel_bg": "tiktok/friedrich_kesis.jpg",
+  "caption": "Sabahattin Ali şöyle yazar:\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nHer şeyi anlatmak istediğin biri var mı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe",
+  "source": "Kürk Mantolu Madonna, Remzi Kitabevi 1943 (Vikikaynak)"
  },
  {
   "slug": "seneca_hayat",
@@ -614,6 +1257,36 @@
   "caption": "Seneca şöyle der:\n\nSeneca · Hayatın Kısalığı Üzerine\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #seneca #felsefe"
  },
  {
+  "slug": "tr_lib_rilke_sorulari_yasayin",
+  "lib_id": "rilke_live_the_questions",
+  "mode": "prose",
+  "poet": "Rainer Maria Rilke",
+  "author": "Rainer Maria Rilke",
+  "title": "Genç Bir Şaire Mektuplar",
+  "hook": "Cevabını bulamadığın bir soru mu var?",
+  "hookSub": "Rainer Maria Rilke · Genç Bir Şaire Mektuplar",
+  "stanzas": [
+   [
+    "Öyle gençsiniz ki, her başlangıcın öylesine öncesindesiniz ki,",
+    "sizden elimden geldiğince rica etmek isterim, sevgili efendim:",
+    "yüreğinizde çözülmemiş ne varsa ona karşı sabırlı olun"
+   ],
+   [
+    "ve soruların kendilerini, kilitli odaları ve çok yabancı bir dilde yazılmış kitapları sever gibi sevmeye çalışın."
+   ],
+   [
+    "Size verilemeyecek yanıtları şimdi aramayın, çünkü onları yaşayamazdınız.",
+    "Ve mesele her şeyi yaşamaktır. Şimdi soruları yaşayın."
+   ],
+   [
+    "Belki o zaman, farkına varmadan, uzak bir gün yavaş yavaş yaşaya yaşaya yanıtın içine girersiniz."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_01.jpg",
+  "caption": "Cevabını bulamadığın bir soru mu var?\n\nRainer Maria Rilke · Genç Bir Şaire Mektuplar\n\nŞu sıralar hangi soruyu yaşıyorsun?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #rilke #felsefe",
+  "source": "Translated from the German by Lumen; Lumen çevirisi"
+ },
+ {
   "slug": "nietzsche_kaos",
   "mode": "prose",
   "poet": "Nietzsche",
@@ -633,5 +1306,210 @@
   ],
   "reel_bg": "bg/modern_canli/bg_01.jpg",
   "caption": "İçin karmakarışık mı?\n\nFriedrich Nietzsche · Böyle Buyurdu Zerdüşt\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #nietzsche #felsefe"
+ },
+ {
+  "slug": "tr_lib_thoreau_yalnizlik",
+  "lib_id": "thoreau_walden_solitude",
+  "mode": "prose",
+  "poet": "Henry David Thoreau",
+  "author": "Henry David Thoreau",
+  "title": "Walden",
+  "hook": "Thoreau bunu 170 yıl önce yazdı:",
+  "hookSub": "Walden",
+  "stanzas": [
+   [
+    "Zamanın büyük kısmını yalnız geçirmeyi sağlıklı buluyorum.",
+    "Başkalarıyla birlikte olmak, en iyileriyle bile olsa, çok geçmeden yorar, insanı dağıtır."
+   ],
+   [
+    "Yalnız olmayı seviyorum.",
+    "Yalnızlık kadar iyi yoldaşlık eden bir yoldaşa hiç rastlamadım."
+   ],
+   [
+    "Çoğu zaman insanların arasına çıktığımızda, odamızda kaldığımızdan daha yalnızızdır."
+   ]
+  ],
+  "reel_bg": "bg/modern/bg_02.jpg",
+  "caption": "Thoreau bunu 170 yıl önce yazdı:\n\nHenry David Thoreau · Walden\n\nKalabalıkta mı daha yalnızsın, odanda mı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #thoreau #felsefe",
+  "source": "Walden (1854); Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_buda_kinanmak",
+  "lib_id": "dhammapada_227_228",
+  "mode": "prose",
+  "poet": "Buda",
+  "author": "Buda",
+  "title": "Dhammapada",
+  "hook": "Seni hep eleştiren biri mi var?",
+  "hookSub": "Buda · Dhammapada",
+  "stanzas": [
+   [
+    "Bu eski bir sözdür, ey Atula, yalnızca bugüne ait değildir:",
+    "‘Sessiz oturanı kınarlar, çok konuşanı kınarlar, az konuşanı da kınarlar;",
+    "yeryüzünde kınanmayan kimse yoktur.’"
+   ],
+   [
+    "Hep kınanan ya da hep övülen bir insan ne olmuştur, ne olacaktır, ne de şimdi vardır."
+   ]
+  ],
+  "reel_bg": "bg/dogu_canli/bg_00.jpg",
+  "caption": "Seni hep eleştiren biri mi var?\n\nBuda · Dhammapada\n\nBu satırları kime göstermek istersin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #buda #felsefe",
+  "source": "F. Max Müller translation (1881); Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_larochefoucauld_ask",
+  "lib_id": "larochefoucauld_love",
+  "mode": "prose",
+  "poet": "François de La Rochefoucauld",
+  "author": "François de La Rochefoucauld",
+  "title": "Maksimler",
+  "hook": "La Rochefoucauld şöyle der:",
+  "hookSub": "Maksimler",
+  "stanzas": [
+   [
+    "Hiçbir kılık, aşkı olduğu yerde uzun süre gizleyemez, olmadığı yerde de taklit edemez."
+   ],
+   [
+    "Artık birbirini sevmeyip de bir zamanlar sevmiş olmaktan utanmayan pek az insan vardır."
+   ],
+   [
+    "Aşkı etkilerinin çoğuna bakarak yargılarsak, dostluktan çok nefrete benzer.",
+    "Aşk da ateş gibi durmaksızın kıpırdamadan yaşayamaz; umut etmeyi ya da korkmayı bıraktığı anda yaşamayı da bırakır."
+   ],
+   [
+    "Gerçek aşk hayaletlere benzer: herkes ondan söz eder, ama pek az kişi onu görmüştür."
+   ]
+  ],
+  "reel_bg": "bg/ronesans_canli/bg_03.jpg",
+  "caption": "La Rochefoucauld şöyle der:\n\nFrançois de La Rochefoucauld · Maksimler\n\nSen gerçek aşkı gördün mü?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #larochefoucauld #felsefe",
+  "source": "J. W. Willis Bund & J. Hain Friswell translation (1871); Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_kafka_masanda_kal",
+  "lib_id": "kafka_stay_at_your_table",
+  "mode": "prose",
+  "poet": "Franz Kafka",
+  "author": "Franz Kafka",
+  "title": "Zürau Aforizmaları",
+  "hook": "Kafka bunu 1917'de yazdı:",
+  "hookSub": "Zürau Aforizmaları",
+  "stanzas": [
+   [
+    "Evden çıkmana gerek yok. Masanda kal ve kulak ver."
+   ],
+   [
+    "Kulak bile verme, yalnızca bekle.",
+    "Bekleme bile, tümüyle sessiz ve yalnız ol."
+   ],
+   [
+    "Dünya maskesini düşürmen için kendini sana sunacak, başka türlüsünü yapamaz, kendinden geçmiş, önünde kıvranacak."
+   ]
+  ],
+  "reel_bg": "bg/modern_canli/bg_02.jpg",
+  "caption": "Kafka bunu 1917'de yazdı:\n\nFranz Kafka · Zürau Aforizmaları\n\nEn son ne zaman hiçbir şey yapmadan bekledin?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #kafka #felsefe",
+  "source": "Translated from the German by Lumen; Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_marcus_simdi",
+  "lib_id": "marcus_08_36",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Kendime Düşünceler",
+  "hook": "Her şey üst üste mi geliyor?",
+  "hookSub": "Marcus Aurelius · Kendime Düşünceler",
+  "stanzas": [
+   [
+    "Bütün hayatını düşünerek kendini tedirgin etme.",
+    "Başına gelebileceğini umduğun türlü sıkıntıları düşüncelerinde bir anda kucaklamaya kalkma;"
+   ],
+   [
+    "her seferinde kendine sor: “Bunda dayanılmaz, katlanılmaz olan ne var?”",
+    "Çünkü bunu itiraf etmekten utanacaksın."
+   ],
+   [
+    "Sonra şunu hatırla: Seni üzen ne gelecektir ne geçmiş; yalnızca şimdidir."
+   ]
+  ],
+  "reel_bg": "bg/antik/bg_02.jpg",
+  "caption": "Her şey üst üste mi geliyor?\n\nMarcus Aurelius · Kendime Düşünceler\n\nBugün seni en çok ne yoruyor?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe",
+  "source": "George Long translation (1862); Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_mevlana_batis_dogus",
+  "lib_id": "rumi_divan_life_in_death",
+  "mode": "poem",
+  "poet": "Mevlânâ",
+  "author": "Mevlânâ",
+  "title": "Divan-ı Kebir",
+  "hook": "Mevlânâ, ölümü böyle anlatır:",
+  "hookSub": "Divan-ı Kebir",
+  "stanzas": [
+   [
+    "Beni toprağa verdiğinde “Elveda, elveda!” deme;",
+    "Çünkü mezar, Cennet'teki beraberliği örten bir perdedir."
+   ],
+   [
+    "İnişi gördükten sonra dirilişi düşün;",
+    "Batmak güneşe ve aya neden zarar versin?",
+    "Sana batış gibi görünür, oysa doğuştur;"
+   ],
+   [
+    "Mezar bir zindan gibi görünse de, ruhun kurtuluşudur."
+   ]
+  ],
+  "reel_bg": "bg/tasavvuf_canli/bg_04.jpg",
+  "caption": "Mevlânâ, ölümü böyle anlatır:\n\nMevlânâ · Divan-ı Kebir\n\nBu dizeleri kime göndermek istersin?\n\nHer sabah bir şiir, ana ekranında: Lumen (profildeki bağlantı)\n\n#şiir #mevlana #şiirler",
+  "source": "Reynold A. Nicholson translation (Selected Poems from the Divani Shamsi Tabriz, 1898), as reprinted in F. Hadland Davis, The Persian Mystics: Jalálu'd-Dín Rúmí (1907); Lumen çevirisi"
+ },
+ {
+  "slug": "tr_lib_kmm_hadi_git",
+  "lib_id": "kmm_09",
+  "mode": "prose",
+  "poet": "Sabahattin Ali",
+  "author": "Sabahattin Ali",
+  "title": "Kürk Mantolu Madonna",
+  "hook": "Bir dostluğu aşk uğruna kaybettin mi?",
+  "hookSub": "Sabahattin Ali · Kürk Mantolu Madonna",
+  "stanzas": [
+   [
+    "Seninle aramızdaki yakınlaşmanın bir hududu, bir sonu olmamasını nekadar isterdim.",
+    "Beni asıl, bu ümidin de boşa çıkması üzüyor..."
+   ],
+   [
+    "Bundan sonra kendimizi aldatmıya lüzum yok...",
+    "Artık eskisi gibi apaçık konuşamayız...",
+    "İki delişmen arkadaş gibi elele verip dolaşamayız..."
+   ],
+   [
+    "Bunları ne diye, neyin uğrunda feda ettik? Hiç!.."
+   ],
+   [
+    "Mevcut olmıyan bir şeye malik olalım derken mevcut olanları kaybettik..."
+   ]
+  ],
+  "reel_bg": "tiktok/klimt_opucuk.jpg",
+  "caption": "Bir dostluğu aşk uğruna kaybettin mi?\n\nSabahattin Ali · Kürk Mantolu Madonna\n\nGeri almak istediğin bir yakınlık var mı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #sabahattinali #felsefe",
+  "source": "Kürk Mantolu Madonna, Remzi Kitabevi 1943 (Vikikaynak)"
+ },
+ {
+  "slug": "marcus_on_bin_yil",
+  "mode": "prose",
+  "poet": "Marcus Aurelius",
+  "author": "Marcus Aurelius",
+  "title": "Kendime Düşünceler",
+  "hook": "Marcus Aurelius şöyle der:",
+  "hookSub": "Kendime Düşünceler, IV. Kitap",
+  "stanzas": [
+   [
+    "Sanki on bin yıl yaşayacakmışsın gibi davranma.",
+    "Ölüm tepende asılı duruyor."
+   ],
+   [
+    "Yaşarken, elindeyken, iyi ol."
+   ]
+  ],
+  "reel_bg": "bg/antik_canli/bg_01.jpg",
+  "caption": "Marcus Aurelius şöyle der:\n\nMarcus Aurelius · Kendime Düşünceler\n\nBu satırlar sana ne hatırlattı?\n\nHer sabah bir pasaj, ana ekranında: Lumen (profildeki bağlantı)\n\n#edebiyat #marcusaurelius #felsefe"
  }
 ]
