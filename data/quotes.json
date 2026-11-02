@@ -42,27 +42,6 @@
     "source": "Masnavi"
   },
   {
-    "id": "10000000-0000-0000-0000-000000000003",
-    "figure_id": "00000000-0000-0000-0000-000000000001",
-    "texts": {
-      "tr": "Güzellik, gören gözde değil, seven gönüldedir.",
-      "en": "Beauty is not in the face; beauty is a light in the heart.",
-      "ar": "الجمال ليس في الوجه، بل هو نور في القلب.",
-      "es": "La belleza no está en el rostro; la belleza es una luz en el corazón.",
-      "fr": "La beauté n'est pas dans le visage ; la beauté est une lumière dans le cœur.",
-      "de": "Schönheit liegt nicht im Gesicht; Schönheit ist ein Licht im Herzen.",
-      "ru": "Красота не в лице — красота есть свет в сердце.",
-      "pt": "A beleza não está no rosto; a beleza é uma luz no coração.",
-      "it": "La bellezza non è nel volto; la bellezza è una luce nel cuore.",
-      "hi": "सुंदरता चेहरे में नहीं होती; सुंदरता हृदय में एक रोशनी है।"
-    },
-    "tags": [
-      "love",
-      "literary"
-    ],
-    "source": "Divan-i Kebir"
-  },
-  {
     "id": "10000000-0000-0000-0000-000000000004",
     "figure_id": "00000000-0000-0000-0000-000000000001",
     "texts": {
@@ -423,22 +402,22 @@
     "id": "10000000-0000-0000-0000-000000000021",
     "figure_id": "00000000-0000-0000-0000-000000000003",
     "texts": {
-      "tr": "Nereye gidersen git, tüm kalbinle git.",
-      "en": "Wherever you go, go with all your heart.",
-      "ar": "أينما ذهبت، اذهب بكل قلبك.",
-      "es": "Vayas donde vayas, ve con todo tu corazón.",
-      "fr": "Où que tu ailles, vas-y de tout ton cœur.",
-      "de": "Wohin du auch gehst, geh mit ganzem Herzen.",
-      "ru": "Куда бы ты ни шёл, иди всем сердцем.",
-      "pt": "Aonde quer que vá, vá com todo o seu coração.",
-      "it": "Ovunque tu vada, vai con tutto il cuore.",
-      "hi": "तुम जहाँ भी जाओ, पूरे दिल से जाओ।"
+      "tr": "Erdemli insan aradığını kendinde arar; küçük insan ise başkalarında.",
+      "en": "What the superior man seeks is in himself. What the mean man seeks is in others.",
+      "ar": "الرجلُ الفاضل يطلب ما يريده في نفسه، والرجلُ الوضيع يطلبه في الآخرين.",
+      "es": "Lo que busca el hombre superior está en sí mismo; lo que busca el hombre vulgar está en los demás.",
+      "fr": "Ce que cherche l'homme supérieur est en lui-même ; ce que cherche l'homme vulgaire est chez les autres.",
+      "de": "Was der Edle sucht, liegt in ihm selbst; was der Gemeine sucht, liegt bei den anderen.",
+      "ru": "Благородный муж ищет в себе, низкий человек ищет в других.",
+      "pt": "O que o homem superior procura está nele mesmo; o que o homem vulgar procura está nos outros.",
+      "it": "Ciò che cerca l'uomo superiore è in sé stesso; ciò che cerca l'uomo meschino è negli altri.",
+      "hi": "श्रेष्ठ व्यक्ति जो खोजता है, वह उसके भीतर है; तुच्छ व्यक्ति जो खोजता है, वह दूसरों में है।"
     },
     "tags": [
       "motivation",
       "courage"
     ],
-    "source": "Analects"
+    "source": "Analects, 15:20 (tr. Legge)"
   },
   {
     "id": "10000000-0000-0000-0000-000000000022",
@@ -465,22 +444,22 @@
     "id": "10000000-0000-0000-0000-000000000023",
     "figure_id": "00000000-0000-0000-0000-000000000003",
     "texts": {
-      "tr": "Bin millik bir yolculuk tek bir adımla başlar.",
-      "en": "A journey of a thousand miles begins with a single step.",
-      "ar": "رحلة الألف ميل تبدأ بخطوة واحدة.",
-      "es": "Un viaje de mil millas comienza con un solo paso.",
-      "fr": "Un voyage de mille lieues commence par un seul pas.",
-      "de": "Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt.",
-      "ru": "Путь в тысячу миль начинается с одного шага.",
-      "pt": "Uma jornada de mil milhas começa com um único passo.",
-      "it": "Un viaggio di mille miglia inizia con un singolo passo.",
-      "hi": "हज़ार मील की यात्रा एक कदम से शुरू होती है।"
+      "tr": "Erdemli insan sözünde alçakgönüllüdür, ama işinde sözünü aşar.",
+      "en": "The superior man is modest in his speech, but exceeds in his actions.",
+      "ar": "الرجلُ الفاضل متواضعٌ في قوله، لكنه يتجاوزه في فعله.",
+      "es": "El hombre superior es modesto en sus palabras, pero las supera con sus actos.",
+      "fr": "L'homme supérieur est modeste dans ses paroles, mais les dépasse dans ses actes.",
+      "de": "Der Edle ist bescheiden in seinen Worten, doch übertrifft sie in seinen Taten.",
+      "ru": "Благородный муж скромен в речах, но превосходит их в делах.",
+      "pt": "O homem superior é modesto nas palavras, mas as supera nas ações.",
+      "it": "L'uomo superiore è modesto nelle parole, ma le supera con le azioni.",
+      "hi": "श्रेष्ठ व्यक्ति बोलने में विनम्र होता है, पर करने में अपने शब्दों से आगे निकल जाता है।"
     },
     "tags": [
       "motivation",
       "success"
     ],
-    "source": "Analects"
+    "source": "Analects, 14:29 (tr. Legge)"
   },
   {
     "id": "10000000-0000-0000-0000-000000000024",
@@ -1024,27 +1003,6 @@
     "source": "Letters to Lucilius, 13"
   },
   {
-    "id": "10000000-0000-0000-0000-000000000050",
-    "figure_id": "00000000-0000-0000-0000-000000000005",
-    "texts": {
-      "tr": "Zamanımız az değil, kaybettiğimiz çok. Nasıl kullanacağını bilene hayat yeterince uzundur.",
-      "en": "It is not that we have so little time, but that we lose so much. Life is long enough if you know how to use it.",
-      "ar": "ليس أن لدينا وقتًا قليلًا جدًا، بل إننا نُضيع الكثير. الحياة طويلة بما يكفي إن عرفت كيف تستخدمها.",
-      "es": "No es que tengamos tan poco tiempo, sino que perdemos mucho. La vida es lo suficientemente larga si sabes cómo usarla.",
-      "fr": "Ce n'est pas que nous ayons si peu de temps, mais que nous en perdons beaucoup. La vie est assez longue si l'on sait l'utiliser.",
-      "de": "Es ist nicht so, dass wir so wenig Zeit haben, sondern dass wir so viel verlieren. Das Leben ist lang genug, wenn man es zu nutzen weiß.",
-      "ru": "Дело не в том, что у нас мало времени, а в том, что мы много теряем. Жизнь достаточно длинна, если знаешь, как её использовать.",
-      "pt": "Não é que tenhamos tão pouco tempo, mas que perdemos muito. A vida é longa o suficiente se você souber como usá-la.",
-      "it": "Non è che abbiamo così poco tempo, ma che ne perdiamo molto. La vita è abbastanza lunga se sai come usarla.",
-      "hi": "यह नहीं कि हमारे पास बहुत कम समय है, बल्कि हम बहुत कुछ खो देते हैं। जीवन काफ़ी लंबा है यदि आप इसे इस्तेमाल करना जानते हैं।"
-    },
-    "tags": [
-      "success",
-      "lifeWisdom"
-    ],
-    "source": "On the Shortness of Life"
-  },
-  {
     "id": "10000000-0000-0000-0000-000000000051",
     "figure_id": "00000000-0000-0000-0000-000000000006",
     "texts": {
@@ -1313,27 +1271,6 @@
       "courage"
     ],
     "source": "Republic, Book 3"
-  },
-  {
-    "id": "10000000-0000-0000-0000-000000000064",
-    "figure_id": "00000000-0000-0000-0000-000000000007",
-    "texts": {
-      "tr": "Gördüğün her insana nazik ol; çünkü herkes zor bir savaş veriyor.",
-      "en": "Be kind, for everyone you meet is fighting a hard battle.",
-      "ar": "كن لطيفًا، فكل شخص تقابله يخوض معركة صعبة.",
-      "es": "Sé amable, porque cada persona que encuentras está librando una dura batalla.",
-      "fr": "Sois gentil, car chaque personne que tu rencontres mène un combat difficile.",
-      "de": "Sei freundlich, denn jeder, dem du begegnest, kämpft einen harten Kampf.",
-      "ru": "Будь добр, ведь каждый, кого ты встречаешь, ведёт тяжёлую борьбу.",
-      "pt": "Seja gentil, pois cada pessoa que você encontra está travando uma batalha difícil.",
-      "it": "Sii gentile, perché ogni persona che incontri sta combattendo una dura battaglia.",
-      "hi": "दयालु बनो, क्योंकि तुम जिससे भी मिलते हो वह एक कठिन लड़ाई लड़ रहा है।"
-    },
-    "tags": [
-      "love",
-      "lifeWisdom"
-    ],
-    "source": null
   },
   {
     "id": "10000000-0000-0000-0000-000000000065",
@@ -1877,22 +1814,22 @@
     "id": "10000000-0000-0000-0000-000000000091",
     "figure_id": "00000000-0000-0000-0000-000000000010",
     "texts": {
-      "tr": "Zihin her şeydir. Ne düşünürsen, o olursun.",
-      "en": "The mind is everything. What you think, you become.",
-      "ar": "العقل هو كل شيء. ما تفكر فيه، تصبحه.",
-      "es": "La mente lo es todo. Lo que piensas, te conviertes.",
-      "fr": "L'esprit est tout. Ce que tu penses, tu le deviens.",
-      "de": "Der Geist ist alles. Was du denkst, wirst du.",
-      "ru": "Ум — это всё. Что ты думаешь, тем ты становишься.",
-      "pt": "A mente é tudo. O que você pensa, você se torna.",
-      "it": "La mente è tutto. Ciò che pensi, diventi.",
-      "hi": "मन ही सब कुछ है। जो तुम सोचते हो, वही बन जाते हो।"
+      "tr": "Olduğumuz her şey düşündüklerimizin sonucudur: düşüncelerimiz üzerine kuruludur, düşüncelerimizden yapılmıştır.",
+      "en": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+      "ar": "كلُّ ما نحن عليه هو ثمرةُ ما فكّرنا فيه: إنه قائمٌ على أفكارنا، ومصنوعٌ من أفكارنا.",
+      "es": "Todo lo que somos es el resultado de lo que hemos pensado: se funda en nuestros pensamientos, está hecho de nuestros pensamientos.",
+      "fr": "Tout ce que nous sommes est le fruit de ce que nous avons pensé : cela est fondé sur nos pensées, cela est fait de nos pensées.",
+      "de": "Alles, was wir sind, ist das Ergebnis dessen, was wir gedacht haben: Es gründet auf unseren Gedanken, es ist aus unseren Gedanken gemacht.",
+      "ru": "Всё, что мы есть, — результат того, что мы думали: это основано на наших мыслях, это создано из наших мыслей.",
+      "pt": "Tudo o que somos é o resultado do que pensamos: está fundado em nossos pensamentos, é feito de nossos pensamentos.",
+      "it": "Tutto ciò che siamo è il risultato di ciò che abbiamo pensato: è fondato sui nostri pensieri, è fatto dei nostri pensieri.",
+      "hi": "हम जो कुछ भी हैं, वह हमारे विचारों का परिणाम है: वह हमारे विचारों पर टिका है, हमारे विचारों से बना है।"
     },
     "tags": [
       "innerPeace",
       "motivation"
     ],
-    "source": "Dhammapada, 1:1"
+    "source": "Dhammapada, 1 (tr. Müller)"
   },
   {
     "id": "10000000-0000-0000-0000-000000000092",
@@ -2502,22 +2439,22 @@
     "id": "10000000-0000-0000-0000-000000000121",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Dün geçti. Yarın henüz gelmedi. Elimizde yalnızca bugün var. Haydi başlayalım.",
-      "en": "Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.",
-      "ar": "الأمس مضى. والغد لم يأتِ بعد. ليس لدينا سوى اليوم. فلنبدأ.",
-      "es": "El ayer se fue. El mañana aún no ha llegado. Solo tenemos hoy. Comencemos.",
-      "fr": "Hier est parti. Demain n'est pas encore venu. Nous n'avons qu'aujourd'hui. Commençons.",
-      "de": "Gestern ist vergangen. Morgen ist noch nicht gekommen. Wir haben nur heute. Lasst uns beginnen.",
-      "ru": "Вчера ушло. Завтра ещё не наступило. У нас есть только сегодня. Начнём.",
-      "pt": "O ontem se foi. O amanhã ainda não chegou. Só temos hoje. Comecemos.",
-      "it": "Ieri è andato. Il domani non è ancora arrivato. Abbiamo solo oggi. Cominciamo.",
-      "hi": "कल बीत गया। कल अभी आया नहीं। हमारे पास केवल आज है। आइए शुरू करें।"
+      "tr": "Yazan Parmak yazar ve yazdıktan sonra geçip gider: ne bütün dindarlığın ne aklın onu geri çağırıp yarım satırı sildirebilir, ne de bütün gözyaşların tek bir kelimesini yıkayabilir.",
+      "en": "The Moving Finger writes; and, having writ, moves on: nor all thy Piety nor Wit shall lure it back to cancel half a Line, nor all thy Tears wash out a Word of it.",
+      "ar": "الإصبعُ المتحرّكُ يكتب، وإذا كتب مضى؛ فلا تقواك ولا ذكاؤك يردّانه ليمحو نصف سطر، ولا دموعك كلّها تغسل منه كلمة واحدة.",
+      "es": "El Dedo que se mueve escribe y, una vez escrito, sigue adelante: ni toda tu piedad ni tu ingenio lo harán volver a borrar media línea, ni todas tus lágrimas lavarán una sola palabra.",
+      "fr": "Le Doigt mouvant écrit et, ayant écrit, passe outre : ni toute ta piété ni ton esprit ne le feront revenir pour effacer une demi-ligne, ni toutes tes larmes n'en laveront un seul mot.",
+      "de": "Der wandernde Finger schreibt, und hat er geschrieben, zieht er weiter: Weder all deine Frömmigkeit noch dein Witz locken ihn zurück, um eine halbe Zeile zu tilgen, noch waschen all deine Tränen ein einziges Wort davon fort.",
+      "ru": "Движущийся Перст пишет и, написав, движется дальше: ни благочестие твоё, ни ум не заставят его вернуться и стереть полстроки, и все твои слёзы не смоют ни слова.",
+      "pt": "O Dedo que se move escreve e, tendo escrito, segue adiante: nem toda a tua piedade nem o teu engenho o farão voltar para apagar meia linha, nem todas as tuas lágrimas lavarão uma só palavra.",
+      "it": "Il Dito che si muove scrive e, scritto, va oltre: né tutta la tua pietà né il tuo ingegno lo indurranno a tornare per cancellare mezza riga, né tutte le tue lacrime ne laveranno una parola.",
+      "hi": "चलती उँगली लिखती है, और लिखकर आगे बढ़ जाती है: न तुम्हारी सारी भक्ति, न तुम्हारी बुद्धि उसे लौटाकर आधी पंक्ति भी मिटवा सकती है, न तुम्हारे सारे आँसू उसका एक शब्द धो सकते हैं।"
     },
     "tags": [
       "motivation",
       "innerPeace"
     ],
-    "source": "Rubaiyat, XXVIII"
+    "source": "Rubáiyát, tr. FitzGerald (1859), LI"
   },
   {
     "id": "10000000-0000-0000-0000-000000000122",
@@ -2544,167 +2481,167 @@
     "id": "10000000-0000-0000-0000-000000000123",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Gökyüzünü incele; orada sonsuzluğun ve kendi küçüklüğünün izlerini bulursun.",
-      "en": "Look at the sky. Study the stars. There you will find both infinity and your own smallness.",
-      "ar": "انظر إلى السماء. تأمّل النجوم. هناك ستجد اللانهاية وصغرك معًا.",
-      "es": "Mira el cielo. Estudia las estrellas. Allí encontrarás tanto el infinito como tu propia pequeñez.",
-      "fr": "Regarde le ciel. Étudie les étoiles. Tu y trouveras l'infini et ta propre petitesse.",
-      "de": "Schau zum Himmel. Betrachte die Sterne. Dort findest du sowohl die Unendlichkeit als auch deine eigene Kleinheit.",
-      "ru": "Посмотри на небо. Изучай звёзды. Там ты найдёшь и бесконечность, и собственную малость.",
-      "pt": "Olhe para o céu. Estude as estrelas. Lá encontrará tanto o infinito quanto a sua própria pequenez.",
-      "it": "Guarda il cielo. Studia le stelle. Lì troverai sia l'infinito che la tua stessa piccolezza.",
-      "hi": "आकाश को देखो। तारों का अध्ययन करो। वहाँ तुम अनंत और अपनी लघुता दोनों पाओगे।"
+      "tr": "Ah, harcayabileceğimiz ne kaldıysa tadını çıkaralım, biz de toprağa inmeden önce.",
+      "en": "Ah, make the most of what we yet may spend, before we too into the Dust descend.",
+      "ar": "آهٍ، لنغتنمْ ما بقي لنا أن ننفقه، قبل أن ننحدر نحن أيضًا إلى التراب.",
+      "es": "Ah, aprovechemos lo que aún podemos gastar, antes de que también nosotros descendamos al polvo.",
+      "fr": "Ah, profitons de ce qu'il nous reste à dépenser, avant de descendre, nous aussi, dans la poussière.",
+      "de": "Ach, nutzt, was wir noch zu verbrauchen haben, bevor auch wir in den Staub hinabsteigen.",
+      "ru": "О, возьмём всё от того, что ещё можем потратить, прежде чем и мы сойдём во прах.",
+      "pt": "Ah, aproveitemos o que ainda podemos gastar, antes que também nós desçamos ao pó.",
+      "it": "Ah, godiamo ciò che ancora possiamo spendere, prima che anche noi scendiamo nella polvere.",
+      "hi": "आह, जो कुछ अभी ख़र्च करने को बचा है उसका पूरा आनंद लो, इससे पहले कि हम भी मिट्टी में उतर जाएँ।"
     },
     "tags": [
       "nature",
       "lifeWisdom"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (1859), XXIII"
   },
   {
     "id": "10000000-0000-0000-0000-000000000124",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Kendin ol. Başkalarının rolü zaten dolu.",
-      "en": "Be yourself. Everyone else is already taken.",
-      "ar": "كن نفسك. فالجميع قد أُخذوا بالفعل.",
-      "es": "Sé tú mismo. Todos los demás ya están ocupados.",
-      "fr": "Sois toi-même. Tous les autres sont déjà pris.",
-      "de": "Sei du selbst, alle anderen sind schon vergeben.",
-      "ru": "Будь собой. Все остальные роли уже заняты.",
-      "pt": "Seja você mesmo. Todos os outros já estão ocupados.",
-      "it": "Sii te stesso. Tutti gli altri sono già presi.",
-      "hi": "स्वयं बनो। बाकी सब पहले से ले लिए गए हैं।"
+      "tr": "Ruhumu görünmeyenin içine gönderdim, öbür dünyadan bir harf okusun diye: Sonra ruhum bana döndü ve dedi ki: \"Cennet de cehennem de benim.\"",
+      "en": "I sent my Soul through the Invisible, some letter of that After-life to spell: and by and by my Soul return'd to me, and answer'd: \"I Myself am Heav'n and Hell.\"",
+      "ar": "أرسلتُ روحي عبر الغيب لتقرأ حرفًا من رسالة الحياة الأخرى، فما لبثت روحي أن عادت إليّ وأجابت: «أنا نفسي الجنّةُ والجحيم».",
+      "es": "Envié mi Alma a través de lo Invisible para descifrar alguna letra de la otra vida; y al cabo mi Alma volvió a mí y respondió: «Yo misma soy el Cielo y el Infierno».",
+      "fr": "J'ai envoyé mon Âme à travers l'Invisible déchiffrer quelque lettre de l'au-delà ; et bientôt mon Âme m'est revenue et m'a répondu : « Je suis moi-même le Ciel et l'Enfer. »",
+      "de": "Ich sandte meine Seele durch das Unsichtbare, um einen Buchstaben jenes Jenseits zu entziffern; und bald kehrte meine Seele zu mir zurück und antwortete: „Ich selbst bin Himmel und Hölle.“",
+      "ru": "Я душу посылал в Незримое, чтоб прочесть хоть букву о загробной жизни; и вскоре душа вернулась ко мне и ответила: «Я сама и Рай, и Ад».",
+      "pt": "Enviei minha Alma através do Invisível para decifrar alguma letra da outra vida; e logo minha Alma voltou a mim e respondeu: «Eu mesma sou o Céu e o Inferno.»",
+      "it": "Mandai la mia Anima attraverso l'Invisibile a decifrare qualche lettera dell'aldilà; e presto la mia Anima tornò da me e rispose: «Io stessa sono il Cielo e l'Inferno.»",
+      "hi": "मैंने अपनी आत्मा को अदृश्य के पार भेजा, परलोक का कोई अक्षर पढ़ने; और कुछ देर बाद मेरी आत्मा मेरे पास लौटी और बोली: \"स्वर्ग और नरक, दोनों मैं ही हूँ।\""
     },
     "tags": [
       "courage",
       "lifeWisdom"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (5th ed., 1889), LXVI"
   },
   {
     "id": "10000000-0000-0000-0000-000000000125",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Dünya bir kervansaraydır; kimse sonsuza dek kalmaz. Bir şeyler bırak ki izin kalsın.",
-      "en": "The world is a caravansary; no one stays forever. Leave something behind so your mark remains.",
-      "ar": "الدنيا خان؛ لا أحد يبقى فيها إلى الأبد. اترك أثرًا كي يبقى ذكرك.",
-      "es": "El mundo es un caravasar; nadie se queda para siempre. Deja algo para que tu huella perdure.",
-      "fr": "Le monde est un caravansérail ; personne n'y reste pour toujours. Laisse quelque chose afin que ta trace demeure.",
-      "de": "Die Welt ist eine Karawanserei; niemand bleibt für immer. Hinterlasse etwas, damit deine Spur bleibt.",
-      "ru": "Мир — это караван-сарай; никто не остаётся навечно. Оставь что-нибудь, чтобы твой след сохранился.",
-      "pt": "O mundo é um caravançará; ninguém fica para sempre. Deixe algo para que sua marca permaneça.",
-      "it": "Il mondo è un caravanserraglio; nessuno resta per sempre. Lascia qualcosa affinché il tuo segno rimanga.",
-      "hi": "दुनिया एक सराय है; कोई हमेशा नहीं रहता। कुछ छोड़ जाओ ताकि तुम्हारा निशान बना रहे।"
+      "tr": "Düşün, kapıları sırayla gece ve gündüz olan bu yıpranmış kervansarayda, sultan ardından sultan nasıl tüm debdebesiyle yazılı saatini bekleyip yoluna gitti.",
+      "en": "Think, in this batter'd Caravanserai whose Doorways are alternate Night and Day, how Sultan after Sultan with his Pomp abode his Hour or two, and went his way.",
+      "ar": "تأمّل، في هذا الخانِ المتهالك الذي بابَاه الليلُ والنهار يتعاقبان، كيف أقام سلطانٌ بعد سلطان بأُبّهته ساعةً أو ساعتين، ثم مضى في سبيله.",
+      "es": "Piensa cómo, en este gastado caravasar cuyas puertas son alternativamente la Noche y el Día, sultán tras sultán, con toda su pompa, se quedó una hora o dos y siguió su camino.",
+      "fr": "Songe qu'en ce caravansérail délabré dont les portes sont tour à tour la Nuit et le Jour, sultan après sultan, avec toute sa pompe, est resté une heure ou deux, puis s'en est allé.",
+      "de": "Bedenk, wie in dieser verfallenen Karawanserei, deren Tore abwechselnd Nacht und Tag sind, Sultan um Sultan mit all seinem Prunk ein, zwei Stunden verweilte und seines Weges zog.",
+      "ru": "Подумай: в этом ветхом караван-сарае, чьи ворота попеременно Ночь и День, султан за султаном со всей своей пышностью пробыл час или два и ушёл своей дорогой.",
+      "pt": "Pensa como, neste gasto caravançará cujas portas são alternadamente a Noite e o Dia, sultão após sultão, com toda a sua pompa, ficou uma hora ou duas e seguiu o seu caminho.",
+      "it": "Pensa come, in questo logoro caravanserraglio le cui porte sono a turno la Notte e il Giorno, sultano dopo sultano, con tutto il suo fasto, sostò un'ora o due e se ne andò per la sua strada.",
+      "hi": "सोचो, इस जर्जर सराय में, जिसके दरवाज़े बारी-बारी से रात और दिन हैं, कैसे एक के बाद एक सुल्तान अपनी पूरी शान के साथ घड़ी-दो घड़ी ठहरा और अपनी राह चला गया।"
     },
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (1859), XVI"
   },
   {
     "id": "10000000-0000-0000-0000-000000000126",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Şarabı bardakta bırakma; hayatı da erteleme. Her an bir armağandır.",
-      "en": "Don’t let wine sit in the glass; don’t postpone life. Every moment is a gift.",
-      "ar": "لا تدع الخمر في الكأس؛ ولا تؤجّل الحياة. كلّ لحظة هديّة.",
-      "es": "No dejes el vino en la copa; no pospongas la vida. Cada momento es un regalo.",
-      "fr": "Ne laisse pas le vin dans le verre ; ne remets pas la vie à demain. Chaque instant est un cadeau.",
-      "de": "Lass den Wein nicht im Glas stehen; verschiebe das Leben nicht. Jeder Augenblick ist ein Geschenk.",
-      "ru": "Не оставляй вино в бокале; не откладывай жизнь. Каждый миг — это дар.",
-      "pt": "Não deixe o vinho no cálice; não adie a vida. Cada momento é um presente.",
-      "it": "Non lasciare il vino nel bicchiere; non rimandare la vita. Ogni istante è un dono.",
-      "hi": "शराब को प्याले में मत छोड़ो; जीवन को मत टालो। हर पल एक उपहार है।"
+      "tr": "Gel, doldur kadehi, baharın ateşine at pişmanlığın kış giysisini: Zaman kuşunun uçacak az yolu kaldı, işte bak, kuş kanatlandı bile.",
+      "en": "Come, fill the Cup, and in the Fire of Spring the Winter Garment of Repentance fling: the Bird of Time has but a little way to fly, and Lo! the Bird is on the Wing.",
+      "ar": "تعالَ، املأ الكأس، وفي نار الربيع ألقِ ثوبَ الندم الشتويّ: فطائرُ الزمن لم يبقَ له إلا قليلٌ ليطير، وها هو الطائر قد بسط جناحيه.",
+      "es": "Ven, llena la copa y arroja al fuego de la primavera el ropaje invernal del arrepentimiento: al Pájaro del Tiempo le queda poco por volar, y ¡mira!, el Pájaro ya está en vuelo.",
+      "fr": "Viens, remplis la coupe, et jette au feu du printemps le vêtement d'hiver du repentir : l'Oiseau du Temps n'a plus qu'un court chemin à voler, et voici, l'Oiseau a pris son envol.",
+      "de": "Komm, füll den Becher und wirf ins Feuer des Frühlings das Wintergewand der Reue: Der Vogel der Zeit hat nur noch ein kurzes Stück zu fliegen, und sieh! der Vogel ist schon im Flug.",
+      "ru": "Приди, наполни чашу и брось в огонь весны зимнее одеяние раскаяния: Птице Времени лететь осталось недолго, и вот, Птица уже в полёте.",
+      "pt": "Vem, enche a taça e lança ao fogo da primavera a veste de inverno do arrependimento: ao Pássaro do Tempo resta pouco para voar, e eis que o Pássaro já está em voo.",
+      "it": "Vieni, riempi la coppa e getta nel fuoco della primavera la veste invernale del pentimento: all'Uccello del Tempo resta poco da volare, ed ecco, l'Uccello è già in volo.",
+      "hi": "आओ, प्याला भरो, और बसंत की आग में पश्चाताप का जाड़े वाला चोला फेंक दो: समय की चिड़िया को अब थोड़ी ही दूर उड़ना है, और देखो! चिड़िया उड़ान भर चुकी है।"
     },
     "tags": [
       "motivation",
       "lifeWisdom"
     ],
-    "source": "Rubaiyat, VII"
+    "source": "Rubáiyát, tr. FitzGerald (1859), VII"
   },
   {
     "id": "10000000-0000-0000-0000-000000000127",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Cenneti uzaklarda arama; bir çiçeğin açışında, bir dostun gülüşünde bulabilirsin.",
-      "en": "Seek not paradise in distant places; you may find it in the bloom of a flower, in the laughter of a friend.",
-      "ar": "لا تبحث عن الجنة في أماكن بعيدة؛ قد تجدها في تفتُّح زهرة، في ضحكة صديق.",
-      "es": "No busques el paraíso en lugares lejanos; puedes hallarlo en la flor que se abre, en la risa de un amigo.",
-      "fr": "Ne cherche pas le paradis dans des lieux lointains ; tu peux le trouver dans l'éclosion d'une fleur, dans le rire d'un ami.",
-      "de": "Suche das Paradies nicht in der Ferne; du kannst es im Erblühen einer Blume finden, im Lachen eines Freundes.",
-      "ru": "Не ищи рая в далёких краях; ты можешь найти его в распустившемся цветке, в смехе друга.",
-      "pt": "Não busque o paraíso em lugares distantes; pode encontrá-lo no desabrochar de uma flor, no riso de um amigo.",
-      "it": "Non cercare il paradiso in luoghi lontani; puoi trovarlo nello sbocciare di un fiore, nel riso di un amico.",
-      "hi": "स्वर्ग को दूर के स्थानों में मत खोजो; तुम इसे किसी फूल के खिलने में, किसी मित्र की हँसी में पा सकते हो।"
+      "tr": "Gençken hocaları ve velileri hevesle dolaştım, şu konuda bu konuda büyük tartışmalar dinledim: ama her seferinde girdiğim kapıdan çıktım.",
+      "en": "Myself when young did eagerly frequent Doctor and Saint, and heard great Argument about it and about: but evermore came out by the same Door as in I went.",
+      "ar": "في شبابي ارتدتُ بشغفٍ مجالسَ العلماء والأولياء، وسمعت جدلًا عظيمًا حول هذا وذاك؛ لكنني كنت أخرج دائمًا من الباب نفسه الذي دخلت منه.",
+      "es": "De joven frecuenté con afán a doctores y santos, y oí grandes argumentos sobre esto y aquello; pero siempre salí por la misma puerta por la que había entrado.",
+      "fr": "Jeune, j'ai fréquenté avec ardeur docteurs et saints, et entendu de grands débats sur ceci et cela ; mais toujours je suis ressorti par la porte même par où j'étais entré.",
+      "de": "Als ich jung war, suchte ich eifrig Gelehrte und Heilige auf und hörte große Dispute darüber und darum herum; doch stets kam ich durch dieselbe Tür heraus, durch die ich hineingegangen war.",
+      "ru": "В юности я усердно посещал учёных и святых и слышал великие споры о том и об этом; но всякий раз выходил в ту же дверь, в которую вошёл.",
+      "pt": "Quando jovem, frequentei com afinco doutores e santos, e ouvi grandes argumentos sobre isto e aquilo; mas sempre saí pela mesma porta por onde entrei.",
+      "it": "Da giovane frequentai con ardore dottori e santi, e udii grandi dispute su questo e su quello; ma sempre uscii dalla stessa porta da cui ero entrato.",
+      "hi": "जवानी में मैं बड़े चाव से विद्वानों और संतों के पास जाता रहा, और इस-उस पर बड़ी बहसें सुनीं; पर हर बार उसी दरवाज़े से बाहर निकला जिससे भीतर गया था।"
     },
     "tags": [
       "love",
       "innerPeace"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (1859), XXVII"
   },
   {
     "id": "10000000-0000-0000-0000-000000000128",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Geçmişe üzülmek onu değiştirmez; geleceğe kaygılanmak onu şekillendirmez. Sadece şimdi senin.",
-      "en": "Regretting the past won’t change it; worrying about the future won’t shape it. Only now is truly yours.",
-      "ar": "الندم على الماضي لن يغيّره؛ والقلق من المستقبل لن يشكّله. الآن وحده لك حقًّا.",
-      "es": "Lamentar el pasado no lo cambiará; preocuparse por el futuro no lo moldeará. Solo el ahora es verdaderamente tuyo.",
-      "fr": "Regretter le passé ne le changera pas ; s'inquiéter de l'avenir ne le façonnera pas. Seul le présent est vraiment à toi.",
-      "de": "Die Vergangenheit zu bereuen ändert sie nicht; sich um die Zukunft zu sorgen formt sie nicht. Nur das Jetzt gehört dir wirklich.",
-      "ru": "Сожаление о прошлом не изменит его; тревога о будущем не придаст ему форму. Только настоящее по-настоящему твоё.",
-      "pt": "Lamentar o passado não o mudará; preocupar-se com o futuro não o moldará. Só o agora é verdadeiramente seu.",
-      "it": "Rimpiangere il passato non lo cambierà; preoccuparsi del futuro non lo plasmerà. Solo il presente è veramente tuo.",
-      "hi": "बीते कल पर पछतावा उसे बदलेगा नहीं; भविष्य की चिंता उसे आकार नहीं देगी। केवल अभी सचमुच तुम्हारा है।"
+      "tr": "Doğmamış yarın ve ölmüş dün: bugün tatlıysa neden onlar için tasalanasın!",
+      "en": "Unborn To-morrow, and dead Yesterday, why fret about them if To-day be sweet!",
+      "ar": "غدٌ لم يولد بعد، وأمسٌ قد مات؛ فلماذا القلق بشأنهما إن كان اليومُ عذبًا!",
+      "es": "Mañana aún no nacido y ayer ya muerto: ¿por qué inquietarse por ellos si el hoy es dulce?",
+      "fr": "Demain qui n'est pas né, hier qui est mort : pourquoi s'en tourmenter si aujourd'hui est doux !",
+      "de": "Ungeborenes Morgen und gestorbenes Gestern: Warum sich um sie grämen, wenn das Heute süß ist!",
+      "ru": "Нерождённое Завтра и умершее Вчера: к чему о них тревожиться, если Сегодня сладко!",
+      "pt": "Amanhã não nascido e ontem já morto: por que se afligir com eles se o hoje é doce!",
+      "it": "Domani non ancora nato e ieri già morto: perché crucciarsene, se l'oggi è dolce!",
+      "hi": "अजन्मा कल और मरा हुआ बीता कल, अगर आज मीठा है तो उनकी फ़िक्र क्यों करें!"
     },
     "tags": [
       "innerPeace",
       "lifeWisdom"
     ],
-    "source": "Rubaiyat, LXXI"
+    "source": "Rubáiyát, tr. FitzGerald (1859), XXXVII"
   },
   {
     "id": "10000000-0000-0000-0000-000000000129",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Her gece bir yıldız düşer gökyüzünden; her düşen yıldız bir dilektir — ama dilek senin ellerinde.",
-      "en": "Every night a star falls from the sky; every falling star is a wish — but the wish is in your own hands.",
-      "ar": "كل ليلة يسقط نجم من السماء؛ كل نجم ساقط أمنية — لكن الأمنية بين يديك.",
-      "es": "Cada noche cae una estrella del cielo; cada estrella fugaz es un deseo — pero el deseo está en tus manos.",
-      "fr": "Chaque nuit une étoile tombe du ciel ; chaque étoile filante est un vœu — mais le vœu est entre tes mains.",
-      "de": "Jede Nacht fällt ein Stern vom Himmel; jede Sternschnuppe ist ein Wunsch — doch der Wunsch liegt in deinen Händen.",
-      "ru": "Каждую ночь с неба падает звезда; каждая падающая звезда — это желание, но желание — в твоих руках.",
-      "pt": "Toda noite uma estrela cai do céu; toda estrela cadente é um desejo — mas o desejo está em suas mãos.",
-      "it": "Ogni notte cade una stella dal cielo; ogni stella cadente è un desiderio — ma il desiderio è nelle tue mani.",
-      "hi": "हर रात आसमान से एक तारा गिरता है; हर गिरता तारा एक इच्छा है — लेकिन इच्छा तुम्हारे हाथों में है।"
+      "tr": "Uyan! Çünkü sabah, gecenin kâsesine yıldızları kaçıran taşı fırlattı.",
+      "en": "Awake! for Morning in the Bowl of Night has flung the Stone that puts the Stars to Flight.",
+      "ar": "استيقظ! فقد ألقى الصباحُ في كأس الليل الحجرَ الذي يُطيّر النجوم.",
+      "es": "¡Despierta! Pues la Mañana ha arrojado en el cuenco de la Noche la piedra que pone en fuga a las estrellas.",
+      "fr": "Éveille-toi ! Car le Matin a jeté dans la coupe de la Nuit la pierre qui met les étoiles en fuite.",
+      "de": "Erwache! Denn der Morgen hat in die Schale der Nacht den Stein geworfen, der die Sterne in die Flucht schlägt.",
+      "ru": "Проснись! Ведь Утро в чашу Ночи бросило камень, обращающий звёзды в бегство.",
+      "pt": "Desperta! Pois a Manhã lançou na taça da Noite a pedra que põe as estrelas em fuga.",
+      "it": "Svegliati! Ché il Mattino ha scagliato nella coppa della Notte la pietra che mette in fuga le stelle.",
+      "hi": "जागो! क्योंकि सुबह ने रात के कटोरे में वह पत्थर फेंक दिया है जो तारों को भगा देता है।"
     },
     "tags": [
       "motivation",
       "literary"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (1859), I"
   },
   {
     "id": "10000000-0000-0000-0000-000000000130",
     "figure_id": "00000000-0000-0000-0000-000000000013",
     "texts": {
-      "tr": "Topraktan geldik, toprağa döneceğiz. Aradaki zamanı anlamlı kıl.",
-      "en": "From dust we came, to dust we shall return. Make meaningful the time in between.",
-      "ar": "من التراب جئنا وإلى التراب نعود. اجعل ما بينهما ذا معنى.",
-      "es": "Del polvo venimos, al polvo volveremos. Haz significativo el tiempo intermedio.",
-      "fr": "De la poussière nous venons, à la poussière nous retournerons. Rends significatif le temps entre les deux.",
-      "de": "Aus Staub kamen wir, zu Staub werden wir zurückkehren. Mach die Zeit dazwischen bedeutsam.",
-      "ru": "Из праха мы пришли, в прах вернёмся. Наполни смыслом время между ними.",
-      "pt": "Do pó viemos, ao pó retornaremos. Torne significativo o tempo entre um e outro.",
-      "it": "Dalla polvere siamo venuti, alla polvere torneremo. Rendi significativo il tempo che c'è in mezzo.",
-      "hi": "मिट्टी से आए हम, मिट्टी में लौटेंगे। बीच का समय सार्थक बनाओ।"
+      "tr": "Ah sevgilim! Sen ve ben kaderle anlaşıp bu sefil düzeni bütünüyle kavrayabilseydik, onu paramparça edip sonra gönlün dilediğine daha yakın yeniden biçimlendirmez miydik!",
+      "en": "Ah Love! could thou and I with Fate conspire to grasp this sorry Scheme of Things entire, would not we shatter it to bits, and then re-mould it nearer to the Heart's Desire!",
+      "ar": "آهٍ يا حبيبتي! لو أنّي وأنتِ تآمرنا مع القدر لنقبض على هذا النظام البائس للأشياء كلّه، أما كنّا نحطّمه شظايا، ثم نعيد صوغه أقربَ إلى ما يشتهيه القلب!",
+      "es": "¡Ah, Amor! Si tú y yo pudiéramos conspirar con el Destino para abarcar entero este triste orden de las cosas, ¿no lo haríamos añicos para luego moldearlo más cerca del deseo del corazón?",
+      "fr": "Ah, mon Amour ! Si toi et moi pouvions conspirer avec le Destin pour saisir tout entier ce triste ordre des choses, ne le briserions-nous pas en morceaux, pour le refaçonner plus près du désir du cœur ?",
+      "de": "Ach, Liebste! Könnten du und ich uns mit dem Schicksal verschwören, diese elende Ordnung der Dinge ganz zu ergreifen, würden wir sie nicht in Stücke schlagen und dann näher nach des Herzens Wunsch neu formen?",
+      "ru": "О, Любовь! Если бы мы с тобой могли сговориться с Судьбой и охватить весь этот жалкий порядок вещей, разве не разбили бы мы его вдребезги, чтобы затем вылепить ближе к желанию сердца?",
+      "pt": "Ah, Amor! Se tu e eu pudéssemos conspirar com o Destino para abarcar inteiro este triste esquema das coisas, não o despedaçaríamos para depois remoldá-lo mais perto do desejo do coração?",
+      "it": "Ah, Amore! Se tu e io potessimo cospirare col Fato per afferrare intero questo misero ordine delle cose, non lo manderemmo in frantumi, per poi riplasmarlo più vicino al desiderio del cuore?",
+      "hi": "आह, प्रिये! अगर तुम और मैं भाग्य से मिलकर चीज़ों की इस दयनीय व्यवस्था को पूरा का पूरा थाम पाते, तो क्या हम इसे चूर-चूर न कर देते, और फिर दिल की चाह के और क़रीब इसे दोबारा न गढ़ते!"
     },
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Rubaiyat"
+    "source": "Rubáiyát, tr. FitzGerald (1859), LXXIII"
   },
   {
     "id": "10000000-0000-0000-0000-000000000131",
@@ -3041,47 +2978,6 @@
     "source": "Nahj al-Balagha, Saying 81"
   },
   {
-    "id": "10000000-0000-0000-0000-000000000147",
-    "figure_id": "00000000-0000-0000-0000-000000000015",
-    "texts": {
-      "tr": "Zulüm uyur; ama uyanmadan önce adalet için çalış.",
-      "en": "Oppression sleeps; work for justice before it wakes.",
-      "ar": "الظلم نائم؛ فاعمل للعدل قبل أن يستيقظ.",
-      "es": "La opresión duerme; trabaja por la justicia antes de que despierte.",
-      "fr": "L'oppression dort ; œuvre pour la justice avant qu'elle ne se réveille.",
-      "de": "Die Unterdrückung schläft; wirke für Gerechtigkeit, bevor sie erwacht.",
-      "ru": "Тирания спит; трудись ради справедливости, пока она не проснулась.",
-      "pt": "A opressão dorme; trabalhe pela justiça antes que ela desperte.",
-      "it": "L'oppressione dorme; lavora per la giustizia prima che si svegli.",
-      "hi": "अत्याचार सोया हुआ है; न्याय के लिए काम करो इससे पहले कि वह जागे।"
-    },
-    "tags": [
-      "courage",
-      "lifeWisdom"
-    ],
-    "source": "Nahj al-Balagha"
-  },
-  {
-    "id": "10000000-0000-0000-0000-000000000148",
-    "figure_id": "00000000-0000-0000-0000-000000000015",
-    "texts": {
-      "tr": "Kendine sormadığın sorular, başkalarının cevaplarından daha tehlikelidir.",
-      "en": "The questions you don't ask yourself are more dangerous than the answers others give.",
-      "ar": "الأسئلة التي لا تطرحها على نفسك أخطر من إجابات الآخرين.",
-      "es": "Las preguntas que no te haces son más peligrosas que las respuestas que otros dan.",
-      "fr": "Les questions que tu ne te poses pas sont plus dangereuses que les réponses que les autres donnent.",
-      "de": "Die Fragen, die du dir nicht stellst, sind gefährlicher als die Antworten anderer.",
-      "ru": "Вопросы, которые ты себе не задаёшь, опаснее чужих ответов.",
-      "pt": "As perguntas que você não se faz são mais perigosas que as respostas dos outros.",
-      "it": "Le domande che non ti poni sono più pericolose delle risposte che danno gli altri.",
-      "hi": "जो प्रश्न तुम खुद से नहीं पूछते, वे दूसरों के उत्तरों से अधिक खतरनाक हैं।"
-    },
-    "tags": [
-      "lifeWisdom"
-    ],
-    "source": "Nahj al-Balagha, Letter 31"
-  },
-  {
     "id": "10000000-0000-0000-0000-000000000149",
     "figure_id": "00000000-0000-0000-0000-000000000015",
     "texts": {
@@ -3142,7 +3038,7 @@
       "lifeWisdom",
       "courage"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Memento mori"
   },
   {
     "id": "20000000-0000-0000-0000-000000000002",
@@ -3163,7 +3059,7 @@
       "motivation",
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Carpe diem (Horatius, Carmina I.11)"
   },
   {
     "id": "20000000-0000-0000-0000-000000000003",
@@ -3184,7 +3080,7 @@
       "innerPeace",
       "courage"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Amor fati"
   },
   {
     "id": "20000000-0000-0000-0000-000000000004",
@@ -3204,7 +3100,7 @@
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Tempus fugit (Vergilius, Georgica III)"
   },
   {
     "id": "20000000-0000-0000-0000-000000000005",
@@ -3225,7 +3121,7 @@
       "motivation",
       "courage"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Per aspera ad astra"
   },
   {
     "id": "20000000-0000-0000-0000-000000000006",
@@ -3246,7 +3142,7 @@
       "motivation",
       "innerPeace"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Dum spiro, spero"
   },
   {
     "id": "20000000-0000-0000-0000-000000000007",
@@ -3267,7 +3163,7 @@
       "lifeWisdom",
       "innerPeace"
     ],
-    "source": "Delfi Tapınağı, Antik Yunan"
+    "source": "Γνῶθι σεαυτόν (Delphi)"
   },
   {
     "id": "20000000-0000-0000-0000-000000000008",
@@ -3288,7 +3184,7 @@
       "motivation",
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Memento vivere"
   },
   {
     "id": "20000000-0000-0000-0000-000000000009",
@@ -3309,27 +3205,27 @@
       "lifeWisdom",
       "literary"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Ars longa, vita brevis (Hippocrates)"
   },
   {
     "id": "20000000-0000-0000-0000-000000000010",
     "figure_id": "20000000-0000-0000-0000-000000000001",
     "texts": {
-      "tr": "Düşünüyorum, öyleyse varım.",
-      "en": "I think, therefore I am.",
-      "ar": "أنا أفكّر، إذن أنا موجود.",
-      "es": "Pienso, luego existo.",
-      "fr": "Je pense, donc je suis.",
-      "de": "Ich denke, also bin ich.",
-      "ru": "Я мыслю — следовательно, существую.",
-      "pt": "Penso, logo existo.",
-      "it": "Penso, dunque sono.",
-      "hi": "मैं सोचता हूँ, अतः मैं हूँ।"
+      "tr": "Yavaş yavaş acele et.",
+      "en": "Make haste slowly.",
+      "ar": "تمهّلْ وأنت تُسرع.",
+      "es": "Apresúrate despacio.",
+      "fr": "Hâte-toi lentement.",
+      "de": "Eile mit Weile.",
+      "ru": "Поспешай медленно.",
+      "pt": "Apressa-te devagar.",
+      "it": "Affrettati lentamente.",
+      "hi": "धीरे-धीरे जल्दी करो।"
     },
     "tags": [
       "lifeWisdom"
     ],
-    "source": "Latince özdeyiş"
+    "source": "Festina lente"
   },
   {
     "id": "30000000-0000-0000-0000-000000000001",
@@ -3366,68 +3262,6 @@
       "pt": "A vida é como andar de bicicleta. Para manter o equilíbrio, é preciso continuar se movendo.",
       "it": "La vita è come andare in bicicletta. Per mantenere l'equilibrio, devi continuare a muoverti.",
       "hi": "जीवन साइकिल चलाने जैसा है। संतुलन बनाए रखने के लिए आगे बढ़ते रहना होगा।"
-    },
-    "tags": [
-      "motivation",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "30000000-0000-0000-0000-000000000003",
-    "figure_id": "00000000-0000-0000-0000-000000000017",
-    "texts": {
-      "tr": "Zorlukların ortasında fırsatlar yatar.",
-      "en": "In the middle of difficulty lies opportunity.",
-      "ar": "في وسط الصعوبة تكمن الفرصة.",
-      "es": "En medio de la dificultad yace la oportunidad.",
-      "fr": "Au milieu de la difficulté se trouve l'opportunité.",
-      "de": "Inmitten der Schwierigkeit liegt die Möglichkeit.",
-      "ru": "В самой середине трудности кроется возможность.",
-      "pt": "No meio da dificuldade encontra-se a oportunidade.",
-      "it": "Nel mezzo della difficoltà giace l'opportunità.",
-      "hi": "कठिनाई के बीच में अवसर छिपा होता है।"
-    },
-    "tags": [
-      "courage",
-      "motivation"
-    ],
-    "source": null
-  },
-  {
-    "id": "30000000-0000-0000-0000-000000000004",
-    "figure_id": "00000000-0000-0000-0000-000000000017",
-    "texts": {
-      "tr": "Aynı şeyi tekrar edip farklı sonuç beklemek deliliktir.",
-      "en": "Insanity is doing the same thing over and over and expecting different results.",
-      "ar": "الجنون هو أن تفعل الشيء نفسه مرارًا وتتوقع نتائج مختلفة.",
-      "es": "La locura es hacer lo mismo una y otra vez esperando resultados diferentes.",
-      "fr": "La folie, c'est de faire toujours la même chose et d'attendre des résultats différents.",
-      "de": "Wahnsinn ist, immer das Gleiche zu tun und andere Ergebnisse zu erwarten.",
-      "ru": "Безумие — делать одно и то же снова и снова, ожидая иных результатов.",
-      "pt": "Insanidade é fazer a mesma coisa repetidamente e esperar resultados diferentes.",
-      "it": "La follia sta nel fare sempre la stessa cosa aspettandosi risultati diversi.",
-      "hi": "पागलपन यही है — एक ही काम बार-बार करना और अलग नतीजों की उम्मीद रखना।"
-    },
-    "tags": [
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "30000000-0000-0000-0000-000000000005",
-    "figure_id": "00000000-0000-0000-0000-000000000017",
-    "texts": {
-      "tr": "Merak etmeyi asla bırakma.",
-      "en": "Never stop questioning.",
-      "ar": "لا تتوقف أبدًا عن التساؤل.",
-      "es": "Nunca dejes de cuestionar.",
-      "fr": "Ne cesse jamais de questionner.",
-      "de": "Höre niemals auf zu fragen.",
-      "ru": "Никогда не прекращай задавать вопросы.",
-      "pt": "Nunca pare de questionar.",
-      "it": "Non smettere mai di interrogarti.",
-      "hi": "प्रश्न करना कभी मत छोड़ो।"
     },
     "tags": [
       "motivation",
@@ -3603,27 +3437,6 @@
     "source": null
   },
   {
-    "id": "30000000-0000-0000-0000-000000000014",
-    "figure_id": "00000000-0000-0000-0000-000000000019",
-    "texts": {
-      "tr": "Sabır ve zaman en güçlü öğretmenlerdir.",
-      "en": "Patience and time are the strongest teachers.",
-      "ar": "الصبر والوقت هما أقوى المعلّمين.",
-      "es": "La paciencia y el tiempo son los maestros más fuertes.",
-      "fr": "La patience et le temps sont les plus grands maîtres.",
-      "de": "Geduld und Zeit sind die stärksten Lehrmeister.",
-      "ru": "Терпение и время — самые сильные учителя.",
-      "pt": "A paciência e o tempo são os maiores mestres.",
-      "it": "La pazienza e il tempo sono i maestri più forti.",
-      "hi": "धैर्य और समय सबसे शक्तिशाली गुरु हैं।"
-    },
-    "tags": [
-      "lifeWisdom",
-      "innerPeace"
-    ],
-    "source": null
-  },
-  {
     "id": "30000000-0000-0000-0000-000000000015",
     "figure_id": "00000000-0000-0000-0000-000000000019",
     "texts": {
@@ -3641,27 +3454,6 @@
     "tags": [
       "courage",
       "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "30000000-0000-0000-0000-000000000016",
-    "figure_id": "00000000-0000-0000-0000-000000000020",
-    "texts": {
-      "tr": "Kendin ol; diğer herkes zaten alınmış.",
-      "en": "Be yourself; everyone else is already taken.",
-      "ar": "كن نفسك؛ فالجميع غيرك قد أُخذوا بالفعل.",
-      "es": "Sé tú mismo; todos los demás ya están ocupados.",
-      "fr": "Sois toi-même ; tous les autres sont déjà pris.",
-      "de": "Sei du selbst; alle anderen sind schon vergeben.",
-      "ru": "Будь собой; все остальные уже заняты.",
-      "pt": "Seja você mesmo; todos os outros já estão ocupados.",
-      "it": "Sii te stesso; tutti gli altri sono già stati presi.",
-      "hi": "खुद बनो; बाकी सब पहले से ले लिए गए हैं।"
-    },
-    "tags": [
-      "lifeWisdom",
-      "courage"
     ],
     "source": null
   },
@@ -4080,27 +3872,6 @@
     "source": null
   },
   {
-    "id": "30000000-0000-0000-0000-000000000037",
-    "figure_id": "00000000-0000-0000-0000-000000000024",
-    "texts": {
-      "tr": "Başarının en önemli unsuru harekete geçmektir.",
-      "en": "The most important single ingredient in success is action.",
-      "ar": "أهم عنصر في النجاح هو الفعل.",
-      "es": "El ingrediente más importante del éxito es la acción.",
-      "fr": "L'ingrédient le plus important du succès est l'action.",
-      "de": "Die wichtigste Zutat für Erfolg ist Handeln.",
-      "ru": "Самый важный компонент успеха — это действие.",
-      "pt": "O ingrediente mais importante do sucesso é a ação.",
-      "it": "L'ingrediente più importante del successo è l'azione.",
-      "hi": "सफलता का सबसे महत्वपूर्ण तत्व कार्य करना है।"
-    },
-    "tags": [
-      "success",
-      "motivation"
-    ],
-    "source": null
-  },
-  {
     "id": "30000000-0000-0000-0000-000000000038",
     "figure_id": "00000000-0000-0000-0000-000000000024",
     "texts": {
@@ -4118,27 +3889,6 @@
     "tags": [
       "courage",
       "motivation"
-    ],
-    "source": null
-  },
-  {
-    "id": "30000000-0000-0000-0000-000000000039",
-    "figure_id": "00000000-0000-0000-0000-000000000024",
-    "texts": {
-      "tr": "Zorluklar insanı güçlendirir.",
-      "en": "Difficulties strengthen the mind.",
-      "ar": "الصعوبات تقوّي العقل.",
-      "es": "Las dificultades fortalecen la mente.",
-      "fr": "Les difficultés renforcent l'esprit.",
-      "de": "Schwierigkeiten stärken den Geist.",
-      "ru": "Трудности укрепляют разум.",
-      "pt": "As dificuldades fortalecem a mente.",
-      "it": "Le difficoltà rafforzano la mente.",
-      "hi": "कठिनाइयाँ मन को मजबूत बनाती हैं।"
-    },
-    "tags": [
-      "courage",
-      "lifeWisdom"
     ],
     "source": null
   },
@@ -4626,48 +4376,6 @@
     "source": "Animal Farm"
   },
   {
-    "id": "29000000-0000-0000-0000-000000000003",
-    "figure_id": "00000000-0000-0000-0000-000000000029",
-    "texts": {
-      "tr": "Gerçek, çoğunluğa göre değişmez.",
-      "en": "Truth is not determined by majority vote.",
-      "ar": "الحقيقة لا تُحدد بتصويت الأغلبية.",
-      "es": "La verdad no se determina por el voto de la mayoría.",
-      "fr": "La vérité ne se détermine pas par un vote majoritaire.",
-      "de": "Wahrheit wird nicht durch Mehrheitsentscheid bestimmt.",
-      "ru": "Истина не определяется большинством голосов.",
-      "pt": "A verdade não é determinada pelo voto da maioria.",
-      "it": "La verità non è determinata dal voto della maggioranza.",
-      "hi": "सत्य बहुमत से तय नहीं होता।"
-    },
-    "tags": [
-      "courage",
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "29000000-0000-0000-0000-000000000004",
-    "figure_id": "00000000-0000-0000-0000-000000000029",
-    "texts": {
-      "tr": "Aldatma çağında gerçeği söylemek devrimci bir eylemdir.",
-      "en": "In a time of deceit, telling the truth is a revolutionary act.",
-      "ar": "في زمن الخداع، قول الحقيقة فعل ثوري.",
-      "es": "En tiempos de engaño, decir la verdad es un acto revolucionario.",
-      "fr": "En temps de tromperie universelle, dire la vérité est un acte révolutionnaire.",
-      "de": "In Zeiten universeller Täuschung ist die Wahrheit zu sagen ein revolutionärer Akt.",
-      "ru": "Во времена всеобщего обмана говорить правду — это революционный акт.",
-      "pt": "Em tempos de engano, dizer a verdade é um ato revolucionário.",
-      "it": "In tempi di inganno universale, dire la verità è un atto rivoluzionario.",
-      "hi": "धोखे के समय में सच बोलना एक क्रांतिकारी कार्य है।"
-    },
-    "tags": [
-      "courage",
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
     "id": "29000000-0000-0000-0000-000000000005",
     "figure_id": "00000000-0000-0000-0000-000000000029",
     "texts": {
@@ -4687,27 +4395,6 @@
       "leadership"
     ],
     "source": "1984"
-  },
-  {
-    "id": "31000000-0000-0000-0000-000000000001",
-    "figure_id": "00000000-0000-0000-0000-000000000030",
-    "texts": {
-      "tr": "Amaç, araçları haklı çıkarır.",
-      "en": "The end justifies the means.",
-      "ar": "الغاية تبرر الوسيلة.",
-      "es": "El fin justifica los medios.",
-      "fr": "La fin justifie les moyens.",
-      "de": "Der Zweck heiligt die Mittel.",
-      "ru": "Цель оправдывает средства.",
-      "pt": "Os fins justificam os meios.",
-      "it": "Il fine giustifica i mezzi.",
-      "hi": "लक्ष्य साधनों को उचित ठहराता है।"
-    },
-    "tags": [
-      "philosophy",
-      "leadership"
-    ],
-    "source": "The Prince"
   },
   {
     "id": "31000000-0000-0000-0000-000000000002",
@@ -4790,27 +4477,6 @@
     "tags": [
       "philosophy",
       "lifeWisdom"
-    ],
-    "source": "The Prince"
-  },
-  {
-    "id": "31000000-0000-0000-0000-000000000006",
-    "figure_id": "00000000-0000-0000-0000-000000000030",
-    "texts": {
-      "tr": "Talih, cesur olanı sever.",
-      "en": "Fortune favors the bold.",
-      "ar": "الحظ يحالف الجريء.",
-      "es": "La fortuna favorece a los audaces.",
-      "fr": "La fortune sourit aux audacieux.",
-      "de": "Das Glück begünstigt die Mutigen.",
-      "ru": "Судьба благоволит смелым.",
-      "pt": "A fortuna favorece os audazes.",
-      "it": "La fortuna favorisce gli audaci.",
-      "hi": "भाग्य साहसी का साथ देता है।"
-    },
-    "tags": [
-      "courage",
-      "motivation"
     ],
     "source": "The Prince"
   },
@@ -5189,27 +4855,6 @@
     "source": null
   },
   {
-    "id": "21000000-0000-0000-0000-000000000010",
-    "figure_id": "00000000-0000-0000-0000-000000000020",
-    "texts": {
-      "tr": "Tek lüks insan ilişkileridir.",
-      "en": "The only luxury is human relations.",
-      "ar": "الرفاهية الوحيدة هي العلاقات الإنسانية.",
-      "es": "El único lujo son las relaciones humanas.",
-      "fr": "Le seul luxe, ce sont les relations humaines.",
-      "de": "Der einzige Luxus sind menschliche Beziehungen.",
-      "ru": "Единственная роскошь — это человеческие отношения.",
-      "pt": "O único luxo são as relações humanas.",
-      "it": "L'unico lusso sono le relazioni umane.",
-      "hi": "एकमात्र विलासिता मानवीय संबंध है।"
-    },
-    "tags": [
-      "love",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
     "id": "20190000-0000-0000-0000-000000000006",
     "figure_id": "00000000-0000-0000-0000-000000000019",
     "texts": {
@@ -5229,27 +4874,6 @@
       "innerPeace"
     ],
     "source": "War and Peace"
-  },
-  {
-    "id": "20190000-0000-0000-0000-000000000007",
-    "figure_id": "00000000-0000-0000-0000-000000000019",
-    "texts": {
-      "tr": "Herkes dünyayı değiştirmeyi düşünür ama hiç kimse kendini değiştirmeyi düşünmez.",
-      "en": "Everyone thinks of changing the world, but no one thinks of changing himself.",
-      "ar": "الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه.",
-      "es": "Todos piensan en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo.",
-      "fr": "Chacun pense à changer le monde, mais personne ne pense à se changer soi-même.",
-      "de": "Jeder denkt daran, die Welt zu verändern, aber niemand denkt daran, sich selbst zu verändern.",
-      "ru": "Каждый думает об изменении мира, но никто не думает об изменении себя.",
-      "pt": "Todos pensam em mudar o mundo, mas ninguém pensa em mudar a si mesmo.",
-      "it": "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiare se stesso.",
-      "hi": "हर कोई दुनिया बदलने की सोचता है, लेकिन कोई खुद को बदलने की नहीं।"
-    },
-    "tags": [
-      "philosophy",
-      "lifeWisdom"
-    ],
-    "source": null
   },
   {
     "id": "20190000-0000-0000-0000-000000000008",
@@ -5352,69 +4976,6 @@
     },
     "tags": [
       "philosophy",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "23000000-0000-0000-0000-000000000008",
-    "figure_id": "00000000-0000-0000-0000-000000000022",
-    "texts": {
-      "tr": "Ruh, çocuklarla birlikte olmakla iyileşir.",
-      "en": "The soul is healed by being with children.",
-      "ar": "الروح تُشفى بصحبة الأطفال.",
-      "es": "El alma se cura estando con niños.",
-      "fr": "L'âme guérit au contact des enfants.",
-      "de": "Die Seele heilt, wenn man mit Kindern zusammen ist.",
-      "ru": "Душа исцеляется рядом с детьми.",
-      "pt": "A alma se cura na companhia das crianças.",
-      "it": "L'anima guarisce stando con i bambini.",
-      "hi": "आत्मा बच्चों के साथ रहकर ठीक होती है।"
-    },
-    "tags": [
-      "innerPeace",
-      "love"
-    ],
-    "source": null
-  },
-  {
-    "id": "23000000-0000-0000-0000-000000000009",
-    "figure_id": "00000000-0000-0000-0000-000000000022",
-    "texts": {
-      "tr": "Acı ve ıstırap, büyük bir zekâ ve derin bir kalp için daima kaçınılmazdır.",
-      "en": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
-      "ar": "الألم والمعاناة حتميان دائمًا للذكاء العظيم والقلب العميق.",
-      "es": "El dolor y el sufrimiento son siempre inevitables para una gran inteligencia y un corazón profundo.",
-      "fr": "La douleur et la souffrance sont toujours inévitables pour une grande intelligence et un cœur profond.",
-      "de": "Schmerz und Leid sind immer unvermeidlich für eine große Intelligenz und ein tiefes Herz.",
-      "ru": "Страдание и боль всегда обязательны для широкого сознания и глубокого сердца.",
-      "pt": "A dor e o sofrimento são sempre inevitáveis para uma grande inteligência e um coração profundo.",
-      "it": "Il dolore e la sofferenza sono sempre inevitabili per una grande intelligenza e un cuore profondo.",
-      "hi": "दर्द और पीड़ा बड़ी बुद्धि और गहरे दिल के लिए हमेशा अपरिहार्य हैं।"
-    },
-    "tags": [
-      "courage",
-      "philosophy"
-    ],
-    "source": "Crime and Punishment"
-  },
-  {
-    "id": "23000000-0000-0000-0000-000000000010",
-    "figure_id": "00000000-0000-0000-0000-000000000022",
-    "texts": {
-      "tr": "İnsanlara sevgiyle yaklaş, zira herkes büyük bir savaşın içindedir.",
-      "en": "Love every person because everyone is fighting a great battle.",
-      "ar": "أحبّ كل إنسان لأن الجميع يخوض معركة عظيمة.",
-      "es": "Ama a cada persona porque todos están luchando una gran batalla.",
-      "fr": "Aime chaque personne car chacun mène une grande bataille.",
-      "de": "Liebe jeden Menschen, denn jeder kämpft einen großen Kampf.",
-      "ru": "Люби каждого, ведь каждый ведёт свою великую битву.",
-      "pt": "Ame cada pessoa porque todos estão lutando uma grande batalha.",
-      "it": "Ama ogni persona perché ognuno sta combattendo una grande battaglia.",
-      "hi": "हर व्यक्ति से प्रेम करो क्योंकि हर कोई एक बड़ी लड़ाई लड़ रहा है।"
-    },
-    "tags": [
-      "love",
       "lifeWisdom"
     ],
     "source": null
@@ -5731,27 +5292,6 @@
     "source": null
   },
   {
-    "id": "25000000-0000-0000-0000-000000000006",
-    "figure_id": "00000000-0000-0000-0000-000000000024",
-    "texts": {
-      "tr": "Karanlığa lanet okumaktansa bir mum yak.",
-      "en": "It is better to light a candle than curse the darkness.",
-      "ar": "من الأفضل أن تُشعل شمعة على أن تلعن الظلام.",
-      "es": "Es mejor encender una vela que maldecir la oscuridad.",
-      "fr": "Il vaut mieux allumer une bougie que maudire l'obscurité.",
-      "de": "Es ist besser, eine Kerze anzuzünden, als die Dunkelheit zu verfluchen.",
-      "ru": "Лучше зажечь свечу, чем проклинать тьму.",
-      "pt": "É melhor acender uma vela do que amaldiçoar a escuridão.",
-      "it": "È meglio accendere una candela che maledire l'oscurità.",
-      "hi": "अंधेरे को कोसने से अच्छा है एक मोमबत्ती जलाना।"
-    },
-    "tags": [
-      "courage",
-      "motivation"
-    ],
-    "source": null
-  },
-  {
     "id": "25000000-0000-0000-0000-000000000007",
     "figure_id": "00000000-0000-0000-0000-000000000024",
     "texts": {
@@ -5768,27 +5308,6 @@
     },
     "tags": [
       "leadership",
-      "courage"
-    ],
-    "source": null
-  },
-  {
-    "id": "25000000-0000-0000-0000-000000000008",
-    "figure_id": "00000000-0000-0000-0000-000000000024",
-    "texts": {
-      "tr": "Elindekilerle, bulunduğun yerde, yapabileceğini yap.",
-      "en": "Do what you can, with what you have, where you are.",
-      "ar": "افعل ما تستطيع، بما لديك، في المكان الذي أنت فيه.",
-      "es": "Haz lo que puedas, con lo que tengas, donde estés.",
-      "fr": "Fais ce que tu peux, avec ce que tu as, là où tu es.",
-      "de": "Tu, was du kannst, mit dem, was du hast, dort, wo du bist.",
-      "ru": "Делай что можешь, с тем, что есть, там, где ты.",
-      "pt": "Faça o que puder, com o que tiver, onde estiver.",
-      "it": "Fai quello che puoi, con quello che hai, dove sei.",
-      "hi": "जो कर सकते हो करो, जो है उससे, जहाँ हो।"
-    },
-    "tags": [
-      "motivation",
       "courage"
     ],
     "source": null
@@ -5831,48 +5350,6 @@
     },
     "tags": [
       "courage"
-    ],
-    "source": null
-  },
-  {
-    "id": "26000000-0000-0000-0000-000000000006",
-    "figure_id": "00000000-0000-0000-0000-000000000025",
-    "texts": {
-      "tr": "Fırsat çoğu insan tarafından kaçırılır; çünkü iş tulumu giymiştir ve çalışmaya benzer.",
-      "en": "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
-      "ar": "يفوت الفرصة على معظم الناس لأنها ترتدي ملابس العمل وتبدو كالجهد.",
-      "es": "La oportunidad pasa desapercibida para la mayoría porque viene vestida con ropa de trabajo.",
-      "fr": "L'opportunité est manquée par la plupart des gens parce qu'elle porte des vêtements de travail.",
-      "de": "Die Gelegenheit wird von den meisten Menschen verpasst, weil sie Arbeitskleidung trägt und nach Arbeit aussieht.",
-      "ru": "Возможность упускается большинством людей, потому что она одета в рабочую одежду и выглядит как труд.",
-      "pt": "A oportunidade é perdida pela maioria das pessoas porque está vestida com roupa de trabalho e parece trabalho.",
-      "it": "L'opportunità è persa dalla maggior parte delle persone perché indossa abiti da lavoro e sembra fatica.",
-      "hi": "अवसर अधिकांश लोगों से छूट जाता है क्योंकि यह काम के कपड़े पहनता है।"
-    },
-    "tags": [
-      "success",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "26000000-0000-0000-0000-000000000007",
-    "figure_id": "00000000-0000-0000-0000-000000000025",
-    "texts": {
-      "tr": "Deha, yüzde bir ilham ve yüzde doksan dokuz terdir.",
-      "en": "Genius is one percent inspiration and ninety-nine percent perspiration.",
-      "ar": "العبقرية واحد بالمائة إلهام وتسعة وتسعون بالمائة جهد.",
-      "es": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
-      "fr": "Le génie, c'est un pour cent d'inspiration et quatre-vingt-dix-neuf pour cent de transpiration.",
-      "de": "Genie ist ein Prozent Inspiration und neunundneunzig Prozent Transpiration.",
-      "ru": "Гениальность — это один процент вдохновения и девяносто девять процентов пота.",
-      "pt": "O gênio é um por cento de inspiração e noventa e nove por cento de transpiração.",
-      "it": "Il genio è un per cento di ispirazione e novantanove per cento di traspirazione.",
-      "hi": "प्रतिभा एक प्रतिशत प्रेरणा और निन्यानवे प्रतिशत परिश्रम है।"
-    },
-    "tags": [
-      "success",
-      "motivation"
     ],
     "source": null
   },
@@ -6211,27 +5688,6 @@
     "source": "1984"
   },
   {
-    "id": "30000000-0000-0000-0000-000000000059",
-    "figure_id": "00000000-0000-0000-0000-000000000029",
-    "texts": {
-      "tr": "İnsanları yok etmenin en etkili yolu, kendi tarihlerine dair anlayışlarını inkâr etmek ve silip yok etmektir.",
-      "en": "The most effective way to destroy people is to deny and obliterate their own understanding of their history.",
-      "ar": "أكثر الطرق فعالية لتدمير الناس هي إنكار ومحو فهمهم لتاريخهم.",
-      "es": "La forma más efectiva de destruir a la gente es negar y borrar su propia comprensión de su historia.",
-      "fr": "Le moyen le plus efficace de détruire les gens est de nier et d'effacer leur propre compréhension de leur histoire.",
-      "de": "Der wirksamste Weg, Menschen zu zerstören, ist, ihr eigenes Verständnis ihrer Geschichte zu leugnen und auszulöschen.",
-      "ru": "Самый эффективный способ уничтожить народ — отрицать и стирать его понимание собственной истории.",
-      "pt": "A maneira mais eficaz de destruir as pessoas é negar e apagar sua própria compreensão de sua história.",
-      "it": "Il modo più efficace per distruggere le persone è negare e cancellare la loro comprensione della propria storia.",
-      "hi": "लोगों को नष्ट करने का सबसे प्रभावी तरीका उनके इतिहास की समझ को नकारना और मिटाना है।"
-    },
-    "tags": [
-      "philosophy",
-      "courage"
-    ],
-    "source": null
-  },
-  {
     "id": "30000000-0000-0000-0000-000000000060",
     "figure_id": "00000000-0000-0000-0000-000000000029",
     "texts": {
@@ -6245,148 +5701,6 @@
       "pt": "O verdadeiramente perigoso não é a mentira em si, mas que o pensamento possa ser proibido.",
       "it": "La cosa veramente pericolosa non è la menzogna in sé, ma che il pensiero possa essere proibito.",
       "hi": "वास्तव में खतरनाक झूठ नहीं, बल्कि यह है कि सोचने पर प्रतिबंध लगाया जा सकता है।"
-    },
-    "tags": [
-      "philosophy",
-      "courage"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000001",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Hakkını düşünmeye ayır; az bile olsa düşünmek, hiç düşünmemekten iyidir.",
-      "en": "Reserve your right to think, for even to think wrongly is better than not to think at all.",
-      "ar": "احتفظ بحقك في التفكير، فحتى التفكير الخاطئ أفضل من عدم التفكير على الإطلاق.",
-      "es": "Reserva tu derecho a pensar, pues incluso pensar equivocadamente es mejor que no pensar en absoluto.",
-      "fr": "Réserve-toi le droit de penser, car même penser mal vaut mieux que ne pas penser du tout.",
-      "de": "Bewahre dir das Recht zu denken, denn selbst falsch zu denken ist besser als gar nicht zu denken.",
-      "ru": "Сохраняй за собой право думать, ведь даже думать неправильно лучше, чем не думать вовсе.",
-      "pt": "Reserve seu direito de pensar, pois mesmo pensar errado é melhor do que não pensar.",
-      "it": "Riservati il diritto di pensare, perché anche pensare in modo sbagliato è meglio che non pensare affatto.",
-      "hi": "सोचने का अपना अधिकार सुरक्षित रखो, क्योंकि गलत सोचना भी न सोचने से बेहतर है।"
-    },
-    "tags": [
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000002",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Hurafeler gerçekmiş gibi öğretildikçe, gerçekler hurafe gibi görülecektir.",
-      "en": "Fables should be taught as fables, myths as myths, and miracles as poetic fancies.",
-      "ar": "يجب تعليم الخرافات على أنها خرافات، والأساطير على أنها أساطير.",
-      "es": "Las fábulas deben enseñarse como fábulas, los mitos como mitos y los milagros como fantasías poéticas.",
-      "fr": "Les fables doivent être enseignées comme des fables, les mythes comme des mythes.",
-      "de": "Fabeln sollten als Fabeln gelehrt werden, Mythen als Mythen und Wunder als poetische Fantasien.",
-      "ru": "Басни следует преподавать как басни, мифы как мифы, а чудеса как поэтические фантазии.",
-      "pt": "Fábulas devem ser ensinadas como fábulas, mitos como mitos e milagres como fantasias poéticas.",
-      "it": "Le favole vanno insegnate come favole, i miti come miti e i miracoli come fantasie poetiche.",
-      "hi": "कथाओं को कथा के रूप में पढ़ाया जाना चाहिए, मिथकों को मिथक के रूप में।"
-    },
-    "tags": [
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000003",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Yıldızları anlamak bizi küçültmez, aksine yüceltir.",
-      "en": "To understand the stars is not to diminish ourselves, but to elevate us.",
-      "ar": "فهم النجوم لا يقلل من شأننا، بل يرفعنا.",
-      "es": "Comprender las estrellas no nos disminuye, sino que nos eleva.",
-      "fr": "Comprendre les étoiles ne nous diminue pas, mais nous élève.",
-      "de": "Die Sterne zu verstehen macht uns nicht kleiner, sondern erhebt uns.",
-      "ru": "Понимание звёзд не умаляет нас, а возвышает.",
-      "pt": "Compreender as estrelas não nos diminui, mas nos eleva.",
-      "it": "Comprendere le stelle non ci sminuisce, ma ci eleva.",
-      "hi": "तारों को समझना हमें छोटा नहीं करता, बल्कि ऊँचा उठाता है।"
-    },
-    "tags": [
-      "philosophy",
-      "courage"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000004",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Bilgiyi kendin için değil, bilginin kendisi için ara.",
-      "en": "Seek knowledge not for yourself, but for the sake of knowledge itself.",
-      "ar": "ابحث عن المعرفة لا من أجلك، بل من أجل المعرفة ذاتها.",
-      "es": "Busca el conocimiento no para ti, sino por el conocimiento mismo.",
-      "fr": "Cherche le savoir non pour toi-même, mais pour le savoir lui-même.",
-      "de": "Suche Wissen nicht für dich selbst, sondern um des Wissens willen.",
-      "ru": "Ищи знания не ради себя, а ради самого знания.",
-      "pt": "Busque o conhecimento não para si, mas pelo próprio conhecimento.",
-      "it": "Cerca la conoscenza non per te stesso, ma per la conoscenza stessa.",
-      "hi": "ज्ञान की खोज अपने लिए नहीं, बल्कि ज्ञान के लिए करो।"
-    },
-    "tags": [
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000005",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Masalları gerçek diye savunma hakkını saklı tutuyorum ama gerçekleri asla masal diye küçümsemem.",
-      "en": "I may defend fables as truths, but I will never belittle truths as fables.",
-      "ar": "قد أدافع عن الخرافات كحقائق، لكنني لن أستهين بالحقائق أبدًا.",
-      "es": "Puedo defender fábulas como verdades, pero nunca despreciaré las verdades como fábulas.",
-      "fr": "Je peux défendre des fables comme des vérités, mais jamais je ne dénigrerai les vérités.",
-      "de": "Ich mag Fabeln als Wahrheiten verteidigen, aber ich werde Wahrheiten niemals als Fabeln abwerten.",
-      "ru": "Я могу защищать басни как истины, но никогда не принижу истины.",
-      "pt": "Posso defender fábulas como verdades, mas nunca menosprezarei as verdades como fábulas.",
-      "it": "Posso difendere le favole come verità, ma non sminuirò mai le verità come favole.",
-      "hi": "मैं कथाओं को सच मान सकती हूँ, लेकिन सच को कभी कथा नहीं कहूँगी।"
-    },
-    "tags": [
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000006",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Bir şeyi bildiğini düşünme anı, cahilliğin başladığı andır.",
-      "en": "The moment you think you know, is the moment your ignorance begins.",
-      "ar": "اللحظة التي تظن فيها أنك تعرف، هي لحظة بداية جهلك.",
-      "es": "El momento en que crees que sabes, es el momento en que comienza tu ignorancia.",
-      "fr": "Le moment où tu penses savoir est le moment où ton ignorance commence.",
-      "de": "Der Moment, in dem du glaubst zu wissen, ist der Moment, in dem deine Unwissenheit beginnt.",
-      "ru": "Момент, когда ты думаешь, что знаешь — это начало твоего невежества.",
-      "pt": "O momento em que você pensa que sabe é o momento em que sua ignorância começa.",
-      "it": "Il momento in cui pensi di sapere è il momento in cui inizia la tua ignoranza.",
-      "hi": "जिस क्षण तुम समझते हो कि तुम जानते हो, उसी क्षण तुम्हारी अज्ञानता शुरू होती है।"
-    },
-    "tags": [
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "32000000-0000-0000-0000-000000000007",
-    "figure_id": "00000000-0000-0000-0000-000000000031",
-    "texts": {
-      "tr": "Düşüncenin önündeki en büyük engel, otorite değil alışkanlıktır.",
-      "en": "The greatest obstacle to thought is not authority, but habit.",
-      "ar": "أكبر عائق أمام التفكير ليس السلطة، بل العادة.",
-      "es": "El mayor obstáculo para el pensamiento no es la autoridad, sino la costumbre.",
-      "fr": "Le plus grand obstacle à la pensée n'est pas l'autorité, mais l'habitude.",
-      "de": "Das größte Hindernis für das Denken ist nicht Autorität, sondern Gewohnheit.",
-      "ru": "Величайшее препятствие мысли — не власть, а привычка.",
-      "pt": "O maior obstáculo ao pensamento não é a autoridade, mas o hábito.",
-      "it": "Il più grande ostacolo al pensiero non è l'autorità, ma l'abitudine.",
-      "hi": "विचार के सबसे बड़े रोड़े अधिकार नहीं, आदत है।"
     },
     "tags": [
       "philosophy",
@@ -6543,146 +5857,21 @@
     "id": "34000000-0000-0000-0000-000000000001",
     "figure_id": "00000000-0000-0000-0000-000000000033",
     "texts": {
-      "tr": "Üzerimde zafer kutlanmasına izin vermeyeceğim. Köle olarak yaşamaktansa kraliçe olarak ölmeyi yeğlerim.",
-      "en": "I will not be triumphed over. I would rather die a queen than live a slave.",
-      "ar": "لن يُنتصر عليّ. أفضّل الموت ملكة على العيش أمة.",
-      "es": "No seré conquistada. Prefiero morir como reina que vivir como esclava.",
-      "fr": "On ne triomphera pas de moi. Je préfère mourir reine que vivre esclave.",
-      "de": "Man wird nicht über mich triumphieren. Lieber sterbe ich als Königin, als als Sklavin zu leben.",
-      "ru": "Надо мной не будут торжествовать. Лучше умереть царицей, чем жить рабыней.",
-      "pt": "Não triunfarão sobre mim. Prefiro morrer rainha a viver escrava.",
-      "it": "Non trionferanno su di me. Preferisco morire regina che vivere schiava.",
-      "hi": "मुझ पर कोई विजय नहीं पाएगा। मैं दासी बनकर जीने से रानी बनकर मरना पसंद करूँगी।"
+      "tr": "Üzerimde zafer kutlanmasına izin vermeyeceğim.",
+      "en": "I will not be triumphed over.",
+      "ar": "لن يُنتصر عليّ.",
+      "es": "No seré conquistada.",
+      "fr": "On ne triomphera pas de moi.",
+      "de": "Man wird nicht über mich triumphieren.",
+      "ru": "Надо мной не будут торжествовать.",
+      "pt": "Não triunfarão sobre mim.",
+      "it": "Non trionferanno su di me.",
+      "hi": "मुझ पर कोई विजय नहीं पाएगा।"
     },
     "tags": [
       "courage"
     ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000002",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Güç tahtta değil, onu kullanan akıldadır.",
-      "en": "Power lies not in the throne, but in the mind that commands it.",
-      "ar": "القوة ليست في العرش، بل في العقل الذي يديره.",
-      "es": "El poder no reside en el trono, sino en la mente que lo gobierna.",
-      "fr": "Le pouvoir ne réside pas dans le trône, mais dans l'esprit qui le commande.",
-      "de": "Macht liegt nicht im Thron, sondern im Geist, der ihn regiert.",
-      "ru": "Сила не в троне, а в разуме, который им повелевает.",
-      "pt": "O poder não está no trono, mas na mente que o comanda.",
-      "it": "Il potere non risiede nel trono, ma nella mente che lo governa.",
-      "hi": "शक्ति सिंहासन में नहीं, बल्कि उस बुद्धि में है जो उसे चलाती है।"
-    },
-    "tags": [
-      "philosophy",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000003",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Bütün savaşlar kılıçla kazanılmaz; bazıları bir bakışla, bazıları bir kelimeyle kazanılır.",
-      "en": "Not all battles are won with swords; some are won with a glance, others with a word.",
-      "ar": "ليست كل المعارك تُكسب بالسيف؛ بعضها بنظرة، وبعضها بكلمة.",
-      "es": "No todas las batallas se ganan con espadas; algunas se ganan con una mirada, otras con una palabra.",
-      "fr": "Toutes les batailles ne se gagnent pas par l'épée ; certaines se gagnent par un regard, d'autres par un mot.",
-      "de": "Nicht alle Schlachten werden mit dem Schwert gewonnen; manche mit einem Blick, andere mit einem Wort.",
-      "ru": "Не все битвы выигрываются мечом; некоторые — взглядом, другие — словом.",
-      "pt": "Nem todas as batalhas são vencidas com espadas; algumas com um olhar, outras com uma palavra.",
-      "it": "Non tutte le battaglie si vincono con la spada; alcune con uno sguardo, altre con una parola.",
-      "hi": "सभी लड़ाइयाँ तलवार से नहीं जीती जातीं; कुछ एक नज़र से, कुछ एक शब्द से।"
-    },
-    "tags": [
-      "lifeWisdom",
-      "courage"
-    ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000004",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Düşmanlarını tanı, ama asıl kendini tanımayı ihmal etme.",
-      "en": "Know your enemies, but above all, never neglect to know yourself.",
-      "ar": "اعرف أعداءك، لكن لا تهمل معرفة نفسك.",
-      "es": "Conoce a tus enemigos, pero sobre todo, nunca descuides conocerte a ti mismo.",
-      "fr": "Connais tes ennemis, mais surtout, ne néglige jamais de te connaître toi-même.",
-      "de": "Kenne deine Feinde, aber vor allem vernachlässige es nie, dich selbst zu kennen.",
-      "ru": "Знай своих врагов, но прежде всего никогда не забывай познать себя.",
-      "pt": "Conheça seus inimigos, mas acima de tudo, nunca negligencie conhecer a si mesmo.",
-      "it": "Conosci i tuoi nemici, ma soprattutto non trascurare mai di conoscere te stesso.",
-      "hi": "अपने दुश्मनों को जानो, लेकिन सबसे पहले खुद को जानना न भूलो।"
-    },
-    "tags": [
-      "philosophy",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000005",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Dilleri öğrendim çünkü bir tercümana güvenen, tahtını başkasına teslim eder.",
-      "en": "I learned languages because a ruler who relies on a translator surrenders her throne to another.",
-      "ar": "تعلمت اللغات لأن الحاكم الذي يعتمد على مترجم يسلم عرشه لغيره.",
-      "es": "Aprendí idiomas porque un gobernante que depende de un traductor entrega su trono a otro.",
-      "fr": "J'ai appris les langues car un souverain qui dépend d'un traducteur cède son trône à un autre.",
-      "de": "Ich lernte Sprachen, denn ein Herrscher, der sich auf einen Übersetzer verlässt, gibt seinen Thron ab.",
-      "ru": "Я учила языки, потому что правитель, полагающийся на переводчика, отдаёт трон другому.",
-      "pt": "Aprendi línguas porque um governante que depende de um tradutor entrega seu trono a outro.",
-      "it": "Ho imparato le lingue perché un sovrano che si affida a un traduttore cede il proprio trono a un altro.",
-      "hi": "मैंने भाषाएँ सीखीं क्योंकि जो शासक अनुवादक पर निर्भर करता है, वह अपना सिंहासन दूसरे को सौंप देता है।"
-    },
-    "tags": [
-      "philosophy",
-      "lifeWisdom"
-    ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000006",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Bir kadının zekası, tahtından daha güçlü bir silahtır.",
-      "en": "A woman's intellect is a weapon mightier than any throne.",
-      "ar": "ذكاء المرأة سلاح أقوى من أي عرش.",
-      "es": "El intelecto de una mujer es un arma más poderosa que cualquier trono.",
-      "fr": "L'intelligence d'une femme est une arme plus puissante que tout trône.",
-      "de": "Der Intellekt einer Frau ist eine mächtigere Waffe als jeder Thron.",
-      "ru": "Интеллект женщины — оружие сильнее любого трона.",
-      "pt": "O intelecto de uma mulher é uma arma mais poderosa que qualquer trono.",
-      "it": "L'intelletto di una donna è un'arma più potente di qualsiasi trono.",
-      "hi": "एक स्त्री की बुद्धि किसी भी सिंहासन से अधिक शक्तिशाली हथियार है।"
-    },
-    "tags": [
-      "courage",
-      "philosophy"
-    ],
-    "source": null
-  },
-  {
-    "id": "34000000-0000-0000-0000-000000000007",
-    "figure_id": "00000000-0000-0000-0000-000000000033",
-    "texts": {
-      "tr": "Kader cesurların yanındadır, korkaklar ise kaderin oyuncağıdır.",
-      "en": "Fate favors the bold; cowards are but playthings of destiny.",
-      "ar": "القدر يحالف الشجعان؛ أما الجبناء فلعبة القدر.",
-      "es": "El destino favorece a los valientes; los cobardes son juguetes del destino.",
-      "fr": "Le destin favorise les audacieux ; les lâches ne sont que les jouets du sort.",
-      "de": "Das Schicksal begünstigt die Kühnen; Feiglinge sind nur Spielzeuge des Schicksals.",
-      "ru": "Судьба благоволит смелых; трусы — лишь игрушки судьбы.",
-      "pt": "O destino favorece os corajosos; os covardes são brinquedos do destino.",
-      "it": "Il destino favorisce gli audaci; i codardi sono solo giocattoli del fato.",
-      "hi": "भाग्य साहसी का साथ देता है; कायर तो भाग्य के खिलौने हैं।"
-    },
-    "tags": [
-      "courage"
-    ],
-    "source": null
+    "source": "Livius (Porphyrio, ad Hor. Carm. I.37)"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000001",
@@ -6698,7 +5887,8 @@
       "pt": "É preciso ter ainda caos dentro de si para poder dar à luz uma estrela dançante.",
       "it": "Bisogna avere ancora del caos dentro di sé per poter partorire una stella danzante.",
       "hi": "नाचता हुआ तारा जन्म देने के लिए मनुष्य के भीतर अब भी अराजकता का होना ज़रूरी है।"
-    }
+    },
+    "source": "Also sprach Zarathustra (1883), Vorrede §5"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000002",
@@ -6714,7 +5904,8 @@
       "pt": "Quem tem um porquê para viver pode suportar quase qualquer como.",
       "it": "Chi ha un perché per vivere può sopportare quasi ogni come.",
       "hi": "जिसके पास जीने का कोई \"क्यों\" है, वह लगभग किसी भी \"कैसे\" को सह सकता है।"
-    }
+    },
+    "source": "Götzen-Dämmerung (1888), Sprüche und Pfeile §12"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000003",
@@ -6730,7 +5921,8 @@
       "pt": "O que não me mata torna-me mais forte.",
       "it": "Ciò che non mi uccide mi rende più forte.",
       "hi": "जो मुझे मारता नहीं, वह मुझे और मज़बूत बनाता है।"
-    }
+    },
+    "source": "Götzen-Dämmerung (1888), Sprüche und Pfeile §8"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000004",
@@ -6746,7 +5938,8 @@
       "pt": "Sem música, a vida seria um erro.",
       "it": "Senza musica la vita sarebbe un errore.",
       "hi": "संगीत के बिना जीवन एक भूल होता।"
-    }
+    },
+    "source": "Götzen-Dämmerung (1888), Sprüche und Pfeile §33"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000005",
@@ -6762,7 +5955,8 @@
       "pt": "O que diz a tua consciência? — \"Torna-te quem tu és.\"",
       "it": "Che cosa dice la tua coscienza? — \"Devi diventare colui che sei.\"",
       "hi": "तुम्हारी अंतरात्मा क्या कहती है? — \"तुम्हें वही बनना है जो तुम हो।\""
-    }
+    },
+    "source": "Die fröhliche Wissenschaft (1882), §270"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000006",
@@ -6778,7 +5972,8 @@
       "pt": "O segredo para colher da existência a maior fecundidade e o maior gozo é este: viver perigosamente!",
       "it": "Il segreto per raccogliere dall'esistenza la più grande fecondità e il più grande godimento è questo: vivere pericolosamente!",
       "hi": "अस्तित्व से सबसे बड़ी उपजाऊपन और सबसे बड़ा आनंद पाने का रहस्य यही है: ख़तरनाक ढंग से जियो!"
-    }
+    },
+    "source": "Die fröhliche Wissenschaft (1882), §283"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000007",
@@ -6794,7 +5989,8 @@
       "pt": "Há sempre alguma loucura no amor. Mas há também sempre alguma razão na loucura.",
       "it": "C'è sempre un po' di follia nell'amore. Ma c'è sempre anche un po' di ragione nella follia.",
       "hi": "प्रेम में हमेशा थोड़ा पागलपन होता है। पर पागलपन में भी हमेशा थोड़ी बुद्धि होती है।"
-    }
+    },
+    "source": "Also sprach Zarathustra (1883), I, „Vom Lesen und Schreiben“"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000008",
@@ -6810,7 +6006,8 @@
       "pt": "É verdade: amamos a vida não porque estejamos habituados a viver, mas porque estamos habituados a amar.",
       "it": "È vero: amiamo la vita non perché siamo abituati a vivere, ma perché siamo abituati ad amare.",
       "hi": "यह सच है: हम जीवन से इसलिए नहीं प्रेम करते कि हमें जीने की आदत है, बल्कि इसलिए कि हमें प्रेम करने की आदत है।"
-    }
+    },
+    "source": "Also sprach Zarathustra (1883), I, „Vom Lesen und Schreiben“"
   },
   {
     "id": "f0000001-0000-4000-8000-000100000009",
@@ -6826,7 +6023,8 @@
       "pt": "Só acreditaria num deus que soubesse dançar.",
       "it": "Crederei soltanto in un dio che sapesse danzare.",
       "hi": "मैं केवल उसी ईश्वर पर विश्वास करूँगा जो नाचना जानता हो।"
-    }
+    },
+    "source": "Also sprach Zarathustra (1883), I, „Vom Lesen und Schreiben“"
   },
   {
     "id": "f0000001-0000-4000-8000-00010000000a",
@@ -6842,7 +6040,8 @@
       "pt": "Paga-se mal a um mestre quando se permanece sempre apenas discípulo.",
       "it": "Si ricompensa male un maestro se si resta sempre soltanto allievi.",
       "hi": "जो सदा केवल शिष्य ही बना रहता है, वह अपने गुरु का ऋण बुरी तरह चुकाता है।"
-    }
+    },
+    "source": "Also sprach Zarathustra (1883), I, „Von der schenkenden Tugend“ §3"
   },
   {
     "id": "f0000001-0000-4000-8000-000200000001",
@@ -7018,7 +6217,8 @@
       "pt": "O que mais temo é o próprio medo.",
       "it": "La cosa che più temo è la paura stessa.",
       "hi": "जिस चीज़ से मैं सबसे ज़्यादा डरता हूँ, वह भय ही है।"
-    }
+    },
+    "source": "Essais, I, 18 (« De la peur »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000002",
@@ -7034,7 +6234,8 @@
       "pt": "Alguém pode ter vivido muito tempo e, no entanto, ter vivido pouco.",
       "it": "Tale ha vissuto a lungo, che ha vissuto poco.",
       "hi": "कोई व्यक्ति लंबा जीवन जी सकता है, फिर भी बहुत कम जिया होता है।"
-    }
+    },
+    "source": "Essais, I, 20"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000003",
@@ -7050,7 +6251,8 @@
       "pt": "Quero que a morte me encontre plantando minhas couves.",
       "it": "Voglio che la morte mi trovi a piantare i miei cavoli.",
       "hi": "मैं चाहता हूँ कि मृत्यु मुझे अपनी पत्तागोभी बोते हुए पाए।"
-    }
+    },
+    "source": "Essais, I, 20"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000004",
@@ -7066,7 +6268,8 @@
       "pt": "Se me insistirdes para dizer por que o amava, não posso dizer mais do que: porque era ele, porque era eu.",
       "it": "Se mi si chiede di dire perché lo amavo, non so rispondere altro che: perché era lui, perché ero io.",
       "hi": "यदि आप मुझसे पूछें कि मैं उससे प्रेम क्यों करता था, तो मैं केवल इतना ही कह सकता हूँ: क्योंकि वह वही था, और मैं मैं था।"
-    }
+    },
+    "source": "Essais, I, 28 (« De l'amitié »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000005",
@@ -7082,7 +6285,8 @@
       "pt": "Meu ofício e minha arte é viver.",
       "it": "Il mio mestiere e la mia arte è vivere.",
       "hi": "मेरा पेशा और मेरी कला जीना है।"
-    }
+    },
+    "source": "Essais, II, 6"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000006",
@@ -7098,7 +6302,8 @@
       "pt": "Que sei eu?",
       "it": "Che ne so io?",
       "hi": "मैं क्या जानता हूँ?"
-    }
+    },
+    "source": "Essais, II, 12 (« Apologie de Raymond Sebond »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000007",
@@ -7114,7 +6319,8 @@
       "pt": "Cada homem traz em si a forma inteira da condição humana.",
       "it": "Ogni uomo porta in sé la forma intera dell'umana condizione.",
       "hi": "हर मनुष्य अपने भीतर समूची मानव-द␃शा का स्वरूप धारण करता है।"
-    }
+    },
+    "source": "Essais, III, 2 (« Du repentir »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000008",
@@ -7130,7 +6336,8 @@
       "pt": "Devemos emprestar-nos aos outros e dar-nos apenas a nós mesmos.",
       "it": "Bisogna prestarsi agli altri e donarsi soltanto a se stessi.",
       "hi": "हमें स्वयं को दूसरों को उधार देना चाहिए, पर स्वयं को केवल अपने आप को ही अर्पित करना चाहिए।"
-    }
+    },
+    "source": "Essais, III, 10 (« De ménager sa volonté »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000300000009",
@@ -7146,7 +6353,8 @@
       "pt": "Por mais que subamos sobre pernas de pau, ainda assim é com as próprias pernas que temos de andar.",
       "it": "Per quanto saliamo sui trampoli, dobbiamo pur sempre camminare con le nostre gambe.",
       "hi": "चाहे हम पैरगाड़ियों पर कितना ही ऊँचे चढ़ जाएँ, चलना तो हमें अपने ही पैरों से पड़ता है।"
-    }
+    },
+    "source": "Essais, III, 13 (« De l'expérience »)"
   },
   {
     "id": "f0000001-0000-4000-8000-00030000000a",
@@ -7162,7 +6370,8 @@
       "pt": "Deixemos a natureza agir um pouco; ela entende de seus assuntos melhor do que nós.",
       "it": "Lasciamo fare un po' alla natura: essa se ne intende dei suoi affari meglio di noi.",
       "hi": "प्रकृति को थोड़ा अवसर दें; वह अपने काम को हमसे बेहतर समझती है।"
-    }
+    },
+    "source": "Essais, III, 13 (« De l'expérience »)"
   },
   {
     "id": "f0000001-0000-4000-8000-000400000001",

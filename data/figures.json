@@ -630,27 +630,6 @@
     "theme": "ronesans"
   },
   {
-    "id": "00000000-0000-0000-0000-000000000031",
-    "key": "hypatia",
-    "names": {
-      "tr": "Hypatia",
-      "en": "Hypatia",
-      "ar": "هيباتيا",
-      "es": "Hipatia",
-      "fr": "Hypatie",
-      "de": "Hypatia",
-      "ru": "Гипатия",
-      "pt": "Hipátia",
-      "it": "Ipazia",
-      "hi": "हायपेशिया"
-    },
-    "bustImage": "bust_hypatia.png",
-    "birthYear": 370,
-    "deathYear": 415,
-    "gender": "female",
-    "theme": "antik"
-  },
-  {
     "id": "00000000-0000-0000-0000-000000000032",
     "key": "marie_curie",
     "names": {
