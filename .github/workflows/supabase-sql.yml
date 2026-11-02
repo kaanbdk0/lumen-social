@@ -1,0 +1,34 @@
+name: Supabase SQL (one-off)
+
+# Runs one reviewed SQL file from sql/ against the Lumen Supabase project through the
+# Management API. Needs the SUPABASE_ACCESS_TOKEN secret (a personal access token from
+# supabase.com/dashboard/account/tokens); revoke it afterwards if it was made for one job.
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "SQL file under sql/"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run SQL
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          FILE: sql/${{ github.event.inputs.file }}
+        run: |
+          test -n "$SUPABASE_ACCESS_TOKEN" || { echo "::error::SUPABASE_ACCESS_TOKEN secret is missing"; exit 1; }
+          test -f "$FILE" || { echo "::error::$FILE not found"; exit 1; }
+          jq -Rs '{query: .}' "$FILE" > body.json
+          code=$(curl -s -o out.json -w '%{http_code}' -X POST \
+            "https://api.supabase.com/v1/projects/iodgcowurgijzbacevut/database/query" \
+            -H "Authorization: Bearer $SUPABASE_ACCESS_TOKEN" -H "Content-Type: application/json" --data @body.json)
+          echo "HTTP $code"; head -c 2000 out.json; echo
+          [ "$code" -lt 300 ] || exit 1
