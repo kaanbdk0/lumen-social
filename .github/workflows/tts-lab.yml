@@ -1,0 +1,21 @@
+name: TTS lab (one-off voice tests)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  chatterbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --quiet chatterbox-tts
+      - run: python scripts/lab/tts_lab.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chatterbox-samples
+          path: lab_out/
+          retention-days: 3
