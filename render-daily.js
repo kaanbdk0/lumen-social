@@ -23,7 +23,7 @@ const START_DATE = "2026-05-11";
 // The `edge-tts` CLI comes from `pip install edge-tts`; EDGE_TTS can point at another binary.
 const EDGE_TTS = process.env.EDGE_TTS || "edge-tts";
 const VOICES = {
-  tr: ["tr-TR-AhmetNeural", "tr-TR-EmelNeural"], en: ["en-US-AndrewMultilingualNeural", "en-US-AvaMultilingualNeural"],
+  tr: ["fr-FR-RemyMultilingualNeural", "tr-TR-EmelNeural"], en: ["en-US-AndrewMultilingualNeural", "en-US-AvaMultilingualNeural"],
   ar: ["ar-SA-HamedNeural", "ar-SA-ZariyahNeural"], es: ["es-ES-AlvaroNeural", "es-ES-ElviraNeural"],
   fr: ["fr-FR-HenriNeural", "fr-FR-DeniseNeural"], de: ["de-DE-ConradNeural", "de-DE-KatjaNeural"],
   ru: ["ru-RU-DmitryNeural", "ru-RU-SvetlanaNeural"], pt: ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"],

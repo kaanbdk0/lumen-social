@@ -45,7 +45,7 @@ def _plug(head_poem, head_prose, accent, badge, label_poem, label_prose):
             "prose": {"head": head_prose, "accent": accent, "badge": badge, "label": label_prose}}
 
 LOCALE = {
-    "tr": {"voice": "tr-TR-AhmetNeural", "handle": "@lumen.bilgelik",   # Microsoft Edge
+    "tr": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.bilgelik",   # Microsoft Edge, Kaan picked Remy over Ahmet
            "cta": {"poem": "Bu şiiri her sabah ana ekranında görmek için... Lumen.", "prose": "Bu satırları her sabah ana ekranında okumak için... Lumen."},
            "plug": _plug("Her sabah bir şiir,", "Her sabah bir pasaj,", "ana ekranında.", "App Store'da ücretsiz", "GÜNÜN ŞİİRİ", "GÜNÜN PASAJI")},
     "en": {"voice": "en-US-AndrewMultilingualNeural", "handle": "@lumen.wisdom",      # Microsoft Edge
