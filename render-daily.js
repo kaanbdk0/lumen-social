@@ -20,15 +20,15 @@ const START_DATE = "2026-05-11";
 
 // ── ElevenLabs ──
 // Microsoft Edge neural voices (free, no key). Male narrator: Remy (multilingual) in every language, chosen by
-// Kaan; female figures keep each language's own female voice.
+// Kaan; female figures: Vivienne, Remy's multilingual counterpart.
 // The `edge-tts` CLI comes from `pip install edge-tts`; EDGE_TTS can point at another binary.
 const EDGE_TTS = process.env.EDGE_TTS || "edge-tts";
 const VOICES = {
-  tr: ["fr-FR-RemyMultilingualNeural", "tr-TR-EmelNeural"], en: ["fr-FR-RemyMultilingualNeural", "en-US-AvaMultilingualNeural"],
-  ar: ["fr-FR-RemyMultilingualNeural", "ar-SA-ZariyahNeural"], es: ["fr-FR-RemyMultilingualNeural", "es-ES-ElviraNeural"],
-  fr: ["fr-FR-RemyMultilingualNeural", "fr-FR-DeniseNeural"], de: ["fr-FR-RemyMultilingualNeural", "de-DE-KatjaNeural"],
-  ru: ["fr-FR-RemyMultilingualNeural", "ru-RU-SvetlanaNeural"], pt: ["fr-FR-RemyMultilingualNeural", "pt-BR-FranciscaNeural"],
-  it: ["fr-FR-RemyMultilingualNeural", "it-IT-ElsaNeural"], hi: ["fr-FR-RemyMultilingualNeural", "hi-IN-SwaraNeural"],
+  tr: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"], en: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"],
+  ar: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"], es: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"],
+  fr: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"], de: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"],
+  ru: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"], pt: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"],
+  it: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"], hi: ["fr-FR-RemyMultilingualNeural", "fr-FR-VivienneMultilingualNeural"],
 };
 const MAX_VOICE_SEC = 12.2;   // the story is 15 s and the voice starts at 2.5 s
 
