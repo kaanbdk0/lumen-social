@@ -38,41 +38,41 @@ def _key():
         m = re.search(r"ELEVENLABS_API_KEY=(.+)", open(f"{ROOT}/.env").read()); k = m and m.group(1).strip()
     return k
 
-# Per language: native narrator voice, spoken app plug, on-screen plug, IG handle.
+# Per language: narrator (Microsoft Edge neural voice), spoken app plug, on-screen plug, IG handle.
 # Spoken CTAs spell "Lumen" phonetically where the script differs, so the voice says it right.
 def _plug(head_poem, head_prose, accent, badge, label_poem, label_prose):
     return {"poem": {"head": head_poem, "accent": accent, "badge": badge, "label": label_poem},
             "prose": {"head": head_prose, "accent": accent, "badge": badge, "label": label_prose}}
 
 LOCALE = {
-    "tr": {"voice": "5nr6ATQepuidiLb6OT3B", "handle": "@lumen.bilgelik",   # Ozan Karaca
+    "tr": {"voice": "tr-TR-AhmetNeural", "handle": "@lumen.bilgelik",   # Microsoft Edge
            "cta": {"poem": "Bu şiiri her sabah ana ekranında görmek için... Lumen.", "prose": "Bu satırları her sabah ana ekranında okumak için... Lumen."},
            "plug": _plug("Her sabah bir şiir,", "Her sabah bir pasaj,", "ana ekranında.", "App Store'da ücretsiz", "GÜNÜN ŞİİRİ", "GÜNÜN PASAJI")},
-    "en": {"voice": "JBFqnCBsd6RMkjVDRZzb", "handle": "@lumen.wisdom",      # George
+    "en": {"voice": "en-US-AndrewMultilingualNeural", "handle": "@lumen.wisdom",      # Microsoft Edge
            "cta": {"poem": "To see a poem like this on your home screen every morning... Lumen.", "prose": "To read lines like these on your home screen every morning... Lumen."},
            "plug": _plug("A poem every morning,", "A passage every morning,", "on your home screen.", "Free on the App Store", "POEM OF THE DAY", "PASSAGE OF THE DAY")},
-    "ar": {"voice": "R6nda3uM038xEEKi7GFl", "handle": "@lumen.hikma", "rtl": True,   # Anas, MSA
+    "ar": {"voice": "ar-SA-HamedNeural", "handle": "@lumen.hikma", "rtl": True,   # Microsoft Edge
            "cta": {"poem": "لترى قصيدةً كهذه على شاشتك الرئيسية كل صباح... لومِن.", "prose": "لتقرأ كلماتٍ كهذه على شاشتك الرئيسية كل صباح... لومِن."},
            "plug": _plug("كل صباح قصيدة،", "كل صباح نصّ،", "على شاشتك الرئيسية.", "مجاناً على App Store", "قصيدة اليوم", "نصّ اليوم")},
-    "es": {"voice": "l1zE9xgNpUTaQCZzpNJa", "handle": "@lumen.sabiduria",    # Alberto Rodríguez
+    "es": {"voice": "es-ES-AlvaroNeural", "handle": "@lumen.sabiduria",    # Microsoft Edge
            "cta": {"poem": "Para ver un poema así cada mañana en tu pantalla de inicio... Lumen.", "prose": "Para leer palabras así cada mañana en tu pantalla de inicio... Lumen."},
            "plug": _plug("Un poema cada mañana,", "Un pasaje cada mañana,", "en tu pantalla de inicio.", "Gratis en el App Store", "POEMA DEL DÍA", "PASAJE DEL DÍA")},
-    "fr": {"voice": "YV28ox2c5Cuh5rim0LrW", "handle": "@lumen.sagesse",      # Marcel
+    "fr": {"voice": "fr-FR-HenriNeural", "handle": "@lumen.sagesse",      # Microsoft Edge
            "cta": {"poem": "Pour voir un poème comme celui-ci chaque matin sur ton écran d'accueil... Lumen.", "prose": "Pour lire des lignes comme celles-ci chaque matin sur ton écran d'accueil... Lumen."},
            "plug": _plug("Un poème chaque matin,", "Un texte chaque matin,", "sur ton écran d'accueil.", "Gratuit sur l'App Store", "POÈME DU JOUR", "TEXTE DU JOUR")},
-    "de": {"voice": "re2r5d74PqDzicySNW0I", "handle": "@lumen.weisheit",     # Leon Stern
+    "de": {"voice": "de-DE-ConradNeural", "handle": "@lumen.weisheit",     # Microsoft Edge
            "cta": {"poem": "Damit du jeden Morgen ein Gedicht wie dieses auf deinem Startbildschirm siehst... Lumen.", "prose": "Damit du jeden Morgen Zeilen wie diese auf deinem Startbildschirm liest... Lumen."},
            "plug": _plug("Jeden Morgen ein Gedicht,", "Jeden Morgen ein Gedanke,", "auf deinem Startbildschirm.", "Kostenlos im App Store", "GEDICHT DES TAGES", "TEXT DES TAGES")},
-    "ru": {"voice": "ogi2DyUAKJb7CEdqqvlU", "handle": "@lumen.mudrost",      # Stanislav
+    "ru": {"voice": "ru-RU-DmitryNeural", "handle": "@lumen.mudrost",      # Microsoft Edge
            "cta": {"poem": "Чтобы каждое утро видеть такие стихи на главном экране... Люмен.", "prose": "Чтобы каждое утро читать такие строки на главном экране... Люмен."},
            "plug": _plug("Каждое утро стихи,", "Каждое утро мысль,", "на главном экране.", "Бесплатно в App Store", "СТИХИ ДНЯ", "ТЕКСТ ДНЯ")},
-    "pt": {"voice": "YNOujSUmHtgN6anjqXPf", "handle": "@lumen.sabedoria",    # Victor Power
+    "pt": {"voice": "pt-BR-AntonioNeural", "handle": "@lumen.sabedoria",    # Microsoft Edge
            "cta": {"poem": "Para ver um poema assim toda manhã na sua tela inicial... Lumen.", "prose": "Para ler palavras assim toda manhã na sua tela inicial... Lumen."},
            "plug": _plug("Um poema toda manhã,", "Um trecho toda manhã,", "na sua tela inicial.", "Grátis na App Store", "POEMA DO DIA", "TRECHO DO DIA")},
-    "it": {"voice": "13Cuh3NuYvWOVQtLbRN8", "handle": "@lumen.saggezza",     # Marco
+    "it": {"voice": "it-IT-DiegoNeural", "handle": "@lumen.saggezza",     # Microsoft Edge
            "cta": {"poem": "Per vedere una poesia così ogni mattina sulla tua schermata Home... Lumen.", "prose": "Per leggere parole così ogni mattina sulla tua schermata Home... Lumen."},
            "plug": _plug("Una poesia ogni mattina,", "Un pensiero ogni mattina,", "sulla tua schermata Home.", "Gratis su App Store", "POESIA DEL GIORNO", "PENSIERO DEL GIORNO")},
-    "hi": {"voice": "zgqefOY5FPQ3bB7OZTVR", "handle": "@lumen.vidya",        # Niraj
+    "hi": {"voice": "hi-IN-MadhurNeural", "handle": "@lumen.vidya",        # Microsoft Edge
            "cta": {"poem": "ऐसी कविता हर सुबह अपनी होम स्क्रीन पर देखने के लिए... लूमेन।", "prose": "ऐसे शब्द हर सुबह अपनी होम स्क्रीन पर पढ़ने के लिए... लूमेन।"},
            "plug": _plug("हर सुबह एक कविता,", "हर सुबह एक विचार,", "आपकी होम स्क्रीन पर।", "App Store पर मुफ़्त", "आज की कविता", "आज का विचार")},
 }
@@ -103,90 +103,78 @@ def _el(path, body):
                                  headers={"xi-api-key": _key(), "Content-Type": "application/json"}, method="POST")
     return urllib.request.urlopen(req, timeout=180)
 
-def add_voice(vid):
-    """Shared-library voices must be in the account before TTS; no-op when already added."""
-    try:
-        q = urllib.parse.urlencode({"page_size": 100, "search": vid})
-        v = json.load(urllib.request.urlopen(urllib.request.Request("https://api.elevenlabs.io/v1/shared-voices?" + q, headers={"xi-api-key": _key()}), timeout=60))["voices"]
-        v = next((x for x in v if x["voice_id"] == vid), None)
-        if v: _el(f"/v1/voices/add/{v['public_owner_id']}/{vid}", {"new_name": "Lumen " + v["name"][:20]})
-    except Exception: pass
+# ─── Edge TTS (Microsoft neural voices, free, no key) ────────────────────────
+# Each line is voiced on its own and joined with short pauses, so the line timing is exact.
+EDGE = os.environ.get("EDGE_TTS", "edge-tts")
 
-def tts(stanzas, voice, seed, prose):
-    pause_line, pause_stanza, speed = (0.15, 0.7, 0.95) if prose else (0.45, 0.5, 0.92)
-    text = f' <break time="{pause_stanza}s" /> '.join(f' <break time="{pause_line}s" /> '.join(s) for s in stanzas)
-    r = json.load(_el(f"/v1/text-to-speech/{voice}/with-timestamps", {
-        "text": text, "model_id": "eleven_multilingual_v2", "seed": seed,
-        # low style + higher stability = fewer odd intonations / mumbles
-        "voice_settings": {"stability": 0.7, "similarity_boost": 0.8, "style": 0.15, "speed": speed}}))
-    al = r["alignment"]; spoken = "".join(al["characters"])
-    out, pos = [], 0
-    for s in stanzas:
+def edge(text, voice, rate, path):
+    r = subprocess.run([EDGE, "--voice", voice, f"--rate={rate}", "--text", text, "--write-media", path], capture_output=True, text=True)
+    if r.returncode or not os.path.exists(path): raise RuntimeError(f"edge-tts: {(r.stderr or '')[-300:]}")
+    return path
+
+def tts(stanzas, voice, work, prose):
+    pause_line, pause_stanza, rate = (0.25, 0.7, "-5%") if prose else (0.45, 0.6, "-8%")
+    parts, out, t = [], [], 0.0
+    def silence(sec):
+        f = f"{work}_sil{int(sec * 1000)}.wav"
+        if not os.path.exists(f): sh(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", str(sec), f])
+        return f
+    for si, st in enumerate(stanzas):
         row = []
-        for l in s:
-            i = spoken.find(l, pos)
-            if i < 0: raise ValueError(f"alignment lost at: {l}")
-            row.append({"text": l, "start": round(al["character_start_times_seconds"][i], 2),
-                        "end": round(al["character_end_times_seconds"][i + len(l) - 1], 2)}); pos = i + len(l)
+        for li, line in enumerate(st):
+            mp3 = edge(line, voice, rate, f"{work}_{si}_{li}.mp3"); wav = mp3[:-4] + ".wav"
+            sh(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-ar", "24000", "-ac", "1", wav])
+            d = probe(wav); row.append({"text": line, "start": round(t, 2), "end": round(t + d, 2)}); parts.append(wav); t += d
+            gap = pause_line if li < len(st) - 1 else pause_stanza
+            if not (si == len(stanzas) - 1 and li == len(st) - 1): parts.append(silence(gap)); t += gap
         out.append(row)
-    # longest single character (excluding spaces/punctuation): a stretched, wailing sound shows up here
-    longest = max((e - s for c, s, e in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]) if c.isalpha()), default=0)
-    return base64.b64decode(r["audio_base64"]), out, longest
-
-def stt(path, lang):
-    out = subprocess.run(["curl", "-s", "-X", "POST", "https://api.elevenlabs.io/v1/speech-to-text", "-H", f"xi-api-key: {_key()}",
-                          "-F", "model_id=scribe_v1", "-F", f"language_code={lang}", "-F", f"file=@{path}"],
-                         capture_output=True, text=True, timeout=180).stdout
-    return json.loads(out).get("text", "")
+    lst = f"{work}_list.txt"; open(lst, "w").write("".join(f"file '{os.path.abspath(x)}'\n" for x in parts))
+    sh(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c:a", "libmp3lame", "-b:a", "192k", f"{work}.mp3"])
+    audio = open(f"{work}.mp3", "rb").read()
+    for f in set(parts) | {lst, f"{work}.mp3"} | {f"{work}_{si}_{li}.mp3" for si, st in enumerate(stanzas) for li in range(len(st))}:
+        if os.path.exists(f): os.remove(f)
+    return audio, out
 
 def _letters(s):
     s = unicodedata.normalize("NFKD", s.lower())
     return "".join(c for c in s if c.isalpha() and not unicodedata.combining(c))
 
-def qa(audio_path, stanzas, lang, last_end, longest):
-    """Score the take. Fails on wrong/missing/invented words or a long babbling tail."""
-    heard = stt(audio_path, lang)
-    ref = " ".join(" ".join(s) for s in stanzas)
-    score = difflib.SequenceMatcher(None, _letters(ref), _letters(heard), autojunk=False).ratio()
-    tail = probe(audio_path) - last_end
+def qa(timing):
+    """Edge voices read the text as given (no invented words like the generative voice), so the
+    check is mechanical: every line got audio, at a plausible speaking rate."""
     problems = []
-    if score < QA_MIN: problems.append(f"metin eşleşmesi düşük (%{score*100:.0f})")
-    if tail > 1.5: problems.append(f"sonda {tail:.1f} sn fazladan ses")
-    if longest > 0.9: problems.append(f"uzayan ses ({longest:.1f} sn)")
-    return {"score": round(score, 3), "tail": round(tail, 2), "longest": round(longest, 2), "problems": problems, "heard": heard}
+    for row in timing:
+        for l in row:
+            d = l["end"] - l["start"]; n = len(_letters(l["text"])) or 1
+            if d < 0.3 or n / d > 30 or n / d < 2: problems.append(f"satır sesi şüpheli: {l['text'][:30]}… ({d:.1f} sn)")
+    return {"score": 0.0 if problems else 1.0, "tail": 0.0, "longest": 0.0, "problems": problems}
 
 def cta_audio(voice, lang, mode):
     path = f"{ROOT}/public/reel/cta_{voice}_{lang}_{mode}.mp3"
     if not os.path.exists(path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        open(path, "wb").write(_el(f"/v1/text-to-speech/{voice}", {"text": LOCALE[lang]["cta"][mode], "model_id": "eleven_multilingual_v2",
-            "voice_settings": {"stability": 0.7, "similarity_boost": 0.8, "style": 0.15, "speed": 0.95}}).read())
+        edge(LOCALE[lang]["cta"][mode], voice, "-5%", path)
     return os.path.relpath(path, f"{ROOT}/public"), probe(path)
 
 # ─── Render ──────────────────────────────────────────────────────────────────
 def render(lang, item, out_mp4, variant=0):
-    """Voice + QA (up to QA_TRIES takes, best kept) + Remotion render + loudnorm. Returns the QA report."""
+    """Voice (Edge TTS, line by line) + check + Remotion render + loudnorm. Returns the check report."""
     loc, mode = LOCALE[lang], item.get("mode", "poem")
-    voice = item.get("voice", loc["voice"]); add_voice(voice)
+    voice = loc["voice"]
     stanzas = item["stanzas"]
     os.makedirs(f"{ROOT}/public/reel", exist_ok=True)
     tag = f"{lang}_{item['slug']}"
-    best = None
-    for attempt in range(QA_TRIES):
-        seed = int(hashlib.md5(f"{tag}:{variant}:{attempt}".encode()).hexdigest()[:7], 16)
+    path = f"{ROOT}/public/reel/{tag}.mp3"
+    for attempt in range(QA_TRIES):                   # retries only cover network hiccups
         try:
-            audio, timing, longest = tts(stanzas, voice, seed, mode == "prose")
-        except ValueError as e:
-            log(f"  [{lang}] take {attempt+1}: {e}"); continue
-        path = f"{ROOT}/public/reel/{tag}_{attempt}.mp3"; open(path, "wb").write(audio)
-        rep = qa(path, stanzas, lang, timing[-1][-1]["end"], longest)
-        log(f"  [{lang}] take {attempt+1}: %{rep['score']*100:.1f} {rep['problems'] or 'OK'}")
-        if best is None or (len(rep["problems"]), -rep["score"]) < (len(best[2]["problems"]), -best[2]["score"]):
-            best = (path, timing, rep)
-        if not rep["problems"]: break
-    if best is None: raise RuntimeError("no usable take")
-    path, timing, rep = best
-    rep["attempts"] = attempt + 1
+            audio, timing = tts(stanzas, voice, f"{ROOT}/public/reel/_{tag}", mode == "prose"); break
+        except Exception as e:
+            log(f"  [{lang}] take {attempt+1}: {e}"); time.sleep(5)
+    else:
+        raise RuntimeError("no usable take")
+    open(path, "wb").write(audio)
+    rep = qa(timing); rep["attempts"] = attempt + 1
+    log(f"  [{lang}] voice: {rep['problems'] or 'OK'}")
     cta, cta_sec = cta_audio(voice, lang, mode)
     props = {"stanzas": timing, "voice": os.path.relpath(path, f"{ROOT}/public"), "bg": item["reel_bg"], "hook": item["hook"],
              "hookSub": item.get("hookSub", item["poet"]), "title": item["title"], "author": item.get("author", item["poet"]),
@@ -200,9 +188,6 @@ def render(lang, item, out_mp4, variant=0):
     sh(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out_mp4])
     for f in (raw, pf): os.remove(f)
-    for a in range(QA_TRIES):
-        p = f"{ROOT}/public/reel/{tag}_{a}.mp3"
-        if os.path.exists(p) and p != path: os.remove(p)
     return rep
 
 # ─── GitHub (release = hosting, tags = state) ───────────────────────────────
@@ -352,12 +337,10 @@ def daily_quote(d, lang):
     return t.get(lang) or t.get("en") or t.get("tr"), f["names"].get(lang) or f["names"].get("en") or f["key"]
 
 def story_qa(mp4, text, lang):
-    wav = mp4 + ".qa.mp3"
-    sh(["ffmpeg", "-y", "-loglevel", "error", "-i", mp4, "-vn", "-ac", "1", wav])
-    heard = stt(wav, lang); os.remove(wav)
-    score = difflib.SequenceMatcher(None, _letters(text), _letters(heard), autojunk=False).ratio()
-    # the story is cut at 15 s, so a long quote loses its end: that shows up as a low score too
-    return {"score": round(score, 3), "problems": [f"metin eşleşmesi düşük (%{score*100:.0f})"] if score < QA_MIN else [], "heard": heard}
+    """render-daily.js already refuses a quote too long for the 15 s story; here: is the voice there?"""
+    r = subprocess.run(["ffmpeg", "-i", mp4, "-vn", "-af", "volumedetect", "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"mean_volume: (-?[\d.]+) dB", r.stderr); vol = float(m.group(1)) if m else -99
+    return {"score": 1.0 if vol > -45 else 0.0, "problems": [] if vol > -45 else [f"ses yok gibi ({vol} dB)"]}
 
 def build_story(d, lang, v=0):
     """render-daily.js for one language (a fresh voice take each run), best of QA_TRIES, uploaded."""

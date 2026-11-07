@@ -1,8 +1,7 @@
-import { execSync } from "child_process";
+import { execSync, spawnSync } from "child_process";
 import { readFileSync, writeFileSync, unlinkSync, mkdirSync, existsSync, copyFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import https from "https";
 import { validateData } from "./scripts/validate-data.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -20,11 +19,17 @@ const LANGUAGES = ["tr", "en", "ar", "es", "fr", "de", "ru", "pt", "it", "hi"];
 const START_DATE = "2026-05-11";
 
 // ── ElevenLabs ──
-const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY ||
-  readFileSync(join(__dirname, ".env"), "utf8").match(/ELEVENLABS_API_KEY=(.+)/)?.[1]?.trim();
-const ELEVENLABS_VOICE_ID = process.env.ELEVENLABS_VOICE_ID ||
-  readFileSync(join(__dirname, ".env"), "utf8").match(/ELEVENLABS_VOICE_ID=(.+)/)?.[1]?.trim();
-const ELEVENLABS_FEMALE_VOICE_ID = process.env.ELEVENLABS_FEMALE_VOICE_ID || "4RZ84U1b4WCqpu57LvIq";
+// Microsoft Edge neural voices (free, no key), male / female narrator per language.
+// The `edge-tts` CLI comes from `pip install edge-tts`; EDGE_TTS can point at another binary.
+const EDGE_TTS = process.env.EDGE_TTS || "edge-tts";
+const VOICES = {
+  tr: ["tr-TR-AhmetNeural", "tr-TR-EmelNeural"], en: ["en-US-AndrewMultilingualNeural", "en-US-AvaMultilingualNeural"],
+  ar: ["ar-SA-HamedNeural", "ar-SA-ZariyahNeural"], es: ["es-ES-AlvaroNeural", "es-ES-ElviraNeural"],
+  fr: ["fr-FR-HenriNeural", "fr-FR-DeniseNeural"], de: ["de-DE-ConradNeural", "de-DE-KatjaNeural"],
+  ru: ["ru-RU-DmitryNeural", "ru-RU-SvetlanaNeural"], pt: ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"],
+  it: ["it-IT-DiegoNeural", "it-IT-ElsaNeural"], hi: ["hi-IN-MadhurNeural", "hi-IN-SwaraNeural"],
+};
+const MAX_VOICE_SEC = 12.2;   // the story is 15 s and the voice starts at 2.5 s
 
 // ── Load data ──
 const figures = JSON.parse(readFileSync(join(__dirname, "data/figures.json"), "utf8"));
@@ -76,47 +81,23 @@ function getDailyQuote(dateStr) {
   return { quote, figure };
 }
 
-function getVoiceId(figure) {
-  return figure.gender === "female" ? ELEVENLABS_FEMALE_VOICE_ID : ELEVENLABS_VOICE_ID;
+function getVoice(figure, lang) {
+  const [male, female] = VOICES[lang] || VOICES.en;
+  return figure.gender === "female" ? female : male;
 }
 
-// ── ElevenLabs TTS ──
-function generateSpeech(text, outputPath, voiceId) {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify({
-      text,
-      model_id: "eleven_multilingual_v2",
-      voice_settings: { stability: 0.7, similarity_boost: 0.8, style: 0.4 },
-    });
+function voiceSeconds(path) {
+  return parseFloat(execSync(`ffprobe -v error -show_entries format=duration -of csv=p=0 "${path}"`).toString());
+}
 
-    const req = https.request({
-      hostname: "api.elevenlabs.io",
-      path: `/v1/text-to-speech/${voiceId}`,
-      method: "POST",
-      headers: {
-        "xi-api-key": ELEVENLABS_API_KEY,
-        "Content-Type": "application/json",
-        "Content-Length": Buffer.byteLength(body),
-      },
-    }, (res) => {
-      if (res.statusCode !== 200) {
-        let errData = "";
-        res.on("data", (d) => errData += d);
-        res.on("end", () => reject(new Error(`ElevenLabs ${res.statusCode}: ${errData}`)));
-        return;
-      }
-      const chunks = [];
-      res.on("data", (d) => chunks.push(d));
-      res.on("end", () => {
-        writeFileSync(outputPath, Buffer.concat(chunks));
-        resolve(outputPath);
-      });
-    });
-
-    req.on("error", reject);
-    req.write(body);
-    req.end();
-  });
+// ── Edge TTS ── a quote that would run past the end of the story is read a little faster, or skipped
+function generateSpeech(text, outputPath, voice) {
+  for (const rate of ["-5%", "+5%", "+15%"]) {
+    const r = spawnSync(EDGE_TTS, ["--voice", voice, `--rate=${rate}`, "--text", text, "--write-media", outputPath], { encoding: "utf8" });
+    if (r.status !== 0 || !existsSync(outputPath)) throw new Error(`edge-tts failed: ${(r.stderr || r.error || "").toString().slice(-300)}`);
+    if (voiceSeconds(outputPath) <= MAX_VOICE_SEC) return outputPath;
+  }
+  throw new Error(`quote too long for a 15 s story (${voiceSeconds(outputPath).toFixed(1)} s)`);
 }
 
 // ── Generate SFX (once per run) ──
@@ -236,8 +217,7 @@ async function main() {
 
       // Step 2: Generate voice
       console.log(`🎤 [${lang}] Generating voice...`);
-      const voiceId = getVoiceId(figure);
-      await generateSpeech(quoteText, voiceFile, voiceId);
+      generateSpeech(quoteText, voiceFile, getVoice(figure, lang));
 
       // Step 3: Merge video + voice + SFX
       console.log(`🔀 [${lang}] Merging audio...`);

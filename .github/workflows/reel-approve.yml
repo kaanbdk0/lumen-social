@@ -30,6 +30,8 @@ jobs:
           node-version: '20'
           cache: 'npm'
 
+      - run: pip install --quiet edge-tts
+
       - name: Watch Telegram
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}

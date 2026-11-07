@@ -59,6 +59,7 @@ jobs:
           sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-extra fonts-noto-cjk fonts-noto-color-emoji
           fc-cache -f
           npx remotion browser ensure
+          pip install --quiet edge-tts
 
       # Constitution gate: refuse to start if data is broken (missing bust
       # image, orphan quote, etc.) so we never silently render 0 videos.
