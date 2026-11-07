@@ -1,9 +1,8 @@
-name: Daily Story Prepare (→ Telegram approval)
+name: Daily Story (automatic)
 
 # Renders today's quote-of-the-day story for every language, checks each voice with
-# speech-to-text, and sends it to Kaan on Telegram. Nothing is posted here: the
-# reel-approve watcher posts a language's Instagram story (EN also YouTube Shorts)
-# only after Kaan presses "Paylaş".
+# speech-to-text and posts the ones that pass as Instagram stories (EN also YouTube
+# Shorts). A language whose voice fails on every take is skipped that day.
 on:
   # Scheduling is handled by an external cron (cron-job.org) that calls
   # workflow_dispatch daily. GitHub's built-in scheduler was silently
@@ -67,23 +66,19 @@ jobs:
         if: steps.gate.outputs.go == 'true'
         run: node scripts/validate-data.js
 
-      - name: Render, check and send to Telegram
+      - name: Render, check and post
         if: steps.gate.outputs.go == 'true'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           ELEVENLABS_FEMALE_VOICE_ID: ${{ secrets.ELEVENLABS_FEMALE_VOICE_ID }}
           FFMPEG_PATH: /usr/bin/ffmpeg
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ARGS="${{ steps.gate.outputs.date }}"
           [ -n "${{ github.event.inputs.langs }}" ] && ARGS="$ARGS --langs ${{ github.event.inputs.langs }}"
-          python3 scripts/approval.py prepare-story $ARGS
-
-      - name: Start the approval watcher
-        if: steps.gate.outputs.go == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run reel-approve.yml
+          python3 scripts/approval.py auto-story $ARGS

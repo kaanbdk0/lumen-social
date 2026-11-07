@@ -5,10 +5,9 @@ name: Reel Approve (Telegram watcher)
 # seslendir / Başka içerik → re-render and send again, Bugün geç → skip. Started by the
 # prepare workflows; the schedule is a fallback for late approvals and ends in seconds
 # when nothing is waiting.
+# Not used since 2026-11-07 (posting is automatic); kept for manual runs.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/20 * * * *"
 
 permissions:
   contents: write

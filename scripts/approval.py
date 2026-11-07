@@ -1,5 +1,9 @@
-"""Semi-automatic reel and story posting: prepare → Telegram approval → post.
+"""Reel and story posting. Since 2026-11-07 fully automatic (`auto`, `auto-story`): render, voice
+check, post what passes. The Telegram approval mode (`prepare`, `prepare-story`, `watch`) is kept
+but no workflow runs it.
 
+  python3 scripts/approval.py auto <date> [--langs tr,en]           # reels: render + QA + post
+  python3 scripts/approval.py auto-story <date> [--langs tr,en]     # daily stories: render + QA + post
   python3 scripts/approval.py prepare <date> [--langs tr,en]        # reels: render + QA + send to Telegram
   python3 scripts/approval.py prepare-story <date> [--langs tr,en]  # daily stories: same, render-daily.js
   python3 scripts/approval.py watch [--minutes 330]                 # handle Kaan's button presses
@@ -453,6 +457,53 @@ def handle_story(act, parts, msg):
         except Exception as e:
             say(f"{FLAG[lang]} hikâye yeniden hazırlanamadı: {str(e)[:200]}")
 
+# ─── Fully automatic (no Telegram) ───────────────────────────────────────────
+AUTO_ITEMS = 3   # a language whose voice fails QA on every take moves on to the next queue item, up to this many
+
+def auto_reels(d, langs):
+    """Render + voice-check each language and post the ones that pass. A language whose voice
+    fails the check on every take and every tried item is skipped that day, never posted."""
+    have = tags("reel-"); ready = []
+    for lang in langs:
+        if resolved(d, lang, have): log(f"[{lang}] already done"); continue
+        for k in range(AUTO_ITEMS):
+            try:
+                item, rep, _ = build_one(d, lang, k)
+            except Exception as e:
+                log(f"[{lang}] item {k}: ✗ {e!r}"[:400]); continue
+            if not rep["problems"]:
+                log(f"[{lang}] {item['slug']} ✓ %{rep['score']*100:.0f}"); ready.append(lang); break
+            log(f"[{lang}] {item['slug']} voice check failed: {rep['problems']}")
+        else:
+            log(f"[{lang}] skipped today: no item passed the voice check")
+    if ready:
+        res = post(d, ready)
+        log("posted:", [l for l, ok in res.items() if ok], "failed:", [l for l, ok in res.items() if not ok])
+    clean_old_releases()
+
+def auto_stories(d, langs):
+    have = tags("story-"); ready = []
+    for lang in langs:
+        if resolved(d, lang, have, "story"): log(f"[{lang}] already done"); continue
+        try:
+            meta, rep, _ = build_story(d, lang)
+        except Exception as e:
+            log(f"[{lang}] ✗ {e!r}"[:400]); continue
+        if rep["problems"]: log(f"[{lang}] skipped today: voice check failed {rep['problems']}"); continue
+        ready.append(lang)
+    if ready:
+        res = post_story(d, ready)
+        log("posted:", [l for l, ok in res.items() if ok], "failed:", [l for l, ok in res.items() if not ok])
+    clean_old_releases()
+
+def clean_old_releases():
+    """Hosting releases are only needed until Instagram has fetched the videos."""
+    rel = gh("release", "list", "--limit", "50", "--json", "tagName", check=False)
+    for r in json.loads(rel.stdout or "[]"):
+        t = r["tagName"]
+        if (t.startswith("approve-") or t.startswith("story-approve-")) and (Date.today() - Date.fromisoformat(t[-10:])).days > 2:
+            gh("release", "delete", t, "-y", "--cleanup-tag", check=False)
+
 def close_buttons(msg, note):
     if not msg: return
     tg("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"], reply_markup={"inline_keyboard": []})
@@ -547,6 +598,10 @@ def main():
         d = sys.argv[2]; langs = LANGS
         if "--langs" in sys.argv and sys.argv[sys.argv.index("--langs") + 1]: langs = sys.argv[sys.argv.index("--langs") + 1].split(",")
         prepare_story(d, langs)
+    elif cmd in ("auto", "auto-story"):
+        d = sys.argv[2]; langs = LANGS
+        if "--langs" in sys.argv and sys.argv[sys.argv.index("--langs") + 1]: langs = sys.argv[sys.argv.index("--langs") + 1].split(",")
+        (auto_reels if cmd == "auto" else auto_stories)(d, langs)
     elif cmd == "watch":
         watch(int(sys.argv[sys.argv.index("--minutes") + 1]) if "--minutes" in sys.argv else 330)
     elif cmd == "render":

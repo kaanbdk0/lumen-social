@@ -1,8 +1,9 @@
-name: Reel Prepare (every 2 days → Telegram approval)
+name: Reel Post (every 2 days, automatic)
 
 # Renders today's voiced reel for every language, checks each voice track with
-# speech-to-text, and sends it to Kaan on Telegram. Nothing is posted here: the
-# reel-approve workflow posts a language only after Kaan presses "Paylaş".
+# speech-to-text and posts the ones that pass to Instagram (EN also to YouTube).
+# A language whose voice fails on every take tries the next queue item; if none
+# passes it is skipped that day. (Telegram approval mode ran 2026-10-26 → 11-07.)
 on:
   # Scheduling is handled by an external cron (cron-job.org) that calls
   # workflow_dispatch daily; the gate keeps the every-2-days cadence.
@@ -68,20 +69,16 @@ jobs:
           fc-cache -f
           npx remotion browser ensure
 
-      - name: Render, check and send to Telegram
+      - name: Render, check and post
         if: steps.gate.outputs.go == 'true'
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          INSTAGRAM_ACCOUNTS: ${{ secrets.INSTAGRAM_ACCOUNTS }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ARGS="${{ steps.gate.outputs.date }}"
           [ -n "${{ github.event.inputs.langs }}" ] && ARGS="$ARGS --langs ${{ github.event.inputs.langs }}"
-          python3 scripts/approval.py prepare $ARGS
-
-      - name: Start the approval watcher
-        if: steps.gate.outputs.go == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run reel-approve.yml
+          python3 scripts/approval.py auto $ARGS
