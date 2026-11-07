@@ -81,9 +81,10 @@ function getDailyQuote(dateStr) {
   return { quote, figure };
 }
 
-function getVoice(figure, lang) {
+// Voices to try in order: the language's own, then a multilingual one (some voices refuse certain words for good).
+function getVoices(figure, lang) {
   const [male, female] = VOICES[lang] || VOICES.en;
-  return figure.gender === "female" ? female : male;
+  return figure.gender === "female" ? [female, "en-US-AvaMultilingualNeural"] : [male, "en-US-AndrewMultilingualNeural"];
 }
 
 function voiceSeconds(path) {
@@ -91,13 +92,17 @@ function voiceSeconds(path) {
 }
 
 // ── Edge TTS ── a quote that would run past the end of the story is read a little faster, or skipped
-function generateSpeech(text, outputPath, voice) {
-  for (const rate of ["-5%", "+5%", "+15%"]) {
-    const r = spawnSync(EDGE_TTS, ["--voice", voice, `--rate=${rate}`, "--text", text, "--write-media", outputPath], { encoding: "utf8" });
-    if (r.status !== 0 || !existsSync(outputPath)) throw new Error(`edge-tts failed: ${(r.stderr || r.error || "").toString().slice(-300)}`);
-    if (voiceSeconds(outputPath) <= MAX_VOICE_SEC) return outputPath;
+function generateSpeech(text, outputPath, voices) {
+  let lastError = "";
+  for (const voice of voices) {
+    for (const rate of ["-5%", "+5%", "+15%"]) {
+      const r = spawnSync(EDGE_TTS, ["--voice", voice, `--rate=${rate}`, "--text", text, "--write-media", outputPath], { encoding: "utf8" });
+      if (r.status !== 0 || !existsSync(outputPath)) { lastError = `${voice}: ${(r.stderr || r.error || "").toString().slice(-200)}`; break; }
+      if (voiceSeconds(outputPath) <= MAX_VOICE_SEC) return outputPath;
+      lastError = `quote too long for a 15 s story (${voiceSeconds(outputPath).toFixed(1)} s)`;
+    }
   }
-  throw new Error(`quote too long for a 15 s story (${voiceSeconds(outputPath).toFixed(1)} s)`);
+  throw new Error(`edge-tts: ${lastError}`);
 }
 
 // ── Generate SFX (once per run) ──
@@ -217,7 +222,7 @@ async function main() {
 
       // Step 2: Generate voice
       console.log(`🎤 [${lang}] Generating voice...`);
-      generateSpeech(quoteText, voiceFile, getVoice(figure, lang));
+      generateSpeech(quoteText, voiceFile, getVoices(figure, lang));
 
       // Step 3: Merge video + voice + SFX
       console.log(`🔀 [${lang}] Merging audio...`);

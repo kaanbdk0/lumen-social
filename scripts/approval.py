@@ -106,6 +106,7 @@ def _el(path, body):
 # ─── Edge TTS (Microsoft neural voices, free, no key) ────────────────────────
 # Each line is voiced on its own and joined with short pauses, so the line timing is exact.
 EDGE = os.environ.get("EDGE_TTS", "edge-tts")
+FALLBACK_VOICE = "en-US-AndrewMultilingualNeural"     # speaks every language we use
 
 def edge(text, voice, rate, path):
     r = subprocess.run([EDGE, "--voice", voice, f"--rate={rate}", "--text", text, "--write-media", path], capture_output=True, text=True)
@@ -153,7 +154,8 @@ def cta_audio(voice, lang, mode):
     path = f"{ROOT}/public/reel/cta_{voice}_{lang}_{mode}.mp3"
     if not os.path.exists(path):
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        edge(LOCALE[lang]["cta"][mode], voice, "-5%", path)
+        try: edge(LOCALE[lang]["cta"][mode], voice, "-5%", path)
+        except RuntimeError: edge(LOCALE[lang]["cta"][mode], FALLBACK_VOICE, "-5%", path)
     return os.path.relpath(path, f"{ROOT}/public"), probe(path)
 
 # ─── Render ──────────────────────────────────────────────────────────────────
@@ -165,11 +167,12 @@ def render(lang, item, out_mp4, variant=0):
     os.makedirs(f"{ROOT}/public/reel", exist_ok=True)
     tag = f"{lang}_{item['slug']}"
     path = f"{ROOT}/public/reel/{tag}.mp3"
-    for attempt in range(QA_TRIES):                   # retries only cover network hiccups
+    # a retry covers network hiccups; some voices refuse certain words for good (Dmitry), then the fallback reads it all
+    for attempt, v in enumerate([voice, voice, FALLBACK_VOICE]):
         try:
-            audio, timing = tts(stanzas, voice, f"{ROOT}/public/reel/_{tag}", mode == "prose"); break
+            audio, timing = tts(stanzas, v, f"{ROOT}/public/reel/_{tag}", mode == "prose"); voice = v; break
         except Exception as e:
-            log(f"  [{lang}] take {attempt+1}: {e}"); time.sleep(5)
+            log(f"  [{lang}] take {attempt+1} ({v}): {str(e)[-200:]}"); time.sleep(5)
     else:
         raise RuntimeError("no usable take")
     open(path, "wb").write(audio)
