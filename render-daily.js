@@ -19,15 +19,16 @@ const LANGUAGES = ["tr", "en", "ar", "es", "fr", "de", "ru", "pt", "it", "hi"];
 const START_DATE = "2026-05-11";
 
 // ── ElevenLabs ──
-// Microsoft Edge neural voices (free, no key), male / female narrator per language.
+// Microsoft Edge neural voices (free, no key). Male narrator: Remy (multilingual) in every language, chosen by
+// Kaan; female figures keep each language's own female voice.
 // The `edge-tts` CLI comes from `pip install edge-tts`; EDGE_TTS can point at another binary.
 const EDGE_TTS = process.env.EDGE_TTS || "edge-tts";
 const VOICES = {
-  tr: ["fr-FR-RemyMultilingualNeural", "tr-TR-EmelNeural"], en: ["en-US-AndrewMultilingualNeural", "en-US-AvaMultilingualNeural"],
-  ar: ["ar-SA-HamedNeural", "ar-SA-ZariyahNeural"], es: ["es-ES-AlvaroNeural", "es-ES-ElviraNeural"],
-  fr: ["fr-FR-HenriNeural", "fr-FR-DeniseNeural"], de: ["de-DE-ConradNeural", "de-DE-KatjaNeural"],
-  ru: ["ru-RU-DmitryNeural", "ru-RU-SvetlanaNeural"], pt: ["pt-BR-AntonioNeural", "pt-BR-FranciscaNeural"],
-  it: ["it-IT-DiegoNeural", "it-IT-ElsaNeural"], hi: ["hi-IN-MadhurNeural", "hi-IN-SwaraNeural"],
+  tr: ["fr-FR-RemyMultilingualNeural", "tr-TR-EmelNeural"], en: ["fr-FR-RemyMultilingualNeural", "en-US-AvaMultilingualNeural"],
+  ar: ["fr-FR-RemyMultilingualNeural", "ar-SA-ZariyahNeural"], es: ["fr-FR-RemyMultilingualNeural", "es-ES-ElviraNeural"],
+  fr: ["fr-FR-RemyMultilingualNeural", "fr-FR-DeniseNeural"], de: ["fr-FR-RemyMultilingualNeural", "de-DE-KatjaNeural"],
+  ru: ["fr-FR-RemyMultilingualNeural", "ru-RU-SvetlanaNeural"], pt: ["fr-FR-RemyMultilingualNeural", "pt-BR-FranciscaNeural"],
+  it: ["fr-FR-RemyMultilingualNeural", "it-IT-ElsaNeural"], hi: ["fr-FR-RemyMultilingualNeural", "hi-IN-SwaraNeural"],
 };
 const MAX_VOICE_SEC = 12.2;   // the story is 15 s and the voice starts at 2.5 s
 

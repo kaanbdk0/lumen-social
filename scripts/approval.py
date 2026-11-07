@@ -38,41 +38,42 @@ def _key():
         m = re.search(r"ELEVENLABS_API_KEY=(.+)", open(f"{ROOT}/.env").read()); k = m and m.group(1).strip()
     return k
 
-# Per language: narrator (Microsoft Edge neural voice), spoken app plug, on-screen plug, IG handle.
+# Per language: narrator, spoken app plug, on-screen plug, IG handle. Narrator everywhere: Remy, a multilingual
+# Microsoft Edge voice Kaan chose (2026-11-07) over each language's own voice.
 # Spoken CTAs spell "Lumen" phonetically where the script differs, so the voice says it right.
 def _plug(head_poem, head_prose, accent, badge, label_poem, label_prose):
     return {"poem": {"head": head_poem, "accent": accent, "badge": badge, "label": label_poem},
             "prose": {"head": head_prose, "accent": accent, "badge": badge, "label": label_prose}}
 
 LOCALE = {
-    "tr": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.bilgelik",   # Microsoft Edge, Kaan picked Remy over Ahmet
+    "tr": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.bilgelik",   # Microsoft Edge
            "cta": {"poem": "Bu şiiri her sabah ana ekranında görmek için... Lumen.", "prose": "Bu satırları her sabah ana ekranında okumak için... Lumen."},
            "plug": _plug("Her sabah bir şiir,", "Her sabah bir pasaj,", "ana ekranında.", "App Store'da ücretsiz", "GÜNÜN ŞİİRİ", "GÜNÜN PASAJI")},
-    "en": {"voice": "en-US-AndrewMultilingualNeural", "handle": "@lumen.wisdom",      # Microsoft Edge
+    "en": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.wisdom",      # Microsoft Edge
            "cta": {"poem": "To see a poem like this on your home screen every morning... Lumen.", "prose": "To read lines like these on your home screen every morning... Lumen."},
            "plug": _plug("A poem every morning,", "A passage every morning,", "on your home screen.", "Free on the App Store", "POEM OF THE DAY", "PASSAGE OF THE DAY")},
-    "ar": {"voice": "ar-SA-HamedNeural", "handle": "@lumen.hikma", "rtl": True,   # Microsoft Edge
+    "ar": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.hikma", "rtl": True,   # Microsoft Edge
            "cta": {"poem": "لترى قصيدةً كهذه على شاشتك الرئيسية كل صباح... لومِن.", "prose": "لتقرأ كلماتٍ كهذه على شاشتك الرئيسية كل صباح... لومِن."},
            "plug": _plug("كل صباح قصيدة،", "كل صباح نصّ،", "على شاشتك الرئيسية.", "مجاناً على App Store", "قصيدة اليوم", "نصّ اليوم")},
-    "es": {"voice": "es-ES-AlvaroNeural", "handle": "@lumen.sabiduria",    # Microsoft Edge
+    "es": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.sabiduria",    # Microsoft Edge
            "cta": {"poem": "Para ver un poema así cada mañana en tu pantalla de inicio... Lumen.", "prose": "Para leer palabras así cada mañana en tu pantalla de inicio... Lumen."},
            "plug": _plug("Un poema cada mañana,", "Un pasaje cada mañana,", "en tu pantalla de inicio.", "Gratis en el App Store", "POEMA DEL DÍA", "PASAJE DEL DÍA")},
-    "fr": {"voice": "fr-FR-HenriNeural", "handle": "@lumen.sagesse",      # Microsoft Edge
+    "fr": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.sagesse",      # Microsoft Edge
            "cta": {"poem": "Pour voir un poème comme celui-ci chaque matin sur ton écran d'accueil... Lumen.", "prose": "Pour lire des lignes comme celles-ci chaque matin sur ton écran d'accueil... Lumen."},
            "plug": _plug("Un poème chaque matin,", "Un texte chaque matin,", "sur ton écran d'accueil.", "Gratuit sur l'App Store", "POÈME DU JOUR", "TEXTE DU JOUR")},
-    "de": {"voice": "de-DE-ConradNeural", "handle": "@lumen.weisheit",     # Microsoft Edge
+    "de": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.weisheit",     # Microsoft Edge
            "cta": {"poem": "Damit du jeden Morgen ein Gedicht wie dieses auf deinem Startbildschirm siehst... Lumen.", "prose": "Damit du jeden Morgen Zeilen wie diese auf deinem Startbildschirm liest... Lumen."},
            "plug": _plug("Jeden Morgen ein Gedicht,", "Jeden Morgen ein Gedanke,", "auf deinem Startbildschirm.", "Kostenlos im App Store", "GEDICHT DES TAGES", "TEXT DES TAGES")},
-    "ru": {"voice": "ru-RU-DmitryNeural", "handle": "@lumen.mudrost",      # Microsoft Edge
+    "ru": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.mudrost",      # Microsoft Edge
            "cta": {"poem": "Чтобы каждое утро видеть такие стихи на главном экране... Люмен.", "prose": "Чтобы каждое утро читать такие строки на главном экране... Люмен."},
            "plug": _plug("Каждое утро стихи,", "Каждое утро мысль,", "на главном экране.", "Бесплатно в App Store", "СТИХИ ДНЯ", "ТЕКСТ ДНЯ")},
-    "pt": {"voice": "pt-BR-AntonioNeural", "handle": "@lumen.sabedoria",    # Microsoft Edge
+    "pt": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.sabedoria",    # Microsoft Edge
            "cta": {"poem": "Para ver um poema assim toda manhã na sua tela inicial... Lumen.", "prose": "Para ler palavras assim toda manhã na sua tela inicial... Lumen."},
            "plug": _plug("Um poema toda manhã,", "Um trecho toda manhã,", "na sua tela inicial.", "Grátis na App Store", "POEMA DO DIA", "TRECHO DO DIA")},
-    "it": {"voice": "it-IT-DiegoNeural", "handle": "@lumen.saggezza",     # Microsoft Edge
+    "it": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.saggezza",     # Microsoft Edge
            "cta": {"poem": "Per vedere una poesia così ogni mattina sulla tua schermata Home... Lumen.", "prose": "Per leggere parole così ogni mattina sulla tua schermata Home... Lumen."},
            "plug": _plug("Una poesia ogni mattina,", "Un pensiero ogni mattina,", "sulla tua schermata Home.", "Gratis su App Store", "POESIA DEL GIORNO", "PENSIERO DEL GIORNO")},
-    "hi": {"voice": "hi-IN-MadhurNeural", "handle": "@lumen.vidya",        # Microsoft Edge
+    "hi": {"voice": "fr-FR-RemyMultilingualNeural", "handle": "@lumen.vidya",        # Microsoft Edge
            "cta": {"poem": "ऐसी कविता हर सुबह अपनी होम स्क्रीन पर देखने के लिए... लूमेन।", "prose": "ऐसे शब्द हर सुबह अपनी होम स्क्रीन पर पढ़ने के लिए... लूमेन।"},
            "plug": _plug("हर सुबह एक कविता,", "हर सुबह एक विचार,", "आपकी होम स्क्रीन पर।", "App Store पर मुफ़्त", "आज की कविता", "आज का विचार")},
 }
