@@ -447,41 +447,56 @@ def handle_story(act, parts, msg):
 # ─── Fully automatic (no Telegram) ───────────────────────────────────────────
 AUTO_ITEMS = 3   # a language whose voice fails QA on every take moves on to the next queue item, up to this many
 
+AUTO_ROUNDS, RETRY_WAIT = 3, 600   # outages seen: Edge TTS "No audio" (2026-11-12), IG "Processing failed" (11-09)
+
+def _rounds(d, langs, build, post_fn, kind):
+    """Build each language, post the ones that are ready; languages that failed for an outside reason
+    (TTS / network error while building, Instagram rejecting the upload) get up to two more rounds."""
+    to_build, to_post = list(langs), []
+    for rnd in range(AUTO_ROUNDS):
+        if rnd:
+            log(f"round {rnd + 1} in {RETRY_WAIT // 60} min: build {to_build}, re-post {to_post}"); time.sleep(RETRY_WAIT)
+        have = tags(f"{kind}-"); retry_build = []
+        for lang in to_build:
+            if resolved(d, lang, have, kind): log(f"[{lang}] already done"); continue
+            state = build(lang)                     # "ready" | "skip" (content problem: never retried) | "error"
+            if state == "ready": to_post.append(lang)
+            elif state == "error": retry_build.append(lang)
+        posted_fail = []
+        if to_post:
+            res = post_fn(d, to_post)
+            log("posted:", [l for l, ok in res.items() if ok], "failed:", [l for l, ok in res.items() if not ok])
+            posted_fail = [l for l, ok in res.items() if not ok]
+        to_build, to_post = retry_build, posted_fail
+        if not to_build and not to_post: break
+    if to_build or to_post: log(f"gave up today: {to_build + to_post}")
+    clean_old_releases()
+
 def auto_reels(d, langs):
     """Render + voice-check each language and post the ones that pass. A language whose voice
-    fails the check on every take and every tried item is skipped that day, never posted."""
-    have = tags("reel-"); ready = []
-    for lang in langs:
-        if resolved(d, lang, have): log(f"[{lang}] already done"); continue
+    fails the check on every tried item is skipped that day, never posted."""
+    def build(lang):
+        errors = 0
         for k in range(AUTO_ITEMS):
             try:
                 item, rep, _ = build_one(d, lang, k)
             except Exception as e:
-                log(f"[{lang}] item {k}: ✗ {e!r}"[:400]); continue
+                log(f"[{lang}] item {k}: ✗ {e!r}"[:400]); errors += 1; continue
             if not rep["problems"]:
-                log(f"[{lang}] {item['slug']} ✓ %{rep['score']*100:.0f}"); ready.append(lang); break
+                log(f"[{lang}] {item['slug']} ✓"); return "ready"
             log(f"[{lang}] {item['slug']} voice check failed: {rep['problems']}")
-        else:
-            log(f"[{lang}] skipped today: no item passed the voice check")
-    if ready:
-        res = post(d, ready)
-        log("posted:", [l for l, ok in res.items() if ok], "failed:", [l for l, ok in res.items() if not ok])
-    clean_old_releases()
+        log(f"[{lang}] no item passed today"); return "error" if errors == AUTO_ITEMS else "skip"
+    _rounds(d, langs, build, post, "reel")
 
 def auto_stories(d, langs):
-    have = tags("story-"); ready = []
-    for lang in langs:
-        if resolved(d, lang, have, "story"): log(f"[{lang}] already done"); continue
+    def build(lang):
         try:
             meta, rep, _ = build_story(d, lang)
         except Exception as e:
-            log(f"[{lang}] ✗ {e!r}"[:400]); continue
-        if rep["problems"]: log(f"[{lang}] skipped today: voice check failed {rep['problems']}"); continue
-        ready.append(lang)
-    if ready:
-        res = post_story(d, ready)
-        log("posted:", [l for l, ok in res.items() if ok], "failed:", [l for l, ok in res.items() if not ok])
-    clean_old_releases()
+            log(f"[{lang}] ✗ {e!r}"[:400]); return "error"
+        if rep["problems"]: log(f"[{lang}] skipped today: voice check failed {rep['problems']}"); return "skip"
+        return "ready"
+    _rounds(d, langs, build, post_story, "story")
 
 def clean_old_releases():
     """Hosting releases are only needed until Instagram has fetched the videos."""
