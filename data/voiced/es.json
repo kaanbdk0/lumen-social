@@ -108,35 +108,31 @@
   "source": "Tagore's own English translation (1916); Lumen translation"
  },
  {
-  "slug": "es_machado_caminante",
+  "slug": "es_najera_para_entonces",
   "mode": "poem",
-  "poet": "Antonio Machado",
-  "author": "Antonio Machado",
-  "title": "Proverbios y cantares XXIX",
-  "hook": "¿Sientes que no encuentras tu camino?",
+  "poet": "Manuel Gutiérrez Nájera",
+  "author": "Manuel Gutiérrez Nájera",
+  "title": "Para entonces",
+  "hook": "¿Cómo te gustaría despedirte?",
   "stanzas": [
    [
-    "Caminante, son tus huellas",
-    "el camino, y nada más;",
-    "caminante, no hay camino:",
-    "se hace camino al andar."
+    "Quiero morir cuando decline el día,",
+    "en alta mar y con la cara al cielo,",
+    "donde parezca sueño la agonía,",
+    "y el alma, un ave que remonta el vuelo."
    ],
    [
-    "Al andar se hace camino,",
-    "y al volver la vista atrás",
-    "se ve la senda que nunca",
-    "se ha de volver a pisar."
+    "Morir cuando la luz, triste, retira",
+    "sus áureas redes de la onda verde,",
+    "y ser como ese sol que lento expira:"
    ],
    [
-    "Caminante, no hay camino,"
-   ],
-   [
-    "sino estelas en la mar."
+    "algo muy luminoso que se pierde."
    ]
   ],
   "reel_bg": "tiktok/friedrich_gezgin.jpg",
-  "caption": "¿Sientes que no encuentras tu camino?\n\nAntonio Machado · Proverbios y cantares XXIX\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #antoniomachado #poemas",
-  "source": "Antonio Machado, Campos de Castilla (1912), Proverbios y cantares XXIX. Texto íntegro según es.wikisource.org."
+  "caption": "¿Cómo te gustaría despedirte?\n\nManuel Gutiérrez Nájera · Para entonces\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #gutierreznajera #poemas",
+  "source": "Manuel Gutiérrez Nájera (m. 1895), Para entonces, estrofas 1 y 3, literal según es.wikisource.org/wiki/Para_Entonces."
  },
  {
   "slug": "es_lib_thoreau_tambor",
@@ -568,53 +564,41 @@
   "source": "James Legge translation (1891); Lumen translation"
  },
  {
-  "slug": "es_storni_blanca",
+  "slug": "es_sorjuana_retrato",
   "mode": "poem",
-  "poet": "Alfonsina Storni",
-  "author": "Alfonsina Storni",
-  "title": "Tú me quieres blanca",
-  "hook": "¿Te exigieron lo que ellos nunca dieron?",
+  "poet": "Sor Juana Inés de la Cruz",
+  "author": "Sor Juana Inés de la Cruz",
+  "title": "Este que ves, engaño colorido",
+  "hook": "¿Y si tu retrato te estuviera mintiendo?",
   "stanzas": [
    [
-    "Huye hacia los bosques,",
-    "Vete a la montaña;",
-    "Límpiate la boca;",
-    "Vive en las cabañas;"
+    "Este que ves, engaño colorido,",
+    "que, del arte ostentando los primores,",
+    "con falsos silogismos de colores",
+    "es cauteloso engaño del sentido;"
    ],
    [
-    "Toca con las manos",
-    "La tierra mojada;",
-    "Alimenta el cuerpo",
-    "Con raíz amarga;"
+    "Éste, en quien la lisonja ha pretendido",
+    "excusar de los años los horrores,",
+    "y venciendo del tiempo los rigores",
+    "triunfar de la vejez y del olvido,"
    ],
    [
-    "Bebe de las rocas;",
-    "Duerme sobre escarcha;",
-    "Renueva tejidos",
-    "Con salitre y agua;",
-    "Habla con los pájaros",
-    "Y lévate al alba."
+    "Es un vano artificio del cuidado,",
+    "es una flor al viento delicada,",
+    "es un resguardo inútil para el hado:"
    ],
    [
-    "Y cuando las carnes",
-    "Te sean tornadas,",
-    "Y cuando hayas puesto",
-    "En ellas el alma",
-    "Que por las alcobas",
-    "Se quedó enredada,"
+    "Es una necia diligencia errada,",
+    "es un afán caduco y, bien mirado,"
    ],
    [
-    "Entonces, buen hombre,",
-    "Preténdeme blanca,",
-    "Preténdeme nívea,"
-   ],
-   [
-    "Preténdeme casta."
+    "es cadáver, es polvo, es sombra, es nada."
    ]
   ],
   "reel_bg": "bg/modern_canli/bg_04.jpg",
-  "caption": "¿Te exigieron lo que ellos nunca dieron?\n\nAlfonsina Storni · Tú me quieres blanca\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #alfonsinastorni #poemas",
-  "source": "Alfonsina Storni, Tú me quieres blanca (El dulce daño, 1918), estrofa final, literal según es.wikisource.org."
+  "caption": "¿Y si tu retrato te estuviera mintiendo?\n\nSor Juana Inés de la Cruz · Este que ves, engaño colorido\n\n¿A quién se lo enviarías?\n\nUn poema en tu pantalla de inicio cada mañana: Lumen (enlace en la bio)\n\n#poesía #sorjuana #poemas",
+  "source": "Sor Juana Inés de la Cruz (m. 1695), Soneto CXLV «A su retrato», soneto completo, literal según es.wikisource.org/wiki/Soneto_CXLV_-_A_su_retrato."
  },
  {
   "slug": "es_lib_nietzsche_amor_fati",
